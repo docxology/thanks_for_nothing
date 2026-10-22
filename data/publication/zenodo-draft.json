@@ -1,0 +1,16 @@
+{
+  "schema": "thanks_for_nothing.doi_reservation.v1",
+  "verified_on": "2026-10-15",
+  "record_id": 23402517,
+  "title": "Thanks for Nothing: Gratitude, Model Revisability, and the Practice of Realizing Emptiness",
+  "doi": "10.5281/zenodo.23402517",
+  "draft_url": "https://zenodo.org/deposit/23402517",
+  "submitted": false,
+  "state": "unsubmitted",
+  "access_right": "restricted",
+  "files_count": 0,
+  "public_record_http_status": 404,
+  "publication_action_called": false,
+  "scope": "User-authorized production DOI reservation only; no file upload, publication or DataCite registration.",
+  "verification": "Authenticated draft read-back and separate unauthenticated public-record API request. The legacy metadata request used closed access; Zenodo read-back normalizes its label to restricted. No credentials are included in this receipt."
+}

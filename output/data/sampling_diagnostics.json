@@ -1,0 +1,308 @@
+{
+  "cases": [
+    {
+      "name": "Recall",
+      "contrast": "Positive minus random",
+      "units": "Brier loss",
+      "points": [
+        {
+          "replicates_per_stratum": 16,
+          "strata": 5,
+          "mean": -0.0022842403131932516,
+          "monte_carlo_se": 0.00021219669719176553,
+          "q25": -0.008509240032088743,
+          "median": 0.00047780379753699365,
+          "q75": 0.005402216386934847,
+          "positive_fraction": 0.5375,
+          "empirical_constant": false
+        },
+        {
+          "replicates_per_stratum": 32,
+          "strata": 5,
+          "mean": -0.0021194795765517873,
+          "monte_carlo_se": 0.00016725272001365062,
+          "q25": -0.008515985844172583,
+          "median": 0.000697120122327366,
+          "q75": 0.005335085754858478,
+          "positive_fraction": 0.55625,
+          "empirical_constant": false
+        },
+        {
+          "replicates_per_stratum": 64,
+          "strata": 5,
+          "mean": -0.0021027439548221786,
+          "monte_carlo_se": 0.00012030892753435047,
+          "q25": -0.00861514995692974,
+          "median": 0.0006728876212579588,
+          "q75": 0.005102105869781506,
+          "positive_fraction": 0.5375,
+          "empirical_constant": false
+        },
+        {
+          "replicates_per_stratum": 128,
+          "strata": 5,
+          "mean": -0.001998237365252135,
+          "monte_carlo_se": 0.00008309894052002602,
+          "q25": -0.008601785986869406,
+          "median": 0.0004871433335336961,
+          "q75": 0.005268112066379151,
+          "positive_fraction": 0.5421875,
+          "empirical_constant": false
+        },
+        {
+          "replicates_per_stratum": 256,
+          "strata": 5,
+          "mean": -0.0019713045799773115,
+          "monte_carlo_se": 0.0000610385798111946,
+          "q25": -0.008609185829088699,
+          "median": 0.0004852284471267565,
+          "q75": 0.005293367288954923,
+          "positive_fraction": 0.54140625,
+          "empirical_constant": false
+        },
+        {
+          "replicates_per_stratum": 512,
+          "strata": 5,
+          "mean": -0.0020135214471379507,
+          "monte_carlo_se": 0.00004345530590040945,
+          "q25": -0.008605597611922595,
+          "median": 0.0004756522315649825,
+          "q75": 0.005162161040352858,
+          "positive_fraction": 0.538671875,
+          "empirical_constant": false
+        },
+        {
+          "replicates_per_stratum": 1024,
+          "strata": 5,
+          "mean": -0.002005297390214069,
+          "monte_carlo_se": 0.00003040258359273533,
+          "q25": -0.008560864314591361,
+          "median": 0.0004774770237012671,
+          "q75": 0.00503770913452737,
+          "positive_fraction": 0.540234375,
+          "empirical_constant": false
+        }
+      ]
+    },
+    {
+      "name": "Practice: reversal",
+      "contrast": "Inquiry minus rigid",
+      "units": "Nats / observation",
+      "points": [
+        {
+          "replicates_per_stratum": 16,
+          "strata": 1,
+          "mean": -0.10030878378715963,
+          "monte_carlo_se": 0.005597790360335012,
+          "q25": -0.11341219469805884,
+          "median": -0.11039691953969913,
+          "q75": -0.0865451149434639,
+          "positive_fraction": 0.0,
+          "empirical_constant": false
+        },
+        {
+          "replicates_per_stratum": 32,
+          "strata": 1,
+          "mean": -0.09762243755821123,
+          "monte_carlo_se": 0.005144711104198731,
+          "q25": -0.11529540262394529,
+          "median": -0.11106145567331069,
+          "q75": -0.0863975785286515,
+          "positive_fraction": 0.0,
+          "empirical_constant": false
+        },
+        {
+          "replicates_per_stratum": 64,
+          "strata": 1,
+          "mean": -0.10089805952806467,
+          "monte_carlo_se": 0.0031220390406869027,
+          "q25": -0.11702922860141085,
+          "median": -0.11106145567331069,
+          "q75": -0.08712108988077381,
+          "positive_fraction": 0.0,
+          "empirical_constant": false
+        },
+        {
+          "replicates_per_stratum": 128,
+          "strata": 1,
+          "mean": -0.10159115019842799,
+          "monte_carlo_se": 0.002071010845057244,
+          "q25": -0.11694961473224921,
+          "median": -0.11019361181520182,
+          "q75": -0.08951419225423117,
+          "positive_fraction": 0.0,
+          "empirical_constant": false
+        },
+        {
+          "replicates_per_stratum": 256,
+          "strata": 1,
+          "mean": -0.10426335610412597,
+          "monte_carlo_se": 0.0013229796762408586,
+          "q25": -0.11736335254131879,
+          "median": -0.11183422126788364,
+          "q75": -0.10092546126037275,
+          "positive_fraction": 0.0,
+          "empirical_constant": false
+        },
+        {
+          "replicates_per_stratum": 512,
+          "strata": 1,
+          "mean": -0.10473338740944269,
+          "monte_carlo_se": 0.0008702929435788117,
+          "q25": -0.11727859925930346,
+          "median": -0.1121457889764204,
+          "q75": -0.09506863288354112,
+          "positive_fraction": 0.0,
+          "empirical_constant": false
+        }
+      ]
+    },
+    {
+      "name": "Gaze: reversal",
+      "contrast": "Inquiry minus open utility",
+      "units": "Nats / outcome",
+      "points": [
+        {
+          "replicates_per_stratum": 16,
+          "strata": 1,
+          "mean": 0.0002724932138494833,
+          "monte_carlo_se": 0.001798531670970545,
+          "q25": -0.0017421301970727554,
+          "median": -0.0003296639917325465,
+          "q75": 0.0,
+          "positive_fraction": 0.1875,
+          "empirical_constant": false
+        },
+        {
+          "replicates_per_stratum": 32,
+          "strata": 1,
+          "mean": 0.00307640610764113,
+          "monte_carlo_se": 0.0023895029913121937,
+          "q25": -0.0011637630221253876,
+          "median": 0.0,
+          "q75": 0.00013939599313427437,
+          "positive_fraction": 0.34375,
+          "empirical_constant": false
+        },
+        {
+          "replicates_per_stratum": 64,
+          "strata": 1,
+          "mean": 0.0008599402019739393,
+          "monte_carlo_se": 0.0015526428068592102,
+          "q25": -0.001115380163693567,
+          "median": 0.0,
+          "q75": 0.0005238163501098125,
+          "positive_fraction": 0.375,
+          "empirical_constant": false
+        },
+        {
+          "replicates_per_stratum": 128,
+          "strata": 1,
+          "mean": 0.0003360094083333015,
+          "monte_carlo_se": 0.0008580332142234776,
+          "q25": -0.0008447820183291415,
+          "median": 0.0,
+          "q75": 0.0004769046324145561,
+          "positive_fraction": 0.3828125,
+          "empirical_constant": false
+        },
+        {
+          "replicates_per_stratum": 256,
+          "strata": 1,
+          "mean": 0.00040350311539694427,
+          "monte_carlo_se": 0.00048660919406272036,
+          "q25": -0.00043127948966859936,
+          "median": 0.0,
+          "q75": 0.0004966061797339882,
+          "positive_fraction": 0.375,
+          "empirical_constant": false
+        },
+        {
+          "replicates_per_stratum": 512,
+          "strata": 1,
+          "mean": 0.000015251265909758087,
+          "monte_carlo_se": 0.00029795952066780454,
+          "q25": -0.00036350097295786976,
+          "median": 0.0,
+          "q75": 0.0003980297708316612,
+          "positive_fraction": 0.369140625,
+          "empirical_constant": false
+        }
+      ]
+    },
+    {
+      "name": "Encoding H2",
+      "contrast": "Integrated minus visual",
+      "units": "Anchor nats / outcome",
+      "points": [
+        {
+          "replicates_per_stratum": 16,
+          "strata": 3,
+          "mean": -0.08725903849286959,
+          "monte_carlo_se": 0.010640541715646875,
+          "q25": -0.1907924273438506,
+          "median": -0.11446214957128244,
+          "q75": -0.02572508029715969,
+          "positive_fraction": 0.125,
+          "empirical_constant": false
+        },
+        {
+          "replicates_per_stratum": 32,
+          "strata": 3,
+          "mean": -0.0884894446398291,
+          "monte_carlo_se": 0.006629849276594417,
+          "q25": -0.1864435502902393,
+          "median": -0.1144621686200461,
+          "q75": -0.025496888408677892,
+          "positive_fraction": 0.11458333333333333,
+          "empirical_constant": false
+        },
+        {
+          "replicates_per_stratum": 64,
+          "strata": 3,
+          "mean": -0.0819744074217375,
+          "monte_carlo_se": 0.006130950048472994,
+          "q25": -0.17479409782266242,
+          "median": -0.11446216675819587,
+          "q75": -0.024531323173876712,
+          "positive_fraction": 0.13020833333333334,
+          "empirical_constant": false
+        },
+        {
+          "replicates_per_stratum": 128,
+          "strata": 3,
+          "mean": -0.07817949423729964,
+          "monte_carlo_se": 0.00487509360913048,
+          "q25": -0.1615579186417247,
+          "median": -0.11446212944269998,
+          "q75": -0.023828725263541024,
+          "positive_fraction": 0.14583333333333334,
+          "empirical_constant": false
+        },
+        {
+          "replicates_per_stratum": 256,
+          "strata": 3,
+          "mean": -0.08116209317680816,
+          "monte_carlo_se": 0.0031135354112402608,
+          "q25": -0.15760951198870352,
+          "median": -0.11446213014339718,
+          "q75": -0.02415701098483912,
+          "positive_fraction": 0.13932291666666666,
+          "empirical_constant": false
+        },
+        {
+          "replicates_per_stratum": 512,
+          "strata": 3,
+          "mean": -0.07931372783210493,
+          "monte_carlo_se": 0.0021900615152784775,
+          "q25": -0.1441575447043978,
+          "median": -0.11446212866827682,
+          "q75": -0.02322733416108982,
+          "positive_fraction": 0.14388020833333334,
+          "empirical_constant": false
+        }
+      ]
+    }
+  ],
+  "interpretation": "Correlated prefixes estimate fixed-model Monte Carlo error, not human or model uncertainty."
+}

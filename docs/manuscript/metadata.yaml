@@ -1,0 +1,29 @@
+title: "Thanks for Nothing"
+author:
+  - Daniel Ari Friedman
+date: "2026-10-22"
+subtitle: "Gratitude, Model Revisability, and the Practice of Realizing Emptiness"
+version: "0.11.0"
+paper-license: "CC BY 4.0"
+paper-license-url: "https://creativecommons.org/licenses/by/4.0/"
+code-license: "MIT"
+pdf-margin-mm: 7
+pdf-footer-offset-mm: 5
+pdf-body-font-pt: 10
+affiliation: "Active Inference Institute"
+orcid: "0000-0001-6232-9096"
+email: "daniel@activeinference.institute"
+doi: "10.5281/zenodo.23402517"
+doi-status: assigned
+zenodo-draft: "https://zenodo.org/deposit/23402517"
+cover-image: "docs/manuscript/assets/emptiness-cover-v0.3.png"
+cover-alt: "An attentive figure in a connected landscape opens translucent representational frames; useful contours remain within an interdependent world."
+cover-credit: "Conceptual cover illustration generated with AI; not a scientific result."
+cover-kicker: "COMPUTATIONAL MODELS · CONCEPTUAL INQUIRY · REPRODUCIBLE RESEARCH"
+cover-summary: "A source-grounded study of gratitude, absence and revisable representations. Synthetic experiments clarify enabling operations; human gratitude and realization require separate evidence."
+repository-url: "https://github.com/docxology/thanks_for_nothing"
+lang: en-US
+bibliography: docs/manuscript/references.bib
+link-citations: true
+abstract-title: Abstract
+graphical-abstracts: true

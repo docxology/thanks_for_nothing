@@ -1,0 +1,150 @@
+{
+  "schema": "thanks_for_nothing.formalisms.v1",
+  "entries": [
+    {
+      "number": 1,
+      "label": "eq:practice-likelihood",
+      "expression_sha256": "d9b5d0a857428044cb1e75376fdffd2634fa6b752341682ca25de9952c4aa489"
+    },
+    {
+      "number": 2,
+      "label": "eq:practice-vfe",
+      "expression_sha256": "783930c3ab85d753a1facd8e8e44f28f13c3f15ed387dfdec9e89d70bc049706"
+    },
+    {
+      "number": 3,
+      "label": "eq:practice-policy",
+      "expression_sha256": "3817ed425b6c862ffe19158a21166a857211a7f9175c56d67d5c775b94694a60"
+    },
+    {
+      "number": 4,
+      "label": "eq:practice-assessment",
+      "expression_sha256": "63aab9150d363aae7677c6d9028e589e450dfa40effa291b8cda07001b2342c6"
+    },
+    {
+      "number": 5,
+      "label": "eq:policy-identification",
+      "expression_sha256": "481d15339370ae2d184b12e34b6a0de7c4a858cd1e824f68abd82d4ea88f57f2"
+    },
+    {
+      "number": 6,
+      "label": "eq:nested-evidence",
+      "expression_sha256": "ef6bbf18d0c267f1d8f6fb9096c07c3b635fe5579dfd41bce7f9fb3a0807e428"
+    },
+    {
+      "number": 7,
+      "label": "eq:exact-selection",
+      "expression_sha256": "c4e5f5cc9a9648c86de7ba9f680ff6b81de68384e4d0f54500a61d81ab60f359"
+    },
+    {
+      "number": 8,
+      "label": "eq:exact-risk",
+      "expression_sha256": "65734401435b28ec4b401abbffff516ef9ed4a7fbed7f618b4efc5a82aefc768"
+    },
+    {
+      "number": 9,
+      "label": "eq:likelihood",
+      "expression_sha256": "89624effa773bb77f0fe828821df365d747a21c387a0824987396b503c693479"
+    },
+    {
+      "number": 10,
+      "label": "eq:posterior",
+      "expression_sha256": "ca8a32d97ee1af0c9f0f61b7cacd71067e4fd257fc40f0e8d9a9ae1aea211889"
+    },
+    {
+      "number": 11,
+      "label": "eq:learning",
+      "expression_sha256": "e07236fc7d7b9696caa5e9c2a8aa8c6e80acbd215f35f69145d1c846892fe6f8"
+    },
+    {
+      "number": 12,
+      "label": "eq:counterfactual-value",
+      "expression_sha256": "cd04959294523985d85076d11876c613325633620d6a6c36686a8c69dbc67331"
+    },
+    {
+      "number": 13,
+      "label": "eq:gaze-transfer",
+      "expression_sha256": "e1ebf471ddc026c2472ff2ddda66239564e018567745ca5d356d411f8a954803"
+    },
+    {
+      "number": 14,
+      "label": "eq:gaze-information",
+      "expression_sha256": "089ed4834201d7031379600495a6c27e3643ef15d11a50105da2d34963fdb776"
+    },
+    {
+      "number": 15,
+      "label": "eq:gaze-policy",
+      "expression_sha256": "9cfa7d1987f1d8ff1fa0b938b9a5eb28e6b0af6e9b2b331a9f1540ef25396ab7"
+    },
+    {
+      "number": 16,
+      "label": "eq:gaze-risk",
+      "expression_sha256": "7595904d9d2a6fe2d4ddf011ab2b538673326064ebacc0929acec8117a5b55ab"
+    },
+    {
+      "number": 17,
+      "label": "eq:boundary-encoding",
+      "expression_sha256": "b12b34105ff449918ec79fad6e177ce8e35f51790a95974bf2e709f3e7800376"
+    },
+    {
+      "number": 18,
+      "label": "eq:boundary-contingency",
+      "expression_sha256": "645c7259e77b51a23ae6b93bb6690c2f5dc2b641c1098b654489b959ae039970"
+    },
+    {
+      "number": 19,
+      "label": "eq:boundary-joint-information",
+      "expression_sha256": "9c93b70c3540155b16e2c8ccbe7433668cee524a3335a0d9fe9b2a206174262d"
+    },
+    {
+      "number": 20,
+      "label": "eq:boundary-label-odds",
+      "expression_sha256": "ca7682bca65920f952c282d024285578f90501244d3a3435920fceccbb974dc6"
+    },
+    {
+      "number": 21,
+      "label": "eq:boundary-anchor-risk",
+      "expression_sha256": "520e061466f99bcf0044144a4b720aca8b72af677721dfaf7b88f591f1ee9ecd"
+    },
+    {
+      "number": 22,
+      "label": "eq:brier",
+      "expression_sha256": "5903f2bb0e33778603bcbb611687e6c401ec32d46411a8a83836d1c558981120"
+    },
+    {
+      "number": 23,
+      "label": "eq:log-loss",
+      "expression_sha256": "fdda0d460b9a95baf8f7e25ff936033a4d7d0bd7761d400f34e7375ee6056502"
+    },
+    {
+      "number": 24,
+      "label": "eq:optimism",
+      "expression_sha256": "8f617277ff36a5c6b3bf85078ec7669c1af6107e35e5f85af56e70bb7fb90638"
+    },
+    {
+      "number": 25,
+      "label": "eq:estimand",
+      "expression_sha256": "3638d697c603851e4ce54e0d7ebdcdd46440cc1e7b7fc7c8f419fcb2793467a4"
+    },
+    {
+      "number": 26,
+      "label": "eq:studentization",
+      "expression_sha256": "eb488320b195ef4746132ee40445505a7cfa1a2f5df7ab085ead9ec3f20d09ba"
+    },
+    {
+      "number": 27,
+      "label": "eq:bootstrap-availability",
+      "expression_sha256": "d54a1ce6954594afd3aef4a188d839aab793b2ad074d9af676963f1b5efafc1b"
+    },
+    {
+      "number": 28,
+      "label": "eq:joint-region",
+      "expression_sha256": "9bfcc262219d48a08048c544e92d52e17309e24da4892b121645e72e157b54e4"
+    },
+    {
+      "number": 29,
+      "label": "eq:empirical-interaction",
+      "expression_sha256": "8852dcd78e2c48018f3ae9c84d9ba9129d075371e082d1cdd07f1549fb1fe5f1"
+    }
+  ]
+}

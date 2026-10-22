@@ -1,0 +1,33 @@
+{
+  "document_sha256": "0eb88f81cdbbf73ee211986f538ca149539bbe9ca9083606d926f015219a8a69",
+  "artifact": {
+    "key": "modelcard",
+    "title": "GNN Bayesian graphical model and complete model cards",
+    "alt": "Conditional Bayesian time slice and 26 admitted model consumers. Complete dimensions, settings and provenance accompany the page.",
+    "pdf": "frontmatter/gnn-model-card.pdf",
+    "png": "frontmatter/gnn-model-card.png",
+    "svg": "frontmatter/gnn-model-card.svg",
+    "pdf_sha256": "7411f5d40bc7136599476c05944b3a16e57e1b5cec5d366974cc0e46f7577aeb",
+    "png_sha256": "3f07a13c58aa36f36aab21292364975a069dd490b2bd964b0f133ced30e79e79",
+    "svg_sha256": "b23311fe9111a7cf1b2cab092e657ac39fa16c45d7a647a553d3dd9b8f65cf40",
+    "links": [
+      [
+        "Model inventory",
+        "sec-gnn-graphs"
+      ],
+      [
+        "Methods",
+        "sec-methods"
+      ],
+      [
+        "Limits",
+        "sec-main-identification"
+      ],
+      [
+        "Complete cards",
+        "frontmatter/gnn-model-card.html"
+      ]
+    ]
+  },
+  "companion_sha256": "9a01bac3f795f481fd3cb55ba2d27497d404511ebb9a80d6d5adca96b2f131c1"
+}

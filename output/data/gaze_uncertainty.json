@@ -1,0 +1,679 @@
+{
+  "schema": "thanks_for_nothing.gaze_uncertainty.v1",
+  "gaze_sha256": "8e0a9816909cb68c17c2e9426374ee62be60645d0f41968770d52a0b747bda9d",
+  "design": {
+    "seed": 91074,
+    "draws": 16383,
+    "confidence": 0.95,
+    "monte_carlo_confidence": 0.99,
+    "calibration_experiments": 4096,
+    "calibration_units": 64,
+    "calibration_draws": 1023
+  },
+  "region": {
+    "confidence": 0.95,
+    "draws": 16383,
+    "critical_value": 3.2098560511812204,
+    "critical_mc_low": 3.1826913452776404,
+    "critical_mc_high": 3.247739233979412,
+    "monte_carlo_confidence": 0.99,
+    "blocks": [
+      [
+        "transfer",
+        5,
+        1024
+      ],
+      [
+        "stationary",
+        1,
+        512
+      ],
+      [
+        "reversal",
+        1,
+        512
+      ]
+    ],
+    "intervals": [
+      {
+        "key": "transfer/likelihood/positive_recall/no_recall/positive_policy_change",
+        "mean": 0.03849184834846135,
+        "standard_error": 0.00009302176548370944,
+        "low": 0.038193261871631905,
+        "high": 0.0387904348252908,
+        "status": "estimated"
+      },
+      {
+        "key": "transfer/likelihood/positive_recall/no_recall/balanced_loss_change",
+        "mean": 0.0023617837766788732,
+        "standard_error": 0.00009543759086444908,
+        "low": 0.0020554428481324638,
+        "high": 0.0026681247052252827,
+        "status": "estimated"
+      },
+      {
+        "key": "transfer/likelihood/matched_random_recall/no_recall/positive_policy_change",
+        "mean": 0.02699609045612459,
+        "standard_error": 0.000079219949697987,
+        "low": 0.026741805821212234,
+        "high": 0.027250375091036946,
+        "status": "estimated"
+      },
+      {
+        "key": "transfer/likelihood/matched_random_recall/no_recall/balanced_loss_change",
+        "mean": -0.007860284186049345,
+        "standard_error": 0.00012848869984778184,
+        "low": -0.008272714416764155,
+        "high": -0.0074478539553345345,
+        "status": "estimated"
+      },
+      {
+        "key": "transfer/likelihood/absence_appreciation/no_recall/positive_policy_change",
+        "mean": 0.0,
+        "standard_error": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "status": "mechanism_exact"
+      },
+      {
+        "key": "transfer/likelihood/absence_appreciation/no_recall/balanced_loss_change",
+        "mean": 0.0,
+        "standard_error": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "status": "mechanism_exact"
+      },
+      {
+        "key": "transfer/likelihood/positive_recall/matched_random_recall/positive_policy_change",
+        "mean": 0.01149575789233676,
+        "standard_error": 0.00010930955506113595,
+        "low": 0.011144889955571847,
+        "high": 0.011846625829101674,
+        "status": "estimated"
+      },
+      {
+        "key": "transfer/likelihood/positive_recall/matched_random_recall/balanced_loss_change",
+        "mean": 0.010222067962728218,
+        "standard_error": 0.0001602212894632449,
+        "low": 0.009707780687216564,
+        "high": 0.010736355238239872,
+        "status": "estimated"
+      },
+      {
+        "key": "transfer/posterior_readout/positive_recall/no_recall/positive_policy_change",
+        "mean": -0.004677197701491943,
+        "standard_error": 8.499511099768783e-6,
+        "low": -0.004704479908627618,
+        "high": -0.004649915494356268,
+        "status": "estimated"
+      },
+      {
+        "key": "transfer/posterior_readout/positive_recall/no_recall/balanced_loss_change",
+        "mean": 0.00009558916127318244,
+        "standard_error": 2.0808345170814894e-6,
+        "low": 0.00008890998200702166,
+        "high": 0.00010226834053934322,
+        "status": "estimated"
+      },
+      {
+        "key": "transfer/posterior_readout/matched_random_recall/no_recall/positive_policy_change",
+        "mean": -0.00005057197532850632,
+        "standard_error": 0.000013990756773258505,
+        "low": -0.00009548029061775477,
+        "high": -5.663660039257865e-6,
+        "status": "estimated"
+      },
+      {
+        "key": "transfer/posterior_readout/matched_random_recall/no_recall/balanced_loss_change",
+        "mean": 0.00002550553366263773,
+        "standard_error": 6.447298469058795e-7,
+        "low": 0.00002343604366216975,
+        "high": 0.000027575023663105708,
+        "status": "estimated"
+      },
+      {
+        "key": "transfer/posterior_readout/absence_appreciation/no_recall/positive_policy_change",
+        "mean": 0.0,
+        "standard_error": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "status": "mechanism_exact"
+      },
+      {
+        "key": "transfer/posterior_readout/absence_appreciation/no_recall/balanced_loss_change",
+        "mean": 0.0,
+        "standard_error": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "status": "mechanism_exact"
+      },
+      {
+        "key": "transfer/posterior_readout/positive_recall/matched_random_recall/positive_policy_change",
+        "mean": -0.004626625726163436,
+        "standard_error": 0.000014622696527982264,
+        "low": -0.004673562477098367,
+        "high": -0.004579688975228506,
+        "status": "estimated"
+      },
+      {
+        "key": "transfer/posterior_readout/positive_recall/matched_random_recall/balanced_loss_change",
+        "mean": 0.00007008362761054471,
+        "standard_error": 1.9710929874169453e-6,
+        "low": 0.00006375670285744356,
+        "high": 0.00007641055236364587,
+        "status": "estimated"
+      },
+      {
+        "key": "active/stationary/pragmatic_open/pragmatic_restricted/mean_balanced_log_loss",
+        "mean": 0.00920240519504582,
+        "standard_error": 0.0003782201449434275,
+        "low": 0.007988372974120521,
+        "high": 0.01041643741597112,
+        "status": "estimated"
+      },
+      {
+        "key": "active/stationary/pragmatic_open/pragmatic_restricted/positive_occupancy",
+        "mean": -0.03426106770833333,
+        "standard_error": 0.0010695200780054992,
+        "low": -0.037694073202579094,
+        "high": -0.030828062214087567,
+        "status": "estimated"
+      },
+      {
+        "key": "active/stationary/pragmatic_open/pragmatic_restricted/mean_movement_cost",
+        "mean": 0.0009642397099174497,
+        "standard_error": 0.00006038794673978645,
+        "low": 0.0007704030936563368,
+        "high": 0.0011580763261785625,
+        "status": "estimated"
+      },
+      {
+        "key": "active/stationary/inquiry_open/pragmatic_restricted/mean_balanced_log_loss",
+        "mean": 0.009639499673107213,
+        "standard_error": 0.00041106784342582884,
+        "low": 0.008320031068440802,
+        "high": 0.010958968277773625,
+        "status": "estimated"
+      },
+      {
+        "key": "active/stationary/inquiry_open/pragmatic_restricted/positive_occupancy",
+        "mean": -0.03955078125,
+        "standard_error": 0.001183931340374829,
+        "low": -0.04335103042708524,
+        "high": -0.03575053207291476,
+        "status": "estimated"
+      },
+      {
+        "key": "active/stationary/inquiry_open/pragmatic_restricted/mean_movement_cost",
+        "mean": 0.0005531968134150054,
+        "standard_error": 0.000057302675829763566,
+        "low": 0.000369263472653963,
+        "high": 0.0007371301541760479,
+        "status": "estimated"
+      },
+      {
+        "key": "active/stationary/inquiry_restricted/pragmatic_restricted/mean_balanced_log_loss",
+        "mean": 3.3706052953316615e-6,
+        "standard_error": 0.00002025248984175949,
+        "low": -0.00006163697177472624,
+        "high": 0.00006837818236538956,
+        "status": "estimated"
+      },
+      {
+        "key": "active/stationary/inquiry_restricted/pragmatic_restricted/positive_occupancy",
+        "mean": 0.001424153645833334,
+        "standard_error": 0.00014074378610020962,
+        "low": 0.0009723863523534207,
+        "high": 0.001875920939313247,
+        "status": "estimated"
+      },
+      {
+        "key": "active/stationary/inquiry_restricted/pragmatic_restricted/mean_movement_cost",
+        "mean": -0.00017853684787628768,
+        "standard_error": 0.0000295080103116125,
+        "low": -0.0002732533133333349,
+        "high": -0.00008382038241924045,
+        "status": "estimated"
+      },
+      {
+        "key": "active/stationary/sham/pragmatic_restricted/mean_balanced_log_loss",
+        "mean": 0.0,
+        "standard_error": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "status": "mechanism_exact"
+      },
+      {
+        "key": "active/stationary/sham/pragmatic_restricted/positive_occupancy",
+        "mean": 0.0,
+        "standard_error": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "status": "mechanism_exact"
+      },
+      {
+        "key": "active/stationary/sham/pragmatic_restricted/mean_movement_cost",
+        "mean": 0.0,
+        "standard_error": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "status": "mechanism_exact"
+      },
+      {
+        "key": "active/stationary/uniform_open/pragmatic_restricted/mean_balanced_log_loss",
+        "mean": 0.008750351664347778,
+        "standard_error": 0.00042133150337511134,
+        "low": 0.0073979381886858965,
+        "high": 0.01010276514000966,
+        "status": "estimated"
+      },
+      {
+        "key": "active/stationary/uniform_open/pragmatic_restricted/positive_occupancy",
+        "mean": -0.6069064670138888,
+        "standard_error": 0.0018507248899995285,
+        "low": -0.6128470275011255,
+        "high": -0.6009659065266522,
+        "status": "estimated"
+      },
+      {
+        "key": "active/stationary/uniform_open/pragmatic_restricted/mean_movement_cost",
+        "mean": 0.0691557500760205,
+        "standard_error": 0.00021041382572639864,
+        "low": 0.06848035198426043,
+        "high": 0.06983114816778056,
+        "status": "estimated"
+      },
+      {
+        "key": "active/stationary/inquiry_open/pragmatic_open/mean_balanced_log_loss",
+        "mean": 0.0004370944780613936,
+        "standard_error": 0.0002414019118946805,
+        "low": -0.0003377709096004625,
+        "high": 0.0012119598657232497,
+        "status": "estimated"
+      },
+      {
+        "key": "active/stationary/inquiry_open/pragmatic_open/positive_occupancy",
+        "mean": -0.005289713541666668,
+        "standard_error": 0.0007141527927908268,
+        "low": -0.007582041205074271,
+        "high": -0.002997385878259064,
+        "status": "estimated"
+      },
+      {
+        "key": "active/stationary/inquiry_open/pragmatic_open/mean_movement_cost",
+        "mean": -0.0004110428965024442,
+        "standard_error": 0.000053137990864346454,
+        "low": -0.000581608198025979,
+        "high": -0.00024047759497890933,
+        "status": "estimated"
+      },
+      {
+        "key": "active/stationary/inquiry_open/uniform_open/mean_balanced_log_loss",
+        "mean": 0.0008891480087594355,
+        "standard_error": 0.0005313691626389665,
+        "low": -0.0008164705133483491,
+        "high": 0.00259476653086722,
+        "status": "estimated"
+      },
+      {
+        "key": "active/stationary/inquiry_open/uniform_open/positive_occupancy",
+        "mean": 0.5673556857638888,
+        "standard_error": 0.0021697855091636726,
+        "low": 0.5603909866175345,
+        "high": 0.5743203849102432,
+        "status": "estimated"
+      },
+      {
+        "key": "active/stationary/inquiry_open/uniform_open/mean_movement_cost",
+        "mean": -0.06860255326260549,
+        "standard_error": 0.00021696142366794185,
+        "low": -0.06929896820123893,
+        "high": -0.06790613832397205,
+        "status": "estimated"
+      },
+      {
+        "key": "active/reversal/pragmatic_open/pragmatic_restricted/mean_balanced_log_loss",
+        "mean": -0.11589920173458514,
+        "standard_error": 0.0005262080638036162,
+        "low": -0.11758825387236553,
+        "high": -0.11421014959680474,
+        "status": "estimated"
+      },
+      {
+        "key": "active/reversal/pragmatic_open/pragmatic_restricted/positive_occupancy",
+        "mean": -0.3285861545138889,
+        "standard_error": 0.0014803350837899602,
+        "low": -0.33333781704036797,
+        "high": -0.3238344919874098,
+        "status": "estimated"
+      },
+      {
+        "key": "active/reversal/pragmatic_open/pragmatic_restricted/mean_movement_cost",
+        "mean": -0.0005882493008388988,
+        "standard_error": 0.00010961671407186116,
+        "low": -0.0009401031738130641,
+        "high": -0.00023639542786473364,
+        "status": "estimated"
+      },
+      {
+        "key": "active/reversal/inquiry_open/pragmatic_restricted/mean_balanced_log_loss",
+        "mean": -0.11588395046867539,
+        "standard_error": 0.0005316950489336769,
+        "low": -0.11759061503887824,
+        "high": -0.11417728589847254,
+        "status": "estimated"
+      },
+      {
+        "key": "active/reversal/inquiry_open/pragmatic_restricted/positive_occupancy",
+        "mean": -0.3352322048611111,
+        "standard_error": 0.0014787763577077957,
+        "low": -0.3399788641012432,
+        "high": -0.33048554562097904,
+        "status": "estimated"
+      },
+      {
+        "key": "active/reversal/inquiry_open/pragmatic_restricted/mean_movement_cost",
+        "mean": -0.0011362948727094344,
+        "standard_error": 0.00010362409485226617,
+        "low": -0.0014689133006191577,
+        "high": -0.0008036764447997111,
+        "status": "estimated"
+      },
+      {
+        "key": "active/reversal/inquiry_restricted/pragmatic_restricted/mean_balanced_log_loss",
+        "mean": -0.000032995395770058874,
+        "standard_error": 0.000019650306309242812,
+        "low": -0.00009607005038434643,
+        "high": 0.00003007925884422868,
+        "status": "estimated"
+      },
+      {
+        "key": "active/reversal/inquiry_restricted/pragmatic_restricted/positive_occupancy",
+        "mean": 0.001288519965277778,
+        "standard_error": 0.00013397120300100192,
+        "low": 0.0008584916886409843,
+        "high": 0.0017185482419145716,
+        "status": "estimated"
+      },
+      {
+        "key": "active/reversal/inquiry_restricted/pragmatic_restricted/mean_movement_cost",
+        "mean": -0.000149933927077879,
+        "standard_error": 0.00002947861096764731,
+        "low": -0.0002445560248727988,
+        "high": -0.00005531182928295918,
+        "status": "estimated"
+      },
+      {
+        "key": "active/reversal/sham/pragmatic_restricted/mean_balanced_log_loss",
+        "mean": 0.0,
+        "standard_error": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "status": "mechanism_exact"
+      },
+      {
+        "key": "active/reversal/sham/pragmatic_restricted/positive_occupancy",
+        "mean": 0.0,
+        "standard_error": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "status": "mechanism_exact"
+      },
+      {
+        "key": "active/reversal/sham/pragmatic_restricted/mean_movement_cost",
+        "mean": 0.0,
+        "standard_error": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "status": "mechanism_exact"
+      },
+      {
+        "key": "active/reversal/uniform_open/pragmatic_restricted/mean_balanced_log_loss",
+        "mean": -0.11421517748557451,
+        "standard_error": 0.0005447149377920193,
+        "low": -0.11596363402481502,
+        "high": -0.112466720946334,
+        "status": "estimated"
+      },
+      {
+        "key": "active/reversal/uniform_open/pragmatic_restricted/positive_occupancy",
+        "mean": -0.5938720703125,
+        "standard_error": 0.0018232079466164028,
+        "low": -0.5997243053725083,
+        "high": -0.5880198352524917,
+        "status": "estimated"
+      },
+      {
+        "key": "active/reversal/uniform_open/pragmatic_restricted/mean_movement_cost",
+        "mean": 0.06762056801109155,
+        "standard_error": 0.0002301631638675726,
+        "low": 0.06688177738679221,
+        "high": 0.06835935863539089,
+        "status": "estimated"
+      },
+      {
+        "key": "active/reversal/inquiry_open/pragmatic_open/mean_balanced_log_loss",
+        "mean": 0.000015251265909758087,
+        "standard_error": 0.00029795952066780454,
+        "low": -0.0009411559045128502,
+        "high": 0.0009716584363323663,
+        "status": "estimated"
+      },
+      {
+        "key": "active/reversal/inquiry_open/pragmatic_open/positive_occupancy",
+        "mean": -0.006646050347222223,
+        "standard_error": 0.0008348309794517485,
+        "low": -0.009325737618328963,
+        "high": -0.0039663630761154825,
+        "status": "estimated"
+      },
+      {
+        "key": "active/reversal/inquiry_open/pragmatic_open/mean_movement_cost",
+        "mean": -0.0005480455718705355,
+        "standard_error": 0.0000547310227879519,
+        "low": -0.0007237242765537801,
+        "high": -0.0003723668671872908,
+        "status": "estimated"
+      },
+      {
+        "key": "active/reversal/inquiry_open/uniform_open/mean_balanced_log_loss",
+        "mean": -0.0016687729831008752,
+        "standard_error": 0.0007101211286768893,
+        "low": -0.003948159585056026,
+        "high": 0.0006106136188542759,
+        "status": "estimated"
+      },
+      {
+        "key": "active/reversal/inquiry_open/uniform_open/positive_occupancy",
+        "mean": 0.2586398654513889,
+        "standard_error": 0.002249401953541915,
+        "low": 0.2514196089792735,
+        "high": 0.2658601219235043,
+        "status": "estimated"
+      },
+      {
+        "key": "active/reversal/inquiry_open/uniform_open/mean_movement_cost",
+        "mean": -0.06875686288380099,
+        "standard_error": 0.00021664068663167135,
+        "low": -0.06945224830271772,
+        "high": -0.06806147746488427,
+        "status": "estimated"
+      }
+    ],
+    "status": "complete"
+  },
+  "calibration": [
+    {
+      "fixture": "independent_gaussian",
+      "strata": 1,
+      "units_per_stratum": 64,
+      "contrasts": 6,
+      "joint_coverage": {
+        "count": 3829,
+        "total": 4096,
+        "rate": 0.934814453125,
+        "low": 0.9268175959713841,
+        "high": 0.9421839899768099,
+        "monte_carlo_se": 0.0038570777371365298,
+        "confidence": 0.95
+      },
+      "pointwise_family_coverage": {
+        "count": 3006,
+        "total": 4096,
+        "rate": 0.73388671875,
+        "low": 0.7200672743416134,
+        "high": 0.7473718064246455,
+        "monte_carlo_se": 0.006905065700075063,
+        "confidence": 0.95
+      },
+      "family_availability": {
+        "count": 4096,
+        "total": 4096,
+        "rate": 1.0,
+        "low": 0.9990998000877902,
+        "high": 1.0,
+        "monte_carlo_se": 0.0,
+        "confidence": 0.95
+      }
+    },
+    {
+      "fixture": "correlated_gaussian",
+      "strata": 1,
+      "units_per_stratum": 64,
+      "contrasts": 6,
+      "joint_coverage": {
+        "count": 3832,
+        "total": 4096,
+        "rate": 0.935546875,
+        "low": 0.927589057716477,
+        "high": 0.9428762471395721,
+        "monte_carlo_se": 0.003836849741252173,
+        "confidence": 0.95
+      },
+      "pointwise_family_coverage": {
+        "count": 3506,
+        "total": 4096,
+        "rate": 0.85595703125,
+        "low": 0.8448280135476828,
+        "high": 0.8665756465781562,
+        "monte_carlo_se": 0.005486457757650738,
+        "confidence": 0.95
+      },
+      "family_availability": {
+        "count": 4096,
+        "total": 4096,
+        "rate": 1.0,
+        "low": 0.9990998000877902,
+        "high": 1.0,
+        "monte_carlo_se": 0.0,
+        "confidence": 0.95
+      }
+    },
+    {
+      "fixture": "heterogeneous_gaussian",
+      "strata": 3,
+      "units_per_stratum": 64,
+      "contrasts": 6,
+      "joint_coverage": {
+        "count": 3833,
+        "total": 4096,
+        "rate": 0.935791015625,
+        "low": 0.927846272767846,
+        "high": 0.9431069380748951,
+        "monte_carlo_se": 0.0038300757370444815,
+        "confidence": 0.95
+      },
+      "pointwise_family_coverage": {
+        "count": 2998,
+        "total": 4096,
+        "rate": 0.73193359375,
+        "low": 0.7180840833762591,
+        "high": 0.7454515485222187,
+        "monte_carlo_se": 0.006921130887102116,
+        "confidence": 0.95
+      },
+      "family_availability": {
+        "count": 4096,
+        "total": 4096,
+        "rate": 1.0,
+        "low": 0.9990998000877902,
+        "high": 1.0,
+        "monte_carlo_se": 0.0,
+        "confidence": 0.95
+      }
+    },
+    {
+      "fixture": "centered_exponential",
+      "strata": 1,
+      "units_per_stratum": 64,
+      "contrasts": 6,
+      "joint_coverage": {
+        "count": 3625,
+        "total": 4096,
+        "rate": 0.885009765625,
+        "low": 0.8748424711016394,
+        "high": 0.8946241858804795,
+        "monte_carlo_se": 0.004984533705677277,
+        "confidence": 0.95
+      },
+      "pointwise_family_coverage": {
+        "count": 2828,
+        "total": 4096,
+        "rate": 0.6904296875,
+        "low": 0.676017277998194,
+        "high": 0.7045700056017775,
+        "monte_carlo_se": 0.007223695108811113,
+        "confidence": 0.95
+      },
+      "family_availability": {
+        "count": 4096,
+        "total": 4096,
+        "rate": 1.0,
+        "low": 0.9990998000877902,
+        "high": 1.0,
+        "monte_carlo_se": 0.0,
+        "confidence": 0.95
+      }
+    },
+    {
+      "fixture": "rare_bernoulli",
+      "strata": 1,
+      "units_per_stratum": 64,
+      "contrasts": 6,
+      "joint_coverage": {
+        "count": 52,
+        "total": 4096,
+        "rate": 0.0126953125,
+        "low": 0.009495605739472597,
+        "high": 0.01661525174695075,
+        "monte_carlo_se": 0.0017493121932756338,
+        "confidence": 0.95
+      },
+      "pointwise_family_coverage": {
+        "count": 52,
+        "total": 4096,
+        "rate": 0.0126953125,
+        "low": 0.009495605739472597,
+        "high": 0.01661525174695075,
+        "monte_carlo_se": 0.0017493121932756338,
+        "confidence": 0.95
+      },
+      "family_availability": {
+        "count": 52,
+        "total": 4096,
+        "rate": 0.0126953125,
+        "low": 0.009495605739472597,
+        "high": 0.01661525174695075,
+        "monte_carlo_se": 0.0017493121932756338,
+        "confidence": 0.95
+      }
+    }
+  ],
+  "controls": {
+    "contrast_identity_closure": true,
+    "point_estimates_preserved": true,
+    "original_standard_errors_preserved": true,
+    "mechanism_identities_checked": true
+  },
+  "all_controls_pass": true
+}

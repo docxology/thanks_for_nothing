@@ -1,0 +1,24 @@
+{
+  "artist": "Edvard Munch",
+  "title": "The Scream",
+  "date": 1893,
+  "accession": "NG.M.00939",
+  "photo_credit": "Nasjonalmuseet/Børre Høstland",
+  "museum_record": "https://www.nasjonalmuseet.no/en/collection/object/NG.M.00939",
+  "commons_record": "https://commons.wikimedia.org/wiki/File:Edvard_Munch_-_The_Scream_-_NG.M.00939_-_National_Museum_of_Art,_Architecture_and_Design.jpg",
+  "download_url": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Edvard_Munch_-_The_Scream_-_NG.M.00939_-_National_Museum_of_Art%2C_Architecture_and_Design.jpg",
+  "commons_record_revision": 1224300082,
+  "artwork_status_on_commons": "public domain",
+  "reproduction_license_on_commons": "CC BY 4.0",
+  "license_url": "https://creativecommons.org/licenses/by/4.0/",
+  "bytes": 12490847,
+  "dimensions_pixels": [
+    6703,
+    8322
+  ],
+  "sha256": "a822bce9558bb02b36db10d4fa5e533c077feeb267798bce57c61fe3bc8d534d",
+  "sha1_matches_commons": true,
+  "modifications_to_downloaded_asset": "none",
+  "visual_inspection": "Original downloaded image inspected using view_image; painting visible without overlays.",
+  "research_date": "2026-10-15"
+}

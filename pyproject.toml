@@ -1,0 +1,79 @@
+[build-system]
+requires = ["hatchling>=1.27"]
+build-backend = "hatchling.build"
+
+[project]
+name = "thanks-for-nothing"
+version = "0.11.0"
+description = "Source-grounded computational experiments on gratitude, absence and non-reification."
+readme = "README.md"
+requires-python = ">=3.11,<3.15"
+license = "MIT"
+authors = [{name = "Daniel Ari Friedman", email = "daniel@activeinference.institute"}]
+dependencies = [
+  "generalized-notation-notation @ git+https://github.com/ActiveInferenceInstitute/Generalized_Notation_Notation.git@46459949944e3217f8a6a804d4ff8c52829ef275",
+  "realizing-emptiness @ git+https://github.com/docxology/realizing_emptiness.git@bd91fa1c230551180ed741d1951840e3628da35d",
+  "numpy>=1.24", "scipy>=1.11", "matplotlib>=3.7", "pydantic>=2.10",
+  "jsonschema>=4.22", "nbformat>=5.10", "nbclient>=0.10", "ipykernel>=6.29", "pillow>=10",
+  "typer>=0.15", "rich>=13.9", "pyyaml>=6.0", "typing-extensions>=4.12", "nbconvert>=7.16",
+  "defusedxml>=0.7",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.3", "pytest-cov>=6", "ruff>=0.12", "basedpyright>=1.31"]
+
+[project.scripts]
+thanks-for-nothing = "thanks_for_nothing.cli:app"
+
+[project.urls]
+Repository = "https://github.com/docxology/thanks_for_nothing"
+
+[tool.hatch.metadata]
+allow-direct-references = true
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/thanks_for_nothing"]
+
+[tool.hatch.build.targets.wheel.force-include]
+"data/sources/source_manifest.json" = "thanks_for_nothing/resources/sources/source_manifest.json"
+"data/sources/gratitude_preprint_v1.docx" = "thanks_for_nothing/resources/sources/gratitude_preprint_v1.docx"
+"data/sources/emptiness_preprint_v1.pdf" = "thanks_for_nothing/resources/sources/emptiness_preprint_v1.pdf"
+"data/artwork" = "thanks_for_nothing/resources/artwork"
+"THIRD_PARTY.md" = "thanks_for_nothing/resources/THIRD_PARTY.md"
+"LICENSE-PAPER.md" = "thanks_for_nothing/resources/LICENSE-PAPER.md"
+
+[tool.hatch.build.targets.sdist]
+include = ["src", "tests", "scripts", "docs", "data", "typings", "configs", "notebooks", "README.md", "AGENTS.md", "CONTEXT.md", "LICENSE", "LICENSE-PAPER.md", "THIRD_PARTY.md", "pyproject.toml", "uv.lock", "CITATION.cff", "DESIGN.md", "CHANGELOG.md", ".github"]
+exclude = ["data/sources/*original.ipynb", "data/sources/notebook_cell_manifest.json", "data/scholarship/receipts"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q --strict-markers --tb=short"
+markers = ["integration: real dependency execution or complete artifact pipeline"]
+
+[tool.coverage.run]
+source = ["thanks_for_nothing"]
+branch = true
+omit = ["*/__init__.py"]
+
+[tool.coverage.report]
+fail_under = 90
+precision = 2
+show_missing = true
+
+[tool.ruff]
+target-version = "py311"
+line-length = 105
+
+[tool.ruff.lint]
+select = ["ALL"]
+ignore = ["D203", "D213", "COM812", "ISC001"]
+
+[tool.ruff.lint.per-file-ignores]
+"tests/*.py" = ["S101", "D", "ANN", "PLR2004"]
+
+[tool.basedpyright]
+include = ["src/thanks_for_nothing"]
+stubPath = "typings"
+typeCheckingMode = "all"
+pythonVersion = "3.11"

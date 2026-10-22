@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="$lang$">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="author" content="$for(author)$$author$$endfor$">
+<title>$title$: $subtitle$</title>
+<style>
+*{box-sizing:border-box}html{color:#142E3A;background:#fff}body{max-width:900px;margin:auto;padding:22px 18px;font:16px/1.55 Georgia,serif}
+h1,h2,h3{line-height:1.2;color:#142E3A}h1{margin-top:2em}h2{margin-top:1.6em}a{color:#007C83;overflow-wrap:anywhere}
+.cover-page{text-align:left;border-bottom:1px solid #E2E8EC;padding:20px 0 32px;margin-bottom:32px}.cover-page h1{font:700 54px/1.08 system-ui,sans-serif;margin:0 0 14px}
+.cover-kicker{font:600 11px/1.5 system-ui,sans-serif;letter-spacing:.08em;color:#007C83;margin-bottom:22px}.cover-summary{font:17px/1.5 system-ui,sans-serif;max-width:700px;margin:0 0 25px}.cover-repository{font:14px/1.6 system-ui,sans-serif}
+.subtitle{font:22px/1.3 system-ui,sans-serif;margin:0 0 24px}.cover-page figure{margin:0}.cover-page img{width:100%;height:auto}.cover-credit{font:12px/1.4 system-ui,sans-serif;color:#596579}
+.author-block{margin:24px 0 14px;font:16px/1.6 system-ui,sans-serif}.author-block strong{font-size:20px}.edition{font:13px/1.5 system-ui,sans-serif;color:#596579}
+nav{font:15px/1.5 system-ui,sans-serif;border-bottom:1px solid #E2E8EC;padding-bottom:24px}nav ul{padding-left:1.2em}
+.graphical-abstract{margin:0 auto 32px;max-width:780px}.graphical-abstract img{width:100%;height:auto;display:block}.graphical-abstract figcaption{font:14px/1.5 system-ui,sans-serif;margin:12px 0 24px}
+figure{margin:26px 0}figure img{display:block;width:100%;height:auto}figcaption{font-size:15px;line-height:1.45;margin-top:9px}
+table{border-collapse:collapse;margin:24px 0;display:block;overflow:auto;max-width:100%;font-size:15px}th,td{padding:7px 10px;border-bottom:1px solid #E2E8EC;text-align:left}th{border-top:1px solid #142E3A}
+.formalism{display:grid;grid-template-columns:minmax(0,1fr) auto;align-items:center;gap:12px;margin:24px 0}.formalism math{overflow-x:auto;max-width:100%;padding:8px 0}.equation-number{font-variant-numeric:tabular-nums;white-space:nowrap}
+pre{overflow:auto;padding:14px;background:#f5f7f8}code{font-size:.9em;overflow-wrap:anywhere}blockquote{margin:1em 0;padding-left:18px;border-left:3px solid #E2E8EC}.csl-entry{margin:14px 0;padding-left:20px;text-indent:-20px}
+@media(max-width:600px){body{padding:16px;font-size:16px}.cover-page h1{font-size:36px}.subtitle{font-size:20px}.formalism{gap:8px}th,td{padding:6px}figure{margin:22px 0}}
+@media print{.cover-page{break-after:page;border:0}.graphical-abstract{break-after:page;margin:0}.graphical-abstract img{max-height:260mm;object-fit:contain}.graphical-abstract figcaption{display:none}nav{break-after:page}body{max-width:none;padding:0}a{color:inherit}}
+</style>
+$for(header-includes)$
+$header-includes$
+$endfor$
+</head>
+<body>
+<header class="cover-page" id="title-block-header">
+<p class="cover-kicker">$cover-kicker$</p>
+<h1>$title$</h1>
+<p class="subtitle">$subtitle$</p>
+<p class="cover-summary">$cover-summary$</p>
+<figure><img src="$cover-image$" alt="$cover-alt$"><figcaption class="cover-credit">$cover-credit$</figcaption></figure>
+<div class="author-block">$for(author)$<strong>$author$</strong><br>$endfor$
+$affiliation$<br><a href="https://orcid.org/$orcid$">ORCID: $orcid$</a><br><a href="mailto:$email$">$email$</a></div>
+<p class="cover-repository">Code and reproducibility materials: <a href="$repository-url$">$repository-url$</a></p>
+<p>DOI: $if(doi-url)$<a href="$doi-url$">$doi-display$</a>$else$$doi-display$$endif$</p>
+<p class="edition">Research manuscript, version $version$ · $date$<br>Paper: <a rel="license" href="$paper-license-url$">$paper-license$</a>; original code: $code-license$. Third-party rights remain separate.</p>
+</header>
+$if(graphical-abstract-meanings-image)$
+<figure class="graphical-abstract" id="graphical-abstract-meanings"><img src="$graphical-abstract-meanings-image$" alt="$graphical-abstract-meanings-alt$"><figcaption>$graphical-abstract-meanings-title$. <a href="#sec-concepts">Conceptual scholarship</a>; <a href="#sec-absence-model">observation and value model</a>; <a href="#supp-textual">textual editions and limits</a>.</figcaption></figure>
+<figure class="graphical-abstract" id="graphical-abstract-experiments"><img src="$graphical-abstract-experiments-image$" alt="$graphical-abstract-experiments-alt$"><figcaption>$graphical-abstract-experiments-title$. <a href="#sec-main-recall">Recall</a>; <a href="#sec-absence-model">absence</a>; <a href="#sec-gaze-transfer-model">native attention and transfer</a>; <a href="#sec-main-practice">enacted inquiry</a>; <a href="#sec-main-gaze">scene sampling</a>; <a href="#sec-main-boundary">joint inquiry</a>; <a href="#sec-gnn-graphs">complete executed GNN models</a>.</figcaption></figure>
+<figure class="graphical-abstract" id="graphical-abstract-modelcard"><img src="$graphical-abstract-modelcard-image$" alt="$graphical-abstract-modelcard-alt$"><figcaption>$graphical-abstract-modelcard-title$. <a href="frontmatter/gnn-model-card.html">Complete model cards, settings and provenance</a>; <a href="#sec-gnn-graphs">parsed models and execution roles</a>; <a href="#sec-methods">methods</a>.</figcaption></figure>
+$endif$
+$if(toc)$<nav id="TOC" role="doc-toc" aria-label="Table of contents"><h2>Contents</h2>$table-of-contents$</nav>$endif$
+<main>$body$</main>
+</body>
+</html>

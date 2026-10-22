@@ -1,0 +1,29 @@
+.coverage
+.DS_Store
+.env
+.env.*
+.coverage.*
+.pytest_cache/
+__pycache__/
+*.pyc
+.benchmarks/
+
+# Egg-info from local installs (any location — guards against renamed-fork drift).
+**/*.egg-info/
+
+# Project-local virtualenvs (root .venv is shared)
+.venv/
+.omo/
+dist/
+build/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Separately acquired inputs must remain outside the public snapshot history.
+data/sources/gratitude_original.ipynb
+data/sources/yarbus_original.ipynb
+data/sources/notebook_cell_manifest.json
+data/scholarship/receipts/
+output/data/gaze.json
+output/data/boundary_gaze.json
+output/data/emptiness_practice.json

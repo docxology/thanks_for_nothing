@@ -1,0 +1,14 @@
+{
+  "schema": "thanks_for_nothing.cover.v1",
+  "path": "docs/manuscript/assets/emptiness-cover-v0.3.png",
+  "sha256": "21764c5f42eee210b9dbf555683ea5286a1ded872b2f30a6fd9cfa0c5ab585a9",
+  "width": 1633,
+  "height": 963,
+  "role": "conceptual cover artwork",
+  "scientific_data": false,
+  "generated_with": "OpenAI image_gen",
+  "generated_on": "2026-10-15",
+  "brief": "An attentive seated figure and an open hand within a connected river, plant and landscape ecology; translucent representational frames open while useful contours remain. Ink and watercolor geometry in warm ivory, teal, muted violet and ochre. Convey appreciation, dependent conditions and model revisability. No text, equations, fake data, logos, empty void or visual claims of enlightenment. Title, author identity, ORCID and DOI status are typeset separately.",
+  "generation_record": "image_gen task imagegen revision 0.3; source output exec-caf52c24-7570-4c6f-bb54-a41e8c2d6090.png",
+  "interpretation": "Illustration of the paper's conceptual proposal, not measured evidence or a depiction of a particular person's realization."
+}

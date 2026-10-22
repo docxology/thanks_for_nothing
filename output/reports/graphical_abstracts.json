@@ -1,0 +1,73 @@
+{
+  "configuration_sha256": "af3207228181aad7242ecc6aaf6bfbd2bd171fc09c715750668776d0d1430360",
+  "variables_sha256": "3f389c0c432b411930103dc6923f1c0cc7accf3b5def759c2a424cf888c401f7",
+  "graphs_sha256": "e1dd2c689b74e834cb1279552d2927b93ac61881fe0b85f402f3dfdbe149abfc",
+  "pages": [
+    {
+      "key": "meanings",
+      "title": "What can ‘nothing’ mean?",
+      "alt": "Evidence, availability, counterfactual value and revisability answer different questions. Appreciation does not make them interchangeable. Recorded absence: What did a functioning channel observe? A recorded absence can be evidence when the channel discriminates between possible states. A no-event record differs from missing data and from a claim that nothing exists. Missing observation: Was a usable record available? The missing-record sentinel supplies no observation likelihood in the declared implementation. Ignoring missingness requires assumptions; other missingness processes can be informative. Counterfactual appreciation: Against which alternative is an outcome valued? An uneventful outcome can acquire value relative to an avoided harm without supplying favorable evidence. The valuation-only control preserves belief updates and predictive losses by construction. Revisable representations: Can a useful distinction be examined and conditionally retained? The finite counterpart tests access, retention and revision; it does not measure realization of emptiness. Non-reification concerns how a representation is held, beyond recording an absence. Symbols: s is latent state, o observation, p prior and q posterior. In the value illustration, r is reference-event probability, c its cost and C_actual the actual cost. Textual traditions remain situated comparisons, not equivalent doctrines; see the atlas and edition notes. Conceptual proposal → finite enabling operations → a separate human research obligation.",
+      "pdf": "frontmatter/graphical-abstract-meanings.pdf",
+      "png": "frontmatter/graphical-abstract-meanings.png",
+      "svg": "frontmatter/graphical-abstract-meanings.svg",
+      "pdf_sha256": "6db8fce5172922230a0e7fef73064a6ff4813cc22bcb6cdc8f8263a61107df7f",
+      "png_sha256": "9d282a6ff6b616710b4bced0463ca4dcc1dae7b7cd277eb3023b1821db3a05a5",
+      "svg_sha256": "3ddbaea3994ba3c21b5494bd0ff6820c8f30dc4db6550918074c86a8f7ee13e2",
+      "links": [
+        [
+          "Recorded absence",
+          "sec-absence-model"
+        ],
+        [
+          "Missingness",
+          "sec-absence-concept"
+        ],
+        [
+          "Counterfactual value",
+          "sec-value-interpretation"
+        ],
+        [
+          "Revisability",
+          "sec-sufficiency"
+        ]
+      ]
+    },
+    {
+      "key": "experiments",
+      "title": "From mechanisms to bounded claims",
+      "alt": "Source reconstruction, corrected comparisons and new extensions remain separate. Recall cohort: 5120 independent agent-world units in 5 declared strata. Recall and independent prediction: What does positive selection add beyond exposure and replay dose? Matched exposure and replay dose separate positive selection from learning and independent prediction. Optimism shifts and predictive accuracy differ; effects depend on the world and comparator. Recorded absence and counterfactual value: Is an absent event evidence, missing data or a different valuation? A no-event token can update belief; the missing-record rule supplies no likelihood. Valuing an avoided harm changes assigned value without creating favorable evidence. Native attention and learned-channel transfer: What reaches attention: a learned channel or a posterior readout? Native GNN/pymdp runs distinguish agent and process; transfer bridges remain separate. The source supplies before-only gaze. A favorable attention shift need not improve prediction. Enacted inquiry and effective access: Does chosen activity make a relevant alternative available? Paid activity, effective access and evidence-based retention or revision are distinct operations. Blocked access can incur cost without revision; exact enumeration retains adverse selections. Adaptive scene sampling: Does an access advantage identify an inquiry-specific advantage? Complete query-conditioned GNN channels expose a context-dependent access advantage. Already-open and uniform controls do not establish a further inquiry-specific benefit. Joint scene and encoding inquiry: Can an encoding be learned and used with scene evidence? Spatial and contingency queries test joint inference over the scene and its encoding. Equivalent laws remain unidentified; excluded support stays unavailable; the reference anchor is stipulated. Glyphs unpack the admitted likelihood: s or z is hidden, o observed and q a known query. Dimensions come from executed GNN. The world glyph is one declared stratum; complete models and controls follow. Synthetic model evidence does not establish human gratitude, clinical benefit, contemplative realization or philosophical equivalence.",
+      "pdf": "frontmatter/graphical-abstract-experiments.pdf",
+      "png": "frontmatter/graphical-abstract-experiments.png",
+      "svg": "frontmatter/graphical-abstract-experiments.svg",
+      "pdf_sha256": "595c7be371508b3976c3667dbbc174ffada18d02354fb4951579d79b04ea8047",
+      "png_sha256": "b38082a174f16775cad3b55e84b3f05f67b70edbc7cc7f6a2e88df8d6db6f11f",
+      "svg_sha256": "312c55a2b09a5b35ac02d8ca59d71483140d58c69b76fb51ecbebb528d086eb6",
+      "links": [
+        [
+          "Recall",
+          "sec-main-recall"
+        ],
+        [
+          "Absence",
+          "sec-absence-model"
+        ],
+        [
+          "Transfer",
+          "sec-gaze-transfer-model"
+        ],
+        [
+          "Enacted inquiry",
+          "sec-main-practice"
+        ],
+        [
+          "Scene sampling",
+          "sec-main-gaze"
+        ],
+        [
+          "Scene/encoding",
+          "sec-main-boundary"
+        ]
+      ]
+    }
+  ]
+}

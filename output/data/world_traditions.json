@@ -1,0 +1,272 @@
+{
+  "schema_version": "thanks_for_nothing.traditions_record.v1",
+  "selection": {
+    "schema_version": "thanks_for_nothing.traditions.v1",
+    "scope": "Selected named textual witnesses, compared through absence or relinquishment and appreciation or response. These are the manuscript authors' interpretive summaries, not quotations, exhaustive accounts of traditions, measurements, a ranking or evidence of historical influence. Gratitude is not explicit in every passage; no row validates the computational model.",
+    "rows": [
+      {
+        "id": "early_buddhist",
+        "tradition": "Early Buddhist",
+        "witness": "MN 121; SN 35.85",
+        "source_keys": [
+          "thanissaro1997mn121",
+          "thanissaro1997sn3585"
+        ],
+        "absence": "Empty of what? What remains is present.",
+        "response": "Discern absence and remaining conditions.",
+        "appreciation": "No gratitude addressee is specified in these selected passages. MN 121 distinguishes an absent disturbance from remaining presence; SN 35.85 specifies self and what pertains to self as the object of emptiness.",
+        "practice": "Discern the conditioned character of what remains; the later release sequence in MN 121 exceeds a simple absent-event judgment.",
+        "limit": "A functioning detector's no-event category neither exhausts these discourses nor measures liberation. Empty of self is not missing data.",
+        "comparison": "Thanks for Nothing is our question about appreciating an enabling absence; the texts constrain its object rather than naming this gratitude practice. Ṭhānissaro Bhikkhu translations."
+      },
+      {
+        "id": "mahayana",
+        "tradition": "Mahāyāna",
+        "witness": "Heart; MMK 24.18",
+        "source_keys": [
+          "hanh2014heartsutra",
+          "nagarjuna2020gretil"
+        ],
+        "absence": "Emptiness is not a separate Nothing.",
+        "response": "Retain phenomena and conventional discourse.",
+        "appreciation": "Gratitude is not specified here. Hanh's body/emptiness formulation is an explicitly revised 2014 translation. Our paraphrase of MMK 24.18 connects dependent arising, emptiness and dependent designation.",
+        "practice": "MMK 24.8–10 distinguishes two truths and makes convention necessary for teaching the ultimate. These passages and the Heart Sutra have different textual settings.",
+        "limit": "The GRETIL witness is Sanskrit; its print-source field is blank. The MMK summary is our paraphrase, not a verified English quotation. Conventional truth is not defined by predictive accuracy.",
+        "comparison": "The comparison concerns non-reification and conditional use of distinctions. Neither a reduced candidate menu nor a new predictive family establishes realization."
+      },
+      {
+        "id": "daoist",
+        "tradition": "Daoist",
+        "witness": "Daodejing 11",
+        "source_keys": [
+          "laozilegge2008"
+        ],
+        "absence": "Unfilled hollow within a formed vessel.",
+        "response": "Recognize what an arrangement enables.",
+        "appreciation": "The hollow is useful in relation to the vessel's form; wheel and room examples likewise concern configurations. No grateful addressee is specified.",
+        "practice": "Attend to the contribution of what is unfilled without treating all structure as dispensable. James Legge translation, chapter 11.",
+        "limit": "Daoist wu and wuwei are not simply Buddhist śūnyatā or inactivity. This passage is not an empirical gratitude intervention.",
+        "comparison": "Thanks for Nothing can name appreciation of an enabling unfilled condition, provided its usefulness is specified relationally."
+      },
+      {
+        "id": "gita",
+        "tradition": "Hindu / Gītā",
+        "witness": "2.47; 3.10–13",
+        "source_keys": [
+          "mukundanandagita247",
+          "mukundanandagita31013"
+        ],
+        "absence": "Relinquish entitlement to action's fruits.",
+        "response": "Act; respond to gifts through offerings.",
+        "appreciation": "Action does not entitle one to its fruits (2.47). Received gifts also carry sacrificial obligations involving human and divine participants (3.10–13). Mukundananda translation.",
+        "practice": "Prescribed action, rejection of attachment to inaction, sacrifice and food first offered: response is enacted rather than merely felt.",
+        "limit": "Yajña retains its theological participants. Neither nonattachment nor offering is generic Bayesian exchange, and the model implements no ritual sacrifice.",
+        "comparison": "Relinquishing a demand for a preferred result can coexist with responsive action; gratitude for inquiry does not entitle an investigator to confirmation."
+      },
+      {
+        "id": "stoic",
+        "tradition": "Stoic",
+        "witness": "Epictetus I.6",
+        "source_keys": [
+          "epictetuslong1887"
+        ],
+        "absence": "No new possession is required here.",
+        "response": "Attend to perception and understanding.",
+        "appreciation": "Ordinary capacities for perception and understanding appear within Epictetus's argument for divine providence. George Long translation, 1887 scan, I.6, pp. 19–21.",
+        "practice": "Recognize and respond to capacities already available rather than requiring a fresh acquisition before appreciation is possible.",
+        "limit": "The providential argument is neither impersonal missingness nor an empirical claim that gratitude improves cognition. The digital transcription's conflicting date is disclosed in the dossier.",
+        "comparison": "The capacity that makes inquiry possible can itself become an object of appreciation; its interpretation remains providential in this passage."
+      },
+      {
+        "id": "jewish",
+        "tradition": "Jewish",
+        "witness": "Avot 4:1; Ber. 9:5",
+        "source_keys": [
+          "kulpavot41",
+          "kulpberakhot95",
+          "davidsonberakhot60b"
+        ],
+        "absence": "New acquisition need not define wealth.",
+        "response": "Rejoice in one's lot; distinguish blessings.",
+        "appreciation": "Ben Zoma's saying values one's existing lot (Avot 4:1, Kulp). Blessing God across good and evil (Berakhot 9:5, Kulp) addresses a separate liturgical question.",
+        "practice": "Avot invokes enjoyment of labor's fruit and its scriptural setting. Berakhot 60b:7 (William Davidson edition) preserves different blessing formulas for good and bad tidings.",
+        "limit": "Contentment is not automatically benefactor-directed gratitude. Blessing across circumstances does not make good and bad equivalent or justify deprivation and injustice.",
+        "comparison": "Appreciation can concern what is already available while the evaluation of adverse circumstances remains discriminating. The two passages supply distinct arguments."
+      },
+      {
+        "id": "christian_thanks",
+        "tradition": "Christian",
+        "witness": "1 Thess. 5:18",
+        "source_keys": [
+          "nrsvue2021thess518"
+        ],
+        "absence": "No favorable outcome is a prerequisite.",
+        "response": "Give thanks in circumstances, toward God.",
+        "appreciation": "The NRSVUE instruction places thanksgiving within God's will in Christ Jesus. It supplies a theological addressee rather than a numerical positivity preference.",
+        "practice": "Give thanks in all circumstances, while distinguishing the instruction from the claim that every harmful event is a benefit.",
+        "limit": "This sentence does not establish clinical efficacy, an apophatic doctrine, or an obligation to regard actual harm as good.",
+        "comparison": "Thanks for Nothing can ask whether thanksgiving must wait for a welcome result; this verse's theological relation is retained."
+      },
+      {
+        "id": "islamic",
+        "tradition": "Islamic",
+        "witness": "Qur'an 14:7; 31:12",
+        "source_keys": [
+          "khattabquran147",
+          "khattabquran3112"
+        ],
+        "absence": "God's need for repayment is denied.",
+        "response": "Thank Allah; the grateful person benefits.",
+        "appreciation": "Khattab's translation locates gratitude's benefit in the grateful person (31:12) and affirms Allah's self-sufficiency; 14:7–8 pairs promised increase and accountability with divine independence.",
+        "practice": "Gratitude within divine instruction. Distinguish the beneficiary from the addressee without removing theological obligation.",
+        "limit": "Divine self-sufficiency is not impersonal absence. The good is not operationalized as wealth, predictive accuracy, mental health or a symmetric exchange.",
+        "comparison": "The response need not supply something its addressee lacks. This differs from appreciation of an empty vessel or from Bayesian updating."
+      },
+      {
+        "id": "sikh",
+        "tradition": "Sikh",
+        "witness": "Japji, pauri 2",
+        "source_keys": [
+          "khalsajapji2"
+        ],
+        "absence": "Egoic speech is relinquished.",
+        "response": "Understand hukam; walk in divine Will.",
+        "appreciation": "Guru Nanak's Japji, ang 1, pauri 2, ends by relating understanding divine Command to speech without ego. Sant Singh Khalsa translation; walking in divine Will is immediate context in pauri 1.",
+        "practice": "Understanding and responsive conduct within hukam. The invocation retains Creator and Guru's grace; gratitude is not explicit in the selected line.",
+        "limit": "Hukam is not merely natural law; haumai is not a Bayesian self-model. The passage does not claim measured ego deletion, fatalistic inactivity or Buddhist emptiness.",
+        "comparison": "Relinquishing self-assertion is a theological comparison for responsiveness to an order one does not author, rather than an absent object to celebrate."
+      },
+      {
+        "id": "confucian",
+        "tradition": "Confucian",
+        "witness": "Analects 15.24",
+        "source_keys": [
+          "confuciuslegge2002reciprocity",
+          "eno2015analects"
+        ],
+        "absence": "Refrain from unwanted imposition.",
+        "response": "Practice reciprocal restraint toward others.",
+        "appreciation": "No gratitude addressee is specified in this exchange. Shu concerns a lifelong rule for one's treatment of another. Legge numbers this passage XV.23; Eno 2015 identifies it as 15.24.",
+        "practice": "Do not impose on others treatment one would reject for oneself. Reciprocity here constrains one's conduct; it does not require prior repayment by another.",
+        "limit": "This is an ethical comparator, not an emptiness doctrine, a gratitude exercise, sacrificial reciprocity or a claim that Confucianism is simply secular.",
+        "comparison": "A consequential nothing can be the imposition one refrains from making. The comparison deliberately retains a case without an explicit grateful response."
+      },
+      {
+        "id": "christian_apophatic",
+        "tradition": "Christian apophatic",
+        "witness": "Mystical Th. II, V",
+        "source_keys": [
+          "pseudodionysiusroltmystical"
+        ],
+        "absence": "Exhaustive predicates are relinquished.",
+        "response": "Praise a Cause beyond affirmation / negation.",
+        "appreciation": "Pseudo-Dionysius, in C. E. Rolt's translation, relates praise and removal of predicates (II), placing the divine Cause beyond affirmation and negation (V).",
+        "practice": "Recognize limits of predication within the text's theological ascent; appreciation and exhaustive description are separable.",
+        "limit": "The transcendent Cause is not Madhyamaka's object of negation. Removing a predicate is not deleting a statistical hypothesis, and thanksgiving is a separate Christian textual question.",
+        "comparison": "Thanks for Nothing can question an assumed exhaustive description while preserving the theological object and the limits of the analogy."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "key": "confuciuslegge2002reciprocity",
+      "title": "The Analects of Confucius (from the Chinese Classics)",
+      "url": "https://www.gutenberg.org/cache/epub/3330/pg3330-images.html"
+    },
+    {
+      "key": "davidsonberakhot60b",
+      "title": "Berakhot",
+      "url": "https://www.sefaria.org/Berakhot.60b.5?lang=bi&ven=William%20Davidson%20Edition%20-%20English"
+    },
+    {
+      "key": "eno2015analects",
+      "title": "The Analects of Confucius: An Online Teaching Translation",
+      "url": "https://hdl.handle.net/2022/23420"
+    },
+    {
+      "key": "epictetuslong1887",
+      "title": "The Discourses of Epictetus; with the Encheiridion and Fragments",
+      "url": "https://archive.org/details/dscrsesepictetus00epiciala"
+    },
+    {
+      "key": "hanh2014heartsutra",
+      "title": "The Insight that Brings Us to the Other Shore",
+      "url": "https://plumvillage.org/about/thich-nhat-hanh/letters/thich-nhat-hanh-new-heart-sutra-translation"
+    },
+    {
+      "key": "khalsajapji2",
+      "title": "Japji Sahib, in Sri Guru Granth Sahib",
+      "url": "https://www.srigranth.org/servlet/gurbani.gurbani?Action=Page&Param=1"
+    },
+    {
+      "key": "khattabquran147",
+      "title": "The Clear Quran",
+      "url": "https://quran.com/en/ibrahim/7"
+    },
+    {
+      "key": "khattabquran3112",
+      "title": "The Clear Quran",
+      "url": "https://quran.com/31/12"
+    },
+    {
+      "key": "kulpavot41",
+      "title": "Pirkei Avot",
+      "url": "https://www.sefaria.org/Pirkei_Avot.4.1?lang=bi&ven=Mishnah%20Yomit%20by%20Dr.%20Joshua%20Kulp"
+    },
+    {
+      "key": "kulpberakhot95",
+      "title": "Mishnah Berakhot",
+      "url": "https://www.sefaria.org/Mishnah_Berakhot.9.5?lang=bi&ven=Mishnah%20Yomit%20by%20Dr.%20Joshua%20Kulp"
+    },
+    {
+      "key": "laozilegge2008",
+      "title": "The Tao Teh King, or the Tao and its Characteristics",
+      "url": "https://www.gutenberg.org/files/216/216-h/216-h.htm"
+    },
+    {
+      "key": "mukundanandagita247",
+      "title": "Bhagavad Gita: The Song of God",
+      "url": "https://www.holy-bhagavad-gita.org/chapter/2/verse/47/"
+    },
+    {
+      "key": "mukundanandagita31013",
+      "title": "Bhagavad Gita: The Song of God",
+      "url": "https://www.holy-bhagavad-gita.org/chapter/3/verse/12/"
+    },
+    {
+      "key": "nagarjuna2020gretil",
+      "title": "Mulamadhyamakakarika",
+      "url": "https://gretil.sub.uni-goettingen.de/gretil/corpustei/transformations/html/sa_nAgArjuna-mUlamadhyamakakArikA.htm"
+    },
+    {
+      "key": "nrsvue2021thess518",
+      "title": "New Revised Standard Version Updated Edition",
+      "url": "https://www.biblegateway.com/passage/?search=1%20Thessalonians%205%3A18&version=NRSVUE"
+    },
+    {
+      "key": "pseudodionysiusroltmystical",
+      "title": "Dionysius the Areopagite: On the Divine Names and the Mystical Theology",
+      "url": "https://www.ccel.org/ccel/rolt/dionysius.v.html"
+    },
+    {
+      "key": "thanissaro1997mn121",
+      "title": "Cula-suññata Sutta: The Lesser Discourse on Emptiness (MN 121)",
+      "url": "https://www.accesstoinsight.org/tipitaka/mn/mn.121.than.html"
+    },
+    {
+      "key": "thanissaro1997sn3585",
+      "title": "Suñña Sutta: Empty (SN 35.85)",
+      "url": "https://accesstoinsight.org/tipitaka/sn/sn35/sn35.085.than.html"
+    }
+  ],
+  "inputs": [
+    {
+      "path": "data/scholarship/traditions.json",
+      "sha256": "7a42f3937255704165002b5e2f5c786c343d607897e803bdeca2bd2122ab54e2"
+    },
+    {
+      "path": "data/scholarship/sources.json",
+      "sha256": "87782c534a9d409947ea430e2fcc1c71b964def48182e24191b6c0206847b2e9"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "prior": [
+    0.6,
+    0.4
+  ],
+  "missing_posterior": [
+    0.6,
+    0.4
+  ],
+  "observed_absence_posterior": [
+    0.8709677419354838,
+    0.12903225806451613
+  ],
+  "missing_kl_bits": 0.0,
+  "observed_absence_kl_bits": 0.2576664631760494,
+  "reference_value": 0.3,
+  "blackwell_original_risk": 0.2,
+  "blackwell_erasure_risk": 0.5,
+  "controls": {
+    "missing_preserves_prior": true,
+    "observed_absence_informative": true,
+    "uninformative_no_shift": true,
+    "zero_reference_no_value": true,
+    "zero_cost_no_value": true,
+    "label_permutation_invariant": true,
+    "invalid_probability_rejected": true,
+    "imported_blackwell_controls": true
+  },
+  "all_controls_pass": true,
+  "model_sha256": "5cfa8875d9f393cbfd9b0050e0a63ad1695b79725b4e131499593f3590a7622f"
+}

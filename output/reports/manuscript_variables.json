@@ -1,0 +1,1022 @@
+{
+  "schema": "thanks_for_nothing.manuscript_variables.v1",
+  "templates": [
+    {
+      "path": "docs/manuscript/manuscript.md",
+      "sha256": "cb203d4ee12fb522bae21d79694e743e094a5dbb8e1e7e532c215b67b4a7fac6"
+    },
+    {
+      "path": "docs/manuscript/supplement.md",
+      "sha256": "ac8c681ecd4ed911dcff37c602a92b7a269b1620d346fb84705e9472fd6ee20f"
+    },
+    {
+      "path": "docs/manuscript/captions.yaml",
+      "sha256": "cd3d95a29a34288741d8932720a7c5748b9172611f563b641923831d8333c158"
+    }
+  ],
+  "bundle_sha256": "970e862e6fec4eada9ee62e537dad88f7468f0b8b49c4e228e6d561a6d57c2ab",
+  "variables": [
+    {
+      "name": "STUDY_REPLICATES",
+      "value": "1024",
+      "source_artifact": "data/study.json",
+      "source_sha256": "f56b7c4eec0fcd43f752905ba1b83680fe0d192514318ad6982f6665b69d3591",
+      "selector": "/design/replicates"
+    },
+    {
+      "name": "STUDY_SENSITIVITY_REPLICATES",
+      "value": "128",
+      "source_artifact": "data/study.json",
+      "source_sha256": "f56b7c4eec0fcd43f752905ba1b83680fe0d192514318ad6982f6665b69d3591",
+      "selector": "/design/sensitivity_replicates"
+    },
+    {
+      "name": "STUDY_CALIBRATION_REPLICATES",
+      "value": "4096",
+      "source_artifact": "data/study.json",
+      "source_sha256": "f56b7c4eec0fcd43f752905ba1b83680fe0d192514318ad6982f6665b69d3591",
+      "selector": "/design/calibration_replicates"
+    },
+    {
+      "name": "STUDY_CALIBRATION_SAMPLE_SIZE",
+      "value": "64",
+      "source_artifact": "data/study.json",
+      "source_sha256": "f56b7c4eec0fcd43f752905ba1b83680fe0d192514318ad6982f6665b69d3591",
+      "selector": "/design/calibration_sample_size"
+    },
+    {
+      "name": "PRACTICE_REPLICATES",
+      "value": "512",
+      "source_artifact": "data/emptiness_practice.json",
+      "source_sha256": "b183e103b8ff83dbee55bcaf31494b266ff80d31398a9291a202297cc2408da0",
+      "selector": "/design/replicates"
+    },
+    {
+      "name": "PRACTICE_CALIBRATION_SAMPLES",
+      "value": "24",
+      "source_artifact": "data/emptiness_practice.json",
+      "source_sha256": "b183e103b8ff83dbee55bcaf31494b266ff80d31398a9291a202297cc2408da0",
+      "selector": "/design/calibration_samples"
+    },
+    {
+      "name": "PRACTICE_ASSESSMENT_SAMPLES",
+      "value": "512",
+      "source_artifact": "data/emptiness_practice.json",
+      "source_sha256": "b183e103b8ff83dbee55bcaf31494b266ff80d31398a9291a202297cc2408da0",
+      "selector": "/design/assessment_samples"
+    },
+    {
+      "name": "PRACTICE_BOOTSTRAP_DRAWS",
+      "value": "4095",
+      "source_artifact": "data/emptiness_practice.json",
+      "source_sha256": "b183e103b8ff83dbee55bcaf31494b266ff80d31398a9291a202297cc2408da0",
+      "selector": "/design/bootstrap_draws"
+    },
+    {
+      "name": "PRACTICE_ACTION_PRECISION",
+      "value": "6",
+      "source_artifact": "data/emptiness_practice.json",
+      "source_sha256": "b183e103b8ff83dbee55bcaf31494b266ff80d31398a9291a202297cc2408da0",
+      "selector": "/design/action_precision"
+    },
+    {
+      "name": "PRACTICE_PRACTICE_COST",
+      "value": "0.2",
+      "source_artifact": "data/emptiness_practice.json",
+      "source_sha256": "b183e103b8ff83dbee55bcaf31494b266ff80d31398a9291a202297cc2408da0",
+      "selector": "/design/practice_cost"
+    },
+    {
+      "name": "PRACTICE_EXAMINABILITY_PREFERENCE",
+      "value": "0.4",
+      "source_artifact": "data/emptiness_practice.json",
+      "source_sha256": "b183e103b8ff83dbee55bcaf31494b266ff80d31398a9291a202297cc2408da0",
+      "selector": "/design/examinability_preference"
+    },
+    {
+      "name": "PRACTICE_PREVIOUS_GAIN_WEIGHT",
+      "value": "1",
+      "source_artifact": "data/emptiness_practice.json",
+      "source_sha256": "b183e103b8ff83dbee55bcaf31494b266ff80d31398a9291a202297cc2408da0",
+      "selector": "/design/previous_gain_weight"
+    },
+    {
+      "name": "PRACTICE_METACOGNITIVE_ACCESS",
+      "value": "1",
+      "source_artifact": "data/emptiness_practice.json",
+      "source_sha256": "b183e103b8ff83dbee55bcaf31494b266ff80d31398a9291a202297cc2408da0",
+      "selector": "/design/metacognitive_access"
+    },
+    {
+      "name": "PRACTICE_PRIOR_PRECISION",
+      "value": "2",
+      "source_artifact": "data/emptiness_practice.json",
+      "source_sha256": "b183e103b8ff83dbee55bcaf31494b266ff80d31398a9291a202297cc2408da0",
+      "selector": "/design/prior_precision"
+    },
+    {
+      "name": "GAZE_SOURCE_SEED",
+      "value": "42",
+      "source_artifact": "data/gaze.json",
+      "source_sha256": "8e0a9816909cb68c17c2e9426374ee62be60645d0f41968770d52a0b747bda9d",
+      "selector": "/design/source_seed"
+    },
+    {
+      "name": "GAZE_SOURCE_STEPS",
+      "value": "1000",
+      "source_artifact": "data/gaze.json",
+      "source_sha256": "8e0a9816909cb68c17c2e9426374ee62be60645d0f41968770d52a0b747bda9d",
+      "selector": "/design/source_steps"
+    },
+    {
+      "name": "GAZE_SOURCE_RUNS",
+      "value": "5",
+      "source_artifact": "data/gaze.json",
+      "source_sha256": "8e0a9816909cb68c17c2e9426374ee62be60645d0f41968770d52a0b747bda9d",
+      "selector": "/design/source_runs"
+    },
+    {
+      "name": "GAZE_TRANSFER_STEPS",
+      "value": "128",
+      "source_artifact": "data/gaze.json",
+      "source_sha256": "8e0a9816909cb68c17c2e9426374ee62be60645d0f41968770d52a0b747bda9d",
+      "selector": "/design/transfer_steps"
+    },
+    {
+      "name": "GAZE_TRANSFER_AMBIGUITY_WEIGHT",
+      "value": "0.5",
+      "source_artifact": "data/gaze.json",
+      "source_sha256": "8e0a9816909cb68c17c2e9426374ee62be60645d0f41968770d52a0b747bda9d",
+      "selector": "/design/transfer_ambiguity_weight"
+    },
+    {
+      "name": "GAZE_TRANSFER_PRECISION",
+      "value": "1.5",
+      "source_artifact": "data/gaze.json",
+      "source_sha256": "8e0a9816909cb68c17c2e9426374ee62be60645d0f41968770d52a0b747bda9d",
+      "selector": "/design/transfer_precision"
+    },
+    {
+      "name": "GAZE_TRAJECTORY_STEPS",
+      "value": "20",
+      "source_artifact": "data/gaze.json",
+      "source_sha256": "8e0a9816909cb68c17c2e9426374ee62be60645d0f41968770d52a0b747bda9d",
+      "selector": "/design/trajectory_steps"
+    },
+    {
+      "name": "GAZE_EXAMPLE_STRATA",
+      "value": "0.3, 0.7",
+      "source_artifact": "data/gaze.json",
+      "source_sha256": "8e0a9816909cb68c17c2e9426374ee62be60645d0f41968770d52a0b747bda9d",
+      "selector": "/design/example_strata"
+    },
+    {
+      "name": "GAZE_REPLICATES",
+      "value": "512",
+      "source_artifact": "data/gaze.json",
+      "source_sha256": "8e0a9816909cb68c17c2e9426374ee62be60645d0f41968770d52a0b747bda9d",
+      "selector": "/design/replicates"
+    },
+    {
+      "name": "GAZE_STEPS",
+      "value": "48",
+      "source_artifact": "data/gaze.json",
+      "source_sha256": "8e0a9816909cb68c17c2e9426374ee62be60645d0f41968770d52a0b747bda9d",
+      "selector": "/design/steps"
+    },
+    {
+      "name": "GAZE_BOOTSTRAP_DRAWS",
+      "value": "4095",
+      "source_artifact": "data/gaze.json",
+      "source_sha256": "8e0a9816909cb68c17c2e9426374ee62be60645d0f41968770d52a0b747bda9d",
+      "selector": "/design/bootstrap_draws"
+    },
+    {
+      "name": "GAZE_ACTION_PRECISION",
+      "value": "4",
+      "source_artifact": "data/gaze.json",
+      "source_sha256": "8e0a9816909cb68c17c2e9426374ee62be60645d0f41968770d52a0b747bda9d",
+      "selector": "/design/action_precision"
+    },
+    {
+      "name": "GAZE_INFORMATION_WEIGHT",
+      "value": "4",
+      "source_artifact": "data/gaze.json",
+      "source_sha256": "8e0a9816909cb68c17c2e9426374ee62be60645d0f41968770d52a0b747bda9d",
+      "selector": "/design/information_weight"
+    },
+    {
+      "name": "GAZE_SACCADE_COST",
+      "value": "0.2",
+      "source_artifact": "data/gaze.json",
+      "source_sha256": "8e0a9816909cb68c17c2e9426374ee62be60645d0f41968770d52a0b747bda9d",
+      "selector": "/design/saccade_cost"
+    },
+    {
+      "name": "BOUNDARY_REPLICATES",
+      "value": "512",
+      "source_artifact": "data/boundary_gaze.json",
+      "source_sha256": "982383b0ff6a1920edb5f49773bd50f80ed6213ec2d2eb0ac321b2cbe2c1394e",
+      "selector": "/design/replicates"
+    },
+    {
+      "name": "BOUNDARY_STEPS",
+      "value": "24",
+      "source_artifact": "data/boundary_gaze.json",
+      "source_sha256": "982383b0ff6a1920edb5f49773bd50f80ed6213ec2d2eb0ac321b2cbe2c1394e",
+      "selector": "/design/steps"
+    },
+    {
+      "name": "BOUNDARY_PREFIXES",
+      "value": "16, 32, 64, 128, 256, 512",
+      "source_artifact": "data/boundary_gaze.json",
+      "source_sha256": "982383b0ff6a1920edb5f49773bd50f80ed6213ec2d2eb0ac321b2cbe2c1394e",
+      "selector": "/design/prefixes"
+    },
+    {
+      "name": "BOUNDARY_PROBE_RELIABILITIES",
+      "value": "0.65, 0.8, 0.95",
+      "source_artifact": "data/boundary_gaze.json",
+      "source_sha256": "982383b0ff6a1920edb5f49773bd50f80ed6213ec2d2eb0ac321b2cbe2c1394e",
+      "selector": "/design/probe_reliabilities"
+    },
+    {
+      "name": "BOUNDARY_PROBE_COSTS",
+      "value": "0.02, 0.05, 0.1",
+      "source_artifact": "data/boundary_gaze.json",
+      "source_sha256": "982383b0ff6a1920edb5f49773bd50f80ed6213ec2d2eb0ac321b2cbe2c1394e",
+      "selector": "/design/probe_costs"
+    },
+    {
+      "name": "BOUNDARY_ANCHOR_MAPPING",
+      "value": "0",
+      "source_artifact": "data/boundary_gaze.json",
+      "source_sha256": "982383b0ff6a1920edb5f49773bd50f80ed6213ec2d2eb0ac321b2cbe2c1394e",
+      "selector": "/design/anchor_mapping"
+    },
+    {
+      "name": "JOINT_DRAWS",
+      "value": "16383",
+      "source_artifact": "data/gaze_uncertainty.json",
+      "source_sha256": "0d4818a8b0fb0c48c5b6efe06f3580aa538b83da35b6aae0d5e54267f6584662",
+      "selector": "/design/draws"
+    },
+    {
+      "name": "JOINT_CONFIDENCE",
+      "value": "0.95",
+      "source_artifact": "data/gaze_uncertainty.json",
+      "source_sha256": "0d4818a8b0fb0c48c5b6efe06f3580aa538b83da35b6aae0d5e54267f6584662",
+      "selector": "/design/confidence"
+    },
+    {
+      "name": "AGENTS",
+      "value": "5120",
+      "source_artifact": "data/study.json",
+      "source_sha256": "f56b7c4eec0fcd43f752905ba1b83680fe0d192514318ad6982f6665b69d3591",
+      "selector": "count(unique(rows.paired_id))"
+    },
+    {
+      "name": "REPLICATES",
+      "value": "1024",
+      "source_artifact": "data/study.json",
+      "source_sha256": "f56b7c4eec0fcd43f752905ba1b83680fe0d192514318ad6982f6665b69d3591",
+      "selector": "/design/replicates"
+    },
+    {
+      "name": "STUDY_STRATA",
+      "value": "5",
+      "source_artifact": "data/study.json",
+      "source_sha256": "f56b7c4eec0fcd43f752905ba1b83680fe0d192514318ad6982f6665b69d3591",
+      "selector": "count(design.luckiness)"
+    },
+    {
+      "name": "STUDY_CONDITIONS",
+      "value": "4",
+      "source_artifact": "data/study.json",
+      "source_sha256": "f56b7c4eec0fcd43f752905ba1b83680fe0d192514318ad6982f6665b69d3591",
+      "selector": "count(unique(rows.condition))"
+    },
+    {
+      "name": "PRIMARY_CONTRASTS",
+      "value": "8",
+      "source_artifact": "data/statistics.json",
+      "source_sha256": "c795074de515745d70721783d53cff5f376695cc470f5ea138cfb897d6944ed4",
+      "selector": "count(contrasts)"
+    },
+    {
+      "name": "PRACTICE_CONDITIONS",
+      "value": "5",
+      "source_artifact": "data/emptiness_practice.json",
+      "source_sha256": "b183e103b8ff83dbee55bcaf31494b266ff80d31398a9291a202297cc2408da0",
+      "selector": "count(design.conditions)"
+    },
+    {
+      "name": "PRACTICE_WINDOWS",
+      "value": "12",
+      "source_artifact": "data/emptiness_practice.json",
+      "source_sha256": "b183e103b8ff83dbee55bcaf31494b266ff80d31398a9291a202297cc2408da0",
+      "selector": "count(design.contexts[0].probabilities)"
+    },
+    {
+      "name": "PRACTICE_CONTRASTS",
+      "value": "8",
+      "source_artifact": "data/emptiness_practice.json",
+      "source_sha256": "b183e103b8ff83dbee55bcaf31494b266ff80d31398a9291a202297cc2408da0",
+      "selector": "count(contrasts)"
+    },
+    {
+      "name": "GAZE_LOCATIONS",
+      "value": "13",
+      "source_artifact": "data/gaze.json",
+      "source_sha256": "8e0a9816909cb68c17c2e9426374ee62be60645d0f41968770d52a0b747bda9d",
+      "selector": "count(design.coordinates)"
+    },
+    {
+      "name": "GAZE_CONDITIONS",
+      "value": "6",
+      "source_artifact": "data/gaze.json",
+      "source_sha256": "8e0a9816909cb68c17c2e9426374ee62be60645d0f41968770d52a0b747bda9d",
+      "selector": "count(design.conditions)"
+    },
+    {
+      "name": "GAZE_EPISODES",
+      "value": "18432",
+      "source_artifact": "data/gaze.json",
+      "source_sha256": "8e0a9816909cb68c17c2e9426374ee62be60645d0f41968770d52a0b747bda9d",
+      "selector": "count(episodes)"
+    },
+    {
+      "name": "GAZE_CONTEXTS",
+      "value": "2",
+      "source_artifact": "data/gaze.json",
+      "source_sha256": "8e0a9816909cb68c17c2e9426374ee62be60645d0f41968770d52a0b747bda9d",
+      "selector": "count(design.contexts)"
+    },
+    {
+      "name": "GAZE_REGION_POSITIVE",
+      "value": "5",
+      "source_artifact": "data/gaze.json",
+      "source_sha256": "8e0a9816909cb68c17c2e9426374ee62be60645d0f41968770d52a0b747bda9d",
+      "selector": "count(design.regions=0)"
+    },
+    {
+      "name": "GAZE_REGION_NEGATIVE",
+      "value": "5",
+      "source_artifact": "data/gaze.json",
+      "source_sha256": "8e0a9816909cb68c17c2e9426374ee62be60645d0f41968770d52a0b747bda9d",
+      "selector": "count(design.regions=1)"
+    },
+    {
+      "name": "GAZE_REGION_NEUTRAL",
+      "value": "3",
+      "source_artifact": "data/gaze.json",
+      "source_sha256": "8e0a9816909cb68c17c2e9426374ee62be60645d0f41968770d52a0b747bda9d",
+      "selector": "count(design.regions=2)"
+    },
+    {
+      "name": "GAZE_WINDOWS",
+      "value": "3",
+      "source_artifact": "data/gaze.json",
+      "source_sha256": "8e0a9816909cb68c17c2e9426374ee62be60645d0f41968770d52a0b747bda9d",
+      "selector": "count(design.contexts[0].candidates)"
+    },
+    {
+      "name": "GAZE_CONTRASTS",
+      "value": "58",
+      "source_artifact": "data/gaze.json",
+      "source_sha256": "8e0a9816909cb68c17c2e9426374ee62be60645d0f41968770d52a0b747bda9d",
+      "selector": "count(contrasts)"
+    },
+    {
+      "name": "GAZE_TRANSFER_RECORDS",
+      "value": "40960",
+      "source_artifact": "data/gaze.json",
+      "source_sha256": "8e0a9816909cb68c17c2e9426374ee62be60645d0f41968770d52a0b747bda9d",
+      "selector": "count(transfer)"
+    },
+    {
+      "name": "GAZE_TRANSFER_BRIDGES",
+      "value": "2",
+      "source_artifact": "data/gaze.json",
+      "source_sha256": "8e0a9816909cb68c17c2e9426374ee62be60645d0f41968770d52a0b747bda9d",
+      "selector": "count(unique(transfer.bridge))"
+    },
+    {
+      "name": "GAZE_TRANSFER_COMPARISON_COUNT",
+      "value": "4",
+      "source_artifact": "data/gaze.json",
+      "source_sha256": "8e0a9816909cb68c17c2e9426374ee62be60645d0f41968770d52a0b747bda9d",
+      "selector": "count(design.transfer_comparisons)"
+    },
+    {
+      "name": "GAZE_TRANSFER_ENDPOINT_COUNT",
+      "value": "2",
+      "source_artifact": "data/gaze.json",
+      "source_sha256": "8e0a9816909cb68c17c2e9426374ee62be60645d0f41968770d52a0b747bda9d",
+      "selector": "count(unique(contrasts[experiment=transfer].endpoint))"
+    },
+    {
+      "name": "GAZE_ACTIVE_COMPARISON_COUNT",
+      "value": "7",
+      "source_artifact": "data/gaze.json",
+      "source_sha256": "8e0a9816909cb68c17c2e9426374ee62be60645d0f41968770d52a0b747bda9d",
+      "selector": "count(design.comparisons)"
+    },
+    {
+      "name": "GAZE_ACTIVE_ENDPOINT_COUNT",
+      "value": "3",
+      "source_artifact": "data/gaze.json",
+      "source_sha256": "8e0a9816909cb68c17c2e9426374ee62be60645d0f41968770d52a0b747bda9d",
+      "selector": "count(unique(contrasts[experiment=active].endpoint))"
+    },
+    {
+      "name": "GAZE_TRANSFER_UNIFORMS",
+      "value": "127",
+      "source_artifact": "data/gaze.json",
+      "source_sha256": "8e0a9816909cb68c17c2e9426374ee62be60645d0f41968770d52a0b747bda9d",
+      "selector": "design.transfer_steps - initial location"
+    },
+    {
+      "name": "GAZE_TRANSFER_CONTRASTS",
+      "value": "16",
+      "source_artifact": "data/gaze.json",
+      "source_sha256": "8e0a9816909cb68c17c2e9426374ee62be60645d0f41968770d52a0b747bda9d",
+      "selector": "count(contrasts[experiment=transfer])"
+    },
+    {
+      "name": "GAZE_ACTIVE_CONTRASTS",
+      "value": "42",
+      "source_artifact": "data/gaze.json",
+      "source_sha256": "8e0a9816909cb68c17c2e9426374ee62be60645d0f41968770d52a0b747bda9d",
+      "selector": "count(contrasts[experiment=active])"
+    },
+    {
+      "name": "BOUNDARY_UNITS",
+      "value": "9216",
+      "source_artifact": "data/boundary_gaze.json",
+      "source_sha256": "982383b0ff6a1920edb5f49773bd50f80ed6213ec2d2eb0ac321b2cbe2c1394e",
+      "selector": "count(unique(episodes.regime,scene,boundary,replicate))"
+    },
+    {
+      "name": "BOUNDARY_EPISODES",
+      "value": "55296",
+      "source_artifact": "data/boundary_gaze.json",
+      "source_sha256": "982383b0ff6a1920edb5f49773bd50f80ed6213ec2d2eb0ac321b2cbe2c1394e",
+      "selector": "count(episodes)"
+    },
+    {
+      "name": "BOUNDARY_CONDITIONS",
+      "value": "6",
+      "source_artifact": "data/boundary_gaze.json",
+      "source_sha256": "982383b0ff6a1920edb5f49773bd50f80ed6213ec2d2eb0ac321b2cbe2c1394e",
+      "selector": "count(design.conditions)"
+    },
+    {
+      "name": "BOUNDARY_CELLS",
+      "value": "18",
+      "source_artifact": "data/boundary_gaze.json",
+      "source_sha256": "982383b0ff6a1920edb5f49773bd50f80ed6213ec2d2eb0ac321b2cbe2c1394e",
+      "selector": "count(unique(episodes.regime,scene,boundary))"
+    },
+    {
+      "name": "BOUNDARY_SCENES",
+      "value": "3",
+      "source_artifact": "data/boundary_gaze.json",
+      "source_sha256": "982383b0ff6a1920edb5f49773bd50f80ed6213ec2d2eb0ac321b2cbe2c1394e",
+      "selector": "count(design.scene_maps)"
+    },
+    {
+      "name": "BOUNDARY_STATES",
+      "value": "9",
+      "source_artifact": "data/boundary_gaze.json",
+      "source_sha256": "982383b0ff6a1920edb5f49773bd50f80ed6213ec2d2eb0ac321b2cbe2c1394e",
+      "selector": "count(design.scene_maps)^2"
+    },
+    {
+      "name": "BOUNDARY_REGIMES",
+      "value": "2",
+      "source_artifact": "data/boundary_gaze.json",
+      "source_sha256": "982383b0ff6a1920edb5f49773bd50f80ed6213ec2d2eb0ac321b2cbe2c1394e",
+      "selector": "count(design.regimes)"
+    },
+    {
+      "name": "BOUNDARY_PROBES",
+      "value": "3",
+      "source_artifact": "data/boundary_gaze.json",
+      "source_sha256": "982383b0ff6a1920edb5f49773bd50f80ed6213ec2d2eb0ac321b2cbe2c1394e",
+      "selector": "count(design.probe_reliabilities)"
+    },
+    {
+      "name": "BOUNDARY_CONTRASTS",
+      "value": "84",
+      "source_artifact": "data/boundary_gaze.json",
+      "source_sha256": "982383b0ff6a1920edb5f49773bd50f80ed6213ec2d2eb0ac321b2cbe2c1394e",
+      "selector": "count(region.intervals)"
+    },
+    {
+      "name": "BOUNDARY_COMPARISONS",
+      "value": "7",
+      "source_artifact": "data/boundary_gaze.json",
+      "source_sha256": "982383b0ff6a1920edb5f49773bd50f80ed6213ec2d2eb0ac321b2cbe2c1394e",
+      "selector": "count(design.comparisons)"
+    },
+    {
+      "name": "BOUNDARY_VISUAL_COMPARISONS",
+      "value": "5",
+      "source_artifact": "data/boundary_gaze.json",
+      "source_sha256": "982383b0ff6a1920edb5f49773bd50f80ed6213ec2d2eb0ac321b2cbe2c1394e",
+      "selector": "count(design.comparisons[reference=visual])"
+    },
+    {
+      "name": "BOUNDARY_ENDPOINT_COUNT",
+      "value": "2",
+      "source_artifact": "data/boundary_gaze.json",
+      "source_sha256": "982383b0ff6a1920edb5f49773bd50f80ed6213ec2d2eb0ac321b2cbe2c1394e",
+      "selector": "count(design.endpoints)"
+    },
+    {
+      "name": "BOUNDARY_EXACT",
+      "value": "30",
+      "source_artifact": "data/boundary_gaze.json",
+      "source_sha256": "982383b0ff6a1920edb5f49773bd50f80ed6213ec2d2eb0ac321b2cbe2c1394e",
+      "selector": "count(exact_offsets)"
+    },
+    {
+      "name": "JOINT_CONFIDENCE_PERCENT",
+      "value": "95",
+      "source_artifact": "data/gaze_uncertainty.json",
+      "source_sha256": "0d4818a8b0fb0c48c5b6efe06f3580aa538b83da35b6aae0d5e54267f6584662",
+      "selector": "100 * design.confidence"
+    },
+    {
+      "name": "JOINT_BLOCKS",
+      "value": "3",
+      "source_artifact": "data/gaze_uncertainty.json",
+      "source_sha256": "0d4818a8b0fb0c48c5b6efe06f3580aa538b83da35b6aae0d5e54267f6584662",
+      "selector": "count(region.blocks)"
+    },
+    {
+      "name": "JOINT_MC_PERCENT",
+      "value": "99",
+      "source_artifact": "data/gaze_uncertainty.json",
+      "source_sha256": "0d4818a8b0fb0c48c5b6efe06f3580aa538b83da35b6aae0d5e54267f6584662",
+      "selector": "100 * design.monte_carlo_confidence"
+    },
+    {
+      "name": "POINTWISE_CONFIDENCE_PERCENT",
+      "value": "95",
+      "source_artifact": "data/statistical_calibration.json",
+      "source_sha256": "4090bef27bfa4615d041fdb4e0df081136858170ae2b2afce0311586b0a16874",
+      "selector": "100 * (1 - alpha); declared analysis confidence level"
+    },
+    {
+      "name": "POINTWISE_ALPHA",
+      "value": "0.05",
+      "source_artifact": "data/statistical_calibration.json",
+      "source_sha256": "4090bef27bfa4615d041fdb4e0df081136858170ae2b2afce0311586b0a16874",
+      "selector": "/alpha"
+    },
+    {
+      "name": "POINTWISE_CONFIDENCE",
+      "value": "0.95",
+      "source_artifact": "data/statistical_calibration.json",
+      "source_sha256": "4090bef27bfa4615d041fdb4e0df081136858170ae2b2afce0311586b0a16874",
+      "selector": "1 - alpha"
+    },
+    {
+      "name": "POINTWISE_LOWER",
+      "value": "0.025",
+      "source_artifact": "data/statistical_calibration.json",
+      "source_sha256": "4090bef27bfa4615d041fdb4e0df081136858170ae2b2afce0311586b0a16874",
+      "selector": "alpha / 2"
+    },
+    {
+      "name": "POINTWISE_UPPER",
+      "value": "0.975",
+      "source_artifact": "data/statistical_calibration.json",
+      "source_sha256": "4090bef27bfa4615d041fdb4e0df081136858170ae2b2afce0311586b0a16874",
+      "selector": "1 - alpha / 2"
+    },
+    {
+      "name": "DISPLAY_SCALE",
+      "value": "1000",
+      "source_artifact": "data/statistics.json",
+      "source_sha256": "c795074de515745d70721783d53cff5f376695cc470f5ea138cfb897d6944ed4",
+      "selector": "display convention; estimates remain in native units"
+    },
+    {
+      "name": "GNN_VERSION",
+      "value": "4.1.0",
+      "source_artifact": "data/provenance.json",
+      "source_sha256": "977b8d58b55596e65786a7d8412b7e148b3991c383da75299f56af9b69db6e94",
+      "selector": "dependencies[distribution=generalized-notation-notation].version"
+    },
+    {
+      "name": "RE_VERSION",
+      "value": "3.0.0",
+      "source_artifact": "data/provenance.json",
+      "source_sha256": "977b8d58b55596e65786a7d8412b7e148b3991c383da75299f56af9b69db6e94",
+      "selector": "dependencies[distribution=realizing-emptiness].version"
+    },
+    {
+      "name": "PRACTICE_REVERSAL_SCHEDULE",
+      "value": "0.85 for 4 windows; 0.15 for 4 windows; 0.85 for 4 windows",
+      "source_artifact": "data/emptiness_practice.json",
+      "source_sha256": "b183e103b8ff83dbee55bcaf31494b266ff80d31398a9291a202297cc2408da0",
+      "selector": "/design/contexts[-1]/probabilities; run-length encoding"
+    },
+    {
+      "name": "PRACTICE_STATIONARY_PROBABILITY",
+      "value": "0.85",
+      "source_artifact": "data/emptiness_practice.json",
+      "source_sha256": "b183e103b8ff83dbee55bcaf31494b266ff80d31398a9291a202297cc2408da0",
+      "selector": "/design/contexts/0/probabilities/0"
+    },
+    {
+      "name": "BOUNDARY_MIDDLE_RELIABILITY",
+      "value": "0.8",
+      "source_artifact": "data/boundary_gaze.json",
+      "source_sha256": "982383b0ff6a1920edb5f49773bd50f80ed6213ec2d2eb0ac321b2cbe2c1394e",
+      "selector": "/design/probe_reliabilities[middle]"
+    },
+    {
+      "name": "GAZE_STATIONARY_SEQUENCE",
+      "value": "0,0,0",
+      "source_artifact": "data/gaze.json",
+      "source_sha256": "8e0a9816909cb68c17c2e9426374ee62be60645d0f41968770d52a0b747bda9d",
+      "selector": "design.contexts[name=stationary].candidates"
+    },
+    {
+      "name": "GAZE_REVERSAL_SEQUENCE",
+      "value": "0,2,0",
+      "source_artifact": "data/gaze.json",
+      "source_sha256": "8e0a9816909cb68c17c2e9426374ee62be60645d0f41968770d52a0b747bda9d",
+      "selector": "design.contexts[name=reversal].candidates"
+    },
+    {
+      "name": "BOUNDARY_ALTERNATIVE_RESPONSES",
+      "value": "2",
+      "source_artifact": "data/boundary_gaze.json",
+      "source_sha256": "982383b0ff6a1920edb5f49773bd50f80ed6213ec2d2eb0ac321b2cbe2c1394e",
+      "selector": "count(design.scene_maps) - 1"
+    },
+    {
+      "name": "BOUNDARY_QUERIES",
+      "value": "16",
+      "source_artifact": "data/boundary_gaze.json",
+      "source_sha256": "982383b0ff6a1920edb5f49773bd50f80ed6213ec2d2eb0ac321b2cbe2c1394e",
+      "selector": "count(gaze.design.coordinates) + count(design.probe_costs)"
+    },
+    {
+      "name": "BOUNDARY_ENCODING_LABELS",
+      "value": "H0, H1, H2",
+      "source_artifact": "data/boundary_gaze.json",
+      "source_sha256": "982383b0ff6a1920edb5f49773bd50f80ed6213ec2d2eb0ac321b2cbe2c1394e",
+      "selector": "indices(design.scene_maps)"
+    },
+    {
+      "name": "MODEL_ATTENTION_LOCATIONS",
+      "value": "13",
+      "source_artifact": "data/attention.json",
+      "source_sha256": "f6af70311dff79668cba64ce0ceba90a036b8135ca782320de46c6f8d78426f9",
+      "selector": "count(rows[0].beliefs[0])"
+    },
+    {
+      "name": "GAZE_CANDIDATES",
+      "value": "3",
+      "source_artifact": "data/gaze.json",
+      "source_sha256": "8e0a9816909cb68c17c2e9426374ee62be60645d0f41968770d52a0b747bda9d",
+      "selector": "count(design.channels[0][0])"
+    },
+    {
+      "name": "GAZE_REGION_COUNT",
+      "value": "3",
+      "source_artifact": "data/gaze.json",
+      "source_sha256": "8e0a9816909cb68c17c2e9426374ee62be60645d0f41968770d52a0b747bda9d",
+      "selector": "count(design.channels)"
+    },
+    {
+      "name": "UPSTREAM_PRACTICE_COUNT",
+      "value": "3",
+      "source_artifact": "data/upstream_practice.json",
+      "source_sha256": "48460ae06ad06aebb8ae4b461314666aa84c7be1613e2d7f9fc574f107968a55",
+      "selector": "count(protocol_ids)"
+    },
+    {
+      "name": "MODEL_RECALL_STATES",
+      "value": "2",
+      "source_artifact": "specifications/gratitude.gnn.md",
+      "source_sha256": "a2945f6a2d859f2a24c5cbd73316d0098beee0ce1996f993f3449896b6f05d84",
+      "selector": "count(admitted tensors.D)"
+    },
+    {
+      "name": "MODEL_RECALL_OBSERVATIONS",
+      "value": "3",
+      "source_artifact": "specifications/gratitude.gnn.md",
+      "source_sha256": "a2945f6a2d859f2a24c5cbd73316d0098beee0ce1996f993f3449896b6f05d84",
+      "selector": "count(admitted tensors.A)"
+    },
+    {
+      "name": "MODEL_BOUNDARY_RESTRICTED_PRIOR",
+      "value": "0.5, 0.5, 0",
+      "source_artifact": "specifications/emptiness_practice.gnn.md",
+      "source_sha256": "e2732857240f1d79bec2f88e484149f6116687c1115dd9da467b7e26a6644ea2",
+      "selector": "native restricted_prior"
+    },
+    {
+      "name": "MODEL_BOUNDARY_EXCLUDED_ENCODINGS",
+      "value": "H2",
+      "source_artifact": "specifications/emptiness_practice.gnn.md",
+      "source_sha256": "e2732857240f1d79bec2f88e484149f6116687c1115dd9da467b7e26a6644ea2",
+      "selector": "indices(native restricted_prior == 0)"
+    },
+    {
+      "name": "ARTWORK_CREDIT",
+      "value": "Edvard Munch, The Scream (1893), NG.M.00939; photograph Nasjonalmuseet/Børre Høstland; CC BY 4.0",
+      "source_artifact": "assets/provenance.json",
+      "source_sha256": "0983a545b2336efb1de443a3542e4dc01108960c47a625af1934b9379e3d17bd",
+      "selector": "artist/title/date/accession/photo_credit/reproduction_license_on_commons"
+    },
+    {
+      "name": "EXACT_PROCESS_PROBABILITIES",
+      "value": "0.15, 0.85",
+      "source_artifact": "data/exact_decision.json",
+      "source_sha256": "77fc3c23a86f248e2cccc1c4d4a7577bd37e0f896dad8c6e4a836f0c7d76114e",
+      "selector": "operating_points[].process_probability"
+    },
+    {
+      "name": "CONCEPT_COUNT",
+      "value": "4",
+      "source_artifact": "data/concepts.json",
+      "source_sha256": "05f46d45fd54cb058b747529ed12040bd6e7a01d1a343a4567280de188a78c0f",
+      "selector": "length"
+    },
+    {
+      "name": "CONCEPT_GUIDE_TABLE",
+      "value": "| Concept | Operation in this project | Evidential boundary |\n| --- | --- | --- |\n| **A: Observed absence** | Update with the no-event likelihood. | Detection and exposure assumptions matter. |\n| **B: Missing observation** | Retain the prior under our missingness rule. | State-dependent missingness needs its own model. |\n| **C: Counterfactual value** | Assign value without adding an observation. | Reference-dependent value is not new evidence. |\n| **D: Non-reification** | Examine its conditions; retain or revise its use. | Finite revisability does not measure realizing emptiness. |",
+      "source_artifact": "data/concepts.json",
+      "source_sha256": "05f46d45fd54cb058b747529ed12040bd6e7a01d1a343a4567280de188a78c0f",
+      "selector": "all definitions"
+    },
+    {
+      "name": "CONCEPT_A_NAME",
+      "value": "observed absence",
+      "source_artifact": "data/concepts.json",
+      "source_sha256": "05f46d45fd54cb058b747529ed12040bd6e7a01d1a343a4567280de188a78c0f",
+      "selector": "lower(/0/name)"
+    },
+    {
+      "name": "CONCEPT_A_LABEL",
+      "value": "A: Observed absence",
+      "source_artifact": "data/concepts.json",
+      "source_sha256": "05f46d45fd54cb058b747529ed12040bd6e7a01d1a343a4567280de188a78c0f",
+      "selector": "/0/code + ': ' + /0/name"
+    },
+    {
+      "name": "CONCEPT_B_NAME",
+      "value": "missing observation",
+      "source_artifact": "data/concepts.json",
+      "source_sha256": "05f46d45fd54cb058b747529ed12040bd6e7a01d1a343a4567280de188a78c0f",
+      "selector": "lower(/1/name)"
+    },
+    {
+      "name": "CONCEPT_B_LABEL",
+      "value": "B: Missing observation",
+      "source_artifact": "data/concepts.json",
+      "source_sha256": "05f46d45fd54cb058b747529ed12040bd6e7a01d1a343a4567280de188a78c0f",
+      "selector": "/1/code + ': ' + /1/name"
+    },
+    {
+      "name": "CONCEPT_C_NAME",
+      "value": "counterfactual value",
+      "source_artifact": "data/concepts.json",
+      "source_sha256": "05f46d45fd54cb058b747529ed12040bd6e7a01d1a343a4567280de188a78c0f",
+      "selector": "lower(/2/name)"
+    },
+    {
+      "name": "CONCEPT_C_LABEL",
+      "value": "C: Counterfactual value",
+      "source_artifact": "data/concepts.json",
+      "source_sha256": "05f46d45fd54cb058b747529ed12040bd6e7a01d1a343a4567280de188a78c0f",
+      "selector": "/2/code + ': ' + /2/name"
+    },
+    {
+      "name": "CONCEPT_D_NAME",
+      "value": "non-reification",
+      "source_artifact": "data/concepts.json",
+      "source_sha256": "05f46d45fd54cb058b747529ed12040bd6e7a01d1a343a4567280de188a78c0f",
+      "selector": "lower(/3/name)"
+    },
+    {
+      "name": "CONCEPT_D_LABEL",
+      "value": "D: Non-reification",
+      "source_artifact": "data/concepts.json",
+      "source_sha256": "05f46d45fd54cb058b747529ed12040bd6e7a01d1a343a4567280de188a78c0f",
+      "selector": "/3/code + ': ' + /3/name"
+    },
+    {
+      "name": "SOURCE_AFTER_POSITIVE",
+      "value": "90.1/6.1/3.8",
+      "source_artifact": "source:data/sources/manuscript_observations.json",
+      "source_sha256": "b692bda6cf8581b7b87ad13eaef7a5064c74ad3891fc28506a30cfd53c505d40",
+      "selector": "/after_positive_profile_percent; Fisher et al. preprint v1, Figure 5, after-gratitude bars; positive/negative/neutral order"
+    },
+    {
+      "name": "SOURCE_AFTER_NEGATIVE",
+      "value": "90.6/2.3/7.1",
+      "source_artifact": "source:data/sources/manuscript_observations.json",
+      "source_sha256": "b692bda6cf8581b7b87ad13eaef7a5064c74ad3891fc28506a30cfd53c505d40",
+      "selector": "/after_negative_profile_percent; Fisher et al. preprint v1, Figure 5, after-gratitude bars; positive/negative/neutral order"
+    },
+    {
+      "name": "DESTENO_PARTICIPANTS",
+      "value": "75",
+      "source_artifact": "source:data/sources/manuscript_observations.json",
+      "source_sha256": "b692bda6cf8581b7b87ad13eaef7a5064c74ad3891fc28506a30cfd53c505d40",
+      "selector": "/desteno_participants; DeSteno et al. 2014 author accepted manuscript, PDF page 7, Method"
+    },
+    {
+      "name": "CALIBRATION_FIXTURE_SETTINGS",
+      "value": "6 independent mathematical fixtures span a standard Gaussian null, a +1 SD Gaussian shift, a variance-standardized Student-t null with 3 degrees of freedom, a centered exponential null, 5 zero-mean Gaussian strata with standard deviations 0.25, 0.5, 1, 2, 4, and a centered Bernoulli(0.1) null.",
+      "source_artifact": "package:calibration_fixtures.py",
+      "source_sha256": "22955864d9696e286966817381399bc1443188b66072b514edcacf87d85760f0",
+      "selector": "Fixture; GAUSSIAN_SHIFT; HEAVY_TAIL_DF; HETEROGENEOUS_SCALES; BERNOULLI_PROBABILITY"
+    },
+    {
+      "name": "CALIBRATION_FIXTURES",
+      "value": "6",
+      "source_artifact": "package:calibration_fixtures.py",
+      "source_sha256": "22955864d9696e286966817381399bc1443188b66072b514edcacf87d85760f0",
+      "selector": "count(Fixture)"
+    },
+    {
+      "name": "SOURCE_BELIEF_AGENTS",
+      "value": "1000",
+      "source_artifact": "data/source_reconstruction.npz",
+      "source_sha256": "7e818d4e4b63799bde718ad68a3fb5113d8fce291862ed7ac4db09e04b48c5c3",
+      "selector": "baseline.shape[0]"
+    },
+    {
+      "name": "MODEL_PRACTICE_DEPLOYMENTS",
+      "value": "3",
+      "source_artifact": "specifications/emptiness_practice.gnn.md",
+      "source_sha256": "e2732857240f1d79bec2f88e484149f6116687c1115dd9da467b7e26a6644ea2",
+      "selector": "admitted tensors / native admitted_priors"
+    },
+    {
+      "name": "MODEL_PRACTICE_RESTRICTED_COUNT",
+      "value": "2",
+      "source_artifact": "specifications/emptiness_practice.gnn.md",
+      "source_sha256": "e2732857240f1d79bec2f88e484149f6116687c1115dd9da467b7e26a6644ea2",
+      "selector": "admitted tensors / native admitted_priors"
+    },
+    {
+      "name": "MODEL_PRACTICE_SCREEN_CHANNELS",
+      "value": "3",
+      "source_artifact": "specifications/emptiness_practice.gnn.md",
+      "source_sha256": "e2732857240f1d79bec2f88e484149f6116687c1115dd9da467b7e26a6644ea2",
+      "selector": "admitted tensors / native admitted_priors"
+    },
+    {
+      "name": "MODEL_PRACTICE_CHANNEL_ZERO",
+      "value": "0.85, 0.55, 0.15",
+      "source_artifact": "specifications/emptiness_practice.gnn.md",
+      "source_sha256": "e2732857240f1d79bec2f88e484149f6116687c1115dd9da467b7e26a6644ea2",
+      "selector": "admitted tensors / native admitted_priors"
+    },
+    {
+      "name": "MODEL_PRACTICE_RESTRICTED_PRIOR",
+      "value": "0.5, 0.5, 0",
+      "source_artifact": "specifications/emptiness_practice.gnn.md",
+      "source_sha256": "e2732857240f1d79bec2f88e484149f6116687c1115dd9da467b7e26a6644ea2",
+      "selector": "admitted tensors / native admitted_priors"
+    },
+    {
+      "name": "MODEL_PRACTICE_OPEN_PRIOR",
+      "value": "0.333333, 0.333333, 0.333333",
+      "source_artifact": "specifications/emptiness_practice.gnn.md",
+      "source_sha256": "e2732857240f1d79bec2f88e484149f6116687c1115dd9da467b7e26a6644ea2",
+      "selector": "admitted tensors / native admitted_priors"
+    },
+    {
+      "name": "MODEL_GAZE_PREFERENCES",
+      "value": "2,0,-2",
+      "source_artifact": "specifications/gaze.gnn.md",
+      "source_sha256": "2a370a81850d838c4ab2449218548e0f5f8bbb1940add20a022aa0e01eec6735",
+      "selector": "admitted tensors / native admitted_priors"
+    },
+    {
+      "name": "MODEL_PRACTICE_RETAINED_MASS_TEX",
+      "value": "\\frac{2}{3}",
+      "source_artifact": "specifications/emptiness_practice.gnn.md",
+      "source_sha256": "e2732857240f1d79bec2f88e484149f6116687c1115dd9da467b7e26a6644ea2",
+      "selector": "admitted tensors / native admitted_priors"
+    },
+    {
+      "name": "MODEL_PRACTICE_SELECTION_RULE_TEX",
+      "value": "2L_{3}(k)>L_{1}(k)+L_{2}(k)",
+      "source_artifact": "specifications/emptiness_practice.gnn.md",
+      "source_sha256": "e2732857240f1d79bec2f88e484149f6116687c1115dd9da467b7e26a6644ea2",
+      "selector": "admitted tensors / native admitted_priors"
+    }
+  ],
+  "findings": [
+    {
+      "name": "ATTENTION_FINDINGS",
+      "value_sha256": "b8f291dc4979a0fd6acede883ea45820dcad0c16270369ef0b8fa738a7c43b59"
+    },
+    {
+      "name": "BOUNDARY_GAZE_FINDINGS",
+      "value_sha256": "636e67e3f7cec3ed227f71799b6e04b706aae3b21c6689b125ac3ac26db36fc0"
+    },
+    {
+      "name": "BOUNDARY_INTERVAL_TABLE",
+      "value_sha256": "b31d1f33a2bcde863627f5eef1551628330b2d534264b149b68a3add8b6f31fc"
+    },
+    {
+      "name": "BOUNDARY_UPSTREAM_FINDINGS",
+      "value_sha256": "7dfcb2dee9a154c0545449412b814c79578ffdd2237991cc2e5b382d5632f1cb"
+    },
+    {
+      "name": "CALIBRATION_FINDINGS",
+      "value_sha256": "47bc05e00561098536aab0ae87ac404f6904c90c7c835fddd572d1f1810bcbca"
+    },
+    {
+      "name": "EXACT_DECISION_FINDINGS",
+      "value_sha256": "62dd6f96fb7f6c351887da2bf098b318a8c8531c86aaa98aa7434563ed6fb479"
+    },
+    {
+      "name": "EXPERIMENT_LOGIC_TABLE",
+      "value_sha256": "9a3b387d8b229c09b44e24628ce7a42919aca85c9407349adc14c0c4212d0a07"
+    },
+    {
+      "name": "GAZE_INTERVAL_FINDINGS",
+      "value_sha256": "526b47650f1b28e95e9d45d9d878574f441029962bbd4b9b65532a7fb3351dc8"
+    },
+    {
+      "name": "GAZE_JOINT_FINDINGS",
+      "value_sha256": "71bc425b79b17bef397fbf710b2795553fc394597ae637f19c1389deaef87f63"
+    },
+    {
+      "name": "GAZE_JOINT_INTERVAL_FINDINGS",
+      "value_sha256": "eb1796e2414b886cc166c5eeef00641ca02e210dba4e06cbd77c4ecaf05cb8f1"
+    },
+    {
+      "name": "GAZE_MAIN_FINDINGS",
+      "value_sha256": "cb2f6027839b253d047425278b87596863e6035bc8aa04414b4c4001ebff48d3"
+    },
+    {
+      "name": "GAZE_SOURCE_FINDINGS",
+      "value_sha256": "c2ce3fd7ba9d59f65cf77cb0ee8b8c176c84e586be724a27da9ff2d54c47ac5b"
+    },
+    {
+      "name": "HETEROGENEITY_FINDINGS",
+      "value_sha256": "a9e5bd1d43e6eb0fa5031ecf94534dc40a1320b152fa853767775a0ccb0b39a5"
+    },
+    {
+      "name": "INTERVAL_FINDINGS",
+      "value_sha256": "18c74f2ab3ecb3b954aa736c6b053bdaa0c2bd04315a4eeea8c05f4d67a08085"
+    },
+    {
+      "name": "JOINT_CALIBRATION_FINDINGS",
+      "value_sha256": "1e9aea78035fd6fec28e83960336217c04455a85ae5d066d942eea21db6c7ad9"
+    },
+    {
+      "name": "MAIN_FINDINGS",
+      "value_sha256": "65f411636f0f0b6259318435435913f62b2d68af16c9cfeb9a6b35774b9e2123"
+    },
+    {
+      "name": "NOTHINGNESS_FINDINGS",
+      "value_sha256": "3cc662d0bc25064e7b08f81ed5b606ae9933f957a3af22e0bbfa077f523be9d3"
+    },
+    {
+      "name": "PARAMETER_TABLE",
+      "value_sha256": "a4c924e05423274e1faa0f58f2ff670c52737cfc692d986b160a527257eac592"
+    },
+    {
+      "name": "PRACTICE_FINDINGS",
+      "value_sha256": "c8ffa309f452e69b4adb055d2d050763194301fc4cf85a72dd864a0f37ba03c4"
+    },
+    {
+      "name": "PRACTICE_INTERVAL_FINDINGS",
+      "value_sha256": "50cd61c1e6fffc553f27343f86cb8cd54119d565ead60766a98e85139008f508"
+    },
+    {
+      "name": "SENSITIVITY_FINDINGS",
+      "value_sha256": "3deaa0a8a027224f43226418d6073620ca87bd8790783f0c110ead460eb7f794"
+    },
+    {
+      "name": "SOURCE_FINDINGS",
+      "value_sha256": "2ce576bef1e87061356962ad411edcc6df19612cb36d7285905eff1339f31636"
+    }
+  ],
+  "main_sections": [
+    "Abstract",
+    "Introduction",
+    "Methods",
+    "Results",
+    "Discussion",
+    "References"
+  ],
+  "composed_sha256": "66e86daf5036aab0c0bed6d93ec4079dca2fb71918808c77c6d908f3fbc0753b"
+}

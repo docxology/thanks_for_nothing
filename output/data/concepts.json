@@ -1,0 +1,34 @@
+[
+  {
+    "code": "A",
+    "name": "Observed absence",
+    "role": "positive_recall",
+    "meaning": "A working channel records no event.",
+    "operation": "Update with the no-event likelihood.",
+    "boundary": "Detection and exposure assumptions matter."
+  },
+  {
+    "code": "B",
+    "name": "Missing observation",
+    "role": "no_recall",
+    "meaning": "An observation record is unavailable.",
+    "operation": "Retain the prior under our missingness rule.",
+    "boundary": "State-dependent missingness needs its own model."
+  },
+  {
+    "code": "C",
+    "name": "Counterfactual value",
+    "role": "absence_appreciation",
+    "meaning": "Actuality is compared with a specified alternative.",
+    "operation": "Assign value without adding an observation.",
+    "boundary": "Reference-dependent value is not new evidence."
+  },
+  {
+    "code": "D",
+    "name": "Non-reification",
+    "role": "matched_random_recall",
+    "meaning": "A useful distinction is not held as intrinsically fixed.",
+    "operation": "Examine its conditions; retain or revise its use.",
+    "boundary": "Finite revisability does not measure realizing emptiness."
+  }
+]

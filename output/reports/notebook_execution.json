@@ -1,0 +1,30 @@
+[
+  {
+    "code_cells": 11,
+    "executed_cells": 11,
+    "error_outputs": 0,
+    "kernel_bound_to_current_interpreter": true,
+    "name": "gratitude_absence"
+  },
+  {
+    "code_cells": 7,
+    "executed_cells": 7,
+    "error_outputs": 0,
+    "kernel_bound_to_current_interpreter": true,
+    "name": "belief_updating"
+  },
+  {
+    "code_cells": 13,
+    "executed_cells": 13,
+    "error_outputs": 0,
+    "kernel_bound_to_current_interpreter": true,
+    "name": "gaze_emptiness"
+  },
+  {
+    "code_cells": 11,
+    "executed_cells": 11,
+    "error_outputs": 0,
+    "kernel_bound_to_current_interpreter": true,
+    "name": "boundary_gaze"
+  }
+]

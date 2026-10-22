@@ -1,0 +1,3499 @@
+{
+  "schema": "thanks_for_nothing.gnn_graphs.v1",
+  "parser_sha256": "24a30ea7e67d597e891fe16e521e13be5f2013af90eeb282cfe257940b281e82",
+  "renderer_sha256": "cbc261526cbddf5c0346eae33394e400dcfba382f1cfa058d2e94da3fd270c18",
+  "models": [
+    {
+      "model_id": "analysis",
+      "source_sha256": "93ac1792464c9ba22a24cdd48e474a868159dc86e03af0d37f9287e9fe357e7e",
+      "variables": [
+        [
+          "A",
+          [
+            1,
+            1
+          ]
+        ],
+        [
+          "B",
+          [
+            1,
+            1,
+            1
+          ]
+        ],
+        [
+          "C",
+          [
+            1
+          ]
+        ],
+        [
+          "D",
+          [
+            1
+          ]
+        ],
+        [
+          "s",
+          [
+            1
+          ]
+        ],
+        [
+          "o",
+          [
+            1
+          ]
+        ],
+        [
+          "u",
+          [
+            1
+          ]
+        ]
+      ],
+      "edges": [
+        {
+          "source": "D",
+          "target": "s",
+          "directed": true
+        },
+        {
+          "source": "s",
+          "target": "A",
+          "directed": true
+        },
+        {
+          "source": "A",
+          "target": "o",
+          "directed": true
+        },
+        {
+          "source": "s",
+          "target": "B",
+          "directed": true
+        },
+        {
+          "source": "u",
+          "target": "B",
+          "directed": true
+        },
+        {
+          "source": "B",
+          "target": "s",
+          "directed": true
+        },
+        {
+          "source": "C",
+          "target": "u",
+          "directed": true
+        }
+      ],
+      "tensor_shapes": [
+        [
+          "A",
+          [
+            1,
+            1
+          ]
+        ],
+        [
+          "B",
+          [
+            1,
+            1,
+            1
+          ]
+        ],
+        [
+          "C",
+          [
+            1
+          ]
+        ],
+        [
+          "D",
+          [
+            1
+          ]
+        ]
+      ],
+      "execution": "Protocol carrier",
+      "evidence_artifact": "data/analysis_protocol.json",
+      "evidence_sha256": "6772e87fe50692f70379e6a78e09e824779db8b9112affe0473aadb5b5a44f6c"
+    },
+    {
+      "model_id": "gratitude",
+      "source_sha256": "a2945f6a2d859f2a24c5cbd73316d0098beee0ce1996f993f3449896b6f05d84",
+      "variables": [
+        [
+          "A",
+          [
+            3,
+            2
+          ]
+        ],
+        [
+          "B",
+          [
+            2,
+            2,
+            1
+          ]
+        ],
+        [
+          "C",
+          [
+            3
+          ]
+        ],
+        [
+          "D",
+          [
+            2
+          ]
+        ],
+        [
+          "s",
+          [
+            2
+          ]
+        ],
+        [
+          "o",
+          [
+            3
+          ]
+        ],
+        [
+          "u",
+          [
+            1
+          ]
+        ]
+      ],
+      "edges": [
+        {
+          "source": "D",
+          "target": "s",
+          "directed": true
+        },
+        {
+          "source": "s",
+          "target": "A",
+          "directed": true
+        },
+        {
+          "source": "A",
+          "target": "o",
+          "directed": true
+        },
+        {
+          "source": "s",
+          "target": "B",
+          "directed": true
+        },
+        {
+          "source": "u",
+          "target": "B",
+          "directed": true
+        },
+        {
+          "source": "B",
+          "target": "s",
+          "directed": true
+        },
+        {
+          "source": "C",
+          "target": "u",
+          "directed": true
+        }
+      ],
+      "tensor_shapes": [
+        [
+          "A",
+          [
+            3,
+            2
+          ]
+        ],
+        [
+          "B",
+          [
+            2,
+            2,
+            1
+          ]
+        ],
+        [
+          "C",
+          [
+            3
+          ]
+        ],
+        [
+          "D",
+          [
+            2
+          ]
+        ]
+      ],
+      "execution": "Finite learner",
+      "evidence_artifact": "data/study.json",
+      "evidence_sha256": "f56b7c4eec0fcd43f752905ba1b83680fe0d192514318ad6982f6665b69d3591"
+    },
+    {
+      "model_id": "nothingness",
+      "source_sha256": "5cfa8875d9f393cbfd9b0050e0a63ad1695b79725b4e131499593f3590a7622f",
+      "variables": [
+        [
+          "A",
+          [
+            2,
+            2
+          ]
+        ],
+        [
+          "B",
+          [
+            2,
+            2,
+            1
+          ]
+        ],
+        [
+          "C",
+          [
+            2
+          ]
+        ],
+        [
+          "D",
+          [
+            2
+          ]
+        ],
+        [
+          "s",
+          [
+            2
+          ]
+        ],
+        [
+          "o",
+          [
+            2
+          ]
+        ],
+        [
+          "u",
+          [
+            1
+          ]
+        ]
+      ],
+      "edges": [
+        {
+          "source": "D",
+          "target": "s",
+          "directed": true
+        },
+        {
+          "source": "s",
+          "target": "A",
+          "directed": true
+        },
+        {
+          "source": "A",
+          "target": "o",
+          "directed": true
+        },
+        {
+          "source": "s",
+          "target": "B",
+          "directed": true
+        },
+        {
+          "source": "u",
+          "target": "B",
+          "directed": true
+        },
+        {
+          "source": "B",
+          "target": "s",
+          "directed": true
+        },
+        {
+          "source": "C",
+          "target": "u",
+          "directed": true
+        }
+      ],
+      "tensor_shapes": [
+        [
+          "A",
+          [
+            2,
+            2
+          ]
+        ],
+        [
+          "B",
+          [
+            2,
+            2,
+            1
+          ]
+        ],
+        [
+          "C",
+          [
+            2
+          ]
+        ],
+        [
+          "D",
+          [
+            2
+          ]
+        ]
+      ],
+      "execution": "Finite comparators",
+      "evidence_artifact": "data/nothingness.json",
+      "evidence_sha256": "a4155f3f15d6d21e58d17cbf5736692908d980cb88e47555e30a6476076ff2a2"
+    },
+    {
+      "model_id": "attention_positive",
+      "source_sha256": "1d47aaeea25350be79ff83cd96ba12d68b437b78fce03d95acd62ffde994b059",
+      "variables": [
+        [
+          "A",
+          [
+            3,
+            13
+          ]
+        ],
+        [
+          "B",
+          [
+            13,
+            13,
+            13
+          ]
+        ],
+        [
+          "C",
+          [
+            3
+          ]
+        ],
+        [
+          "D",
+          [
+            13
+          ]
+        ],
+        [
+          "s",
+          [
+            13
+          ]
+        ],
+        [
+          "o",
+          [
+            3
+          ]
+        ],
+        [
+          "u",
+          [
+            1
+          ]
+        ]
+      ],
+      "edges": [
+        {
+          "source": "D",
+          "target": "s",
+          "directed": true
+        },
+        {
+          "source": "s",
+          "target": "A",
+          "directed": true
+        },
+        {
+          "source": "A",
+          "target": "o",
+          "directed": true
+        },
+        {
+          "source": "s",
+          "target": "B",
+          "directed": true
+        },
+        {
+          "source": "u",
+          "target": "B",
+          "directed": true
+        },
+        {
+          "source": "B",
+          "target": "s",
+          "directed": true
+        },
+        {
+          "source": "C",
+          "target": "u",
+          "directed": true
+        }
+      ],
+      "tensor_shapes": [
+        [
+          "A",
+          [
+            3,
+            13
+          ]
+        ],
+        [
+          "B",
+          [
+            13,
+            13,
+            13
+          ]
+        ],
+        [
+          "C",
+          [
+            3
+          ]
+        ],
+        [
+          "D",
+          [
+            13
+          ]
+        ]
+      ],
+      "execution": "Native GNN / pymdp",
+      "evidence_artifact": "data/attention.json",
+      "evidence_sha256": "f6af70311dff79668cba64ce0ceba90a036b8135ca782320de46c6f8d78426f9"
+    },
+    {
+      "model_id": "attention_negative",
+      "source_sha256": "2b5411da4364e54ac7b244fbf2687a6d9e70005a6095b94c6d08f7ddd625f129",
+      "variables": [
+        [
+          "A",
+          [
+            3,
+            13
+          ]
+        ],
+        [
+          "B",
+          [
+            13,
+            13,
+            13
+          ]
+        ],
+        [
+          "C",
+          [
+            3
+          ]
+        ],
+        [
+          "D",
+          [
+            13
+          ]
+        ],
+        [
+          "s",
+          [
+            13
+          ]
+        ],
+        [
+          "o",
+          [
+            3
+          ]
+        ],
+        [
+          "u",
+          [
+            1
+          ]
+        ]
+      ],
+      "edges": [
+        {
+          "source": "D",
+          "target": "s",
+          "directed": true
+        },
+        {
+          "source": "s",
+          "target": "A",
+          "directed": true
+        },
+        {
+          "source": "A",
+          "target": "o",
+          "directed": true
+        },
+        {
+          "source": "s",
+          "target": "B",
+          "directed": true
+        },
+        {
+          "source": "u",
+          "target": "B",
+          "directed": true
+        },
+        {
+          "source": "B",
+          "target": "s",
+          "directed": true
+        },
+        {
+          "source": "C",
+          "target": "u",
+          "directed": true
+        }
+      ],
+      "tensor_shapes": [
+        [
+          "A",
+          [
+            3,
+            13
+          ]
+        ],
+        [
+          "B",
+          [
+            13,
+            13,
+            13
+          ]
+        ],
+        [
+          "C",
+          [
+            3
+          ]
+        ],
+        [
+          "D",
+          [
+            13
+          ]
+        ]
+      ],
+      "execution": "Native GNN / pymdp",
+      "evidence_artifact": "data/attention.json",
+      "evidence_sha256": "f6af70311dff79668cba64ce0ceba90a036b8135ca782320de46c6f8d78426f9"
+    },
+    {
+      "model_id": "emptiness_practice",
+      "source_sha256": "e2732857240f1d79bec2f88e484149f6116687c1115dd9da467b7e26a6644ea2",
+      "variables": [
+        [
+          "A",
+          [
+            2,
+            3
+          ]
+        ],
+        [
+          "B",
+          [
+            3,
+            3,
+            1
+          ]
+        ],
+        [
+          "C",
+          [
+            2
+          ]
+        ],
+        [
+          "D",
+          [
+            3
+          ]
+        ],
+        [
+          "s",
+          [
+            3
+          ]
+        ],
+        [
+          "o",
+          [
+            2
+          ]
+        ],
+        [
+          "u",
+          [
+            1
+          ]
+        ]
+      ],
+      "edges": [
+        {
+          "source": "D",
+          "target": "s",
+          "directed": true
+        },
+        {
+          "source": "s",
+          "target": "A",
+          "directed": true
+        },
+        {
+          "source": "A",
+          "target": "o",
+          "directed": true
+        },
+        {
+          "source": "s",
+          "target": "B",
+          "directed": true
+        },
+        {
+          "source": "u",
+          "target": "B",
+          "directed": true
+        },
+        {
+          "source": "B",
+          "target": "s",
+          "directed": true
+        },
+        {
+          "source": "C",
+          "target": "u",
+          "directed": true
+        }
+      ],
+      "tensor_shapes": [
+        [
+          "A",
+          [
+            2,
+            3
+          ]
+        ],
+        [
+          "B",
+          [
+            3,
+            3,
+            1
+          ]
+        ],
+        [
+          "C",
+          [
+            2
+          ]
+        ],
+        [
+          "D",
+          [
+            3
+          ]
+        ]
+      ],
+      "execution": "Finite inquiry",
+      "evidence_artifact": "data/emptiness_practice.json",
+      "evidence_sha256": "b183e103b8ff83dbee55bcaf31494b266ff80d31398a9291a202297cc2408da0"
+    },
+    {
+      "model_id": "gaze",
+      "source_sha256": "2a370a81850d838c4ab2449218548e0f5f8bbb1940add20a022aa0e01eec6735",
+      "variables": [
+        [
+          "A",
+          [
+            3,
+            3
+          ]
+        ],
+        [
+          "B",
+          [
+            3,
+            3,
+            1
+          ]
+        ],
+        [
+          "C",
+          [
+            3
+          ]
+        ],
+        [
+          "D",
+          [
+            3
+          ]
+        ],
+        [
+          "s",
+          [
+            3
+          ]
+        ],
+        [
+          "o",
+          [
+            3
+          ]
+        ],
+        [
+          "u",
+          [
+            1
+          ]
+        ]
+      ],
+      "edges": [
+        {
+          "source": "D",
+          "target": "s",
+          "directed": true
+        },
+        {
+          "source": "s",
+          "target": "A",
+          "directed": true
+        },
+        {
+          "source": "A",
+          "target": "o",
+          "directed": true
+        },
+        {
+          "source": "s",
+          "target": "B",
+          "directed": true
+        },
+        {
+          "source": "u",
+          "target": "B",
+          "directed": true
+        },
+        {
+          "source": "B",
+          "target": "s",
+          "directed": true
+        },
+        {
+          "source": "C",
+          "target": "u",
+          "directed": true
+        }
+      ],
+      "tensor_shapes": [
+        [
+          "A",
+          [
+            3,
+            3
+          ]
+        ],
+        [
+          "B",
+          [
+            3,
+            3,
+            1
+          ]
+        ],
+        [
+          "C",
+          [
+            3
+          ]
+        ],
+        [
+          "D",
+          [
+            3
+          ]
+        ]
+      ],
+      "execution": "Finite scene inquiry",
+      "evidence_artifact": "data/gaze.json",
+      "evidence_sha256": "8e0a9816909cb68c17c2e9426374ee62be60645d0f41968770d52a0b747bda9d"
+    },
+    {
+      "model_id": "boundary_gaze",
+      "source_sha256": "4d0b48141d3b6738b215cda42546a6b2c2f467e2bb7327132819a9727775a453",
+      "variables": [
+        [
+          "A",
+          [
+            9,
+            9
+          ]
+        ],
+        [
+          "B",
+          [
+            9,
+            9,
+            1
+          ]
+        ],
+        [
+          "C",
+          [
+            9
+          ]
+        ],
+        [
+          "D",
+          [
+            9
+          ]
+        ],
+        [
+          "s",
+          [
+            9
+          ]
+        ],
+        [
+          "o",
+          [
+            9
+          ]
+        ],
+        [
+          "u",
+          [
+            1
+          ]
+        ]
+      ],
+      "edges": [
+        {
+          "source": "D",
+          "target": "s",
+          "directed": true
+        },
+        {
+          "source": "s",
+          "target": "A",
+          "directed": true
+        },
+        {
+          "source": "A",
+          "target": "o",
+          "directed": true
+        },
+        {
+          "source": "s",
+          "target": "B",
+          "directed": true
+        },
+        {
+          "source": "u",
+          "target": "B",
+          "directed": true
+        },
+        {
+          "source": "B",
+          "target": "s",
+          "directed": true
+        },
+        {
+          "source": "C",
+          "target": "u",
+          "directed": true
+        }
+      ],
+      "tensor_shapes": [
+        [
+          "A",
+          [
+            9,
+            9
+          ]
+        ],
+        [
+          "B",
+          [
+            9,
+            9,
+            1
+          ]
+        ],
+        [
+          "C",
+          [
+            9
+          ]
+        ],
+        [
+          "D",
+          [
+            9
+          ]
+        ]
+      ],
+      "execution": "Finite joint inquiry",
+      "evidence_artifact": "data/boundary_gaze.json",
+      "evidence_sha256": "982383b0ff6a1920edb5f49773bd50f80ed6213ec2d2eb0ac321b2cbe2c1394e"
+    },
+    {
+      "model_id": "attention_process_233c0a933d51ca4f",
+      "source_sha256": "ca90f1daf1527b1201728c7049fdb62304d44da6b5ea3e159e4fde47ed6999ec",
+      "variables": [
+        [
+          "A",
+          [
+            3,
+            13
+          ]
+        ],
+        [
+          "B",
+          [
+            13,
+            13,
+            13
+          ]
+        ],
+        [
+          "C",
+          [
+            3
+          ]
+        ],
+        [
+          "D",
+          [
+            13
+          ]
+        ],
+        [
+          "s",
+          [
+            13
+          ]
+        ],
+        [
+          "o",
+          [
+            3
+          ]
+        ],
+        [
+          "u",
+          [
+            13
+          ]
+        ]
+      ],
+      "edges": [
+        {
+          "source": "D",
+          "target": "s",
+          "directed": true
+        },
+        {
+          "source": "s",
+          "target": "A",
+          "directed": true
+        },
+        {
+          "source": "A",
+          "target": "o",
+          "directed": true
+        },
+        {
+          "source": "s",
+          "target": "B",
+          "directed": true
+        },
+        {
+          "source": "u",
+          "target": "B",
+          "directed": true
+        },
+        {
+          "source": "B",
+          "target": "s",
+          "directed": true
+        },
+        {
+          "source": "C",
+          "target": "u",
+          "directed": true
+        }
+      ],
+      "tensor_shapes": [
+        [
+          "A",
+          [
+            3,
+            13
+          ]
+        ],
+        [
+          "B",
+          [
+            13,
+            13,
+            13
+          ]
+        ],
+        [
+          "C",
+          [
+            3
+          ]
+        ],
+        [
+          "D",
+          [
+            13
+          ]
+        ]
+      ],
+      "execution": "Local / attention_process",
+      "evidence_artifact": "data/generative_models.json",
+      "evidence_sha256": "9577d1ed6eb7645a1dad75a7cf4d2e40b7c281b5b120b8ff4ec24698ece46a87"
+    },
+    {
+      "model_id": "boundary_diagnostic_f8503e51a2cb8485",
+      "source_sha256": "e378857ea924d63729e1ccb74b99cf00ff2ac85222c35cc8c933d2bed0e0ccb8",
+      "variables": [
+        [
+          "A",
+          [
+            9,
+            144
+          ]
+        ],
+        [
+          "B",
+          [
+            144,
+            144,
+            16
+          ]
+        ],
+        [
+          "C",
+          [
+            9
+          ]
+        ],
+        [
+          "D",
+          [
+            144
+          ]
+        ],
+        [
+          "s",
+          [
+            144
+          ]
+        ],
+        [
+          "o",
+          [
+            9
+          ]
+        ],
+        [
+          "u",
+          [
+            16
+          ]
+        ],
+        [
+          "q",
+          [
+            16
+          ]
+        ],
+        [
+          "z",
+          [
+            9
+          ]
+        ]
+      ],
+      "edges": [
+        {
+          "source": "D",
+          "target": "s",
+          "directed": true
+        },
+        {
+          "source": "s",
+          "target": "A",
+          "directed": true
+        },
+        {
+          "source": "A",
+          "target": "o",
+          "directed": true
+        },
+        {
+          "source": "s",
+          "target": "B",
+          "directed": true
+        },
+        {
+          "source": "u",
+          "target": "B",
+          "directed": true
+        },
+        {
+          "source": "B",
+          "target": "s",
+          "directed": true
+        },
+        {
+          "source": "C",
+          "target": "u",
+          "directed": true
+        },
+        {
+          "source": "q",
+          "target": "s",
+          "directed": true
+        },
+        {
+          "source": "z",
+          "target": "s",
+          "directed": true
+        },
+        {
+          "source": "u",
+          "target": "q",
+          "directed": true
+        }
+      ],
+      "tensor_shapes": [
+        [
+          "A",
+          [
+            9,
+            144
+          ]
+        ],
+        [
+          "B",
+          [
+            144,
+            144,
+            16
+          ]
+        ],
+        [
+          "C",
+          [
+            9
+          ]
+        ],
+        [
+          "D",
+          [
+            144
+          ]
+        ]
+      ],
+      "execution": "Local / boundary_diagnostic",
+      "evidence_artifact": "data/generative_models.json",
+      "evidence_sha256": "9577d1ed6eb7645a1dad75a7cf4d2e40b7c281b5b120b8ff4ec24698ece46a87"
+    },
+    {
+      "model_id": "boundary_diagnostic_restricted_c9cc422f3b149d84",
+      "source_sha256": "693d25ef8aaa2119eb265f82bfb34cfc8bbc8f8ec5e12d1e9db442ef62d9be3a",
+      "variables": [
+        [
+          "A",
+          [
+            9,
+            144
+          ]
+        ],
+        [
+          "B",
+          [
+            144,
+            144,
+            16
+          ]
+        ],
+        [
+          "C",
+          [
+            9
+          ]
+        ],
+        [
+          "D",
+          [
+            144
+          ]
+        ],
+        [
+          "s",
+          [
+            144
+          ]
+        ],
+        [
+          "o",
+          [
+            9
+          ]
+        ],
+        [
+          "u",
+          [
+            16
+          ]
+        ],
+        [
+          "q",
+          [
+            16
+          ]
+        ],
+        [
+          "z",
+          [
+            9
+          ]
+        ]
+      ],
+      "edges": [
+        {
+          "source": "D",
+          "target": "s",
+          "directed": true
+        },
+        {
+          "source": "s",
+          "target": "A",
+          "directed": true
+        },
+        {
+          "source": "A",
+          "target": "o",
+          "directed": true
+        },
+        {
+          "source": "s",
+          "target": "B",
+          "directed": true
+        },
+        {
+          "source": "u",
+          "target": "B",
+          "directed": true
+        },
+        {
+          "source": "B",
+          "target": "s",
+          "directed": true
+        },
+        {
+          "source": "C",
+          "target": "u",
+          "directed": true
+        },
+        {
+          "source": "q",
+          "target": "s",
+          "directed": true
+        },
+        {
+          "source": "z",
+          "target": "s",
+          "directed": true
+        },
+        {
+          "source": "u",
+          "target": "q",
+          "directed": true
+        }
+      ],
+      "tensor_shapes": [
+        [
+          "A",
+          [
+            9,
+            144
+          ]
+        ],
+        [
+          "B",
+          [
+            144,
+            144,
+            16
+          ]
+        ],
+        [
+          "C",
+          [
+            9
+          ]
+        ],
+        [
+          "D",
+          [
+            144
+          ]
+        ]
+      ],
+      "execution": "Local / boundary_diagnostic_restricted",
+      "evidence_artifact": "data/generative_models.json",
+      "evidence_sha256": "9577d1ed6eb7645a1dad75a7cf4d2e40b7c281b5b120b8ff4ec24698ece46a87"
+    },
+    {
+      "model_id": "boundary_label_only_cbbb7fb13c21bf01",
+      "source_sha256": "b191272df60891cc01b4759857d82ef8c3a34617f2ab3399dd19f8636047a9f7",
+      "variables": [
+        [
+          "A",
+          [
+            9,
+            144
+          ]
+        ],
+        [
+          "B",
+          [
+            144,
+            144,
+            16
+          ]
+        ],
+        [
+          "C",
+          [
+            9
+          ]
+        ],
+        [
+          "D",
+          [
+            144
+          ]
+        ],
+        [
+          "s",
+          [
+            144
+          ]
+        ],
+        [
+          "o",
+          [
+            9
+          ]
+        ],
+        [
+          "u",
+          [
+            16
+          ]
+        ],
+        [
+          "q",
+          [
+            16
+          ]
+        ],
+        [
+          "z",
+          [
+            9
+          ]
+        ]
+      ],
+      "edges": [
+        {
+          "source": "D",
+          "target": "s",
+          "directed": true
+        },
+        {
+          "source": "s",
+          "target": "A",
+          "directed": true
+        },
+        {
+          "source": "A",
+          "target": "o",
+          "directed": true
+        },
+        {
+          "source": "s",
+          "target": "B",
+          "directed": true
+        },
+        {
+          "source": "u",
+          "target": "B",
+          "directed": true
+        },
+        {
+          "source": "B",
+          "target": "s",
+          "directed": true
+        },
+        {
+          "source": "C",
+          "target": "u",
+          "directed": true
+        },
+        {
+          "source": "q",
+          "target": "s",
+          "directed": true
+        },
+        {
+          "source": "z",
+          "target": "s",
+          "directed": true
+        },
+        {
+          "source": "u",
+          "target": "q",
+          "directed": true
+        }
+      ],
+      "tensor_shapes": [
+        [
+          "A",
+          [
+            9,
+            144
+          ]
+        ],
+        [
+          "B",
+          [
+            144,
+            144,
+            16
+          ]
+        ],
+        [
+          "C",
+          [
+            9
+          ]
+        ],
+        [
+          "D",
+          [
+            144
+          ]
+        ]
+      ],
+      "execution": "Local / boundary_label_only",
+      "evidence_artifact": "data/generative_models.json",
+      "evidence_sha256": "9577d1ed6eb7645a1dad75a7cf4d2e40b7c281b5b120b8ff4ec24698ece46a87"
+    },
+    {
+      "model_id": "boundary_label_only_restricted_e07f92eecf66b427",
+      "source_sha256": "0955c7b2819a2c7b54ed6a189a470c51ea1192376931c9b2d361857399a9faf4",
+      "variables": [
+        [
+          "A",
+          [
+            9,
+            144
+          ]
+        ],
+        [
+          "B",
+          [
+            144,
+            144,
+            16
+          ]
+        ],
+        [
+          "C",
+          [
+            9
+          ]
+        ],
+        [
+          "D",
+          [
+            144
+          ]
+        ],
+        [
+          "s",
+          [
+            144
+          ]
+        ],
+        [
+          "o",
+          [
+            9
+          ]
+        ],
+        [
+          "u",
+          [
+            16
+          ]
+        ],
+        [
+          "q",
+          [
+            16
+          ]
+        ],
+        [
+          "z",
+          [
+            9
+          ]
+        ]
+      ],
+      "edges": [
+        {
+          "source": "D",
+          "target": "s",
+          "directed": true
+        },
+        {
+          "source": "s",
+          "target": "A",
+          "directed": true
+        },
+        {
+          "source": "A",
+          "target": "o",
+          "directed": true
+        },
+        {
+          "source": "s",
+          "target": "B",
+          "directed": true
+        },
+        {
+          "source": "u",
+          "target": "B",
+          "directed": true
+        },
+        {
+          "source": "B",
+          "target": "s",
+          "directed": true
+        },
+        {
+          "source": "C",
+          "target": "u",
+          "directed": true
+        },
+        {
+          "source": "q",
+          "target": "s",
+          "directed": true
+        },
+        {
+          "source": "z",
+          "target": "s",
+          "directed": true
+        },
+        {
+          "source": "u",
+          "target": "q",
+          "directed": true
+        }
+      ],
+      "tensor_shapes": [
+        [
+          "A",
+          [
+            9,
+            144
+          ]
+        ],
+        [
+          "B",
+          [
+            144,
+            144,
+            16
+          ]
+        ],
+        [
+          "C",
+          [
+            9
+          ]
+        ],
+        [
+          "D",
+          [
+            144
+          ]
+        ]
+      ],
+      "execution": "Local / boundary_label_only_restricted",
+      "evidence_artifact": "data/generative_models.json",
+      "evidence_sha256": "9577d1ed6eb7645a1dad75a7cf4d2e40b7c281b5b120b8ff4ec24698ece46a87"
+    },
+    {
+      "model_id": "optimism_poor_2f9fc0b093064cd3",
+      "source_sha256": "e04358f14783c69aeabafa74ba4ec500c154938eafe6849d525f9a3c1853204a",
+      "variables": [
+        [
+          "A",
+          [
+            2,
+            2
+          ]
+        ],
+        [
+          "B",
+          [
+            2,
+            2,
+            1
+          ]
+        ],
+        [
+          "C",
+          [
+            2
+          ]
+        ],
+        [
+          "D",
+          [
+            2
+          ]
+        ],
+        [
+          "s",
+          [
+            2
+          ]
+        ],
+        [
+          "o",
+          [
+            2
+          ]
+        ],
+        [
+          "u",
+          [
+            1
+          ]
+        ]
+      ],
+      "edges": [
+        {
+          "source": "D",
+          "target": "s",
+          "directed": true
+        },
+        {
+          "source": "s",
+          "target": "A",
+          "directed": true
+        },
+        {
+          "source": "A",
+          "target": "o",
+          "directed": true
+        },
+        {
+          "source": "s",
+          "target": "B",
+          "directed": true
+        },
+        {
+          "source": "u",
+          "target": "B",
+          "directed": true
+        },
+        {
+          "source": "B",
+          "target": "s",
+          "directed": true
+        },
+        {
+          "source": "C",
+          "target": "u",
+          "directed": true
+        }
+      ],
+      "tensor_shapes": [
+        [
+          "A",
+          [
+            2,
+            2
+          ]
+        ],
+        [
+          "B",
+          [
+            2,
+            2,
+            1
+          ]
+        ],
+        [
+          "C",
+          [
+            2
+          ]
+        ],
+        [
+          "D",
+          [
+            2
+          ]
+        ]
+      ],
+      "execution": "Local / optimism_poor",
+      "evidence_artifact": "data/generative_models.json",
+      "evidence_sha256": "9577d1ed6eb7645a1dad75a7cf4d2e40b7c281b5b120b8ff4ec24698ece46a87"
+    },
+    {
+      "model_id": "optimism_well_bb201b521bc166b4",
+      "source_sha256": "8a42c680601e0b6fce1d86dc66d441a6319ad285b8d769d8415777475cbd1173",
+      "variables": [
+        [
+          "A",
+          [
+            2,
+            2
+          ]
+        ],
+        [
+          "B",
+          [
+            2,
+            2,
+            1
+          ]
+        ],
+        [
+          "C",
+          [
+            2
+          ]
+        ],
+        [
+          "D",
+          [
+            2
+          ]
+        ],
+        [
+          "s",
+          [
+            2
+          ]
+        ],
+        [
+          "o",
+          [
+            2
+          ]
+        ],
+        [
+          "u",
+          [
+            1
+          ]
+        ]
+      ],
+      "edges": [
+        {
+          "source": "D",
+          "target": "s",
+          "directed": true
+        },
+        {
+          "source": "s",
+          "target": "A",
+          "directed": true
+        },
+        {
+          "source": "A",
+          "target": "o",
+          "directed": true
+        },
+        {
+          "source": "s",
+          "target": "B",
+          "directed": true
+        },
+        {
+          "source": "u",
+          "target": "B",
+          "directed": true
+        },
+        {
+          "source": "B",
+          "target": "s",
+          "directed": true
+        },
+        {
+          "source": "C",
+          "target": "u",
+          "directed": true
+        }
+      ],
+      "tensor_shapes": [
+        [
+          "A",
+          [
+            2,
+            2
+          ]
+        ],
+        [
+          "B",
+          [
+            2,
+            2,
+            1
+          ]
+        ],
+        [
+          "C",
+          [
+            2
+          ]
+        ],
+        [
+          "D",
+          [
+            2
+          ]
+        ]
+      ],
+      "execution": "Local / optimism_well",
+      "evidence_artifact": "data/generative_models.json",
+      "evidence_sha256": "9577d1ed6eb7645a1dad75a7cf4d2e40b7c281b5b120b8ff4ec24698ece46a87"
+    },
+    {
+      "model_id": "practice_process_0cd69c4ef119605b",
+      "source_sha256": "19540095c996568cfee83787b41ab8f07ad0368fc1b760ea63d4c77cfbe2abde",
+      "variables": [
+        [
+          "A",
+          [
+            2,
+            12
+          ]
+        ],
+        [
+          "B",
+          [
+            12,
+            12,
+            1
+          ]
+        ],
+        [
+          "C",
+          [
+            2
+          ]
+        ],
+        [
+          "D",
+          [
+            12
+          ]
+        ],
+        [
+          "s",
+          [
+            12
+          ]
+        ],
+        [
+          "o",
+          [
+            2
+          ]
+        ],
+        [
+          "u",
+          [
+            1
+          ]
+        ]
+      ],
+      "edges": [
+        {
+          "source": "D",
+          "target": "s",
+          "directed": true
+        },
+        {
+          "source": "s",
+          "target": "A",
+          "directed": true
+        },
+        {
+          "source": "A",
+          "target": "o",
+          "directed": true
+        },
+        {
+          "source": "s",
+          "target": "B",
+          "directed": true
+        },
+        {
+          "source": "u",
+          "target": "B",
+          "directed": true
+        },
+        {
+          "source": "B",
+          "target": "s",
+          "directed": true
+        },
+        {
+          "source": "C",
+          "target": "u",
+          "directed": true
+        }
+      ],
+      "tensor_shapes": [
+        [
+          "A",
+          [
+            2,
+            12
+          ]
+        ],
+        [
+          "B",
+          [
+            12,
+            12,
+            1
+          ]
+        ],
+        [
+          "C",
+          [
+            2
+          ]
+        ],
+        [
+          "D",
+          [
+            12
+          ]
+        ]
+      ],
+      "execution": "Local / practice_process",
+      "evidence_artifact": "data/generative_models.json",
+      "evidence_sha256": "9577d1ed6eb7645a1dad75a7cf4d2e40b7c281b5b120b8ff4ec24698ece46a87"
+    },
+    {
+      "model_id": "practice_process_41508c8466d32151",
+      "source_sha256": "ce8992217a29933df3efeb07ac6fd72662fae2b329f1bf28c09a33a1b16e3458",
+      "variables": [
+        [
+          "A",
+          [
+            2,
+            12
+          ]
+        ],
+        [
+          "B",
+          [
+            12,
+            12,
+            1
+          ]
+        ],
+        [
+          "C",
+          [
+            2
+          ]
+        ],
+        [
+          "D",
+          [
+            12
+          ]
+        ],
+        [
+          "s",
+          [
+            12
+          ]
+        ],
+        [
+          "o",
+          [
+            2
+          ]
+        ],
+        [
+          "u",
+          [
+            1
+          ]
+        ]
+      ],
+      "edges": [
+        {
+          "source": "D",
+          "target": "s",
+          "directed": true
+        },
+        {
+          "source": "s",
+          "target": "A",
+          "directed": true
+        },
+        {
+          "source": "A",
+          "target": "o",
+          "directed": true
+        },
+        {
+          "source": "s",
+          "target": "B",
+          "directed": true
+        },
+        {
+          "source": "u",
+          "target": "B",
+          "directed": true
+        },
+        {
+          "source": "B",
+          "target": "s",
+          "directed": true
+        },
+        {
+          "source": "C",
+          "target": "u",
+          "directed": true
+        }
+      ],
+      "tensor_shapes": [
+        [
+          "A",
+          [
+            2,
+            12
+          ]
+        ],
+        [
+          "B",
+          [
+            12,
+            12,
+            1
+          ]
+        ],
+        [
+          "C",
+          [
+            2
+          ]
+        ],
+        [
+          "D",
+          [
+            12
+          ]
+        ]
+      ],
+      "execution": "Local / practice_process",
+      "evidence_artifact": "data/generative_models.json",
+      "evidence_sha256": "9577d1ed6eb7645a1dad75a7cf4d2e40b7c281b5b120b8ff4ec24698ece46a87"
+    },
+    {
+      "model_id": "practice_restricted_e529d768e246b008",
+      "source_sha256": "2bb7e88b48c27990c43a959a3983364a6c7e1d8a50264f6558742e5537d99698",
+      "variables": [
+        [
+          "A",
+          [
+            2,
+            3
+          ]
+        ],
+        [
+          "B",
+          [
+            3,
+            3,
+            1
+          ]
+        ],
+        [
+          "C",
+          [
+            2
+          ]
+        ],
+        [
+          "D",
+          [
+            3
+          ]
+        ],
+        [
+          "s",
+          [
+            3
+          ]
+        ],
+        [
+          "o",
+          [
+            2
+          ]
+        ],
+        [
+          "u",
+          [
+            1
+          ]
+        ]
+      ],
+      "edges": [
+        {
+          "source": "D",
+          "target": "s",
+          "directed": true
+        },
+        {
+          "source": "s",
+          "target": "A",
+          "directed": true
+        },
+        {
+          "source": "A",
+          "target": "o",
+          "directed": true
+        },
+        {
+          "source": "s",
+          "target": "B",
+          "directed": true
+        },
+        {
+          "source": "u",
+          "target": "B",
+          "directed": true
+        },
+        {
+          "source": "B",
+          "target": "s",
+          "directed": true
+        },
+        {
+          "source": "C",
+          "target": "u",
+          "directed": true
+        }
+      ],
+      "tensor_shapes": [
+        [
+          "A",
+          [
+            2,
+            3
+          ]
+        ],
+        [
+          "B",
+          [
+            3,
+            3,
+            1
+          ]
+        ],
+        [
+          "C",
+          [
+            2
+          ]
+        ],
+        [
+          "D",
+          [
+            3
+          ]
+        ]
+      ],
+      "execution": "Local / practice_restricted",
+      "evidence_artifact": "data/generative_models.json",
+      "evidence_sha256": "9577d1ed6eb7645a1dad75a7cf4d2e40b7c281b5b120b8ff4ec24698ece46a87"
+    },
+    {
+      "model_id": "recall_world_189b239810b732bf",
+      "source_sha256": "506e087947355c9e4907d2bd0939a458fdab23c1106f610be086a795aa94ff25",
+      "variables": [
+        [
+          "A",
+          [
+            3,
+            2
+          ]
+        ],
+        [
+          "B",
+          [
+            2,
+            2,
+            1
+          ]
+        ],
+        [
+          "C",
+          [
+            3
+          ]
+        ],
+        [
+          "D",
+          [
+            2
+          ]
+        ],
+        [
+          "s",
+          [
+            2
+          ]
+        ],
+        [
+          "o",
+          [
+            3
+          ]
+        ],
+        [
+          "u",
+          [
+            1
+          ]
+        ]
+      ],
+      "edges": [
+        {
+          "source": "D",
+          "target": "s",
+          "directed": true
+        },
+        {
+          "source": "s",
+          "target": "A",
+          "directed": true
+        },
+        {
+          "source": "A",
+          "target": "o",
+          "directed": true
+        },
+        {
+          "source": "s",
+          "target": "B",
+          "directed": true
+        },
+        {
+          "source": "u",
+          "target": "B",
+          "directed": true
+        },
+        {
+          "source": "B",
+          "target": "s",
+          "directed": true
+        },
+        {
+          "source": "C",
+          "target": "u",
+          "directed": true
+        }
+      ],
+      "tensor_shapes": [
+        [
+          "A",
+          [
+            3,
+            2
+          ]
+        ],
+        [
+          "B",
+          [
+            2,
+            2,
+            1
+          ]
+        ],
+        [
+          "C",
+          [
+            3
+          ]
+        ],
+        [
+          "D",
+          [
+            2
+          ]
+        ]
+      ],
+      "execution": "Local / recall_world",
+      "evidence_artifact": "data/generative_models.json",
+      "evidence_sha256": "9577d1ed6eb7645a1dad75a7cf4d2e40b7c281b5b120b8ff4ec24698ece46a87"
+    },
+    {
+      "model_id": "recall_world_37dd7b195ef8e401",
+      "source_sha256": "b7374593d31547acbf8c7eda893dcf0cfda59370769f402d5b3f0ad4e9ccf326",
+      "variables": [
+        [
+          "A",
+          [
+            3,
+            2
+          ]
+        ],
+        [
+          "B",
+          [
+            2,
+            2,
+            1
+          ]
+        ],
+        [
+          "C",
+          [
+            3
+          ]
+        ],
+        [
+          "D",
+          [
+            2
+          ]
+        ],
+        [
+          "s",
+          [
+            2
+          ]
+        ],
+        [
+          "o",
+          [
+            3
+          ]
+        ],
+        [
+          "u",
+          [
+            1
+          ]
+        ]
+      ],
+      "edges": [
+        {
+          "source": "D",
+          "target": "s",
+          "directed": true
+        },
+        {
+          "source": "s",
+          "target": "A",
+          "directed": true
+        },
+        {
+          "source": "A",
+          "target": "o",
+          "directed": true
+        },
+        {
+          "source": "s",
+          "target": "B",
+          "directed": true
+        },
+        {
+          "source": "u",
+          "target": "B",
+          "directed": true
+        },
+        {
+          "source": "B",
+          "target": "s",
+          "directed": true
+        },
+        {
+          "source": "C",
+          "target": "u",
+          "directed": true
+        }
+      ],
+      "tensor_shapes": [
+        [
+          "A",
+          [
+            3,
+            2
+          ]
+        ],
+        [
+          "B",
+          [
+            2,
+            2,
+            1
+          ]
+        ],
+        [
+          "C",
+          [
+            3
+          ]
+        ],
+        [
+          "D",
+          [
+            2
+          ]
+        ]
+      ],
+      "execution": "Local / recall_world",
+      "evidence_artifact": "data/generative_models.json",
+      "evidence_sha256": "9577d1ed6eb7645a1dad75a7cf4d2e40b7c281b5b120b8ff4ec24698ece46a87"
+    },
+    {
+      "model_id": "recall_world_578c1c4dcfb36f10",
+      "source_sha256": "0cb1027d57945f7a88384d899405a5e325ab900ff0b3ffa16c0775f5819b73fd",
+      "variables": [
+        [
+          "A",
+          [
+            3,
+            2
+          ]
+        ],
+        [
+          "B",
+          [
+            2,
+            2,
+            1
+          ]
+        ],
+        [
+          "C",
+          [
+            3
+          ]
+        ],
+        [
+          "D",
+          [
+            2
+          ]
+        ],
+        [
+          "s",
+          [
+            2
+          ]
+        ],
+        [
+          "o",
+          [
+            3
+          ]
+        ],
+        [
+          "u",
+          [
+            1
+          ]
+        ]
+      ],
+      "edges": [
+        {
+          "source": "D",
+          "target": "s",
+          "directed": true
+        },
+        {
+          "source": "s",
+          "target": "A",
+          "directed": true
+        },
+        {
+          "source": "A",
+          "target": "o",
+          "directed": true
+        },
+        {
+          "source": "s",
+          "target": "B",
+          "directed": true
+        },
+        {
+          "source": "u",
+          "target": "B",
+          "directed": true
+        },
+        {
+          "source": "B",
+          "target": "s",
+          "directed": true
+        },
+        {
+          "source": "C",
+          "target": "u",
+          "directed": true
+        }
+      ],
+      "tensor_shapes": [
+        [
+          "A",
+          [
+            3,
+            2
+          ]
+        ],
+        [
+          "B",
+          [
+            2,
+            2,
+            1
+          ]
+        ],
+        [
+          "C",
+          [
+            3
+          ]
+        ],
+        [
+          "D",
+          [
+            2
+          ]
+        ]
+      ],
+      "execution": "Local / recall_world",
+      "evidence_artifact": "data/generative_models.json",
+      "evidence_sha256": "9577d1ed6eb7645a1dad75a7cf4d2e40b7c281b5b120b8ff4ec24698ece46a87"
+    },
+    {
+      "model_id": "recall_world_89075b452438b95a",
+      "source_sha256": "3c239d331de69895b189c452ebcbd306963f75fae718bff009ac8f4afabbda16",
+      "variables": [
+        [
+          "A",
+          [
+            3,
+            2
+          ]
+        ],
+        [
+          "B",
+          [
+            2,
+            2,
+            1
+          ]
+        ],
+        [
+          "C",
+          [
+            3
+          ]
+        ],
+        [
+          "D",
+          [
+            2
+          ]
+        ],
+        [
+          "s",
+          [
+            2
+          ]
+        ],
+        [
+          "o",
+          [
+            3
+          ]
+        ],
+        [
+          "u",
+          [
+            1
+          ]
+        ]
+      ],
+      "edges": [
+        {
+          "source": "D",
+          "target": "s",
+          "directed": true
+        },
+        {
+          "source": "s",
+          "target": "A",
+          "directed": true
+        },
+        {
+          "source": "A",
+          "target": "o",
+          "directed": true
+        },
+        {
+          "source": "s",
+          "target": "B",
+          "directed": true
+        },
+        {
+          "source": "u",
+          "target": "B",
+          "directed": true
+        },
+        {
+          "source": "B",
+          "target": "s",
+          "directed": true
+        },
+        {
+          "source": "C",
+          "target": "u",
+          "directed": true
+        }
+      ],
+      "tensor_shapes": [
+        [
+          "A",
+          [
+            3,
+            2
+          ]
+        ],
+        [
+          "B",
+          [
+            2,
+            2,
+            1
+          ]
+        ],
+        [
+          "C",
+          [
+            3
+          ]
+        ],
+        [
+          "D",
+          [
+            2
+          ]
+        ]
+      ],
+      "execution": "Local / recall_world",
+      "evidence_artifact": "data/generative_models.json",
+      "evidence_sha256": "9577d1ed6eb7645a1dad75a7cf4d2e40b7c281b5b120b8ff4ec24698ece46a87"
+    },
+    {
+      "model_id": "recall_world_b5096fee2b252025",
+      "source_sha256": "272ea9dc80f0d31149423c36ddb6c2858b51bb57f39cee68d9f087e1545473c2",
+      "variables": [
+        [
+          "A",
+          [
+            3,
+            2
+          ]
+        ],
+        [
+          "B",
+          [
+            2,
+            2,
+            1
+          ]
+        ],
+        [
+          "C",
+          [
+            3
+          ]
+        ],
+        [
+          "D",
+          [
+            2
+          ]
+        ],
+        [
+          "s",
+          [
+            2
+          ]
+        ],
+        [
+          "o",
+          [
+            3
+          ]
+        ],
+        [
+          "u",
+          [
+            1
+          ]
+        ]
+      ],
+      "edges": [
+        {
+          "source": "D",
+          "target": "s",
+          "directed": true
+        },
+        {
+          "source": "s",
+          "target": "A",
+          "directed": true
+        },
+        {
+          "source": "A",
+          "target": "o",
+          "directed": true
+        },
+        {
+          "source": "s",
+          "target": "B",
+          "directed": true
+        },
+        {
+          "source": "u",
+          "target": "B",
+          "directed": true
+        },
+        {
+          "source": "B",
+          "target": "s",
+          "directed": true
+        },
+        {
+          "source": "C",
+          "target": "u",
+          "directed": true
+        }
+      ],
+      "tensor_shapes": [
+        [
+          "A",
+          [
+            3,
+            2
+          ]
+        ],
+        [
+          "B",
+          [
+            2,
+            2,
+            1
+          ]
+        ],
+        [
+          "C",
+          [
+            3
+          ]
+        ],
+        [
+          "D",
+          [
+            2
+          ]
+        ]
+      ],
+      "execution": "Local / recall_world",
+      "evidence_artifact": "data/generative_models.json",
+      "evidence_sha256": "9577d1ed6eb7645a1dad75a7cf4d2e40b7c281b5b120b8ff4ec24698ece46a87"
+    },
+    {
+      "model_id": "scene_open_03467d822b963689",
+      "source_sha256": "e500543afb316f97379e806106e78f10cb7a76337334f2b9adc9a2be08505b77",
+      "variables": [
+        [
+          "A",
+          [
+            3,
+            9
+          ]
+        ],
+        [
+          "B",
+          [
+            9,
+            9,
+            3
+          ]
+        ],
+        [
+          "C",
+          [
+            3
+          ]
+        ],
+        [
+          "D",
+          [
+            9
+          ]
+        ],
+        [
+          "s",
+          [
+            9
+          ]
+        ],
+        [
+          "o",
+          [
+            3
+          ]
+        ],
+        [
+          "u",
+          [
+            3
+          ]
+        ],
+        [
+          "q",
+          [
+            3
+          ]
+        ],
+        [
+          "z",
+          [
+            3
+          ]
+        ]
+      ],
+      "edges": [
+        {
+          "source": "D",
+          "target": "s",
+          "directed": true
+        },
+        {
+          "source": "s",
+          "target": "A",
+          "directed": true
+        },
+        {
+          "source": "A",
+          "target": "o",
+          "directed": true
+        },
+        {
+          "source": "s",
+          "target": "B",
+          "directed": true
+        },
+        {
+          "source": "u",
+          "target": "B",
+          "directed": true
+        },
+        {
+          "source": "B",
+          "target": "s",
+          "directed": true
+        },
+        {
+          "source": "C",
+          "target": "u",
+          "directed": true
+        },
+        {
+          "source": "q",
+          "target": "s",
+          "directed": true
+        },
+        {
+          "source": "z",
+          "target": "s",
+          "directed": true
+        },
+        {
+          "source": "u",
+          "target": "q",
+          "directed": true
+        }
+      ],
+      "tensor_shapes": [
+        [
+          "A",
+          [
+            3,
+            9
+          ]
+        ],
+        [
+          "B",
+          [
+            9,
+            9,
+            3
+          ]
+        ],
+        [
+          "C",
+          [
+            3
+          ]
+        ],
+        [
+          "D",
+          [
+            9
+          ]
+        ]
+      ],
+      "execution": "Local / scene_open",
+      "evidence_artifact": "data/generative_models.json",
+      "evidence_sha256": "9577d1ed6eb7645a1dad75a7cf4d2e40b7c281b5b120b8ff4ec24698ece46a87"
+    },
+    {
+      "model_id": "scene_restricted_e7523f815e9acc93",
+      "source_sha256": "189ad8c2e4926dba5df10d42908804392cb44f22b43bb2846db89f04d19cc8f5",
+      "variables": [
+        [
+          "A",
+          [
+            3,
+            9
+          ]
+        ],
+        [
+          "B",
+          [
+            9,
+            9,
+            3
+          ]
+        ],
+        [
+          "C",
+          [
+            3
+          ]
+        ],
+        [
+          "D",
+          [
+            9
+          ]
+        ],
+        [
+          "s",
+          [
+            9
+          ]
+        ],
+        [
+          "o",
+          [
+            3
+          ]
+        ],
+        [
+          "u",
+          [
+            3
+          ]
+        ],
+        [
+          "q",
+          [
+            3
+          ]
+        ],
+        [
+          "z",
+          [
+            3
+          ]
+        ]
+      ],
+      "edges": [
+        {
+          "source": "D",
+          "target": "s",
+          "directed": true
+        },
+        {
+          "source": "s",
+          "target": "A",
+          "directed": true
+        },
+        {
+          "source": "A",
+          "target": "o",
+          "directed": true
+        },
+        {
+          "source": "s",
+          "target": "B",
+          "directed": true
+        },
+        {
+          "source": "u",
+          "target": "B",
+          "directed": true
+        },
+        {
+          "source": "B",
+          "target": "s",
+          "directed": true
+        },
+        {
+          "source": "C",
+          "target": "u",
+          "directed": true
+        },
+        {
+          "source": "q",
+          "target": "s",
+          "directed": true
+        },
+        {
+          "source": "z",
+          "target": "s",
+          "directed": true
+        },
+        {
+          "source": "u",
+          "target": "q",
+          "directed": true
+        }
+      ],
+      "tensor_shapes": [
+        [
+          "A",
+          [
+            3,
+            9
+          ]
+        ],
+        [
+          "B",
+          [
+            9,
+            9,
+            3
+          ]
+        ],
+        [
+          "C",
+          [
+            3
+          ]
+        ],
+        [
+          "D",
+          [
+            9
+          ]
+        ]
+      ],
+      "execution": "Local / scene_restricted",
+      "evidence_artifact": "data/generative_models.json",
+      "evidence_sha256": "9577d1ed6eb7645a1dad75a7cf4d2e40b7c281b5b120b8ff4ec24698ece46a87"
+    },
+    {
+      "model_id": "transfer_embedding_5f814c4cb6ade764",
+      "source_sha256": "b48e180adb83069d9058d9b0d9a5366327096cfb784962f95659656902ee4ea4",
+      "variables": [
+        [
+          "A",
+          [
+            2,
+            13
+          ]
+        ],
+        [
+          "B",
+          [
+            13,
+            13,
+            13
+          ]
+        ],
+        [
+          "C",
+          [
+            2
+          ]
+        ],
+        [
+          "D",
+          [
+            13
+          ]
+        ],
+        [
+          "s",
+          [
+            13
+          ]
+        ],
+        [
+          "o",
+          [
+            2
+          ]
+        ],
+        [
+          "u",
+          [
+            13
+          ]
+        ]
+      ],
+      "edges": [
+        {
+          "source": "D",
+          "target": "s",
+          "directed": true
+        },
+        {
+          "source": "s",
+          "target": "A",
+          "directed": true
+        },
+        {
+          "source": "A",
+          "target": "o",
+          "directed": true
+        },
+        {
+          "source": "s",
+          "target": "B",
+          "directed": true
+        },
+        {
+          "source": "u",
+          "target": "B",
+          "directed": true
+        },
+        {
+          "source": "B",
+          "target": "s",
+          "directed": true
+        },
+        {
+          "source": "C",
+          "target": "u",
+          "directed": true
+        }
+      ],
+      "tensor_shapes": [
+        [
+          "A",
+          [
+            2,
+            13
+          ]
+        ],
+        [
+          "B",
+          [
+            13,
+            13,
+            13
+          ]
+        ],
+        [
+          "C",
+          [
+            2
+          ]
+        ],
+        [
+          "D",
+          [
+            13
+          ]
+        ]
+      ],
+      "execution": "Local / transfer_embedding",
+      "evidence_artifact": "data/generative_models.json",
+      "evidence_sha256": "9577d1ed6eb7645a1dad75a7cf4d2e40b7c281b5b120b8ff4ec24698ece46a87"
+    }
+  ],
+  "assets": [
+    {
+      "path": "gnn/analysis/analysis_network_graph.png",
+      "sha256": "95e2f0c38f96e7c93e5107b537f9a4fa36822f349c4d59b485aa46cbee66d859"
+    },
+    {
+      "path": "gnn/analysis/analysis_network_stats.json",
+      "sha256": "68af1f5a7fa6306c530cd4e675e8c96b2725f177e7415e446248f642c063d8db"
+    },
+    {
+      "path": "gnn/gratitude/gratitude_network_graph.png",
+      "sha256": "553f849e7ec7c05fe54190ebacbfae616165fcc993f548c1eb2994ce6b45d0b8"
+    },
+    {
+      "path": "gnn/gratitude/gratitude_network_stats.json",
+      "sha256": "68af1f5a7fa6306c530cd4e675e8c96b2725f177e7415e446248f642c063d8db"
+    },
+    {
+      "path": "gnn/nothingness/nothingness_network_graph.png",
+      "sha256": "266569a1a73857a21e274de58d8230dae55196afeb0a788dbbbbf2a479fd6502"
+    },
+    {
+      "path": "gnn/nothingness/nothingness_network_stats.json",
+      "sha256": "68af1f5a7fa6306c530cd4e675e8c96b2725f177e7415e446248f642c063d8db"
+    },
+    {
+      "path": "gnn/attention_positive/attention_positive_network_graph.png",
+      "sha256": "39ce7fcb9a89967e277d76eda0f2c79fbdf366e6518a723892e148d205b0ba8a"
+    },
+    {
+      "path": "gnn/attention_positive/attention_positive_network_stats.json",
+      "sha256": "68af1f5a7fa6306c530cd4e675e8c96b2725f177e7415e446248f642c063d8db"
+    },
+    {
+      "path": "gnn/attention_negative/attention_negative_network_graph.png",
+      "sha256": "a266d270b397a7949e6c621d4996066d88d8a36a77f49de2c469b1b298b9ed95"
+    },
+    {
+      "path": "gnn/attention_negative/attention_negative_network_stats.json",
+      "sha256": "68af1f5a7fa6306c530cd4e675e8c96b2725f177e7415e446248f642c063d8db"
+    },
+    {
+      "path": "gnn/emptiness_practice/emptiness_practice_network_graph.png",
+      "sha256": "b18b1a5f6d24639b0588289a73cbb88911507125257be1f4844e4c1243ff3309"
+    },
+    {
+      "path": "gnn/emptiness_practice/emptiness_practice_network_stats.json",
+      "sha256": "68af1f5a7fa6306c530cd4e675e8c96b2725f177e7415e446248f642c063d8db"
+    },
+    {
+      "path": "gnn/gaze/gaze_network_graph.png",
+      "sha256": "135d8307863967d3d3a3448c8a2f980b3876ad001d3403acf00e342a799537e9"
+    },
+    {
+      "path": "gnn/gaze/gaze_network_stats.json",
+      "sha256": "68af1f5a7fa6306c530cd4e675e8c96b2725f177e7415e446248f642c063d8db"
+    },
+    {
+      "path": "gnn/boundary_gaze/boundary_gaze_network_graph.png",
+      "sha256": "7fff6b4fe21f2cf20267581a3fb028c9f8a9561ec9818708a6a4c9983b6c4afa"
+    },
+    {
+      "path": "gnn/boundary_gaze/boundary_gaze_network_stats.json",
+      "sha256": "68af1f5a7fa6306c530cd4e675e8c96b2725f177e7415e446248f642c063d8db"
+    },
+    {
+      "path": "gnn/attention_process_233c0a933d51ca4f/attention_process_233c0a933d51ca4f_network_graph.png",
+      "sha256": "be83f890b39c6c0b441ffb76c53f70170dd198a6221caf1569fd0410db75c304"
+    },
+    {
+      "path": "gnn/attention_process_233c0a933d51ca4f/attention_process_233c0a933d51ca4f_network_stats.json",
+      "sha256": "68af1f5a7fa6306c530cd4e675e8c96b2725f177e7415e446248f642c063d8db"
+    },
+    {
+      "path": "gnn/boundary_diagnostic_f8503e51a2cb8485/boundary_diagnostic_f8503e51a2cb8485_network_graph.png",
+      "sha256": "d12d1ff302a3b71f6572c75cb4194df079c321a96365595ee4d9d99b4b40035e"
+    },
+    {
+      "path": "gnn/boundary_diagnostic_f8503e51a2cb8485/boundary_diagnostic_f8503e51a2cb8485_network_stats.json",
+      "sha256": "cb75e981faa051a0447b5f5dbfb1ef1970f000546f0caf5ac01150c060037eec"
+    },
+    {
+      "path": "gnn/boundary_diagnostic_restricted_c9cc422f3b149d84/boundary_diagnostic_restricted_c9cc422f3b149d84_network_graph.png",
+      "sha256": "934c7e485ded2b2e6f33f3c7fce1c3dded73320c55581f26eef68f14284a6f8c"
+    },
+    {
+      "path": "gnn/boundary_diagnostic_restricted_c9cc422f3b149d84/boundary_diagnostic_restricted_c9cc422f3b149d84_network_stats.json",
+      "sha256": "cb75e981faa051a0447b5f5dbfb1ef1970f000546f0caf5ac01150c060037eec"
+    },
+    {
+      "path": "gnn/boundary_label_only_cbbb7fb13c21bf01/boundary_label_only_cbbb7fb13c21bf01_network_graph.png",
+      "sha256": "43d1f11b964f54a87b46366a3748971baad129c83dfd1e6649ca4acd8e4ed535"
+    },
+    {
+      "path": "gnn/boundary_label_only_cbbb7fb13c21bf01/boundary_label_only_cbbb7fb13c21bf01_network_stats.json",
+      "sha256": "cb75e981faa051a0447b5f5dbfb1ef1970f000546f0caf5ac01150c060037eec"
+    },
+    {
+      "path": "gnn/boundary_label_only_restricted_e07f92eecf66b427/boundary_label_only_restricted_e07f92eecf66b427_network_graph.png",
+      "sha256": "8ec42b4a333284f6f132ad848281a97f45850ff12a4701d085a025949e7704d8"
+    },
+    {
+      "path": "gnn/boundary_label_only_restricted_e07f92eecf66b427/boundary_label_only_restricted_e07f92eecf66b427_network_stats.json",
+      "sha256": "cb75e981faa051a0447b5f5dbfb1ef1970f000546f0caf5ac01150c060037eec"
+    },
+    {
+      "path": "gnn/optimism_poor_2f9fc0b093064cd3/optimism_poor_2f9fc0b093064cd3_network_graph.png",
+      "sha256": "735083d647de1ad2e96a8c92365bc23fc948d598a214ea07118c21166f65c371"
+    },
+    {
+      "path": "gnn/optimism_poor_2f9fc0b093064cd3/optimism_poor_2f9fc0b093064cd3_network_stats.json",
+      "sha256": "68af1f5a7fa6306c530cd4e675e8c96b2725f177e7415e446248f642c063d8db"
+    },
+    {
+      "path": "gnn/optimism_well_bb201b521bc166b4/optimism_well_bb201b521bc166b4_network_graph.png",
+      "sha256": "80691cdadca7363245a88b7def718e6513b077128626b48a7287a8b32267875b"
+    },
+    {
+      "path": "gnn/optimism_well_bb201b521bc166b4/optimism_well_bb201b521bc166b4_network_stats.json",
+      "sha256": "68af1f5a7fa6306c530cd4e675e8c96b2725f177e7415e446248f642c063d8db"
+    },
+    {
+      "path": "gnn/practice_process_0cd69c4ef119605b/practice_process_0cd69c4ef119605b_network_graph.png",
+      "sha256": "f2b8c70d7be5afe139d0ef9b236369be6d59c2256d95385980506d4fbadf7c42"
+    },
+    {
+      "path": "gnn/practice_process_0cd69c4ef119605b/practice_process_0cd69c4ef119605b_network_stats.json",
+      "sha256": "68af1f5a7fa6306c530cd4e675e8c96b2725f177e7415e446248f642c063d8db"
+    },
+    {
+      "path": "gnn/practice_process_41508c8466d32151/practice_process_41508c8466d32151_network_graph.png",
+      "sha256": "fab52b05a8426d6bcb99942855a42e6cfe9b0bc5f3366be02abce4d14ca10f52"
+    },
+    {
+      "path": "gnn/practice_process_41508c8466d32151/practice_process_41508c8466d32151_network_stats.json",
+      "sha256": "68af1f5a7fa6306c530cd4e675e8c96b2725f177e7415e446248f642c063d8db"
+    },
+    {
+      "path": "gnn/practice_restricted_e529d768e246b008/practice_restricted_e529d768e246b008_network_graph.png",
+      "sha256": "72910280d4d80c7451b53c01886b6c4934608ca394e2d1b7be765836a1b6b00e"
+    },
+    {
+      "path": "gnn/practice_restricted_e529d768e246b008/practice_restricted_e529d768e246b008_network_stats.json",
+      "sha256": "68af1f5a7fa6306c530cd4e675e8c96b2725f177e7415e446248f642c063d8db"
+    },
+    {
+      "path": "gnn/recall_world_189b239810b732bf/recall_world_189b239810b732bf_network_graph.png",
+      "sha256": "2b5b5a072d2411cb0185e442a0ef692c5321b89f447d14bd5697cafec1df446f"
+    },
+    {
+      "path": "gnn/recall_world_189b239810b732bf/recall_world_189b239810b732bf_network_stats.json",
+      "sha256": "68af1f5a7fa6306c530cd4e675e8c96b2725f177e7415e446248f642c063d8db"
+    },
+    {
+      "path": "gnn/recall_world_37dd7b195ef8e401/recall_world_37dd7b195ef8e401_network_graph.png",
+      "sha256": "0c4e69715c2f035ff1c896268a927115fa4458449932bc765fc72cf7217e9b08"
+    },
+    {
+      "path": "gnn/recall_world_37dd7b195ef8e401/recall_world_37dd7b195ef8e401_network_stats.json",
+      "sha256": "68af1f5a7fa6306c530cd4e675e8c96b2725f177e7415e446248f642c063d8db"
+    },
+    {
+      "path": "gnn/recall_world_578c1c4dcfb36f10/recall_world_578c1c4dcfb36f10_network_graph.png",
+      "sha256": "527bcab9885112b354f4edd44f86f9f377097a9b424eb1d2e257b99dcf4e4090"
+    },
+    {
+      "path": "gnn/recall_world_578c1c4dcfb36f10/recall_world_578c1c4dcfb36f10_network_stats.json",
+      "sha256": "68af1f5a7fa6306c530cd4e675e8c96b2725f177e7415e446248f642c063d8db"
+    },
+    {
+      "path": "gnn/recall_world_89075b452438b95a/recall_world_89075b452438b95a_network_graph.png",
+      "sha256": "6cdd76dce703384ab6a10b82d1d55755b905f40ff65031d6cbf5b9008e46e30f"
+    },
+    {
+      "path": "gnn/recall_world_89075b452438b95a/recall_world_89075b452438b95a_network_stats.json",
+      "sha256": "68af1f5a7fa6306c530cd4e675e8c96b2725f177e7415e446248f642c063d8db"
+    },
+    {
+      "path": "gnn/recall_world_b5096fee2b252025/recall_world_b5096fee2b252025_network_graph.png",
+      "sha256": "439c52aef17eceb7a99b9f1b104de4767567da1d17716244a2680f18794d118b"
+    },
+    {
+      "path": "gnn/recall_world_b5096fee2b252025/recall_world_b5096fee2b252025_network_stats.json",
+      "sha256": "68af1f5a7fa6306c530cd4e675e8c96b2725f177e7415e446248f642c063d8db"
+    },
+    {
+      "path": "gnn/scene_open_03467d822b963689/scene_open_03467d822b963689_network_graph.png",
+      "sha256": "0752a8d684d607e9045dc4ff27f405b8b9045f17ace4e0184bc002e0c25a7178"
+    },
+    {
+      "path": "gnn/scene_open_03467d822b963689/scene_open_03467d822b963689_network_stats.json",
+      "sha256": "cb75e981faa051a0447b5f5dbfb1ef1970f000546f0caf5ac01150c060037eec"
+    },
+    {
+      "path": "gnn/scene_restricted_e7523f815e9acc93/scene_restricted_e7523f815e9acc93_network_graph.png",
+      "sha256": "41a42b2613cd97e24dae69a9310dcbedcd695c3240b2f770c3b046c2d8ad0910"
+    },
+    {
+      "path": "gnn/scene_restricted_e7523f815e9acc93/scene_restricted_e7523f815e9acc93_network_stats.json",
+      "sha256": "cb75e981faa051a0447b5f5dbfb1ef1970f000546f0caf5ac01150c060037eec"
+    },
+    {
+      "path": "gnn/transfer_embedding_5f814c4cb6ade764/transfer_embedding_5f814c4cb6ade764_network_graph.png",
+      "sha256": "062bb26516c79cb77887af5a927a06ba4025b6268ea5dcf9e91772269dabcfb2"
+    },
+    {
+      "path": "gnn/transfer_embedding_5f814c4cb6ade764/transfer_embedding_5f814c4cb6ade764_network_stats.json",
+      "sha256": "68af1f5a7fa6306c530cd4e675e8c96b2725f177e7415e446248f642c063d8db"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "alpha": 0.05,
+  "statistics_seed_offset": 101,
+  "heterogeneity_seed_offset": 1000,
+  "calibration_seed_offset": 7301,
+  "diagnostic_prefixes": [
+    16,
+    32,
+    64,
+    128,
+    256,
+    512,
+    1024
+  ],
+  "notebook_replicates": 8,
+  "notebook_draws": 511,
+  "notebook_timeout_seconds": 1800,
+  "reconstruction_seed": 2025,
+  "reconstruction_agents": 1000,
+  "reconstruction_days": 7,
+  "reconstruction_steps": 12,
+  "reconstruction_audit_agents": 12
+}

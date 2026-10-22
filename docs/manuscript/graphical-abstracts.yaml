@@ -1,0 +1,99 @@
+pages:
+  - key: meanings
+    kicker: CONCEPTUAL GRAPHICAL ABSTRACT
+    title: "What can ‘nothing’ mean?"
+    subtitle: "Evidence, availability, counterfactual value and revisability answer different questions. Appreciation does not make them interchangeable."
+    panels:
+      - title: Recorded absence
+        link_label: Recorded absence
+        symbol: A
+        question: "What did a functioning channel observe?"
+        route: [Functioning detector, No-event record, Likelihood-based update]
+        finding: "A recorded absence can be evidence when the channel discriminates between possible states."
+        qualification: "A no-event record differs from missing data and from a claim that nothing exists."
+        anchor: sec-absence-model
+      - title: Missing observation
+        link_label: Missingness
+        symbol: B
+        question: "Was a usable record available?"
+        route: [Unavailable record, Declared missingness rule, No update in this model]
+        finding: "The missing-record sentinel supplies no observation likelihood in the declared implementation."
+        qualification: "Ignoring missingness requires assumptions; other missingness processes can be informative."
+        anchor: sec-absence-concept
+      - title: Counterfactual appreciation
+        link_label: Counterfactual value
+        symbol: C
+        question: "Against which alternative is an outcome valued?"
+        route: [Actual outcome, Specified reference, Changed assigned value]
+        finding: "An uneventful outcome can acquire value relative to an avoided harm without supplying favorable evidence."
+        qualification: "The valuation-only control preserves belief updates and predictive losses by construction."
+        anchor: sec-value-interpretation
+      - title: Revisable representations
+        link_label: Revisability
+        symbol: D
+        question: "Can a useful distinction be examined and conditionally retained?"
+        route: [Working representation, Effective access to alternatives, Evidence-responsive use]
+        finding: "The finite counterpart tests access, retention and revision; it does not measure realization of emptiness."
+        qualification: "Non-reification concerns how a representation is held, beyond recording an absence."
+        anchor: sec-sufficiency
+    bridge_title: An enabling chain, not an attainment scale
+    bridge: [Appreciate examinability, Choose and pay, Gain effective access, Compare evidence, Retain or revise, Assess independently]
+    note: "Symbols: s is latent state, o observation, p prior and q posterior. In the value illustration, r is reference-event probability, c its cost and C_actual the actual cost. Textual traditions remain situated comparisons, not equivalent doctrines; see the atlas and edition notes."
+    scope: "Conceptual proposal → finite enabling operations → a separate human research obligation."
+  - key: experiments
+    kicker: EXPERIMENTAL GRAPHICAL ABSTRACT
+    title: "From mechanisms to bounded claims"
+    subtitle: "Source reconstruction, corrected comparisons and new extensions remain separate. Recall cohort: {{AGENTS}} independent agent-world units in {{STUDY_STRATA}} declared strata."
+    panels:
+      - title: Recall and independent prediction
+        model_family: recall_world
+        link_label: Recall
+        question: "What does positive selection add beyond exposure and replay dose?"
+        route: [Shared environmental history, Matched recall comparisons, Frozen predictive assessment]
+        finding: "Matched exposure and replay dose separate positive selection from learning and independent prediction."
+        qualification: "Optimism shifts and predictive accuracy differ; effects depend on the world and comparator."
+        anchor: sec-main-recall
+      - title: Recorded absence and counterfactual value
+        model_family: nothingness
+        link_label: Absence
+        question: "Is an absent event evidence, missing data or a different valuation?"
+        route: [Declared detector, Observation or missing record, Separate evidence and value]
+        finding: "A no-event token can update belief; the missing-record rule supplies no likelihood."
+        qualification: "Valuing an avoided harm changes assigned value without creating favorable evidence."
+        anchor: sec-absence-model
+      - title: Native attention and learned-channel transfer
+        model_family: attention_positive
+        link_label: Transfer
+        question: "What reaches attention: a learned channel or a posterior readout?"
+        route: [GNN agent and fixed process, Distinct transfer bridges, Attention and scene assessment]
+        finding: "Native GNN/pymdp runs distinguish agent and process; transfer bridges remain separate."
+        qualification: "The source supplies before-only gaze. A favorable attention shift need not improve prediction."
+        anchor: sec-gaze-transfer-model
+      - title: Enacted inquiry and effective access
+        model_family: emptiness_practice
+        link_label: Enacted inquiry
+        question: "Does chosen activity make a relevant alternative available?"
+        route: [Preference and activity cost, Access versus blocked sham, Retention or revision]
+        finding: "Paid activity, effective access and evidence-based retention or revision are distinct operations."
+        qualification: "Blocked access can incur cost without revision; exact enumeration retains adverse selections."
+        anchor: sec-main-practice
+      - title: Adaptive scene sampling
+        model_family: scene_open
+        link_label: Scene sampling
+        question: "Does an access advantage identify an inquiry-specific advantage?"
+        route: [Frozen learned channels, Declared transfer bridges, Scene risk and expenditure]
+        finding: "Complete query-conditioned GNN channels expose a context-dependent access advantage."
+        qualification: "Already-open and uniform controls do not establish a further inquiry-specific benefit."
+        anchor: sec-main-gaze
+      - title: Joint scene and encoding inquiry
+        model_family: boundary_diagnostic
+        link_label: Scene/encoding
+        question: "Can an encoding be learned and used with scene evidence?"
+        route: [Spatial or encoding query, Joint action-response evidence, Anchored reference prediction]
+        finding: "Spatial and contingency queries test joint inference over the scene and its encoding."
+        qualification: "Equivalent laws remain unidentified; excluded support stays unavailable; the reference anchor is stipulated."
+        anchor: sec-main-boundary
+    bridge_title: Execution and evidence remain inspectable
+    bridge: [GNN declarations, Parsed graphs and tensors, Actual numerical consumers, Independent controls, Paired and joint uncertainty, Reproducible artifacts]
+    note: "Glyphs unpack the admitted likelihood: s or z is hidden, o observed and q a known query. Dimensions come from executed GNN. The world glyph is one declared stratum; complete models and controls follow."
+    scope: "Synthetic model evidence does not establish human gratitude, clinical benefit, contemplative realization or philosophical equivalence."

@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="470.88pt" height="582.569102pt" viewBox="0 0 470.88 582.569102" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>thanks_for_nothing</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 582.569102 
+L 470.88 582.569102 
+L 470.88 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 6 82.2 
+L 464 82.2 
+L 464 44 
+L 6 44 
+z
+" clip-path="url(#p8bfaa061a5)" style="fill: #e2e8ec; opacity: 0.35"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 6 158.6 
+L 464 158.6 
+L 464 120.4 
+L 6 120.4 
+z
+" clip-path="url(#p8bfaa061a5)" style="fill: #e2e8ec; opacity: 0.35"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 6 235 
+L 464 235 
+L 464 196.8 
+L 6 196.8 
+z
+" clip-path="url(#p8bfaa061a5)" style="fill: #e2e8ec; opacity: 0.35"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 6 311.4 
+L 464 311.4 
+L 464 273.2 
+L 6 273.2 
+z
+" clip-path="url(#p8bfaa061a5)" style="fill: #e2e8ec; opacity: 0.35"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 6 387.8 
+L 464 387.8 
+L 464 349.6 
+L 6 349.6 
+z
+" clip-path="url(#p8bfaa061a5)" style="fill: #e2e8ec; opacity: 0.35"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 6 476.8 
+L 464 476.8 
+L 464 426 
+L 6 426 
+z
+" clip-path="url(#p8bfaa061a5)" style="fill: #e2e8ec; opacity: 0.35"/>
+   </g>
+   <g id="line2d_1">
+    <path d="M 10 44 
+L 460 44 
+" clip-path="url(#p8bfaa061a5)" style="fill: none; stroke: #e2e8ec; stroke-width: 0.7; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_2">
+    <path d="M 10 82.2 
+L 460 82.2 
+" clip-path="url(#p8bfaa061a5)" style="fill: none; stroke: #e2e8ec; stroke-width: 0.7; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_3">
+    <path d="M 10 120.4 
+L 460 120.4 
+" clip-path="url(#p8bfaa061a5)" style="fill: none; stroke: #e2e8ec; stroke-width: 0.7; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_4">
+    <path d="M 10 158.6 
+L 460 158.6 
+" clip-path="url(#p8bfaa061a5)" style="fill: none; stroke: #e2e8ec; stroke-width: 0.7; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_5">
+    <path d="M 10 196.8 
+L 460 196.8 
+" clip-path="url(#p8bfaa061a5)" style="fill: none; stroke: #e2e8ec; stroke-width: 0.7; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_6">
+    <path d="M 10 235 
+L 460 235 
+" clip-path="url(#p8bfaa061a5)" style="fill: none; stroke: #e2e8ec; stroke-width: 0.7; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_7">
+    <path d="M 10 273.2 
+L 460 273.2 
+" clip-path="url(#p8bfaa061a5)" style="fill: none; stroke: #e2e8ec; stroke-width: 0.7; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_8">
+    <path d="M 10 311.4 
+L 460 311.4 
+" clip-path="url(#p8bfaa061a5)" style="fill: none; stroke: #e2e8ec; stroke-width: 0.7; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_9">
+    <path d="M 10 349.6 
+L 460 349.6 
+" clip-path="url(#p8bfaa061a5)" style="fill: none; stroke: #e2e8ec; stroke-width: 0.7; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_10">
+    <path d="M 10 387.8 
+L 460 387.8 
+" clip-path="url(#p8bfaa061a5)" style="fill: none; stroke: #e2e8ec; stroke-width: 0.7; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_11">
+    <path d="M 10 426 
+L 460 426 
+" clip-path="url(#p8bfaa061a5)" style="fill: none; stroke: #e2e8ec; stroke-width: 0.7; stroke-linecap: square"/>
+   </g>
+   <g id="text_1">
+    <text style="font-weight: 700; font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #142e3a" x="10" y="18.118125" transform="rotate(-0 10 18.118125)">Thanks for Nothing: distinct textual representations</text>
+   </g>
+   <g id="text_2">
+    <text style="font-weight: 700; font-size: 10.5px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #142e3a" x="10" y="34" transform="rotate(-0 10 34)">Textual witness</text>
+   </g>
+   <g id="text_3">
+    <text style="font-weight: 700; font-size: 10.5px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #142e3a" x="132" y="34" transform="rotate(-0 132 34)">Absence / relinquishment</text>
+   </g>
+   <g id="text_4">
+    <text style="font-weight: 700; font-size: 10.5px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #142e3a" x="295" y="34" transform="rotate(-0 295 34)">Appreciation / response</text>
+   </g>
+   <g id="text_5">
+    <a xlink:href="https://www.accesstoinsight.org/tipitaka/mn/mn.121.than.html" target="_blank">
+     <text style="font-weight: 700; font-size: 10.5px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #142e3a" x="10" y="59.156328" transform="rotate(-0 10 59.156328)">Early Buddhist</text>
+    </a>
+   </g>
+   <g id="text_6">
+    <a xlink:href="https://www.accesstoinsight.org/tipitaka/mn/mn.121.than.html" target="_blank">
+     <text style="font-size: 10.5px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #596579" x="10" y="72.186172" transform="rotate(-0 10 72.186172)">MN 121; SN 35.85</text>
+    </a>
+   </g>
+   <g id="text_7">
+    <text style="font-size: 10.5px; font-family: 'DejaVu Sans'; fill: #142e3a" transform="translate(132 59.197344)">Empty of what? What</text>
+    <text style="font-size: 10.5px; font-family: 'DejaVu Sans'; fill: #142e3a" transform="translate(132 71.797344)">remains is present.</text>
+   </g>
+   <g id="text_8">
+    <text style="font-size: 10.5px; font-family: 'DejaVu Sans'; fill: #142e3a" transform="translate(295 59.197344)">Discern absence and remaining</text>
+    <text style="font-size: 10.5px; font-family: 'DejaVu Sans'; fill: #142e3a" transform="translate(295 72.814531)">conditions.</text>
+   </g>
+   <g id="text_9">
+    <a xlink:href="https://plumvillage.org/about/thich-nhat-hanh/letters/thich-nhat-hanh-new-heart-sutra-translation" target="_blank">
+     <text style="font-weight: 700; font-size: 10.5px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #142e3a" x="10" y="97.371914" transform="rotate(-0 10 97.371914)">Mahāyāna</text>
+    </a>
+   </g>
+   <g id="text_10">
+    <a xlink:href="https://plumvillage.org/about/thich-nhat-hanh/letters/thich-nhat-hanh-new-heart-sutra-translation" target="_blank">
+     <text style="font-size: 10.5px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #596579" x="10" y="110.386172" transform="rotate(-0 10 110.386172)">Heart; MMK 24.18</text>
+    </a>
+   </g>
+   <g id="text_11">
+    <text style="font-size: 10.5px; font-family: 'DejaVu Sans'; fill: #142e3a" transform="translate(132 97.397344)">Emptiness is not a separate</text>
+    <text style="font-size: 10.5px; font-family: 'DejaVu Sans'; fill: #142e3a" transform="translate(132 109.997344)">Nothing.</text>
+   </g>
+   <g id="text_12">
+    <text style="font-size: 10.5px; font-family: 'DejaVu Sans'; fill: #142e3a" transform="translate(295 97.397344)">Retain phenomena and</text>
+    <text style="font-size: 10.5px; font-family: 'DejaVu Sans'; fill: #142e3a" transform="translate(295 111.014531)">conventional discourse.</text>
+   </g>
+   <g id="text_13">
+    <a xlink:href="https://www.gutenberg.org/files/216/216-h/216-h.htm" target="_blank">
+     <text style="font-weight: 700; font-size: 10.5px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #142e3a" x="10" y="136.614531" transform="rotate(-0 10 136.614531)">Daoist</text>
+    </a>
+   </g>
+   <g id="text_14">
+    <a xlink:href="https://www.gutenberg.org/files/216/216-h/216-h.htm" target="_blank">
+     <text style="font-size: 10.5px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #596579" x="10" y="148.197344" transform="rotate(-0 10 148.197344)">Daodejing 11</text>
+    </a>
+   </g>
+   <g id="text_15">
+    <text style="font-size: 10.5px; font-family: 'DejaVu Sans'; fill: #142e3a" transform="translate(132 136.614531)">Unfilled hollow within a</text>
+    <text style="font-size: 10.5px; font-family: 'DejaVu Sans'; fill: #142e3a" transform="translate(132 149.214531)">formed vessel.</text>
+   </g>
+   <g id="text_16">
+    <text style="font-size: 10.5px; font-family: 'DejaVu Sans'; fill: #142e3a" transform="translate(295 135.597344)">Recognize what an</text>
+    <text style="font-size: 10.5px; font-family: 'DejaVu Sans'; fill: #142e3a" transform="translate(295 148.197344)">arrangement enables.</text>
+   </g>
+   <g id="text_17">
+    <a xlink:href="https://www.holy-bhagavad-gita.org/chapter/2/verse/47/" target="_blank">
+     <text style="font-weight: 700; font-size: 10.5px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #142e3a" x="10" y="174.419961" transform="rotate(-0 10 174.419961)">Hindu / Gītā</text>
+    </a>
+   </g>
+   <g id="text_18">
+    <a xlink:href="https://www.holy-bhagavad-gita.org/chapter/2/verse/47/" target="_blank">
+     <text style="font-size: 10.5px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #596579" x="10" y="186.786172" transform="rotate(-0 10 186.786172)">2.47; 3.10–13</text>
+    </a>
+   </g>
+   <g id="text_19">
+    <text style="font-size: 10.5px; font-family: 'DejaVu Sans'; fill: #142e3a" transform="translate(132 173.797344)">Relinquish entitlement to</text>
+    <text style="font-size: 10.5px; font-family: 'DejaVu Sans'; fill: #142e3a" transform="translate(132 187.414531)">action's fruits.</text>
+   </g>
+   <g id="text_20">
+    <text style="font-size: 10.5px; font-family: 'DejaVu Sans'; fill: #142e3a" transform="translate(295 173.797344)">Act; respond to gifts through</text>
+    <text style="font-size: 10.5px; font-family: 'DejaVu Sans'; fill: #142e3a" transform="translate(295 186.397344)">offerings.</text>
+   </g>
+   <g id="text_21">
+    <a xlink:href="https://archive.org/details/dscrsesepictetus00epiciala" target="_blank">
+     <text style="font-weight: 700; font-size: 10.5px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #142e3a" x="10" y="213.014531" transform="rotate(-0 10 213.014531)">Stoic</text>
+    </a>
+   </g>
+   <g id="text_22">
+    <a xlink:href="https://archive.org/details/dscrsesepictetus00epiciala" target="_blank">
+     <text style="font-size: 10.5px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #596579" x="10" y="224.597344" transform="rotate(-0 10 224.597344)">Epictetus I.6</text>
+    </a>
+   </g>
+   <g id="text_23">
+    <text style="font-size: 10.5px; font-family: 'DejaVu Sans'; fill: #142e3a" transform="translate(132 211.997344)">No new possession is</text>
+    <text style="font-size: 10.5px; font-family: 'DejaVu Sans'; fill: #142e3a" transform="translate(132 224.597344)">required here.</text>
+   </g>
+   <g id="text_24">
+    <text style="font-size: 10.5px; font-family: 'DejaVu Sans'; fill: #142e3a" transform="translate(295 211.997344)">Attend to perception and</text>
+    <text style="font-size: 10.5px; font-family: 'DejaVu Sans'; fill: #142e3a" transform="translate(295 224.597344)">understanding.</text>
+   </g>
+   <g id="text_25">
+    <a xlink:href="https://www.sefaria.org/Pirkei_Avot.4.1?lang=bi&amp;ven=Mishnah%20Yomit%20by%20Dr.%20Joshua%20Kulp" target="_blank">
+     <text style="font-weight: 700; font-size: 10.5px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #142e3a" x="10" y="250.238359" transform="rotate(-0 10 250.238359)">Jewish</text>
+    </a>
+   </g>
+   <g id="text_26">
+    <a xlink:href="https://www.sefaria.org/Pirkei_Avot.4.1?lang=bi&amp;ven=Mishnah%20Yomit%20by%20Dr.%20Joshua%20Kulp" target="_blank">
+     <text style="font-size: 10.5px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #596579" x="10" y="263.186172" transform="rotate(-0 10 263.186172)">Avot 4:1; Ber. 9:5</text>
+    </a>
+   </g>
+   <g id="text_27">
+    <text style="font-size: 10.5px; font-family: 'DejaVu Sans'; fill: #142e3a" transform="translate(132 250.197344)">New acquisition need not</text>
+    <text style="font-size: 10.5px; font-family: 'DejaVu Sans'; fill: #142e3a" transform="translate(132 263.814531)">define wealth.</text>
+   </g>
+   <g id="text_28">
+    <text style="font-size: 10.5px; font-family: 'DejaVu Sans'; fill: #142e3a" transform="translate(295 250.197344)">Rejoice in one's lot; distinguish</text>
+    <text style="font-size: 10.5px; font-family: 'DejaVu Sans'; fill: #142e3a" transform="translate(295 262.797344)">blessings.</text>
+   </g>
+   <g id="text_29">
+    <a xlink:href="https://www.biblegateway.com/passage/?search=1%20Thessalonians%205%3A18&amp;version=NRSVUE" target="_blank">
+     <text style="font-weight: 700; font-size: 10.5px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #142e3a" x="10" y="289.414531" transform="rotate(-0 10 289.414531)">Christian</text>
+    </a>
+   </g>
+   <g id="text_30">
+    <a xlink:href="https://www.biblegateway.com/passage/?search=1%20Thessalonians%205%3A18&amp;version=NRSVUE" target="_blank">
+     <text style="font-size: 10.5px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #596579" x="10" y="302.014531" transform="rotate(-0 10 302.014531)">1 Thess. 5:18</text>
+    </a>
+   </g>
+   <g id="text_31">
+    <text style="font-size: 10.5px; font-family: 'DejaVu Sans'; fill: #142e3a" transform="translate(132 289.414531)">No favorable outcome is a</text>
+    <text style="font-size: 10.5px; font-family: 'DejaVu Sans'; fill: #142e3a" transform="translate(132 300.997344)">prerequisite.</text>
+   </g>
+   <g id="text_32">
+    <text style="font-size: 10.5px; font-family: 'DejaVu Sans'; fill: #142e3a" transform="translate(295 288.878867)">Give thanks in circumstances,</text>
+    <text style="font-size: 10.5px; font-family: 'DejaVu Sans'; fill: #142e3a" transform="translate(295 302.014531)">toward God.</text>
+   </g>
+   <g id="text_33">
+    <a xlink:href="https://quran.com/en/ibrahim/7" target="_blank">
+     <text style="font-weight: 700; font-size: 10.5px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #142e3a" x="10" y="327.614531" transform="rotate(-0 10 327.614531)">Islamic</text>
+    </a>
+   </g>
+   <g id="text_34">
+    <a xlink:href="https://quran.com/en/ibrahim/7" target="_blank">
+     <text style="font-size: 10.5px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #596579" x="10" y="339.519727" transform="rotate(-0 10 339.519727)">Qur'an 14:7; 31:12</text>
+    </a>
+   </g>
+   <g id="text_35">
+    <text style="font-size: 10.5px; font-family: 'DejaVu Sans'; fill: #142e3a" transform="translate(132 326.597344)">God's need for repayment is</text>
+    <text style="font-size: 10.5px; font-family: 'DejaVu Sans'; fill: #142e3a" transform="translate(132 340.214531)">denied.</text>
+   </g>
+   <g id="text_36">
+    <text style="font-size: 10.5px; font-family: 'DejaVu Sans'; fill: #142e3a" transform="translate(295 326.597344)">Thank Allah; the grateful</text>
+    <text style="font-size: 10.5px; font-family: 'DejaVu Sans'; fill: #142e3a" transform="translate(295 339.197344)">person benefits.</text>
+   </g>
+   <g id="text_37">
+    <a xlink:href="https://www.srigranth.org/servlet/gurbani.gurbani?Action=Page&amp;Param=1" target="_blank">
+     <text style="font-weight: 700; font-size: 10.5px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #142e3a" x="10" y="365.814531" transform="rotate(-0 10 365.814531)">Sikh</text>
+    </a>
+   </g>
+   <g id="text_38">
+    <a xlink:href="https://www.srigranth.org/servlet/gurbani.gurbani?Action=Page&amp;Param=1" target="_blank">
+     <text style="font-size: 10.5px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #596579" x="10" y="377.397344" transform="rotate(-0 10 377.397344)">Japji, pauri 2</text>
+    </a>
+   </g>
+   <g id="text_39">
+    <text style="font-size: 10.5px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #142e3a" x="132" y="364.797344" transform="rotate(-0 132 364.797344)">Egoic speech is relinquished.</text>
+   </g>
+   <g id="text_40">
+    <text style="font-size: 10.5px; font-family: 'DejaVu Sans'; fill: #142e3a" transform="translate(295 365.278867)">Understand hukam; walk in</text>
+    <text style="font-size: 10.5px; font-family: 'DejaVu Sans'; fill: #142e3a" transform="translate(295 378.414531)">divine Will.</text>
+   </g>
+   <g id="text_41">
+    <a xlink:href="https://www.gutenberg.org/cache/epub/3330/pg3330-images.html" target="_blank">
+     <text style="font-weight: 700; font-size: 10.5px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #142e3a" x="10" y="404.014531" transform="rotate(-0 10 404.014531)">Confucian</text>
+    </a>
+   </g>
+   <g id="text_42">
+    <a xlink:href="https://www.gutenberg.org/cache/epub/3330/pg3330-images.html" target="_blank">
+     <text style="font-size: 10.5px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #596579" x="10" y="416.614531" transform="rotate(-0 10 416.614531)">Analects 15.24</text>
+    </a>
+   </g>
+   <g id="text_43">
+    <text style="font-size: 10.5px; font-family: 'DejaVu Sans'; fill: #142e3a" transform="translate(132 404.014531)">Refrain from unwanted</text>
+    <text style="font-size: 10.5px; font-family: 'DejaVu Sans'; fill: #142e3a" transform="translate(132 415.597344)">imposition.</text>
+   </g>
+   <g id="text_44">
+    <text style="font-size: 10.5px; font-family: 'DejaVu Sans'; fill: #142e3a" transform="translate(295 402.997344)">Practice reciprocal restraint</text>
+    <text style="font-size: 10.5px; font-family: 'DejaVu Sans'; fill: #142e3a" transform="translate(295 416.614531)">toward others.</text>
+   </g>
+   <g id="text_45">
+    <a xlink:href="https://www.ccel.org/ccel/rolt/dionysius.v.html" target="_blank">
+     <text style="font-weight: 700; font-size: 10.5px; font-family: 'DejaVu Sans'; fill: #142e3a" transform="translate(10 442.214531)">Christian</text>
+    </a>
+    <a xlink:href="https://www.ccel.org/ccel/rolt/dionysius.v.html" target="_blank">
+     <text style="font-weight: 700; font-size: 10.5px; font-family: 'DejaVu Sans'; fill: #142e3a" transform="translate(10 453.797344)">apophatic</text>
+    </a>
+   </g>
+   <g id="text_46">
+    <a xlink:href="https://www.ccel.org/ccel/rolt/dionysius.v.html" target="_blank">
+     <text style="font-size: 10.5px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #596579" x="10" y="466.397344" transform="rotate(-0 10 466.397344)">Mystical Th. II, V</text>
+    </a>
+   </g>
+   <g id="text_47">
+    <text style="font-size: 10.5px; font-family: 'DejaVu Sans'; fill: #142e3a" transform="translate(132 441.197344)">Exhaustive predicates are</text>
+    <text style="font-size: 10.5px; font-family: 'DejaVu Sans'; fill: #142e3a" transform="translate(132 453.797344)">relinquished.</text>
+   </g>
+   <g id="text_48">
+    <text style="font-size: 10.5px; font-family: 'DejaVu Sans'; fill: #142e3a" transform="translate(295 441.197344)">Praise a Cause beyond</text>
+    <text style="font-size: 10.5px; font-family: 'DejaVu Sans'; fill: #142e3a" transform="translate(295 453.797344)">affirmation / negation.</text>
+   </g>
+   <g id="text_49">
+    <text style="font-size: 10.5px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #142e3a" x="10" y="503.8" transform="rotate(-0 10 503.8)">Selected witnesses; interpretive summaries, no shared measured construct.</text>
+   </g>
+  </g>
+  <g id="legend_figure_key">
+   <g id="text_50">
+    <text style="font-size: 10.5px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #142e3a" x="225.921094" y="538.055898" transform="rotate(-0 225.921094 538.055898)">Key</text>
+   </g>
+   <g id="line2d_12"/>
+   <g id="key_label_0">
+    <text style="font-size: 10.5px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #142e3a" x="50.330742" y="563.99541" transform="rotate(-0 50.330742 563.99541)">Rows: selected textual witnesses</text>
+   </g>
+   <g id="line2d_13"/>
+   <g id="key_label_1">
+    <text style="font-size: 10.5px; font-family: 'DejaVu Sans'; fill: #142e3a" transform="translate(264.796523 556.432744)">Columns: questions, not measured</text>
+    <text style="font-size: 10.5px; font-family: 'DejaVu Sans'; fill: #142e3a" transform="translate(264.796523 569.035615)">quantities</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p8bfaa061a5">
+   <rect x="0" y="-0" width="470.88" height="515.8"/>
+  </clipPath>
+ </defs>
+</svg>

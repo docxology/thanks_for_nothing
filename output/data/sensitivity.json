@@ -1,0 +1,235 @@
+{
+  "schema": "thanks_for_nothing.sensitivity.v1",
+  "rows": [
+    {
+      "prior_concentration": 1.0,
+      "recall_precision": 0.25,
+      "replicates_per_stratum": 128,
+      "optimism_positive_minus_random": -0.00328917677271657,
+      "brier_positive_minus_random": -0.001443352385267535,
+      "model_sha256": "7a8be20edd8b76e6cea1f044595367037510b8f3e0f2f356a5c68c92b6af8000",
+      "pairing_controls_pass": true
+    },
+    {
+      "prior_concentration": 1.0,
+      "recall_precision": 1.0,
+      "replicates_per_stratum": 128,
+      "optimism_positive_minus_random": -0.0029890798967501437,
+      "brier_positive_minus_random": -0.0020573171612564265,
+      "model_sha256": "3e50577f2869097d44e820ae7c86706fdbbedd5090157f862f6bb45c634440de",
+      "pairing_controls_pass": true
+    },
+    {
+      "prior_concentration": 1.0,
+      "recall_precision": 4.0,
+      "replicates_per_stratum": 128,
+      "optimism_positive_minus_random": -0.0022768649263522293,
+      "brier_positive_minus_random": -0.002137109833654188,
+      "model_sha256": "249ebf7dff9830431c57cde90d1aef40d0e84707a1e18e58fd4e6774332431e3",
+      "pairing_controls_pass": true
+    },
+    {
+      "prior_concentration": 1.0,
+      "recall_precision": 16.0,
+      "replicates_per_stratum": 128,
+      "optimism_positive_minus_random": -0.002220774704823238,
+      "brier_positive_minus_random": -0.0026276772507404325,
+      "model_sha256": "9e41a2c077848dae1efdee67a9fd3f06380142177a5128d101b93e8cd2f6ec0d",
+      "pairing_controls_pass": true
+    },
+    {
+      "prior_concentration": 1.0,
+      "recall_precision": 64.0,
+      "replicates_per_stratum": 128,
+      "optimism_positive_minus_random": -0.002226189196054633,
+      "brier_positive_minus_random": -0.002688076580970213,
+      "model_sha256": "d1bab62e93c4cc96949aebbd6ce42378fa4e974857447e3fc9823963af77bfe4",
+      "pairing_controls_pass": true
+    },
+    {
+      "prior_concentration": 2.0,
+      "recall_precision": 0.25,
+      "replicates_per_stratum": 128,
+      "optimism_positive_minus_random": -0.0032368648195946308,
+      "brier_positive_minus_random": -0.0014240188498220868,
+      "model_sha256": "ac158cb7de037aac5b87c7fa55533203ec673c2258973ed3be17211dd07a1c55",
+      "pairing_controls_pass": true
+    },
+    {
+      "prior_concentration": 2.0,
+      "recall_precision": 1.0,
+      "replicates_per_stratum": 128,
+      "optimism_positive_minus_random": -0.002979280168899851,
+      "brier_positive_minus_random": -0.0020119232539771528,
+      "model_sha256": "edae9391a2577919ff14adae69aa0f7a33404effac542dbbfe7d943a5de91ea7",
+      "pairing_controls_pass": true
+    },
+    {
+      "prior_concentration": 2.0,
+      "recall_precision": 4.0,
+      "replicates_per_stratum": 128,
+      "optimism_positive_minus_random": -0.0022832513882428815,
+      "brier_positive_minus_random": -0.0020856658648463313,
+      "model_sha256": "0180a0e11c1c6a4728ac3050f2e84a62a33666f95bca46e973f21a49195133af",
+      "pairing_controls_pass": true
+    },
+    {
+      "prior_concentration": 2.0,
+      "recall_precision": 16.0,
+      "replicates_per_stratum": 128,
+      "optimism_positive_minus_random": -0.002220922876026574,
+      "brier_positive_minus_random": -0.002672583607554986,
+      "model_sha256": "06e72a6f85a3780fe01a91be18e61b4209b46699d7ef0bee2fcd34cc5c1b8445",
+      "pairing_controls_pass": true
+    },
+    {
+      "prior_concentration": 2.0,
+      "recall_precision": 64.0,
+      "replicates_per_stratum": 128,
+      "optimism_positive_minus_random": -0.0022196194572829857,
+      "brier_positive_minus_random": -0.0027600962393192806,
+      "model_sha256": "266c25931674fcda50fdc9e5e13f66c3b539e7cf04648ac7e0b4bb31d34c9900",
+      "pairing_controls_pass": true
+    },
+    {
+      "prior_concentration": 8.0,
+      "recall_precision": 0.25,
+      "replicates_per_stratum": 128,
+      "optimism_positive_minus_random": -0.0030921112400424345,
+      "brier_positive_minus_random": -0.0014510107809905443,
+      "model_sha256": "da0f4f6c6635ca83acf29b231b146f166673001bc485b00cb3eaaf39acee1453",
+      "pairing_controls_pass": true
+    },
+    {
+      "prior_concentration": 8.0,
+      "recall_precision": 1.0,
+      "replicates_per_stratum": 128,
+      "optimism_positive_minus_random": -0.0028878383140173965,
+      "brier_positive_minus_random": -0.0018892241995600752,
+      "model_sha256": "53bd1c4daada9265fd0435fbc49fe29a8ab786091772a9d0faf9ab3aa0cea24e",
+      "pairing_controls_pass": true
+    },
+    {
+      "prior_concentration": 8.0,
+      "recall_precision": 4.0,
+      "replicates_per_stratum": 128,
+      "optimism_positive_minus_random": -0.0022299348202059178,
+      "brier_positive_minus_random": -0.001998237365252135,
+      "model_sha256": "83d30fe787fdd458bafa9a4b28e32897751b1b02c8ca0b75dfefb43ce27c6cb7",
+      "pairing_controls_pass": true
+    },
+    {
+      "prior_concentration": 8.0,
+      "recall_precision": 16.0,
+      "replicates_per_stratum": 128,
+      "optimism_positive_minus_random": -0.002164246408554229,
+      "brier_positive_minus_random": -0.002627661286439321,
+      "model_sha256": "559a022e0eb14800e035cfe7c52e32d8d1c5fd568798e0f09c91fa62da8d988f",
+      "pairing_controls_pass": true
+    },
+    {
+      "prior_concentration": 8.0,
+      "recall_precision": 64.0,
+      "replicates_per_stratum": 128,
+      "optimism_positive_minus_random": -0.0021635897756654638,
+      "brier_positive_minus_random": -0.0027006531405188343,
+      "model_sha256": "c6ec2363ba994c3fbf387782b661fc622ae18269c1bab263446118e24b965281",
+      "pairing_controls_pass": true
+    },
+    {
+      "prior_concentration": 32.0,
+      "recall_precision": 0.25,
+      "replicates_per_stratum": 128,
+      "optimism_positive_minus_random": -0.0027869801997423135,
+      "brier_positive_minus_random": -0.0015058838288258658,
+      "model_sha256": "5c48c332665c8df152bed3869c0263394666cb291aa4c7878a863f52f7abfda9",
+      "pairing_controls_pass": true
+    },
+    {
+      "prior_concentration": 32.0,
+      "recall_precision": 1.0,
+      "replicates_per_stratum": 128,
+      "optimism_positive_minus_random": -0.0025875219123116396,
+      "brier_positive_minus_random": -0.001659955892424022,
+      "model_sha256": "e85616cc06621e854547aa50d148152c564c9196195c7ab1fdab72ce3ccd3d8e",
+      "pairing_controls_pass": true
+    },
+    {
+      "prior_concentration": 32.0,
+      "recall_precision": 4.0,
+      "replicates_per_stratum": 128,
+      "optimism_positive_minus_random": -0.001978290277177403,
+      "brier_positive_minus_random": -0.0017183754474095815,
+      "model_sha256": "618a5579cb26a9470141d9f1fe96fb48d8d9b24b59895ce2f0448a7fdc619c12",
+      "pairing_controls_pass": true
+    },
+    {
+      "prior_concentration": 32.0,
+      "recall_precision": 16.0,
+      "replicates_per_stratum": 128,
+      "optimism_positive_minus_random": -0.0019218343291086814,
+      "brier_positive_minus_random": -0.002306683232602548,
+      "model_sha256": "696efeda6c16d447130011e7aa91bae9a2828dcd349d22abbfa0e89a89ad050b",
+      "pairing_controls_pass": true
+    },
+    {
+      "prior_concentration": 32.0,
+      "recall_precision": 64.0,
+      "replicates_per_stratum": 128,
+      "optimism_positive_minus_random": -0.001921023171166937,
+      "brier_positive_minus_random": -0.0023819045052704295,
+      "model_sha256": "2fd45852e985908f4e2f7e29db314b0e4a175ef5f9f45805e79d3bea2aaf9b47",
+      "pairing_controls_pass": true
+    },
+    {
+      "prior_concentration": 128.0,
+      "recall_precision": 0.25,
+      "replicates_per_stratum": 128,
+      "optimism_positive_minus_random": -0.002014872178987373,
+      "brier_positive_minus_random": -0.00116980473784329,
+      "model_sha256": "09cf741a9f9e74b5d89ccbfeb89abe53f37211d5efc1ae8ee297b3f462592181",
+      "pairing_controls_pass": true
+    },
+    {
+      "prior_concentration": 128.0,
+      "recall_precision": 1.0,
+      "replicates_per_stratum": 128,
+      "optimism_positive_minus_random": -0.001782332798856171,
+      "brier_positive_minus_random": -0.0011100678677068143,
+      "model_sha256": "455f4f6fe0542fdf871d4385597ababf6c27500d823b140ca9465f3b08859bd6",
+      "pairing_controls_pass": true
+    },
+    {
+      "prior_concentration": 128.0,
+      "recall_precision": 4.0,
+      "replicates_per_stratum": 128,
+      "optimism_positive_minus_random": -0.0013144678271961173,
+      "brier_positive_minus_random": -0.0010625535935919188,
+      "model_sha256": "91b0060bc5853a67c03973fa9667704fcf9cbae5206c429ff5674f1b4d7542d5",
+      "pairing_controls_pass": true
+    },
+    {
+      "prior_concentration": 128.0,
+      "recall_precision": 16.0,
+      "replicates_per_stratum": 128,
+      "optimism_positive_minus_random": -0.0012849125847334995,
+      "brier_positive_minus_random": -0.0015092418156382337,
+      "model_sha256": "33b226bcfbdab0de9fe5f993e1235a1b736c8ed4390c16bbae18d85568b23c6b",
+      "pairing_controls_pass": true
+    },
+    {
+      "prior_concentration": 128.0,
+      "recall_precision": 64.0,
+      "replicates_per_stratum": 128,
+      "optimism_positive_minus_random": -0.001283150152246057,
+      "brier_positive_minus_random": -0.0016107379222421853,
+      "model_sha256": "263ee6e1ea81b26b4596d7f5ed4e265bf5612316cc18233eb6126401fa72d215",
+      "pairing_controls_pass": true
+    }
+  ],
+  "controls": {
+    "each_grid_cell_re_admitted": true,
+    "paired_exposures_preserved": true
+  },
+  "evidence_ceiling": "Conditional paired sensitivity on a fixed model grid; no human population inference."
+}

@@ -1,0 +1,6 @@
+[NbConvertApp] Converting notebook /Volumes/GitVault/Local/worktrees/tfn-publication-20261022/notebooks/boundary_gaze.ipynb to notebook
+[IPKernelApp] WARNING | Kernel is running over TCP without encryption. All communication (including code and outputs) is sent in plain text and is susceptible to eavesdropping. Use IPC transport or launch with kernel manager-provisioned CurveZMQ keys to enable transport encryption.
+[NbConvertApp] Writing 3583035 bytes to /Volumes/GitVault/Local/tmp/tfn-release-20261022/canonical/notebook/boundary_gaze.executed.ipynb
+[NbConvertApp] Converting notebook /Volumes/GitVault/Local/tmp/tfn-release-20261022/canonical/notebook/boundary_gaze.executed.ipynb to html
+[NbConvertApp] WARNING | Alternative text is missing on 8 image(s).
+[NbConvertApp] Writing 3612800 bytes to /Volumes/GitVault/Local/tmp/tfn-release-20261022/canonical/notebook/boundary_gaze.html

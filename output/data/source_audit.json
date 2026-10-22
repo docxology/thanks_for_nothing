@@ -1,0 +1,52 @@
+{
+  "yarbus": {
+    "source_sha256": "ab9f36b515d1534d24b7e676841fa5cea7c264370f6ee566798c8b1b3de62510",
+    "executed_definition": "cell 1: YarbusActiveInference only",
+    "controls": {
+      "action_first_transition_matches_target": true,
+      "transition_prior_min_mass": 0.9999999999999998,
+      "transition_prior_max_mass": 1.0,
+      "prior_argmax_matches_actual_next_state": true,
+      "observation_process_mismatch_count": 33,
+      "likelihood_process_max_difference": 0.6666666666666667,
+      "efe_ambiguity_cost_oracle_max_error": 0.0,
+      "uncomputed_final_policy_mass": 0.0
+    }
+  },
+  "source_sha256": "1b8a0400ba6c457d1da8ca28a369f60be2f367fb760a794c78ce7125a321ceb6",
+  "cell_count": 16,
+  "executed_cells": [
+    0,
+    1,
+    5,
+    8,
+    10,
+    12,
+    14
+  ],
+  "scope": "Digest-bound selected numeric cells; seeded headless dimension adapter; not full Colab replication",
+  "controls": {
+    "belief_well_one_selects_index": 0,
+    "optimistic_comment_index": 1,
+    "label_reversal_observed": true,
+    "raw_counts_posterior_well": 0.8999984000064001,
+    "normalized_posterior_well": 0.5,
+    "counts_mass_effect": 0.3999984000064001,
+    "source_epsilon_zero_weight_leak": 0.000019999200031998726,
+    "snapshots_share_memory": true,
+    "snapshot_mutation_max": 75.65296319645442,
+    "baseline_snapshot_initial_total": 1.9999999999999998,
+    "baseline_snapshot_last_total": 146.00000000000003,
+    "task_priors_redrawn": true,
+    "intervention_exact_one_count": 251,
+    "plot_first_five_actual_luckiness": [
+      0.1,
+      0.10080080080080081,
+      0.1016016016016016,
+      0.1024024024024024,
+      0.10320320320320321
+    ],
+    "plot_excluded_grid_points": 1,
+    "normal_numeric_order_completes": true
+  }
+}

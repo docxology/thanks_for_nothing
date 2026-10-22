@@ -1,0 +1,12 @@
+{
+  "schema_version": "thanks_for_nothing.manuscript_observations.v1",
+  "gratitude_source_sha256": "f9ba1ed0e3e5ecff219348eccc322a1ee5156d001eba7eff87be91ac01a08e46",
+  "after_figure_locator": "Fisher et al. preprint v1, Figure 5, after-gratitude bars; positive/negative/neutral order",
+  "after_positive_profile_percent": [90.1, 6.1, 3.8],
+  "after_negative_profile_percent": [90.6, 2.3, 7.1],
+  "after_status": "transcribed_figure_only_no_executable_after_condition",
+  "desteno_receipt": "data/scholarship/receipts/v060/desteno2014.pdf",
+  "desteno_receipt_sha256": "35cf33a876c5ca75a002bec5ec116e1e8f19b88f913190e16d6218aa474a589f",
+  "desteno_locator": "DeSteno et al. 2014 author accepted manuscript, PDF page 7, Method",
+  "desteno_participants": 75
+}

@@ -1,0 +1,18 @@
+{
+  "schema": "thanks_for_nothing.upstream_currentness.v1",
+  "checked_at": "2026-10-16T15:20:52Z",
+  "repository": "https://github.com/docxology/realizing_emptiness",
+  "commit_endpoint": "https://api.github.com/repos/docxology/realizing_emptiness/commits/main",
+  "remote_main": "bd91fa1c230551180ed741d1951840e3628da35d",
+  "pinned_runtime_commit": "bd91fa1c230551180ed741d1951840e3628da35d",
+  "local_upstream_head": "bd91fa1c230551180ed741d1951840e3628da35d",
+  "runtime_distribution_version": "3.0.0",
+  "main_commit_date": "2026-10-15T02:27:40Z",
+  "latest_release_endpoint": "https://api.github.com/repos/docxology/realizing_emptiness/releases/latest",
+  "latest_release": "v3.0.0",
+  "latest_release_published_at": "2026-10-15T02:56:57Z",
+  "release_url": "https://github.com/docxology/realizing_emptiness/releases/tag/v3.0.0",
+  "raw_commit_receipt_sha256": "2a93e31c118f6276f44327c11cc5a9e144adc27697090217532d03df00cd6326",
+  "raw_release_receipt_sha256": "8a44ca620f0ba881dbf8598c0e689fe036002d9d63ef7c6e558652839e783552",
+  "scope": "Dated remote-main and release read-back. Execution remains commit-pinned and separately validated; this receipt does not track future upstream changes."
+}

@@ -1,0 +1,197 @@
+{
+  "schema": "thanks_for_nothing.documentation.v1",
+  "inputs": [
+    {
+      "path": "docs/README.md",
+      "sha256": "d4b2b5efa8f33ceb13412e886e6f64da8437d7e64b64d3ca8ebd8b29d422b477"
+    },
+    {
+      "path": "docs/architecture.md",
+      "sha256": "58271afc477bba0ff2dd0156960889816dc6042bd712dd04047e66314cf80df4"
+    },
+    {
+      "path": "docs/bootstrap-availability-research.md",
+      "sha256": "d2ba5420cf36a8ef3e8e2fe1c9af88056bee44116eab2820eb0d4207af3d934e"
+    },
+    {
+      "path": "docs/boundary-gaze-design.md",
+      "sha256": "d1c958c68da4259d2adb54a2be5040e647ff7b281da12c96b647c7a19b61e0e1"
+    },
+    {
+      "path": "docs/boundary-gaze-research.md",
+      "sha256": "7e60d46d0e99de5903f8b306246b46a7e74935640be8c14c25a30baafc0dabb3"
+    },
+    {
+      "path": "docs/emptiness-integration-research.md",
+      "sha256": "09b667c1bc01538cfb042d7ea06664854aeb11503b9eca4f040d4fb29fe0a050"
+    },
+    {
+      "path": "docs/emptiness-practice.md",
+      "sha256": "09d418ff1659dd3d0e9ba713d77688976f6c742ee1b57be5e20c8fe46e7d432f"
+    },
+    {
+      "path": "docs/evidence-ceilings.md",
+      "sha256": "842de3d9cd282f846b0adde29c3a968815409d5d432bfda38cf4262580ad67ad"
+    },
+    {
+      "path": "docs/exact-decisions.md",
+      "sha256": "02905de89a2b5e27b2f7a482ffb90c72e7fd38a5ce43989735431a2c1e1463c6"
+    },
+    {
+      "path": "docs/external-inputs.md",
+      "sha256": "62bf1a15009af8f6b4f0c68e53d0a67224cada192882133f7e5ed29bd25c4df2"
+    },
+    {
+      "path": "docs/gaze-experiments.md",
+      "sha256": "369d82c3605a6817f5d520f41dd7659d176054578a0e34e049d48622d1729fc7"
+    },
+    {
+      "path": "docs/joint-uncertainty.md",
+      "sha256": "27ec6edfc9f724c5d8f412703582a02adf35d726bd74bdad34623c13f713692e"
+    },
+    {
+      "path": "docs/maintext-scholarship-research.md",
+      "sha256": "2575a0fa52f73ba52af7bf3a54b0a29476f55513105f2a1bd0e150863e6f0c35"
+    },
+    {
+      "path": "docs/manuscript/manuscript.md",
+      "sha256": "cb203d4ee12fb522bae21d79694e743e094a5dbb8e1e7e532c215b67b4a7fac6"
+    },
+    {
+      "path": "docs/manuscript/supplement.md",
+      "sha256": "ac8c681ecd4ed911dcff37c602a92b7a269b1620d346fb84705e9472fd6ee20f"
+    },
+    {
+      "path": "docs/manuscript-production.md",
+      "sha256": "f8130481abf07ca8f37cc59b9ddedce4b4ab2fc10dc7cbda39989c66749d5f35"
+    },
+    {
+      "path": "docs/manuscript-reading-guide.md",
+      "sha256": "d206f3accf7b7cb6b779b52486a0055913abdce8d2b1c7e68184962783e6a4b5"
+    },
+    {
+      "path": "docs/manuscript-values.md",
+      "sha256": "43146752c7bd8f0b97f0b453eea1d04009381ae4269d0fa9510b65a505011ce0"
+    },
+    {
+      "path": "docs/model-contract.md",
+      "sha256": "8c9d268405e4305ad8cce274a5cf7f7e45f6293aaa92a900a2787fbb6878ac9d"
+    },
+    {
+      "path": "docs/notebook-audit.md",
+      "sha256": "2c3dd2d28dc44c6d8f57b0bf152ef7e9c4ac72f9fc1b46557e3f8f17e7d37e65"
+    },
+    {
+      "path": "docs/process-and-publication-research.md",
+      "sha256": "65da3e118123a8f1d559e34a9485449e0725233a4904de63ebfc35cc2d3f778f"
+    },
+    {
+      "path": "docs/publication-handoff.md",
+      "sha256": "0a4844e71d3002f29228a1759857e23fb91c276becea13fc8f1c1c4c87c6f6b3"
+    },
+    {
+      "path": "docs/publication-license-audit-20261020.md",
+      "sha256": "0f6b11316a6e9ab9eaf99bf283a2343454c070eb767e808788809b211259f5d4"
+    },
+    {
+      "path": "docs/reproducibility.md",
+      "sha256": "c2503c77ef89b6ef6ae71ee804da5bd898996a477ef57dab7d4ffd862f02b7c9"
+    },
+    {
+      "path": "docs/research/claim-support-20261020.md",
+      "sha256": "f796507071f5c18ceb5fc572c67220d231a95fb58221c79e21c882ba784a584c"
+    },
+    {
+      "path": "docs/research/relational-and-first-person-20261020.md",
+      "sha256": "ecde3c265976ad5948d31610008cf47dee06e8a35938064595edc757ca8ecb5a"
+    },
+    {
+      "path": "docs/research/traditions-comparison-20261020.md",
+      "sha256": "c7bb10c5e61f520570c9930d5a3ef01bccf86c5d9ce2512d1c57f5ed5e1b7fe5"
+    },
+    {
+      "path": "docs/research/wisdom-traditions-20261020.md",
+      "sha256": "a730bf8a21711fefcf74082359065ca657e2416f0bca0cba413952707d8db86f"
+    },
+    {
+      "path": "docs/revision-plan.md",
+      "sha256": "d9f7b0761572830df2539050a8c97aa956e1ad27c560b110582f981c9b232b58"
+    },
+    {
+      "path": "docs/scholarship-revision.md",
+      "sha256": "b53d77a6c7bcec6c2fe8ee7f335da812f0979cd5826462159b1e2f441e55a6f7"
+    },
+    {
+      "path": "docs/scholarship-v0110-research.md",
+      "sha256": "bea948754a1c925aca618a3c4f254c969f2ec44c43052109ed278753ce6ba651"
+    },
+    {
+      "path": "docs/scholarship-v040-research.md",
+      "sha256": "6360cdea169692f160e3eb7c3b35f77f9a6c66137cebd64bec8db7be6b02a017"
+    },
+    {
+      "path": "docs/scholarship-v060-research.md",
+      "sha256": "60f2f42869aaf732bd0b17dcfce999dd520b7dda5daebff408b37554549645c8"
+    },
+    {
+      "path": "docs/scholarship-v080-research.md",
+      "sha256": "5bb311a1a0fadbe018973ec9525fd909c74cc5ad926b76d257b51eecc939f0a8"
+    },
+    {
+      "path": "docs/scholarship-v090-research.md",
+      "sha256": "6ae83c0bf1b13d6d435389dafbd6bad8470e12945878c835b0ddaff501ac3d75"
+    },
+    {
+      "path": "docs/scholarship.md",
+      "sha256": "3c652a72e74784db1b75a54e1e4b0f09d2bfa530a5b2b81fa79e58ff0f648150"
+    },
+    {
+      "path": "docs/selection-scoring-research.md",
+      "sha256": "8c0b055642382c2ad329005fc2c6e7e49cce9169f3116404e2deb268b454385f"
+    },
+    {
+      "path": "docs/simulation-design-research.md",
+      "sha256": "c36a4cb384c6e65fb41c8b0375eec28bf2d8d0ceeffbdc2d722acd65dc3d3561"
+    },
+    {
+      "path": "docs/source-paper-analysis.md",
+      "sha256": "1fbe87f9a021102f7c3e5ee1d53104a4b57178b47352619bae758610e93171bc"
+    },
+    {
+      "path": "docs/statistics.md",
+      "sha256": "6232efbc4698d6482f30a8919772303da0a5e7007013f8f3b03089236f44a92b"
+    },
+    {
+      "path": "docs/visualizations.md",
+      "sha256": "e8e28d7f0b08b86895c062e76cd3a1bfd288556b8ca7120c7af64f934dee6b25"
+    },
+    {
+      "path": "docs/wisdom-traditions.md",
+      "sha256": "66522249521b8b623c33e3a2ba2b65ad99824b0c730401e102d89739249b31a7"
+    },
+    {
+      "path": "docs/yarbus-research.md",
+      "sha256": "20130d3ddaca7df21b32cf34000429f59c110d95e19a47d1070dfb35145fb261"
+    },
+    {
+      "path": "README.md",
+      "sha256": "fc7579e5db8c9c7d98151f5947ddc4718b5871b2459f5764932abea385354a56"
+    },
+    {
+      "path": "AGENTS.md",
+      "sha256": "827fb4ec833fba3d14aaf1e62e84a7cdd17f3f1d2cbbb574966088af65e898ba"
+    },
+    {
+      "path": "CONTEXT.md",
+      "sha256": "4ecfa35345c00e2671ed3b7aeffe6c2a4f7aa9972691cc4d32a0b57213a4889f"
+    },
+    {
+      "path": "DESIGN.md",
+      "sha256": "b5baa38dee0ea3980d55da70afc8a120d4bca66da7f8b350f308225cb9359e02"
+    }
+  ],
+  "local_links": 474,
+  "issues": [],
+  "excluded_products": [],
+  "all_pass": true
+}

@@ -1,0 +1,1004 @@
+[
+  {
+    "name": "gnn_model_graph",
+    "title": "GNN declaration dependencies",
+    "alt": "Parsed nodes and directed edges; identical topologies are grouped, not inferred from data.",
+    "source_artifacts": [
+      "data/gnn_graphs.json"
+    ],
+    "source_sha256": [
+      "e1dd2c689b74e834cb1279552d2927b93ac61881fe0b85f402f3dfdbe149abfc"
+    ],
+    "png_sha256": "afb486bf77a0aea85d3a334d66b3e16c60bd8f01cd53a070b78fd50aa49fa5a5",
+    "svg_sha256": "2577d63a91c4bc116105adf5153547da2f54615e1133ccff81e29a2c7cbe3d44",
+    "width_inches": 6.54,
+    "height_inches": 10.86375,
+    "min_font_points": 10.5,
+    "publication_min_font_points": 10.5,
+    "legend_labels": [
+      "Circle: parsed GNN variable",
+      "Arrow: declared dependency",
+      "s state; o observation; u action"
+    ]
+  },
+  {
+    "name": "gnn_model_tensors",
+    "title": "Complete runtime GNN families",
+    "alt": "Family/dimension rows group complete instances; R denotes restricted support.",
+    "source_artifacts": [
+      "data/gnn_graphs.json"
+    ],
+    "source_sha256": [
+      "e1dd2c689b74e834cb1279552d2927b93ac61881fe0b85f402f3dfdbe149abfc"
+    ],
+    "png_sha256": "5d2c21d7dc1fac9aeac59322834b425bb3dbc15982c1617dfab82489257c2e00",
+    "svg_sha256": "c606bd6445da2efd0456ddb5133c055a0f572ae79d0da7d8eeaaf427f360da9b",
+    "width_inches": 6.54,
+    "height_inches": 8.680973632812501,
+    "min_font_points": 10.5,
+    "publication_min_font_points": 10.5,
+    "legend_labels": [
+      "Dimensions: admitted tensor shapes",
+      "Rows: complete runtime families",
+      "R: restricted prior support"
+    ]
+  },
+  {
+    "name": "world_traditions",
+    "title": "Distinct textual representations of Thanks for Nothing",
+    "alt": "Selected named textual witnesses, compared through absence or relinquishment and appreciation or response. These are the manuscript authors' interpretive summaries, not quotations, exhaustive accounts of traditions, measurements, a ranking or evidence of historical influence. Gratitude is not explicit in every passage; no row validates the computational model.",
+    "source_artifacts": [
+      "data/world_traditions.json"
+    ],
+    "source_sha256": [
+      "5fbd455e580388219c57c9a52ebd7a469ce3d4252ed8446702bd89f85b8d33fd"
+    ],
+    "png_sha256": "25fdc804668cfbd28d872d1820b956704f7ea8c4c21d5d20801a004cab60c832",
+    "svg_sha256": "6df06f0a27a6836e43f46a4e1fa64a7a33097805d918ced07ad96a026b79d7c3",
+    "width_inches": 6.54,
+    "height_inches": 8.091237521701387,
+    "min_font_points": 10.5,
+    "publication_min_font_points": 10.5,
+    "legend_labels": [
+      "Rows: selected textual witnesses",
+      "Columns: questions, not measured quantities"
+    ]
+  },
+  {
+    "name": "concept_map",
+    "title": "Four uses of nothing: separate questions and operations",
+    "alt": "A observed absence, B missing observation, C counterfactual value, D non-reification.",
+    "source_artifacts": [
+      "data/concepts.json",
+      "data/nothingness.json",
+      "data/study.json"
+    ],
+    "source_sha256": [
+      "05f46d45fd54cb058b747529ed12040bd6e7a01d1a343a4567280de188a78c0f",
+      "a4155f3f15d6d21e58d17cbf5736692908d980cb88e47555e30a6476076ff2a2",
+      "f56b7c4eec0fcd43f752905ba1b83680fe0d192514318ad6982f6665b69d3591"
+    ],
+    "png_sha256": "8cbec69d146c8fd7448fba6a17641774cef3b8686bfbae093f114fc85870ffaa",
+    "svg_sha256": "3262475dd777bb73538bee00127ed1611afe255908c255a44f265f05849ab016",
+    "width_inches": 6.54,
+    "height_inches": 7.6785986328125,
+    "min_font_points": 10.5,
+    "publication_min_font_points": 10.5,
+    "legend_labels": [
+      "A: Observed absence",
+      "B: Missing observation",
+      "C: Counterfactual value",
+      "D: Non-reification",
+      "Arrows: declared operations",
+      "Symbols: s state, q belief, o observation"
+    ]
+  },
+  {
+    "name": "learning_trajectories",
+    "title": "Ensemble learning and paired daily changes",
+    "alt": "Means and between-agent IQRs retain all independent units; paired panels expose overlap.",
+    "source_artifacts": [
+      "data/study.json"
+    ],
+    "source_sha256": [
+      "f56b7c4eec0fcd43f752905ba1b83680fe0d192514318ad6982f6665b69d3591"
+    ],
+    "png_sha256": "1d4ef8932c959fde5a4e3b96166fd3ac000ae7e4dc11d0515e6dc20999e8a593",
+    "svg_sha256": "f303380858a948bccec84e881f4a1203176b230ba735525db0fb13e3f21ed64e",
+    "width_inches": 6.54,
+    "height_inches": 8.164229329427084,
+    "min_font_points": 10.5,
+    "publication_min_font_points": 10.5,
+    "legend_labels": [
+      "No recall",
+      "Positive recall",
+      "Matched random recall",
+      "Positive recall minus no recall",
+      "Matched random recall minus no recall",
+      "Vertical line: replay begins",
+      "Shading: between-agent IQR"
+    ]
+  },
+  {
+    "name": "calibration_by_world",
+    "title": "Predictive loss and paired world contrasts",
+    "alt": "Brier means and unit IQRs; paired analytic t intervals are exploratory. Lower is better.",
+    "source_artifacts": [
+      "data/study.json",
+      "data/statistics.json"
+    ],
+    "source_sha256": [
+      "f56b7c4eec0fcd43f752905ba1b83680fe0d192514318ad6982f6665b69d3591",
+      "c795074de515745d70721783d53cff5f376695cc470f5ea138cfb897d6944ed4"
+    ],
+    "png_sha256": "1113fe2e68d70cc2f6ad50062a43e0f4dc2617305cbb59af1f08eb48ec84e6b5",
+    "svg_sha256": "14ac81158ac6cd2adabb21074193c7c1c945dff3c35fe05165be7850b1d5ac68",
+    "width_inches": 6.54,
+    "height_inches": 8.0085986328125,
+    "min_font_points": 10.5,
+    "publication_min_font_points": 10.5,
+    "legend_labels": [
+      "No recall",
+      "Positive recall",
+      "Matched random recall",
+      "Positive minus no recall",
+      "Positive minus matched random recall",
+      "Shading: between-unit IQR"
+    ]
+  },
+  {
+    "name": "paired_contrasts",
+    "title": "Primary paired estimates with two interval methods",
+    "alt": "Primary paired percentile and bootstrap t intervals; exact nulls lack studentization.",
+    "source_artifacts": [
+      "data/statistics.json"
+    ],
+    "source_sha256": [
+      "c795074de515745d70721783d53cff5f376695cc470f5ea138cfb897d6944ed4"
+    ],
+    "png_sha256": "32fee045cdb5ee36dc7d32e26f92a8fd1582100998d90dcd604bcc99c0c23178",
+    "svg_sha256": "37b0d05886536b9fe65b81ea47d16f62168e843ace8915eed9e0b6dfcd308d55",
+    "width_inches": 6.54,
+    "height_inches": 7.783750000000001,
+    "min_font_points": 10.5,
+    "publication_min_font_points": 10.5,
+    "legend_labels": [
+      "Percentile interval",
+      "Bootstrap t interval",
+      "Zero line: equal paired change"
+    ]
+  },
+  {
+    "name": "paired_spread",
+    "title": "Between-unit variation within each world",
+    "alt": "Dots are medians; segments span paired-unit quartiles, not confidence intervals.",
+    "source_artifacts": [
+      "data/statistics.json"
+    ],
+    "source_sha256": [
+      "c795074de515745d70721783d53cff5f376695cc470f5ea138cfb897d6944ed4"
+    ],
+    "png_sha256": "d698d70fddef264780610d88b4a216eee342596138be107be3b3a15134d637b1",
+    "svg_sha256": "581a21ec00948aff4d1d84d53c8df5a9f11f4ab99d0a115be1dfa748d44e308e",
+    "width_inches": 6.54,
+    "height_inches": 7.563750000000001,
+    "min_font_points": 10.5,
+    "publication_min_font_points": 10.5,
+    "legend_labels": [
+      "Positive - no recall",
+      "Positive - matched random recall",
+      "Segments: unit IQR; not a CI"
+    ]
+  },
+  {
+    "name": "weighting_sensitivity",
+    "title": "Dependence on the world mixture",
+    "alt": "Ranges vary world weights with estimated stratum means fixed; they are not CIs.",
+    "source_artifacts": [
+      "data/statistics.json"
+    ],
+    "source_sha256": [
+      "c795074de515745d70721783d53cff5f376695cc470f5ea138cfb897d6944ed4"
+    ],
+    "png_sha256": "13ed0d50eb3fc50aedb42b9e1cdbce272c0242b367edad6651f9e5520527a791",
+    "svg_sha256": "d150bf73d4f2e421c1a76e25f0c8fa157ed1a1622398cd0a327b66a99dadd1d7",
+    "width_inches": 6.54,
+    "height_inches": 7.013750000000001,
+    "min_font_points": 10.5,
+    "publication_min_font_points": 10.5,
+    "legend_labels": [
+      "All world weights",
+      "Leave one world out",
+      "Equal-grid mean",
+      "Ranges: mixtures; not CIs"
+    ]
+  },
+  {
+    "name": "appreciation_null",
+    "title": "Value with unchanged inference",
+    "alt": "Counterfactual value varies; belief, Brier and log-loss differences are zero by design.",
+    "source_artifacts": [
+      "data/concepts.json",
+      "data/study.json"
+    ],
+    "source_sha256": [
+      "05f46d45fd54cb058b747529ed12040bd6e7a01d1a343a4567280de188a78c0f",
+      "f56b7c4eec0fcd43f752905ba1b83680fe0d192514318ad6982f6665b69d3591"
+    ],
+    "png_sha256": "6c5217a19ba55c591f9854bec8e151785cab859c3133779b3f474ede29f7567c",
+    "svg_sha256": "736a36c1ca39cd85dd7ede6220b35c9814438ae3b0c2f17bda14683c376c477a",
+    "width_inches": 6.54,
+    "height_inches": 4.92375,
+    "min_font_points": 10.5,
+    "publication_min_font_points": 10.5,
+    "legend_labels": [
+      "Line: counterfactual value mean",
+      "Shading: between-unit IQR",
+      "Right: exact paired maxima"
+    ]
+  },
+  {
+    "name": "absence_information",
+    "title": "Absence and missingness differ",
+    "alt": "A finite absence observation updates belief; missingness preserves the prior by convention.",
+    "source_artifacts": [
+      "data/concepts.json",
+      "data/nothingness.json"
+    ],
+    "source_sha256": [
+      "05f46d45fd54cb058b747529ed12040bd6e7a01d1a343a4567280de188a78c0f",
+      "a4155f3f15d6d21e58d17cbf5736692908d980cb88e47555e30a6476076ff2a2"
+    ],
+    "png_sha256": "8dd591316c616aa0eb15c13697d56e180e4f76081e4b2faf613f2ab10ebf669f",
+    "svg_sha256": "238acd8cf529628f50c687fbe08c5ff07935ac24e09f4977dd163f5b05e684f3",
+    "width_inches": 6.54,
+    "height_inches": 4.903124999999999,
+    "min_font_points": 10.5,
+    "publication_min_font_points": 10.5,
+    "legend_labels": [
+      "Prior / B: missing observation",
+      "A: observed absence"
+    ]
+  },
+  {
+    "name": "attention_policies",
+    "title": "Fixed-process policy comparison",
+    "alt": "All masses are labeled; profile markers differ. Connectors are not intervals.",
+    "source_artifacts": [
+      "data/attention.json"
+    ],
+    "source_sha256": [
+      "f6af70311dff79668cba64ce0ceba90a036b8135ca782320de46c6f8d78426f9"
+    ],
+    "png_sha256": "fb6a88498bc455f98501adbae752a8a9f6d3b5c3d3bea8ca503cd91ca8e8eb6f",
+    "svg_sha256": "da27a408ad09884d549b36f7e6b41e28e46ce573ea917e99ca0749e2ecd09eec",
+    "width_inches": 6.54,
+    "height_inches": 5.14375,
+    "min_font_points": 10.5,
+    "publication_min_font_points": 10.5,
+    "legend_labels": [
+      "Positive precision",
+      "Negative precision",
+      "Connector: profile comparison"
+    ]
+  },
+  {
+    "name": "sensitivity",
+    "title": "GNN-admitted parameter sensitivity",
+    "alt": "Positive-minus-random contrasts on a finite grid; separate zero-centered endpoint scales.",
+    "source_artifacts": [
+      "data/sensitivity.json"
+    ],
+    "source_sha256": [
+      "1cb3fd371ef5100cb21c6823ddc624be849e549d497c8cdc8f55df76814efaed"
+    ],
+    "png_sha256": "f9e0fbe4392becfb776f3852b1d4d69c607faac986c0711cca18223e01679c64",
+    "svg_sha256": "07cf01c75307d5e2e7346c074273a2b8eb7507fbe7a75991d1053ee288148306",
+    "width_inches": 6.54,
+    "height_inches": 7.323125000000001,
+    "min_font_points": 10.5,
+    "publication_min_font_points": 10.5,
+    "legend_labels": [
+      "Color bars: signed contrast"
+    ]
+  },
+  {
+    "name": "statistical_calibration",
+    "title": "Distribution-sensitive statistical calibration",
+    "alt": "Coverage includes unavailable intervals as failures; skew and Bernoulli violate sign symmetry.",
+    "source_artifacts": [
+      "data/statistical_calibration.json"
+    ],
+    "source_sha256": [
+      "4090bef27bfa4615d041fdb4e0df081136858170ae2b2afce0311586b0a16874"
+    ],
+    "png_sha256": "473d4f405b6958bfcdf93a7c258bcd0eee69ab8a5836b67fe6306474c8256dbc",
+    "svg_sha256": "d1e0cd8943a39419d0af6abb5977b751441f733a2bd4893b358c61a04c1b1ecd",
+    "width_inches": 6.54,
+    "height_inches": 8.8679736328125,
+    "min_font_points": 10.5,
+    "publication_min_font_points": 10.5,
+    "legend_labels": [
+      "Percentile",
+      "Analytic t",
+      "Bootstrap t",
+      "Whiskers: exact binomial interval"
+    ]
+  },
+  {
+    "name": "practice_policies",
+    "title": "Valuing inquiry is distinct from gaining access",
+    "alt": "Chosen activity and effective access differ in sham and no-access controls.",
+    "source_artifacts": [
+      "data/emptiness_practice.json",
+      "data/upstream_practice.json"
+    ],
+    "source_sha256": [
+      "b183e103b8ff83dbee55bcaf31494b266ff80d31398a9291a202297cc2408da0",
+      "48460ae06ad06aebb8ae4b461314666aa84c7be1613e2d7f9fc574f107968a55"
+    ],
+    "png_sha256": "dc84c315038a369f8463d545a4470bfc24e350499a71971ef9450e1ea144bfe6",
+    "svg_sha256": "1946aead59400885e713a40e15d43502e5bc46c4b2be3313ce6a8d02c363797f",
+    "width_inches": 6.54,
+    "height_inches": 7.34375,
+    "min_font_points": 10.5,
+    "publication_min_font_points": 10.5,
+    "legend_labels": [
+      "Chosen activity",
+      "Effective access",
+      "Bars: descriptive window means"
+    ]
+  },
+  {
+    "name": "practice_revision",
+    "title": "Revisability under stationary and changing conditions",
+    "alt": "Reversal forecasts and paired intervals; sham and no-access forecasts retain exact nulls.",
+    "source_artifacts": [
+      "data/emptiness_practice.json"
+    ],
+    "source_sha256": [
+      "b183e103b8ff83dbee55bcaf31494b266ff80d31398a9291a202297cc2408da0"
+    ],
+    "png_sha256": "82f5f591673e69d0563a22049480d0ac48287b3c57c4a8f8a18f5a4f52d12cfe",
+    "svg_sha256": "c5380c0f239248a304dea8e0c90e131b9f52af325d48c9d0f2139265f7e88169",
+    "width_inches": 6.54,
+    "height_inches": 9.365,
+    "min_font_points": 10.5,
+    "publication_min_font_points": 10.5,
+    "legend_labels": [
+      "Process",
+      "Rigid",
+      "Inquiry",
+      "No preference",
+      "Circle: stationary context",
+      "Square: reversal context",
+      "Whiskers: pointwise analytic interval"
+    ]
+  },
+  {
+    "name": "practice_mechanism",
+    "title": "Appreciation and the enacted inquiry mechanism",
+    "alt": "A dashed unmeasured human link leads to five declared finite-model stages and their controls.",
+    "source_artifacts": [
+      "data/concepts.json",
+      "data/emptiness_practice.json",
+      "data/upstream_practice.json"
+    ],
+    "source_sha256": [
+      "05f46d45fd54cb058b747529ed12040bd6e7a01d1a343a4567280de188a78c0f",
+      "b183e103b8ff83dbee55bcaf31494b266ff80d31398a9291a202297cc2408da0",
+      "48460ae06ad06aebb8ae4b461314666aa84c7be1613e2d7f9fc574f107968a55"
+    ],
+    "png_sha256": "4b577643ec6fdddbcf4cb6efc987ecf9673b358558b26415b3826914f7f0c735",
+    "svg_sha256": "522b4b7985e4b79b3926b192f899e0aa72eee08e0b4c449bb01a73ded73b58f7",
+    "width_inches": 6.54,
+    "height_inches": 7.7631250000000005,
+    "min_font_points": 10.5,
+    "publication_min_font_points": 10.5,
+    "legend_labels": [
+      "Solid: implemented dependency",
+      "Dashed: unmeasured proposal"
+    ]
+  },
+  {
+    "name": "exact_decision",
+    "title": "Exact count decisions and conditional selection probabilities",
+    "alt": "Linear and log count masses show rare tails; dotted boundaries separate family decisions.",
+    "source_artifacts": [
+      "data/exact_decision.json"
+    ],
+    "source_sha256": [
+      "77fc3c23a86f248e2cccc1c4d4a7577bd37e0f896dad8c6e4a836f0c7d76114e"
+    ],
+    "png_sha256": "fd43a2d91e46101f46309472937a051a32bc2b1a5651304c086ef3aac413aee6",
+    "svg_sha256": "e4146579d29bfb59614d28311a12e10196d8cba6a650f7676e23b0bbda187cd2",
+    "width_inches": 6.54,
+    "height_inches": 8.244375000000002,
+    "min_font_points": 10.5,
+    "publication_min_font_points": 10.5,
+    "legend_labels": [
+      "Select open family",
+      "Retain restriction",
+      "Decision boundary between counts",
+      "Process p = 0.15",
+      "Process p = 0.85",
+      "Zero: equal model evidence"
+    ]
+  },
+  {
+    "name": "yarbus_reconstruction",
+    "title": "Original gaze code reproduces the before condition",
+    "alt": "Paths show 20 locations; occupancy pools 5000 states/profile.",
+    "source_artifacts": [
+      "data/gaze.json",
+      "assets/scream-original.jpg",
+      "assets/provenance.json"
+    ],
+    "source_sha256": [
+      "8e0a9816909cb68c17c2e9426374ee62be60645d0f41968770d52a0b747bda9d",
+      "a822bce9558bb02b36db10d4fa5e533c077feeb267798bce57c61fe3bc8d534d",
+      "0983a545b2336efb1de443a3542e4dc01108960c47a625af1934b9379e3d17bd"
+    ],
+    "png_sha256": "2978c6e7f7110874bebcc0fa73910bf5697b5a723b1d3c673771921602911811",
+    "svg_sha256": "f47fc919222c748430c54fff7d217f0b2b38c8ff160c23a887b1484a9ee6aaf1",
+    "width_inches": 6.54,
+    "height_inches": 8.904375000000002,
+    "min_font_points": 10.5,
+    "publication_min_font_points": 10.5,
+    "legend_labels": [
+      "Line: sampled scene sequence",
+      "Circle: first displayed site",
+      "Square: last displayed site",
+      "Source positive profile",
+      "Source negative profile"
+    ]
+  },
+  {
+    "name": "gaze_transfer_paths",
+    "title": "Learned recall transfer changes sampled locations",
+    "alt": "Paired pre/post recall paths at actual luckiness strata, using the new declared transfer rule.",
+    "source_artifacts": [
+      "data/gaze.json",
+      "data/study.json",
+      "assets/scream-original.jpg",
+      "assets/provenance.json"
+    ],
+    "source_sha256": [
+      "8e0a9816909cb68c17c2e9426374ee62be60645d0f41968770d52a0b747bda9d",
+      "f56b7c4eec0fcd43f752905ba1b83680fe0d192514318ad6982f6665b69d3591",
+      "a822bce9558bb02b36db10d4fa5e533c077feeb267798bce57c61fe3bc8d534d",
+      "0983a545b2336efb1de443a3542e4dc01108960c47a625af1934b9379e3d17bd"
+    ],
+    "png_sha256": "cd86dead7c130eba6b7d4581f1803528078c4476349aedee91e83adeb81931e5",
+    "svg_sha256": "2bf20d235245bb8049fa6f635d6326eda7b5f111bbba7b482b0a64346d2cd63e",
+    "width_inches": 6.54,
+    "height_inches": 9.323749999999999,
+    "min_font_points": 10.5,
+    "publication_min_font_points": 10.5,
+    "legend_labels": [
+      "Line: sampled scene sequence",
+      "Circle: first displayed site",
+      "Square: last displayed site"
+    ]
+  },
+  {
+    "name": "gaze_transfer_summary",
+    "title": "Learned attention shifts and predictive consequences",
+    "alt": "Stratum means and paired intervals separate positivity from balanced scene-prediction loss.",
+    "source_artifacts": [
+      "data/gaze.json",
+      "data/study.json"
+    ],
+    "source_sha256": [
+      "8e0a9816909cb68c17c2e9426374ee62be60645d0f41968770d52a0b747bda9d",
+      "f56b7c4eec0fcd43f752905ba1b83680fe0d192514318ad6982f6665b69d3591"
+    ],
+    "png_sha256": "4e1bd3cda695dedf4a433899cefa36f30d9f7cf2be992262f0daa6ef2995fdfc",
+    "svg_sha256": "f9a5030ef1d438d4d6b47b2d7386716b8a830cc6a5b89267bf45b5eb1d555356",
+    "width_inches": 6.54,
+    "height_inches": 9.3079736328125,
+    "min_font_points": 10.5,
+    "publication_min_font_points": 10.5,
+    "legend_labels": [
+      "None",
+      "Positive",
+      "Random",
+      "Whiskers: pointwise analytic interval"
+    ]
+  },
+  {
+    "name": "gaze_inquiry_paths",
+    "title": "Visual inquiry with restricted and revisable representations",
+    "alt": "Sampled paths in stable and reversed channels; conditions share potential outcomes.",
+    "source_artifacts": [
+      "data/gaze.json",
+      "assets/scream-original.jpg",
+      "assets/provenance.json"
+    ],
+    "source_sha256": [
+      "8e0a9816909cb68c17c2e9426374ee62be60645d0f41968770d52a0b747bda9d",
+      "a822bce9558bb02b36db10d4fa5e533c077feeb267798bce57c61fe3bc8d534d",
+      "0983a545b2336efb1de443a3542e4dc01108960c47a625af1934b9379e3d17bd"
+    ],
+    "png_sha256": "66ca270671075813851cb2af0a205e191607279af70b7239875a792f4769696b",
+    "svg_sha256": "214f492db339a9c6c5fe58b76a0eda1e840d04fe828159cf3d26240a3fb650d0",
+    "width_inches": 6.54,
+    "height_inches": 9.323749999999999,
+    "min_font_points": 10.5,
+    "publication_min_font_points": 10.5,
+    "legend_labels": [
+      "Line: sampled scene sequence",
+      "Circle: first displayed site",
+      "Square: last displayed site"
+    ]
+  },
+  {
+    "name": "gaze_inquiry_summary",
+    "title": "Representation access and active sampling have distinct consequences",
+    "alt": "Paired intervals retain stationary/reversal contexts and movement costs.",
+    "source_artifacts": [
+      "data/gaze.json"
+    ],
+    "source_sha256": [
+      "8e0a9816909cb68c17c2e9426374ee62be60645d0f41968770d52a0b747bda9d"
+    ],
+    "png_sha256": "b5edc50aa4e3c09b57a27fbd16da2240b2a0c3c90413ad140387d28fd910a3f7",
+    "svg_sha256": "fbb0e3491c9e3bd52ea097e18f79aea3c0dd8a137d775b98efda79fcf5e9a823",
+    "width_inches": 6.54,
+    "height_inches": 9.3079736328125,
+    "min_font_points": 10.5,
+    "publication_min_font_points": 10.5,
+    "legend_labels": [
+      "Circle: stationary context",
+      "Square: reversal context",
+      "Whiskers: pointwise analytic interval",
+      "Colors: named policies in rows"
+    ]
+  },
+  {
+    "name": "gaze_joint_uncertainty",
+    "title": "Joint uncertainty across the exploratory gaze family",
+    "alt": "Pointwise analytic and joint bootstrap intervals; squares retain exact valuation identities.",
+    "source_artifacts": [
+      "data/gaze.json",
+      "data/gaze_uncertainty.json"
+    ],
+    "source_sha256": [
+      "8e0a9816909cb68c17c2e9426374ee62be60645d0f41968770d52a0b747bda9d",
+      "0d4818a8b0fb0c48c5b6efe06f3580aa538b83da35b6aae0d5e54267f6584662"
+    ],
+    "png_sha256": "c4808d81ff321ee6c6344ac34d120f1b09a9335531721e2ecab2cf3811180462",
+    "svg_sha256": "e4941fa77672a19a722f757a213571ac02eb0267a339beea4a55edd11d0f9921",
+    "width_inches": 6.54,
+    "height_inches": 9.10375,
+    "min_font_points": 10.5,
+    "publication_min_font_points": 10.5,
+    "legend_labels": [
+      "Pointwise analytic t",
+      "Joint bootstrap",
+      "Mechanism-exact value",
+      "Unavailable interval"
+    ]
+  },
+  {
+    "name": "joint_coverage",
+    "title": "Family coverage and availability under distribution stress",
+    "alt": "Independent experiment rates with exact binomial bounds retain skew and rare-event failures.",
+    "source_artifacts": [
+      "data/gaze_uncertainty.json"
+    ],
+    "source_sha256": [
+      "0d4818a8b0fb0c48c5b6efe06f3580aa538b83da35b6aae0d5e54267f6584662"
+    ],
+    "png_sha256": "6b9371761ccd1bfef2472112ac87f7fdce8ec04f4f72ce8831ff23b549cac247",
+    "svg_sha256": "7ce0b78fdc5b2af0ecbe7075e94cd1df97838630002dc7ef29854436b0ff5035",
+    "width_inches": 6.54,
+    "height_inches": 8.583604329427082,
+    "min_font_points": 10.5,
+    "publication_min_font_points": 10.5,
+    "legend_labels": [
+      "Pointwise t, all targets",
+      "Joint bootstrap, all targets",
+      "Complete-region availability",
+      "Whiskers: exact binomial interval",
+      "Vertical line: nominal coverage"
+    ]
+  },
+  {
+    "name": "boundary_information",
+    "title": "A boundary question needs an informative relation",
+    "alt": "Conditional response probabilities for the middle-cost query; all action and response marginals are uniform.",
+    "source_artifacts": [
+      "data/boundary_gaze.json"
+    ],
+    "source_sha256": [
+      "982383b0ff6a1920edb5f49773bd50f80ed6213ec2d2eb0ac321b2cbe2c1394e"
+    ],
+    "png_sha256": "a59088ffe89b1f692e21f58488c1efb9349de98b088c3555e3f3f5f67310fe3d",
+    "svg_sha256": "4579bf462e4da91d95f3ba3231e09d4ea847d274de96d05f19609edc118f4b7b",
+    "width_inches": 6.54,
+    "height_inches": 7.3073486328125,
+    "min_font_points": 10.5,
+    "publication_min_font_points": 10.5,
+    "legend_labels": [
+      "Shared color scale: conditional probability"
+    ]
+  },
+  {
+    "name": "boundary_gaze_outcomes",
+    "title": "Scene and boundary inquiry at a common reference target",
+    "alt": "Diagnostic-regime contrasts with global 84-member empirical-bootstrap bounds; exact constants are squares, unavailable constants crosses.",
+    "source_artifacts": [
+      "data/boundary_gaze.json"
+    ],
+    "source_sha256": [
+      "982383b0ff6a1920edb5f49773bd50f80ed6213ec2d2eb0ac321b2cbe2c1394e"
+    ],
+    "png_sha256": "01a6f8afab3d1e8e14b56fe1cc25cf74b7569c41b8da385b6803105879d404c3",
+    "svg_sha256": "1f958dd92c9b1b381a14877087366af6b2e08c4888e7cd8a8f366d117fd7a6d7",
+    "width_inches": 6.54,
+    "height_inches": 8.904375000000002,
+    "min_font_points": 10.5,
+    "publication_min_font_points": 10.5,
+    "legend_labels": [
+      "Circle: stochastic estimate",
+      "Square: mechanism-exact value",
+      "Cross: interval unavailable",
+      "Whiskers: joint bootstrap bounds",
+      "Colors: named policies in rows"
+    ]
+  },
+  {
+    "name": "boundary_gaze_allocation",
+    "title": "Inquiry has a sampling and cost tradeoff",
+    "alt": "Descriptive means over the declared equal fixed-stratum mixture; repeated decisions are not independent samples.",
+    "source_artifacts": [
+      "data/boundary_gaze.json"
+    ],
+    "source_sha256": [
+      "982383b0ff6a1920edb5f49773bd50f80ed6213ec2d2eb0ac321b2cbe2c1394e"
+    ],
+    "png_sha256": "cbf16d2a31ae780cae8e24a14a0ea946d5a3870f65cad3c2cc3ab4eb5cc9aead",
+    "svg_sha256": "7e134f8f2d49756c73e8b9b099750aae32b718a3c4288566e772fd08743cf6e0",
+    "width_inches": 6.54,
+    "height_inches": 9.3079736328125,
+    "min_font_points": 10.5,
+    "publication_min_font_points": 10.5,
+    "legend_labels": [
+      "Diagnostic",
+      "Label only",
+      "Points: descriptive means",
+      "Segments: pooled-unit IQR; not CIs"
+    ]
+  },
+  {
+    "name": "boundary_gaze_convergence",
+    "title": "Larger independent samples and Monte Carlo convergence",
+    "alt": "Predeclared nested prefixes at H2; standard errors describe simulation sampling, not human populations or bootstrap quantile error.",
+    "source_artifacts": [
+      "data/boundary_gaze.json"
+    ],
+    "source_sha256": [
+      "982383b0ff6a1920edb5f49773bd50f80ed6213ec2d2eb0ac321b2cbe2c1394e"
+    ],
+    "png_sha256": "6073dadf3877a451d970be0676edbf2582bc121c9a57065c0016bd7eda7b91e3",
+    "svg_sha256": "937aff9a249cfd33b49c2c9a41542a8e3adbc1cce73f11688bc5db20ad42a78b",
+    "width_inches": 6.54,
+    "height_inches": 7.804375,
+    "min_font_points": 10.5,
+    "publication_min_font_points": 10.5,
+    "legend_labels": [
+      "Integrated",
+      "Boundary only",
+      "Uniform",
+      "Restricted",
+      "Yoked sham",
+      "Prefixes share earlier units"
+    ]
+  },
+  {
+    "name": "boundary_structure",
+    "title": "A threshold limitation is not universal non-identifiability",
+    "alt": "Pinned 6-variable Gaussian fixture; full covariance inversion recovers precision, while every marginal-correlation threshold misses the exact blanket.",
+    "source_artifacts": [
+      "data/boundary_upstream.json"
+    ],
+    "source_sha256": [
+      "d061b49efa5e04cc030e3ed1491af731d99a93d6fdaa73140a7a5c272b2fec00"
+    ],
+    "png_sha256": "19f3d272c621f1e526c69acd6451c41d899f10368298c9909a9dd3200092034f",
+    "svg_sha256": "c84276548e34c8fb72ba94e488d1d01c563fdac1dcc79342a225304e53769ef2",
+    "width_inches": 6.54,
+    "height_inches": 8.863125,
+    "min_font_points": 10.5,
+    "publication_min_font_points": 10.5,
+    "legend_labels": [
+      "Color bars: signed matrix values"
+    ]
+  },
+  {
+    "name": "boundary_gaze_paths",
+    "title": "Visual gaze and boundary inquiry share a finite budget",
+    "alt": "First-scene replicate-zero example at H2; scene-only paths; timeline includes every decision.",
+    "source_artifacts": [
+      "data/boundary_gaze.json",
+      "data/gaze.json",
+      "assets/scream-original.jpg",
+      "assets/provenance.json"
+    ],
+    "source_sha256": [
+      "982383b0ff6a1920edb5f49773bd50f80ed6213ec2d2eb0ac321b2cbe2c1394e",
+      "8e0a9816909cb68c17c2e9426374ee62be60645d0f41968770d52a0b747bda9d",
+      "a822bce9558bb02b36db10d4fa5e533c077feeb267798bce57c61fe3bc8d534d",
+      "0983a545b2336efb1de443a3542e4dc01108960c47a625af1934b9379e3d17bd"
+    ],
+    "png_sha256": "bda0b1d2d455b7cf5bdf6395f0d45da082441039e3d3833d5921a1727922ebf0",
+    "svg_sha256": "51464ad924e80d976305803ac95c175bec6d08b12c14833e666a038296c7cb58",
+    "width_inches": 6.54,
+    "height_inches": 8.904375000000002,
+    "min_font_points": 10.5,
+    "publication_min_font_points": 10.5,
+    "legend_labels": [
+      "Line: sampled scene sequence",
+      "Circle: first displayed site",
+      "Square: last displayed site",
+      "Visual-only decisions",
+      "Integrated decisions"
+    ]
+  },
+  {
+    "name": "task_settings",
+    "title": "What each foundational model does",
+    "alt": "Paired recall, detected absence, missing records, costly inquiry and a schematic scene task.",
+    "source_artifacts": [
+      "data/concepts.json",
+      "data/study.json",
+      "data/nothingness.json",
+      "data/emptiness_practice.json",
+      "data/gaze.json"
+    ],
+    "source_sha256": [
+      "05f46d45fd54cb058b747529ed12040bd6e7a01d1a343a4567280de188a78c0f",
+      "f56b7c4eec0fcd43f752905ba1b83680fe0d192514318ad6982f6665b69d3591",
+      "a4155f3f15d6d21e58d17cbf5736692908d980cb88e47555e30a6476076ff2a2",
+      "b183e103b8ff83dbee55bcaf31494b266ff80d31398a9291a202297cc2408da0",
+      "8e0a9816909cb68c17c2e9426374ee62be60645d0f41968770d52a0b747bda9d"
+    ],
+    "png_sha256": "bf369eaf80a3a1d65603d6e009cc32b584658aea74e3faa34f06518b4e541c42",
+    "svg_sha256": "f39f86576a484311855a5e65571c90a20a55d11e2b2895f5a5c7dcff1940bb97",
+    "width_inches": 6.54,
+    "height_inches": 7.783750000000001,
+    "min_font_points": 10.5,
+    "publication_min_font_points": 10.5,
+    "legend_labels": [
+      "Circle: positive scene site",
+      "Triangle: negative scene site",
+      "Square: neutral scene site",
+      "Arrow: model dependency"
+    ]
+  },
+  {
+    "name": "experiment_overview",
+    "title": "Experimental questions, comparisons and assessment targets",
+    "alt": "Each task pairs a controlled change with an independent target and an interpretation test.",
+    "source_artifacts": [
+      "data/study.json",
+      "data/nothingness.json",
+      "data/emptiness_practice.json",
+      "data/gaze.json",
+      "data/boundary_gaze.json"
+    ],
+    "source_sha256": [
+      "f56b7c4eec0fcd43f752905ba1b83680fe0d192514318ad6982f6665b69d3591",
+      "a4155f3f15d6d21e58d17cbf5736692908d980cb88e47555e30a6476076ff2a2",
+      "b183e103b8ff83dbee55bcaf31494b266ff80d31398a9291a202297cc2408da0",
+      "8e0a9816909cb68c17c2e9426374ee62be60645d0f41968770d52a0b747bda9d",
+      "982383b0ff6a1920edb5f49773bd50f80ed6213ec2d2eb0ac321b2cbe2c1394e"
+    ],
+    "png_sha256": "39cece222808a5902509c4e0a61a87e680d911effe3a525adcd980985f6d545d",
+    "svg_sha256": "de2db6aed23b888eb879d5464a6bc323c798af34acf367df65d8e3a033725dfa",
+    "width_inches": 6.54,
+    "height_inches": 9.87375,
+    "min_font_points": 10.5,
+    "publication_min_font_points": 10.5,
+    "legend_labels": [
+      "Manipulation / matched input",
+      "Independent assessment",
+      "Control or evidential limit"
+    ]
+  },
+  {
+    "name": "boundary_task",
+    "title": "A task for gaze on an encoding",
+    "alt": "Spatial and encoding queries share a budget; encoding and reference scores stay separate.",
+    "source_artifacts": [
+      "data/boundary_gaze.json",
+      "data/gaze.json",
+      "data/boundary_upstream.json"
+    ],
+    "source_sha256": [
+      "982383b0ff6a1920edb5f49773bd50f80ed6213ec2d2eb0ac321b2cbe2c1394e",
+      "8e0a9816909cb68c17c2e9426374ee62be60645d0f41968770d52a0b747bda9d",
+      "d061b49efa5e04cc030e3ed1491af731d99a93d6fdaa73140a7a5c272b2fec00"
+    ],
+    "png_sha256": "dffaab8646cd7f98c229a73c931dba532b18207e937b37927ee91e9d77444064",
+    "svg_sha256": "1c7bcca3cc693305296b7d5ad44e46f69023827502526ed04b5e320331609306",
+    "width_inches": 6.54,
+    "height_inches": 7.767973632812501,
+    "min_font_points": 10.5,
+    "publication_min_font_points": 10.5,
+    "legend_labels": [
+      "Scene and spatial observations",
+      "Encoding and structural questions",
+      "Arrows: declared dependencies"
+    ]
+  },
+  {
+    "name": "concept_operations",
+    "title": "From each concept to its implemented operation",
+    "alt": "Producer-bound belief, information, valuation and inquiry readouts use separate units.",
+    "source_artifacts": [
+      "data/concepts.json",
+      "data/nothingness.json",
+      "data/study.json",
+      "data/emptiness_practice.json"
+    ],
+    "source_sha256": [
+      "05f46d45fd54cb058b747529ed12040bd6e7a01d1a343a4567280de188a78c0f",
+      "a4155f3f15d6d21e58d17cbf5736692908d980cb88e47555e30a6476076ff2a2",
+      "f56b7c4eec0fcd43f752905ba1b83680fe0d192514318ad6982f6665b69d3591",
+      "b183e103b8ff83dbee55bcaf31494b266ff80d31398a9291a202297cc2408da0"
+    ],
+    "png_sha256": "494032d4fbb4486eea7f9a582366cdec2eda94f4f93ece3253efbd3925776fa0",
+    "svg_sha256": "330506646dfb160229de6e353b96057d73053b6302cdb26b4527bf6ae43cf3da",
+    "width_inches": 6.54,
+    "height_inches": 7.2543750000000005,
+    "min_font_points": 10.5,
+    "publication_min_font_points": 10.5,
+    "legend_labels": [
+      "A: Observed absence",
+      "B: Missing observation",
+      "C: Counterfactual value",
+      "D: Non-reification",
+      "Arrows: computational sequence"
+    ]
+  },
+  {
+    "name": "recall_situation",
+    "title": "From shared experience to distinct readouts",
+    "alt": "Shared exposure and replay, with world-specific paired optimism and Brier changes.",
+    "source_artifacts": [
+      "data/study.json",
+      "data/statistics.json",
+      "data/concepts.json"
+    ],
+    "source_sha256": [
+      "f56b7c4eec0fcd43f752905ba1b83680fe0d192514318ad6982f6665b69d3591",
+      "c795074de515745d70721783d53cff5f376695cc470f5ea138cfb897d6944ed4",
+      "05f46d45fd54cb058b747529ed12040bd6e7a01d1a343a4567280de188a78c0f"
+    ],
+    "png_sha256": "811e3823e9ebdbd01c18de2281b4448c375456bfb348cac1a9471fe26f3bdaee",
+    "svg_sha256": "c31e5de9608677218001fc2a1df715df797076d6428e0ecf8169c8fec4838a8f",
+    "width_inches": 6.54,
+    "height_inches": 8.302197265625,
+    "min_font_points": 10.5,
+    "publication_min_font_points": 10.5,
+    "legend_labels": [
+      "Positive minus no recall",
+      "Positive minus matched random recall",
+      "Arrows: declared learning / replay",
+      "Whiskers: pointwise analytic interval"
+    ]
+  },
+  {
+    "name": "practice_situation",
+    "title": "Activity, access, and the test of a working representation",
+    "alt": "Costly access, reversal forecasts and policy loss, including sham and blocked access.",
+    "source_artifacts": [
+      "data/emptiness_practice.json",
+      "data/concepts.json"
+    ],
+    "source_sha256": [
+      "b183e103b8ff83dbee55bcaf31494b266ff80d31398a9291a202297cc2408da0",
+      "05f46d45fd54cb058b747529ed12040bd6e7a01d1a343a4567280de188a78c0f"
+    ],
+    "png_sha256": "20e61554f41f28a0544ea6fc0dda0b06dc3234c9f6203e261d978476da85ab78",
+    "svg_sha256": "f171f74135a3a4619b86d9ecce3d8253055f7dc8cb4d44c3bfe0b9a58612a8a3",
+    "width_inches": 6.54,
+    "height_inches": 8.5792236328125,
+    "min_font_points": 10.5,
+    "publication_min_font_points": 10.5,
+    "legend_labels": [
+      "Process",
+      "Rigid",
+      "Inquiry",
+      "No preference",
+      "Sham",
+      "No access",
+      "Arrow: implemented sequence",
+      "Whiskers: pointwise analytic interval"
+    ]
+  },
+  {
+    "name": "gaze_situation",
+    "title": "A scene-sampling task with distinct attention and prediction targets",
+    "alt": "Scene sites, belief, sampling, attention transfer and inquiry with distinct bounds.",
+    "source_artifacts": [
+      "data/gaze.json",
+      "data/gaze_uncertainty.json",
+      "data/study.json"
+    ],
+    "source_sha256": [
+      "8e0a9816909cb68c17c2e9426374ee62be60645d0f41968770d52a0b747bda9d",
+      "0d4818a8b0fb0c48c5b6efe06f3580aa538b83da35b6aae0d5e54267f6584662",
+      "f56b7c4eec0fcd43f752905ba1b83680fe0d192514318ad6982f6665b69d3591"
+    ],
+    "png_sha256": "f770a0eff9095609b778fae6fe893ca163e21e7e94203f99b2f1a0f76851e679",
+    "svg_sha256": "8f865075c92522221e0b5bc98a7c195d7c45c78cd71f775ce649cfe9ca348c72",
+    "width_inches": 6.54,
+    "height_inches": 9.377850748697918,
+    "min_font_points": 10.5,
+    "publication_min_font_points": 10.5,
+    "legend_labels": [
+      "b: Positive recall",
+      "b: Matched random recall",
+      "b: Absence valuation",
+      "c: Pointwise analytic interval",
+      "c: Joint bootstrap bounds",
+      "Circle / triangle / square: positive / negative / neutral sites",
+      "Dashed: alternative transfer bridge"
+    ]
+  },
+  {
+    "name": "boundary_situation",
+    "title": "Encoding information needs scene evidence for reference prediction",
+    "alt": "Scene and encoding queries feed distinct risk and Brier targets; exact values stay marked.",
+    "source_artifacts": [
+      "data/boundary_gaze.json",
+      "data/gaze.json"
+    ],
+    "source_sha256": [
+      "982383b0ff6a1920edb5f49773bd50f80ed6213ec2d2eb0ac321b2cbe2c1394e",
+      "8e0a9816909cb68c17c2e9426374ee62be60645d0f41968770d52a0b747bda9d"
+    ],
+    "png_sha256": "4fc07953cba22d24a78f9fec38922aa954f8d11cebcc6fbb16f011935c5ac2ff",
+    "svg_sha256": "f21a75e60415d94c0fa74a122b18e271f43886113b371a7fb29a5f6d475ea846",
+    "width_inches": 6.54,
+    "height_inches": 8.134375,
+    "min_font_points": 10.5,
+    "publication_min_font_points": 10.5,
+    "legend_labels": [
+      "Circle: stochastic estimate",
+      "Square: mechanism-exact value",
+      "Cross: interval unavailable",
+      "Whiskers: joint bootstrap bounds",
+      "Arrows: scene / encoding queries"
+    ]
+  },
+  {
+    "name": "sampling_precision",
+    "title": "Independent sample size and Monte Carlo precision",
+    "alt": "Nested paired-unit means and MCSE separate numerical precision from model uncertainty.",
+    "source_artifacts": [
+      "data/sampling_diagnostics.json",
+      "data/analysis_protocol.json"
+    ],
+    "source_sha256": [
+      "5ee928f9f570c09709c429c4ce381ef92decd0864f4fad9614eae26f663181a9",
+      "6772e87fe50692f70379e6a78e09e824779db8b9112affe0473aadb5b5a44f6c"
+    ],
+    "png_sha256": "6ab0210078400299aded87f5c61f22e793a835dd12b0506d148dad91fdeb6363",
+    "svg_sha256": "f903fb510a0ed8cbcc5710321e8acdabc0879c5660a629228cfb8d9ecca1b87a",
+    "width_inches": 6.54,
+    "height_inches": 8.464375,
+    "min_font_points": 10.5,
+    "publication_min_font_points": 10.5,
+    "legend_labels": [
+      "Full-budget mean",
+      "Mean ± one MCSE",
+      "Paired-mean MCSE",
+      "Inverse-square-root guide",
+      "Prefixes share earlier units"
+    ]
+  }
+]

@@ -1,0 +1,2432 @@
+{
+  "schema": "thanks_for_nothing.scholarship.v1",
+  "verified_on": "2026-10-15",
+  "revised_on": "2026-10-20",
+  "sources": [
+    {
+      "key": "cronbachmeehl1955",
+      "title": "Construct validity in psychological tests",
+      "authors": ["Lee J. Cronbach", "Paul E. Meehl"],
+      "year": 1955,
+      "url": "https://doi.org/10.1037/h0040957",
+      "role": "Validation of psychological interpretations",
+      "inspected_locators": ["Four Types of Validation; mathematical analysis; The Nomological Net; Implications of Negative Evidence"],
+      "summary": "Construct interpretations require testable relations and scrutiny of adverse evidence.",
+      "evidence_ceiling": "Methodological framework, not validation of gratitude, a questionnaire or contemplative realization.",
+      "source_type": "methodological-article",
+      "access_level": "targeted_full_text",
+      "verified_via": ["https://psychclassics.yorku.ca/Cronbach/construct.htm", "https://api.crossref.org/works/10.1037/h0040957", "docs/research/claim-support-20261020.md"]
+    },
+    {
+      "key": "palminteri2017",
+      "title": "The Importance of Falsification in Computational Cognitive Modeling",
+      "authors": ["Stefano Palminteri", "Valentin Wyart", "Etienne Koechlin"],
+      "year": 2017,
+      "url": "https://doi.org/10.1016/j.tics.2017.03.011",
+      "role": "Behavioral adequacy beyond relative model ranking",
+      "inspected_locators": ["Pages 425–426; model-selection guidelines and Box 2, pages 430–432"],
+      "summary": "Relative comparison should be complemented by task discrimination, recovery and simulation-based assessment.",
+      "evidence_ceiling": "A winning model is not thereby adequate. The article's predictive terminology is not uniformly held-out prediction; inspected researcher-hosted journal copy, publisher access blocked.",
+      "source_type": "methodological-article",
+      "access_level": "targeted_full_text",
+      "verified_via": ["https://rebekahmanweiler.github.io/resources/documents/Palminteri2017.pdf", "https://www.cognition.ens.fr/en/publication/657/stefano-palminteri", "https://api.crossref.org/works/10.1016/j.tics.2017.03.011", "docs/research/claim-support-20261020.md"]
+    },
+    {
+      "key": "gelmanshalizi2013",
+      "title": "Philosophy and the practice of Bayesian statistics",
+      "authors": ["Andrew Gelman", "Cosma Rohilla Shalizi"],
+      "year": 2013,
+      "url": "https://doi.org/10.1111/j.2044-8317.2011.02037.x",
+      "role": "Model checking versus updating within a candidate family",
+      "inspected_locators": ["Sections 2 and 4–4.2, pages 11–12 and 17–21"],
+      "summary": "Discrepancy checks can motivate revising a family rather than merely updating its parameters.",
+      "evidence_ceiling": "An argued statistical philosophy, not consensus or a criterion of Buddhist non-reification. Published online in 2012; cited issue year 2013.",
+      "source_type": "methodological-article",
+      "access_level": "targeted_full_text",
+      "verified_via": ["https://sites.stat.columbia.edu/gelman/research/published/philosophy.pdf", "https://api.crossref.org/works/10.1111/j.2044-8317.2011.02037.x", "docs/research/claim-support-20261020.md"]
+    },
+    {
+      "key": "lakens2017",
+      "title": "Equivalence Tests: A Practical Primer for t Tests, Correlations, and Meta-Analyses",
+      "authors": ["Daniël Lakens"],
+      "year": 2017,
+      "url": "https://doi.org/10.1177/1948550617697177",
+      "role": "Distinguishing inconclusive contrasts from practical equivalence",
+      "inspected_locators": ["Publisher HTML: Testing for Equivalence; Figure 1; Setting Equivalence Bounds; Discussion"],
+      "summary": "Practical equivalence requires justified bounds and a corresponding test, not nonsignificance alone.",
+      "evidence_ceiling": "No equivalence margin or TOST result is supplied for this project. Do not transfer simple-test interval rules to joint bootstrap rectangles without justification. Direct HTTP receipts are challenge pages; browsing reader supplied full text.",
+      "source_type": "methodological-article",
+      "access_level": "targeted_full_text",
+      "verified_via": ["https://journals.sagepub.com/doi/full/10.1177/1948550617697177", "https://api.crossref.org/works/10.1177/1948550617697177", "docs/research/claim-support-20261020.md"]
+    },
+    {
+      "key": "yarkoni2022",
+      "title": "The generalizability crisis",
+      "authors": ["Tal Yarkoni"],
+      "year": 2022,
+      "url": "https://doi.org/10.1017/S0140525X20001685",
+      "role": "Alignment of inferential targets, design and verbal generalization",
+      "inspected_locators": ["Target article sections 1–3.2 and 6.3.1; pages 1–5 and 10 of published treatment"],
+      "summary": "Generalization targets include stimuli, tasks and settings as well as participants.",
+      "evidence_ceiling": "Target article only, not the accompanying commentaries. More simulations or random effects do not automatically validate constructs or extrapolation. Online 2020; cited issue year 2022.",
+      "source_type": "methodological-article",
+      "access_level": "targeted_full_text",
+      "verified_via": ["https://lillab.ucsd.edu/assets/pdf/ManyBabies_BBS_commentary.pdf", "https://api.crossref.org/works/10.1017/S0140525X20001685", "docs/research/claim-support-20261020.md"]
+    },
+    {
+      "key": "algoe2008",
+      "title": "Beyond Reciprocity: Gratitude and Relationships in Everyday Life",
+      "authors": ["Sara B. Algoe", "Jonathan Haidt", "Shelly L. Gable"],
+      "year": 2008,
+      "url": "https://doi.org/10.1037/1528-3542.8.3.425",
+      "role": "Relational scope of gratitude",
+      "inspected_locators": ["Primary abstract, PMID 18540759"],
+      "summary": "Naturalistic gift-giving study relates perceived benefactor responsiveness, gratitude and later relationship ratings.",
+      "evidence_ceiling": "Abstract only; no causal mediation, population-wide effect or benefactor-free appreciation mechanism established here.",
+      "source_type": "empirical-article",
+      "access_level": "abstract",
+      "verified_via": ["https://pubmed.ncbi.nlm.nih.gov/18540759/", "docs/research/relational-and-first-person-20261020.md"]
+    },
+    {
+      "key": "lutz2002",
+      "title": "Guiding the study of brain dynamics by using first-person data: Synchrony patterns correlate with ongoing conscious states during a simple visual task",
+      "authors": ["Antoine Lutz", "Jean-Philippe Lachaux", "Jacques Martinerie", "Francisco J. Varela"],
+      "year": 2002,
+      "url": "https://doi.org/10.1073/pnas.032658199",
+      "role": "First-person descriptions as distinct empirical data",
+      "inspected_locators": ["Framework and Methods; early-edition PDF pages 1–2"],
+      "summary": "Trained participants' reports defined experiential trial groups for behavioral and EEG analysis.",
+      "evidence_ceiling": "Task-specific method example; neither gratitude nor contemplative realization is validated. Inspected mirrored primary article; identity checked against NLM.",
+      "source_type": "empirical-article",
+      "access_level": "targeted_full_text",
+      "verified_via": ["https://journalpsyche.org/articles/0xc0b0.pdf", "https://pubmed.ncbi.nlm.nih.gov/11805299/", "docs/research/relational-and-first-person-20261020.md"]
+    },
+    {
+      "key": "khalsajapji2",
+      "title": "Japji Sahib, in Sri Guru Granth Sahib",
+      "authors": [
+        "Guru Nanak",
+        "Sant Singh Khalsa (translator)"
+      ],
+      "url": "https://www.srigranth.org/servlet/gurbani.gurbani?Action=Page&Param=1",
+      "role": "Hukam and speech without ego",
+      "inspected_locators": [
+        "Ang 1, pauri 2, final line; pauri 1 immediate context"
+      ],
+      "summary": "Understanding divine Command is related to speaking without ego; Creator and grace remain explicit.",
+      "evidence_ceiling": "Not an explicit gratitude instruction, Bayesian self-model deletion, fatalistic inactivity or Buddhist emptiness; web edition undated.",
+      "source_type": "primary-text-translation",
+      "access_level": "targeted_full_text",
+      "verified_via": [
+        "https://www.srigranth.org/servlet/gurbani.gurbani?Action=Page&Param=1",
+        "docs/research/traditions-comparison-20261020.md"
+      ]
+    },
+    {
+      "key": "confuciuslegge2002reciprocity",
+      "title": "The Analects of Confucius (from the Chinese Classics)",
+      "authors": [
+        "Confucius",
+        "James Legge (translator)"
+      ],
+      "year": 2002,
+      "url": "https://www.gutenberg.org/cache/epub/3330/pg3330-images.html",
+      "role": "Reciprocal restraint as an ethical comparator",
+      "inspected_locators": [
+        "Book XV, chapter XXIII, corresponding to Eno 15.24; digital release 2002-07-01, not translation date"
+      ],
+      "summary": "A lifelong rule of reciprocity restrains imposition of unwanted treatment on another.",
+      "evidence_ceiling": "Does not specify gratitude or an emptiness doctrine; reciprocity is not a prerequisite of repayment. Preserve edition numbering discrepancy.",
+      "source_type": "primary-text-translation",
+      "access_level": "targeted_full_text",
+      "verified_via": [
+        "https://www.gutenberg.org/cache/epub/3330/pg3330-images.html",
+        "docs/research/traditions-comparison-20261020.md"
+      ]
+    },
+    {
+      "key": "eno2015analects",
+      "title": "The Analects of Confucius: An Online Teaching Translation",
+      "authors": [
+        "Confucius",
+        "Robert Eno (translator)"
+      ],
+      "year": 2015,
+      "url": "https://hdl.handle.net/2022/23420",
+      "role": "Edition-specific Analects numbering cross-reference",
+      "inspected_locators": [
+        "Version 2.21, 15.24, printed p. 85 / PDF p. 100"
+      ],
+      "summary": "Institutional teaching translation identifies the reciprocity exchange as 15.24, corresponding to Legge XV.23.",
+      "evidence_ceiling": "Confirms passage identity and numbering, not a shared cross-tradition gratitude mechanism.",
+      "source_type": "primary-text-translation",
+      "access_level": "targeted_full_text",
+      "verified_via": [
+        "https://hdl.handle.net/2022/23420",
+        "docs/research/traditions-comparison-20261020.md"
+      ]
+    },
+    {
+      "key": "kulpavot41",
+      "title": "Pirkei Avot",
+      "authors": [
+        "Joshua Kulp (translator)"
+      ],
+      "url": "https://www.sefaria.org/Pirkei_Avot.4.1?lang=bi&ven=Mishnah%20Yomit%20by%20Dr.%20Joshua%20Kulp",
+      "role": "Rejoicing in one's existing lot",
+      "inspected_locators": [
+        "4:1, Ben Zoma on wealth; exact named version Mishnah Yomit by Dr. Joshua Kulp"
+      ],
+      "summary": "Wealth is redescribed as rejoicing in one's lot, with labor and scriptural context retained.",
+      "evidence_ceiling": "Contentment is not automatically benefactor-directed gratitude, praise of deprivation or justification of injustice; undated named translation.",
+      "source_type": "primary-text-translation",
+      "access_level": "targeted_full_text",
+      "verified_via": [
+        "https://www.sefaria.org/Pirkei_Avot.4.1?lang=bi&ven=Mishnah%20Yomit%20by%20Dr.%20Joshua%20Kulp",
+        "docs/research/traditions-comparison-20261020.md"
+      ]
+    },
+    {
+      "key": "khattabquran3112",
+      "title": "The Clear Quran",
+      "authors": [
+        "Mustafa Khattab (translator)"
+      ],
+      "url": "https://quran.com/31/12",
+      "role": "Gratitude's beneficiary and divine self-sufficiency",
+      "inspected_locators": [
+        "Surat Luqman 31:12; context 31:13; compare 14:7–8; translation distinguished from tafsir"
+      ],
+      "summary": "Gratitude is directed to Allah, benefits the grateful person and does not supply a divine need.",
+      "evidence_ceiling": "The good is not quantified as wealth, mental health or predictive accuracy; divine independence is not impersonal absence. Web edition undated.",
+      "source_type": "primary-text-translation",
+      "access_level": "targeted_full_text",
+      "verified_via": [
+        "https://quran.com/31/12",
+        "docs/research/traditions-comparison-20261020.md"
+      ]
+    },
+    {
+      "key": "mukundanandagita31013",
+      "title": "Bhagavad Gita: The Song of God",
+      "authors": [
+        "Swami Mukundananda"
+      ],
+      "url": "https://www.holy-bhagavad-gita.org/chapter/3/verse/12/",
+      "role": "Received gifts, sacrificial offering and responsive obligation",
+      "inspected_locators": [
+        "3.10–13, four separately inspected Translation sections; distinguish commentary"
+      ],
+      "summary": "Human and divine participants are related through sacrifice; enjoying gifts without return offerings is censured.",
+      "evidence_ceiling": "Yajña is not secular exchange or Bayesian reciprocity; theological promises are not experimental predictions. Web edition undated.",
+      "source_type": "primary-text-translation",
+      "access_level": "targeted_full_text",
+      "verified_via": [
+        "https://www.holy-bhagavad-gita.org/chapter/3/verse/12/",
+        "docs/research/traditions-comparison-20261020.md"
+      ]
+    },
+    {
+      "key": "nagarjuna2020gretil",
+      "title": "Mulamadhyamakakarika",
+      "authors": [
+        "Nagarjuna"
+      ],
+      "year": 2020,
+      "url": "https://gretil.sub.uni-goettingen.de/gretil/corpustei/transformations/html/sa_nAgArjuna-mUlamadhyamakakArikA.htm",
+      "role": "Dependent arising, emptiness, designation and the two truths",
+      "source_type": "primary-text-sanskrit",
+      "inspected_locators": [
+        "MMK 24.8–10 and 24.18; Sanskrit e-text, Douglas Bachman / Richard Mahoney; TEI conversion 2020-07-31"
+      ],
+      "summary": "The manuscript authors' paraphrase links dependent arising, emptiness and dependent designation, while retaining convention in teaching the ultimate.",
+      "evidence_ceiling": "No English quotation certified; print-source field blank. Resolving pronouns and dependent designation involves interpretation. Conventional truth is not predictive accuracy.",
+      "access_level": "targeted_full_text",
+      "verified_via": [
+        "https://gretil.sub.uni-goettingen.de/gretil/corpustei/transformations/html/sa_nAgArjuna-mUlamadhyamakakArikA.htm",
+        "docs/research/traditions-comparison-20261020.md"
+      ]
+    },
+    {
+      "key": "hanh2014heartsutra",
+      "title": "The Insight that Brings Us to the Other Shore",
+      "authors": ["Thich Nhat Hanh"],
+      "year": 2014,
+      "url": "https://plumvillage.org/about/thich-nhat-hanh/letters/thich-nhat-hanh-new-heart-sutra-translation",
+      "source_type": "primary-text-translation",
+      "role": "Mahāyāna emptiness and contemporary translation choices",
+      "verified_via": ["https://plumvillage.org/about/thich-nhat-hanh/letters/thich-nhat-hanh-new-heart-sutra-translation", "docs/research/wisdom-traditions-20261020.md"],
+      "access_level": "targeted_full_text",
+      "inspected_locators": ["First address to Sariputra; accompanying explanation of revised translation, September 2014"],
+      "summary": "The body/emptiness formulation and explanation resist nihilistic interpretation while explicitly identifying contemporary translational revisions.",
+      "evidence_ceiling": "An identified interpretive rendering, not doctrinal consensus, an unmodified ancient Sanskrit witness or validation of a computational realization measure."
+    },
+    {
+      "key": "mukundanandagita247",
+      "title": "Bhagavad Gita: The Song of God",
+      "authors": ["Swami Mukundananda"],
+      "url": "https://www.holy-bhagavad-gita.org/chapter/2/verse/47/",
+      "source_type": "primary-text-translation",
+      "role": "Action without entitlement to its fruits",
+      "verified_via": ["https://www.holy-bhagavad-gita.org/chapter/2/verse/47/", "docs/research/wisdom-traditions-20261020.md"],
+      "access_level": "targeted_full_text",
+      "inspected_locators": ["Chapter 2, verse 47, Translation; Sanskrit and word glosses distinguished from commentary"],
+      "summary": "Relinquishes entitlement to the fruits of prescribed duty while rejecting attachment to inaction.",
+      "evidence_ceiling": "Duty-oriented theological text, not a definition of gratitude, Buddhist emptiness or statistical inference; web publication year not established."
+    },
+    {
+      "key": "nrsvue2021thess518",
+      "title": "New Revised Standard Version Updated Edition",
+      "year": 2021,
+      "url": "https://www.biblegateway.com/passage/?search=1%20Thessalonians%205%3A18&version=NRSVUE",
+      "source_type": "primary-text-translation",
+      "role": "Christian thanksgiving across circumstances",
+      "verified_via": ["https://www.biblegateway.com/passage/?search=1%20Thessalonians%205%3A18&version=NRSVUE", "docs/research/wisdom-traditions-20261020.md"],
+      "access_level": "targeted_full_text",
+      "inspected_locators": ["1 Thessalonians 5:18; authorized NRSVUE display and translation copyright"],
+      "summary": "Thanksgiving in circumstances is expressly situated in God's will in Christ Jesus.",
+      "evidence_ceiling": "Does not establish that every harm is a benefit, an apophatic doctrine or any empirical gratitude effect. Year identifies translation copyright."
+    },
+    {
+      "key": "khattabquran147",
+      "title": "The Clear Quran",
+      "authors": ["Mustafa Khattab (translator)"],
+      "url": "https://quran.com/en/ibrahim/7",
+      "source_type": "primary-text-translation",
+      "role": "Islamic gratitude, divine address and accountability",
+      "verified_via": ["https://quran.com/en/ibrahim/7", "https://quran.com/en/ibrahim/6", "docs/research/wisdom-traditions-20261020.md"],
+      "access_level": "targeted_full_text",
+      "inspected_locators": ["Surat Ibrahim 14:7, with surrounding verses 14:6–8; credited translation distinguished from tafsir"],
+      "summary": "A divine proclamation joins a promise to gratitude with a warning about ingratitude, in a deliverance narrative.",
+      "evidence_ceiling": "Religious promise and accountability are not a quantified law of wealth, optimism, predictive accuracy or clinical efficacy; edition year not established."
+    },
+    {
+      "key": "kulpberakhot95",
+      "title": "Mishnah Berakhot",
+      "authors": ["Joshua Kulp (translator)"],
+      "url": "https://www.sefaria.org/Mishnah_Berakhot.9.5?lang=bi&ven=Mishnah%20Yomit%20by%20Dr.%20Joshua%20Kulp",
+      "source_type": "primary-text-translation",
+      "role": "Jewish blessing across good and adverse circumstances",
+      "verified_via": ["https://www.sefaria.org/api/texts/Mishnah_Berakhot.9.5?context=0&commentary=0&ven=Mishnah_Yomit_by_Dr._Joshua_Kulp", "docs/research/wisdom-traditions-20261020.md"],
+      "access_level": "targeted_full_text",
+      "inspected_locators": ["Mishnah Berakhot 9:5, opening clause; named Joshua Kulp edition and version metadata"],
+      "summary": "Requires blessing God for evil as for good; the distinction between circumstances remains meaningful.",
+      "evidence_ceiling": "Blessing is not interchangeable with gratitude or favorable evidence. A specific translation is admitted; no publication date or empirical effect inferred."
+    },
+    {
+      "key": "pseudodionysiusroltmystical",
+      "title": "Dionysius the Areopagite: On the Divine Names and the Mystical Theology",
+      "authors": ["Pseudo-Dionysius the Areopagite", "C. E. Rolt (translator)"],
+      "url": "https://www.ccel.org/ccel/rolt/dionysius.v.html",
+      "source_type": "primary-text-translation",
+      "role": "Christian apophatic predication and praise",
+      "verified_via": ["https://www.ccel.org/ccel/rolt/dionysius.v.html", "https://ccel.org/ccel/rolt/dionysius/dionysius.i.html", "docs/research/wisdom-traditions-20261020.md"],
+      "access_level": "targeted_full_text",
+      "inspected_locators": ["Mystical Theology II and V; chapter V final sentence; electronic edition title page"],
+      "summary": "Places the transcendent divine Cause beyond affirmation and negation; removal of predicates is related to praise.",
+      "evidence_ceiling": "Christian theological writing rather than biblical scripture; not the same object of negation as Madhyamaka. Translator notes are distinct; edition year not established."
+    },
+    {
+      "key": "davidsonberakhot60b",
+      "title": "Berakhot",
+      "url": "https://www.sefaria.org/Berakhot.60b.5?lang=bi&ven=William%20Davidson%20Edition%20-%20English",
+      "source_type": "primary-text-translation",
+      "role": "Ordinary capacities and differentiated blessing formulas",
+      "verified_via": ["https://www.sefaria.org/api/texts/Berakhot.60b.5?context=0&commentary=0&ven=William_Davidson_Edition_-_English", "https://www.sefaria.org/Berakhot.60b.7?lang=bi&ven=William%20Davidson%20Edition%20-%20English", "docs/research/wisdom-traditions-20261020.md"],
+      "access_level": "targeted_full_text",
+      "inspected_locators": ["Babylonian Talmud Berakhot 60b:5 and 60b:7; William Davidson Edition – English and version metadata"],
+      "summary": "Opening the eyes occasions a blessing; the discussion of good and bad tidings preserves distinct formulas.",
+      "evidence_ceiling": "Annotated English translation is distinguished from editorial expansion and from the Mishnah. No inference of a psychological effect or of identical blessing and gratitude constructs."
+    },
+    {
+      "key": "koehler2009",
+      "title": "On the Assessment of Monte Carlo Error in Simulation-Based Statistical Analyses",
+      "authors": ["Elizabeth Koehler", "Elizabeth Brown", "Sebastien J.-P. A. Haneuse"],
+      "year": 2009,
+      "doi": "10.1198/tast.2009.0030",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3337209/",
+      "source_type": "journal-article",
+      "role": "simulation precision and Monte Carlo error",
+      "verified_via": ["https://pmc.ncbi.nlm.nih.gov/articles/PMC3337209/", "receipt: data/scholarship/receipts/review20261019-simulation.json"],
+      "access_level": "targeted_full_text",
+      "inspected_locators": ["Sections 2 and 2.1; section 3; sections 4 and 4.1-4.3; equations FD1 and FD14 in PMC HTML"],
+      "summary": "Distinguishes finite-repetition Monte Carlo error from apparent running-mean stability and from finite bootstrap approximation; precision depends on the target and generating distribution.",
+      "evidence_ceiling": "No guarantee from a visual plateau or asymptotic sample-size scaling. Nested prefixes are correlated, and more replication of a fixed mechanism does not validate that mechanism."
+    },
+    {
+      "key": "saltelli2010",
+      "title": "How to avoid a perfunctory sensitivity analysis",
+      "authors": ["Andrea Saltelli", "Paola Annoni"],
+      "year": 2010,
+      "doi": "10.1016/j.envsoft.2010.04.012",
+      "url": "https://www.andreasaltelli.eu/file/repository/PublishedPageNumbers.pdf",
+      "source_type": "journal-article",
+      "role": "crossed sensitivity and limits of local robustness",
+      "verified_via": ["https://www.andreasaltelli.eu/file/repository/PublishedPageNumbers.pdf", "receipt: data/scholarship/receipts/review20261019-simulation.json"],
+      "access_level": "targeted_full_text",
+      "inspected_locators": ["Sections 2-3, printed pp.1509-1510; section 5.1, p.1511, Figure 2 and equations 1-2"],
+      "summary": "Single-factor directions leave interactions untested; broader sensitivity claims require exploration beyond a baseline and a justified input domain.",
+      "evidence_ceiling": "A finite crossed grid is not a global variance decomposition, does not cover unexamined mechanisms, and does not establish plausible human parameter ranges."
+    },
+    {
+      "key": "hanley1983",
+      "title": "If Nothing Goes Wrong, Is Everything All Right? Interpreting Zero Numerators",
+      "authors": ["James A. Hanley", "Abby Lippman-Hand"],
+      "year": 1983,
+      "doi": "10.1001/jama.1983.03330370053031",
+      "url": "https://jhanley.biostat.mcgill.ca/c607/ch08/zero_numerator.pdf",
+      "source_type": "journal-article",
+      "role": "zero-event interpretation and independent-unit denominator",
+      "verified_via": ["https://jhanley.biostat.mcgill.ca/c607/ch08/zero_numerator.pdf", "receipt: data/scholarship/receipts/review20261019-simulation.json"],
+      "access_level": "targeted_full_text",
+      "inspected_locators": ["JAMA 249(13), printed pp.1743-1745; zero-numerator argument and confidence-limit calculation"],
+      "summary": "An observed zero event count does not establish zero population probability; the relevant binomial limit depends on independent trials and a common event probability.",
+      "evidence_ceiling": "Dependent adaptive windows cannot be pooled as independent trials. A whole-trajectory event is a different target from the available exact conditional count-selection oracle; no human safety inference is made."
+    },
+    {
+      "key": "moore2015process",
+      "title": "Process evaluation of complex interventions: Medical Research Council guidance",
+      "authors": ["Graham F. Moore", "Suzanne Audrey", "Mary Barker", "Lyndal Bond", "Chris Bonell", "Wendy Hardeman", "Laurence Moore", "Alicia O'Cathain", "Tannaze Tinati", "Daniel Wight", "Janis Baird"],
+      "year": 2015,
+      "doi": "10.1136/bmj.h1258",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4366184/",
+      "source_type": "journal-article",
+      "role": "prospective process measurement and implementation distinctions",
+      "verified_via": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC4366184/fullTextXML",
+        "receipt: data/scholarship/receipts/review20261019-moore.json"
+      ],
+      "access_level": "targeted_full_text",
+      "inspected_locators": ["MRC process evaluation framework: implementation, mechanisms of impact and context; Figure 1; Box 1, Analysis"],
+      "summary": "The MRC framework separates implementation, mechanisms and context; fidelity, dose and reach describe implementation components, whose boundaries remain debated. Context can affect outcomes even with similar implementation.",
+      "evidence_ceiling": "Methodological guidance, not validation of this finite model or a human gratitude intervention. Activity and access are project operationalizations, not established human fidelity, dose or reach measures."
+    },
+    {
+      "key": "fisher2025",
+      "title": "Computational mechanisms of gratitude practice",
+      "authors": [
+        "Elizabeth L. Fisher",
+        "Lars Sandved Smith",
+        "Jakob Hohwy"
+      ],
+      "year": 2025,
+      "doi": null,
+      "url": "https://osf.io/preprints/psyarxiv/xm25y_v1",
+      "source_type": "preprint",
+      "role": "primary reconstruction source",
+      "verified_via": [
+        "data/sources/gratitude_preprint_v1.docx",
+        "receipt: data/sources/osf-preprint.json",
+        "receipt: data/sources/source-paper.md",
+        "receipt: data/sources/source-paper.txt"
+      ],
+      "access_level": "full_text_preprint_v1",
+      "summary": "Four-stage simulation protocol learns a valenced world model, measures baseline updating, rehearses positive observations, and reassesses updating; separate modified Yarbus proof of concept manipulates precision.",
+      "evidence_ceiling": "Full-text analysis of preprint v1 only; simulated optimism is not human well-being; trauma and unstable environments excluded. OSF metadata DOI field is null, so no unverified preprint DOI is assigned."
+    },
+    {
+      "key": "algoe2012",
+      "title": "Find, Remind, and Bind: The Functions of Gratitude in Everyday Relationships",
+      "authors": [
+        "Sara B. Algoe"
+      ],
+      "year": 2012,
+      "doi": "10.1111/j.1751-9004.2012.00439.x",
+      "url": "https://doi.org/10.1111/j.1751-9004.2012.00439.x",
+      "source_type": "journal-article",
+      "role": "relational mechanism",
+      "verified_via": [
+        "https://api.crossref.org/works/10.1111/j.1751-9004.2012.00439.x",
+        "receipt: data/scholarship/receipts/algoe2012.json"
+      ],
+      "access_level": "publisher_deposited_abstract",
+      "summary": "Proposes the find-remind-and-bind account of gratitude as strengthening responsive relationships.",
+      "evidence_ceiling": "A relational theory, not evidence that selective precision alone constitutes gratitude."
+    },
+    {
+      "key": "bennett2023",
+      "title": "Affect-congruent attention modulates generalized reward expectations",
+      "authors": [
+        "Daniel Bennett",
+        "Angela Radulescu",
+        "Sam Zorowitz",
+        "Valkyrie Felso",
+        "Yael Niv"
+      ],
+      "year": 2023,
+      "doi": "10.1371/journal.pcbi.1011707",
+      "url": "https://doi.org/10.1371/journal.pcbi.1011707",
+      "source_type": "journal-article",
+      "role": "attention mechanism",
+      "verified_via": [
+        "https://api.crossref.org/works/10.1371/journal.pcbi.1011707",
+        "receipt: data/scholarship/receipts/bennett2023.json",
+        "receipt: data/scholarship/receipts/revision/bennett2023-crossref.json",
+        "receipt: data/scholarship/receipts/revision/bennett2023-fulltext.xml"
+      ],
+      "access_level": "full_text_targeted_sections",
+      "summary": "Randomized affect induction after cue learning altered compound reward generalization. Computational and gaze measures partly converged, but gaze findings depended on probe type and looking-time normalization.",
+      "evidence_ceiling": "An affect-induction task, not gratitude training. Model attention weights and overt gaze are distinct operationalizations; discrepant measures and eye-tracking exclusions limit a simple transfer claim. Supplements/data/code were not reanalyzed.",
+      "inspected_locators": [
+        "sec010",
+        "sec013",
+        "sec020",
+        "sec024",
+        "sec027",
+        "sec029"
+      ]
+    },
+    {
+      "key": "cregg2021",
+      "title": "Gratitude Interventions: Effective Self-help? A Meta-analysis of the Impact on Symptoms of Depression and Anxiety",
+      "authors": [
+        "David R. Cregg",
+        "Jennifer S. Cheavens"
+      ],
+      "year": 2021,
+      "doi": "10.1007/s10902-020-00236-6",
+      "url": "https://doi.org/10.1007/s10902-020-00236-6",
+      "source_type": "journal-article",
+      "role": "meta-analysis and counterargument",
+      "verified_via": [
+        "https://api.crossref.org/works/10.1007/s10902-020-00236-6",
+        "receipt: data/scholarship/receipts/cregg2021.json",
+        "https://link.springer.com/article/10.1007/s10902-020-00236-6",
+        "receipt: data/scholarship/receipts/primary-page-observations.json"
+      ],
+      "access_level": "publisher_abstract",
+      "summary": "Reports small depression/anxiety effects and emphasizes comparator-dependent interpretation of gratitude interventions.",
+      "evidence_ceiling": "Publisher abstract inspected; no claim that gratitude substitutes for treatment or that a synthetic optimism shift reproduces these outcomes."
+    },
+    {
+      "key": "cunha2019",
+      "title": "Positive Psychology and Gratitude Interventions: A Randomized Clinical Trial",
+      "authors": [
+        "Lúzie Fofonka Cunha",
+        "Lucia Campos Pellanda",
+        "Caroline Tozzi Reppold"
+      ],
+      "year": 2019,
+      "doi": "10.3389/fpsyg.2019.00584",
+      "url": "https://doi.org/10.3389/fpsyg.2019.00584",
+      "source_type": "journal-article",
+      "role": "randomized gratitude trial",
+      "verified_via": [
+        "https://api.crossref.org/works/10.3389/fpsyg.2019.00584",
+        "receipt: data/scholarship/receipts/cunha2019.json",
+        "https://europepmc.org/article/MED/30949102",
+        "receipt: data/scholarship/receipts/epmc-cunha2019.json",
+        "receipt: data/scholarship/receipts/revision/cunha2019-crossref.json",
+        "receipt: data/scholarship/receipts/revision/cunha2019-fulltext.xml"
+      ],
+      "access_level": "full_text_targeted_sections",
+      "summary": "Full-text Methods, Results and Discussion distinguish gratitude lists from hassles and neutral-event lists. Positive affect differed at post-test; no assessed outcome differed from neutral events at follow-up. Analysis retained only participants responding at a post-baseline assessment.",
+      "evidence_ceiling": "A community online writing trial with substantial attrition and a positive-content neutral comparator; not evidence for an absence-based intervention, precision mediation, or clinical deployment.",
+      "inspected_locators": [
+        "sec9",
+        "sec10",
+        "sec12",
+        "sec20",
+        "sec23"
+      ]
+    },
+    {
+      "key": "davis2016",
+      "title": "Thankful for the little things: A meta-analysis of gratitude interventions.",
+      "authors": [
+        "Don E. Davis",
+        "Elise Choe",
+        "Joel Meyers",
+        "Nathaniel Wade",
+        "Kristen Varjas",
+        "Allison Gifford",
+        "Amy Quinn",
+        "Joshua N. Hook",
+        "Daryl R. Van Tongeren",
+        "Brandon J. Griffin",
+        "Everett L. Worthington"
+      ],
+      "year": 2016,
+      "doi": "10.1037/cou0000107",
+      "url": "https://doi.org/10.1037/cou0000107",
+      "source_type": "journal-article",
+      "role": "meta-analysis and active controls",
+      "verified_via": [
+        "https://api.crossref.org/works/10.1037/cou0000107",
+        "receipt: data/scholarship/receipts/davis2016.json",
+        "https://europepmc.org/article/MED/26575348",
+        "receipt: data/scholarship/receipts/epmc-davis2016.json"
+      ],
+      "access_level": "primary_article_abstract",
+      "summary": "Reports comparator-dependent effects: psychological well-being did not outperform psychologically active comparison activities.",
+      "evidence_ceiling": "An aggregate intervention estimate does not identify precision as a mediator or prove individual benefit."
+    },
+    {
+      "key": "dickens2017",
+      "title": "Using Gratitude to Promote Positive Change: A Series of Meta-Analyses Investigating the Effectiveness of Gratitude Interventions",
+      "authors": [
+        "Leah R. Dickens"
+      ],
+      "year": 2017,
+      "doi": "10.1080/01973533.2017.1323638",
+      "url": "https://doi.org/10.1080/01973533.2017.1323638",
+      "source_type": "journal-article",
+      "role": "meta-analysis inventory",
+      "verified_via": [
+        "https://api.crossref.org/works/10.1080/01973533.2017.1323638",
+        "receipt: data/scholarship/receipts/dickens2017.json"
+      ],
+      "access_level": "publisher_deposited_metadata",
+      "summary": "Publisher metadata verifies a series of meta-analyses of gratitude interventions. Retained as a relevant synthesis to consult alongside Davis and Cregg.",
+      "evidence_ceiling": "Metadata only inspected; no effect magnitude or detailed conclusion attributed to this record."
+    },
+    {
+      "key": "emmons2003",
+      "title": "Counting blessings versus burdens: An experimental investigation of gratitude and subjective well-being in daily life.",
+      "authors": [
+        "Robert A. Emmons",
+        "Michael E. McCullough"
+      ],
+      "year": 2003,
+      "doi": "10.1037/0022-3514.84.2.377",
+      "url": "https://doi.org/10.1037/0022-3514.84.2.377",
+      "source_type": "journal-article",
+      "role": "foundational gratitude experiment",
+      "verified_via": [
+        "https://api.crossref.org/works/10.1037/0022-3514.84.2.377",
+        "receipt: data/scholarship/receipts/emmons2003.json"
+      ],
+      "access_level": "publisher_deposited_metadata",
+      "summary": "Publisher metadata verifies the experimental counting-blessings versus burdens study of gratitude and daily subjective well-being.",
+      "evidence_ceiling": "Metadata only inspected; not used for numerical estimates or participant-level claims."
+    },
+    {
+      "key": "fisher2026",
+      "title": "Computational Mechanisms of Gratitude Practice",
+      "authors": [
+        "Elizabeth L. Fisher",
+        "Lars Sandved Smith",
+        "Jakob Hohwy"
+      ],
+      "year": 2026,
+      "doi": "10.1162/neco.a.1591",
+      "url": "https://doi.org/10.1162/neco.a.1591",
+      "source_type": "journal-article",
+      "role": "journal version identity",
+      "verified_via": [
+        "https://api.crossref.org/works/10.1162/neco.a.1591",
+        "receipt: data/scholarship/receipts/fisher2026.json"
+      ],
+      "access_level": "publisher_deposited_abstract",
+      "summary": "Journal abstract describes three simulations: precision allocation, optimism assessment and an abstract Yarbus-inspired attention proof of concept.",
+      "evidence_ceiling": "Journal abstract only; detailed paragraph analysis belongs to the separately archived preprint v1, not an assumed identical journal full text."
+    },
+    {
+      "key": "friston2017",
+      "title": "Active Inference: A Process Theory",
+      "authors": [
+        "Karl Friston",
+        "Thomas FitzGerald",
+        "Francesco Rigoli",
+        "Philipp Schwartenbeck",
+        "Giovanni Pezzulo"
+      ],
+      "year": 2017,
+      "doi": "10.1162/neco_a_00912",
+      "url": "https://doi.org/10.1162/neco_a_00912",
+      "source_type": "journal-article",
+      "role": "active inference process theory",
+      "verified_via": [
+        "https://api.crossref.org/works/10.1162/neco_a_00912",
+        "receipt: data/scholarship/receipts/friston2017.json"
+      ],
+      "access_level": "publisher_deposited_abstract",
+      "summary": "Derives a process account of inference and action from variational free energy and illustrates simulated neuronal phenomena.",
+      "evidence_ceiling": "A process theory and face-valid simulations do not establish neural implementation of this gratitude model."
+    },
+    {
+      "key": "garrett2014",
+      "title": "Losing the rose tinted glasses: neural substrates of unbiased belief updating in depression",
+      "authors": [
+        "Neil Garrett",
+        "Tali Sharot",
+        "Paul Faulkner",
+        "Christoph W. Korn",
+        "Jonathan P. Roiser",
+        "Raymond J. Dolan"
+      ],
+      "year": 2014,
+      "doi": "10.3389/fnhum.2014.00639",
+      "url": "https://doi.org/10.3389/fnhum.2014.00639",
+      "source_type": "journal-article",
+      "role": "optimism empirical antecedent",
+      "verified_via": [
+        "https://api.crossref.org/works/10.3389/fnhum.2014.00639",
+        "receipt: data/scholarship/receipts/garrett2014.json",
+        "https://europepmc.org/article/MED/25221492",
+        "receipt: data/scholarship/receipts/epmc-garrett2014.json"
+      ],
+      "access_level": "primary_article_abstract",
+      "summary": "Reports differential good/bad-news updating and associated imaging signals in depressed and control groups.",
+      "evidence_ceiling": "Clinical-group association is not causal evidence that increasing optimism improves health; abstract inspected."
+    },
+    {
+      "key": "garrett2017",
+      "title": "Optimistic update bias holds firm: Three tests of robustness following Shah et al.",
+      "authors": [
+        "Neil Garrett",
+        "Tali Sharot"
+      ],
+      "year": 2017,
+      "doi": "10.1016/j.concog.2016.10.013",
+      "url": "https://doi.org/10.1016/j.concog.2016.10.013",
+      "source_type": "journal-article",
+      "role": "optimism methodological reply",
+      "verified_via": [
+        "https://api.crossref.org/works/10.1016/j.concog.2016.10.013",
+        "receipt: data/scholarship/receipts/garrett2017.json",
+        "https://europepmc.org/article/MED/27836628",
+        "receipt: data/scholarship/receipts/epmc-garrett2017.json"
+      ],
+      "access_level": "primary_article_abstract",
+      "summary": "Argues that optimistic updating survives corrected analyses and disputes the parameter choices in Shah and colleagues.",
+      "evidence_ceiling": "A disputed methodological reply must be read beside the critique; it does not make every asymmetry estimator valid."
+    },
+    {
+      "key": "gneiting2007",
+      "title": "Strictly Proper Scoring Rules, Prediction, and Estimation",
+      "authors": [
+        "Tilmann Gneiting",
+        "Adrian E Raftery"
+      ],
+      "year": 2007,
+      "doi": "10.1198/016214506000001437",
+      "url": "https://doi.org/10.1198/016214506000001437",
+      "source_type": "journal-article",
+      "role": "probabilistic evaluation methods",
+      "verified_via": [
+        "https://api.crossref.org/works/10.1198/016214506000001437",
+        "receipt: data/scholarship/receipts/gneiting2007.json",
+        "https://sites.stat.washington.edu/raftery/Research/PDF/Gneiting2007jasa.pdf",
+        "receipt: data/scholarship/receipts/review20261019-gneiting.json"
+      ],
+      "access_level": "targeted_full_text",
+      "summary": "Author-hosted primary full text inspected for expected-score propriety and reward orientation (p.359), categorical quadratic/logarithmic examples (p.363), and integrated evidence as sequential predictive scoring (p.372, Section 7.1, equations 50-53).",
+      "evidence_ceiling": "Targeted methodological reading, not an empirical validation of this model. Propriety concerns expected score; calibration and sharpness are distinct. Sequential evidence scoring does not make a calibration-batch family preference a guarantee of improved frozen-forecast assessment."
+    },
+    {
+      "key": "goh2023",
+      "title": "The perception of silence",
+      "authors": [
+        "Rui Zhe Goh",
+        "Ian B. Phillips",
+        "Chaz Firestone"
+      ],
+      "year": 2023,
+      "doi": "10.1073/pnas.2301463120",
+      "url": "https://doi.org/10.1073/pnas.2301463120",
+      "source_type": "journal-article",
+      "role": "observed absence",
+      "verified_via": [
+        "https://api.crossref.org/works/10.1073/pnas.2301463120",
+        "receipt: data/scholarship/receipts/goh2023.json",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC10629541/",
+        "receipt: data/scholarship/receipts/v090/reading.json"
+      ],
+      "access_level": "full_text_targeted_sections",
+      "summary": "Silence-based auditory duration illusions motivate a perceptual account of contrastive silence within structured auditory contexts. The discussion treats absolute silence and analogies to other modalities as further questions.",
+      "evidence_ceiling": "Evidence about contrastive auditory silence, not every absence, missing sensor data, metaphysical nothingness or contemplative attainment. A working-channel interpretation is this project's methodological distinction, not a sensor-failure experiment in the article.",
+      "inspected_locators": [
+        "General Discussion",
+        "Really Hearing Silence",
+        "Looking Ahead",
+        "note on silence and holes"
+      ]
+    },
+    {
+      "key": "gratitudemeta2025",
+      "title": "A meta-analysis of the effectiveness of gratitude interventions on well-being across cultures",
+      "authors": [
+        "Hyewon Choi",
+        "Youngjae Cha",
+        "Michael E. McCullough",
+        "Nicholas A. Coles",
+        "Shigehiro Oishi"
+      ],
+      "year": 2025,
+      "doi": "10.1073/pnas.2425193122",
+      "url": "https://doi.org/10.1073/pnas.2425193122",
+      "source_type": "journal-article",
+      "role": "recent cross-cultural meta-analysis",
+      "verified_via": [
+        "https://api.crossref.org/works/10.1073/pnas.2425193122",
+        "receipt: data/scholarship/receipts/gratitudemeta2025.json",
+        "https://europepmc.org/article/MED/40627390",
+        "receipt: data/scholarship/receipts/epmc-gratitudemeta2025.json",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC12280877/",
+        "receipt: data/scholarship/receipts/review20261019-choi.json"
+      ],
+      "access_level": "full_text_targeted_sections",
+      "summary": "Preregistered synthesis reports small aggregate well-being gains, between-country heterogeneity and methodological moderators; examined moderators did not explain cultural variability.",
+      "evidence_ceiling": "Targeted full-text reading, without reanalysis or supplement inspection. Positive-activity nonsignificance is not equivalence; country is a cultural proxy and the search is English-only. Adjacent moderator prose and Table 2 disagree about the omnibus control-type test; no omnibus claim is imported. No validation of this project's mechanism.",
+      "inspected_locators": [
+        "Results: Moderator Analyses: Separate Models; Table 2",
+        "Discussion: country as a proxy for culture and limitations",
+        "Materials and Methods: Effect size and variance calculations"
+      ]
+    },
+    {
+      "key": "hartanto2023",
+      "title": "A critical examination of the effectiveness of gratitude intervention on well-Being Outcomes: A within-person experimental daily diary approach",
+      "authors": [
+        "Andree Hartanto",
+        "Manmeet Kaur",
+        "K. T. A. Sandeeshwara Kasturiratna",
+        "Frosch Y. X. Quek",
+        "Nadyanna M. Majeed"
+      ],
+      "year": 2023,
+      "doi": "10.1080/17439760.2022.2154704",
+      "url": "https://doi.org/10.1080/17439760.2022.2154704",
+      "source_type": "journal-article",
+      "role": "within-person experimental evidence",
+      "verified_via": [
+        "https://api.crossref.org/works/10.1080/17439760.2022.2154704",
+        "receipt: data/scholarship/receipts/hartanto2023.json",
+        "https://smusg.elsevierpure.com/en/publications/a-critical-examination-of-the-effectiveness-of-gratitude-interven/",
+        "receipt: data/scholarship/receipts/primary-page-observations.json"
+      ],
+      "access_level": "author_institution_abstract",
+      "summary": "Institutional author abstract reports within-person effects of gratitude contemplation on several daily well-being measures.",
+      "evidence_ceiling": "Study-specific diary outcomes do not establish neural mechanisms or generalize automatically to unsafe settings."
+    },
+    {
+      "key": "he2022",
+      "title": "Gratitude Intervention Evokes Indebtedness: Moderated by Perceived Social Distance",
+      "authors": [
+        "Wuming He",
+        "Junjie Qiu",
+        "Yingying Chen",
+        "Yufang Zhong"
+      ],
+      "year": 2022,
+      "doi": "10.3389/fpsyg.2022.824326",
+      "url": "https://doi.org/10.3389/fpsyg.2022.824326",
+      "source_type": "journal-article",
+      "role": "indebtedness and ethical boundary",
+      "verified_via": [
+        "https://api.crossref.org/works/10.3389/fpsyg.2022.824326",
+        "receipt: data/scholarship/receipts/he2022.json",
+        "receipt: data/scholarship/receipts/revision/he2022-crossref.json",
+        "receipt: data/scholarship/receipts/revision/he2022-fulltext.xml"
+      ],
+      "access_level": "full_text_targeted_sections",
+      "summary": "An adolescent writing experiment distinguished significant-other and health gratitude from a no-writing control. Gratitude/appreciation reports differed, but the indebtedness omnibus test was p=.077 despite a reported significant selected pairwise contrast.",
+      "evidence_ceiling": "Single adolescent sample, unmatched writing exposure, and an observational social-distance moderator; do not state universal indebtedness causation or treat gratitude/appreciation word ratings as discriminant construct validation.",
+      "inspected_locators": [
+        "S2.SS1",
+        "S2.SS2",
+        "S2.SS3",
+        "S2.SS4",
+        "S3.SS1",
+        "S3.SS2",
+        "S4"
+      ]
+    },
+    {
+      "key": "heckendorf2019",
+      "title": "Efficacy of an internet and app-based gratitude intervention in reducing repetitive negative thinking and mechanisms of change in the intervention's effect on anxiety and depression: Results from a randomized controlled trial",
+      "authors": [
+        "Hanna Heckendorf",
+        "Dirk Lehr",
+        "David Daniel Ebert",
+        "Henning Freund"
+      ],
+      "year": 2019,
+      "doi": "10.1016/j.brat.2019.103415",
+      "url": "https://doi.org/10.1016/j.brat.2019.103415",
+      "source_type": "journal-article",
+      "role": "randomized mechanism-oriented intervention",
+      "verified_via": [
+        "https://api.crossref.org/works/10.1016/j.brat.2019.103415",
+        "receipt: data/scholarship/receipts/heckendorf2019.json",
+        "https://europepmc.org/article/MED/31202003",
+        "receipt: data/scholarship/receipts/epmc-heckendorf2019.json"
+      ],
+      "access_level": "primary_article_abstract",
+      "summary": "Reports a guided internet/app gratitude intervention reducing repetitive negative thinking relative to a wait list, with mediation analyses.",
+      "evidence_ceiling": "Wait-list comparison does not isolate gratitude from guidance, expectancy or activity; mediation is not a synthetic precision parameter."
+    },
+    {
+      "key": "hesp2021",
+      "title": "Deeply Felt Affect: The Emergence of Valence in Deep Active Inference",
+      "authors": [
+        "Casper Hesp",
+        "Ryan Smith",
+        "Thomas Parr",
+        "Micah Allen",
+        "Karl J. Friston",
+        "Maxwell J. D. Ramstead"
+      ],
+      "year": 2021,
+      "doi": "10.1162/neco_a_01341",
+      "url": "https://doi.org/10.1162/neco_a_01341",
+      "source_type": "journal-article",
+      "role": "affect and higher-order inference",
+      "verified_via": [
+        "https://api.crossref.org/works/10.1162/neco_a_01341",
+        "receipt: data/scholarship/receipts/hesp2021.json"
+      ],
+      "access_level": "publisher_deposited_abstract",
+      "summary": "Presents a deep active inference model of valence and affective charge using a context-learning and reversal simulation.",
+      "evidence_ceiling": "Formal affect model with proposed empirical tests; not a measurement of subjective gratitude or a validated neural mechanism here."
+    },
+    {
+      "key": "hobbs2022",
+      "title": "Is depression associated with reduced optimistic belief updating?",
+      "authors": [
+        "Catherine Hobbs",
+        "Petra Vozarova",
+        "Aarushi Sabharwal",
+        "Punit Shah",
+        "Katherine Button"
+      ],
+      "year": 2022,
+      "doi": "10.1098/rsos.190814",
+      "url": "https://doi.org/10.1098/rsos.190814",
+      "source_type": "journal-article",
+      "role": "replication and valence boundary",
+      "verified_via": [
+        "https://api.crossref.org/works/10.1098/rsos.190814",
+        "receipt: data/scholarship/receipts/hobbs2022.json"
+      ],
+      "access_level": "publisher_deposited_abstract",
+      "summary": "Reports an independent replication of depression-related differences for negative-event updating; positive-event findings were inconclusive.",
+      "evidence_ceiling": "Valence-specific and observational group evidence; no treatment effect follows."
+    },
+    {
+      "key": "kerry2023",
+      "title": "Being Thankful for What You Have: A Systematic Review of Evidence for the Effect of Gratitude on Life Satisfaction",
+      "authors": [
+        "Nicholas Kerry",
+        "Ria Chhabra",
+        "Jeremy Clifton"
+      ],
+      "year": 2023,
+      "doi": "10.2147/prbm.s372432",
+      "url": "https://doi.org/10.2147/prbm.s372432",
+      "source_type": "journal-article",
+      "role": "life satisfaction synthesis and critique",
+      "verified_via": [
+        "https://api.crossref.org/works/10.2147/prbm.s372432",
+        "receipt: data/scholarship/receipts/kerry2023.json",
+        "https://europepmc.org/article/MED/38047154",
+        "receipt: data/scholarship/receipts/epmc-kerry2023.json",
+        "receipt: data/scholarship/receipts/revision/kerry2023-crossref.json",
+        "receipt: data/scholarship/receipts/revision/kerry2023-fulltext.xml"
+      ],
+      "access_level": "full_text_targeted_sections",
+      "summary": "The authors review gratitude and life satisfaction and find weak evidence for superiority over positive or psychologically active controls, while acknowledging restrictive inclusion and a single-researcher search.",
+      "evidence_ceiling": "Primary text of a review, not direct reinspection of all included trials or proof of no effect. Its life-satisfaction focus and search scope cannot overturn newer meta-analyses or resolve mechanism.",
+      "inspected_locators": [
+        "s0002",
+        "s0003-s2003-s3004",
+        "s0004",
+        "s0005"
+      ]
+    },
+    {
+      "key": "koo2008",
+      "title": "It's a wonderful life: Mentally subtracting positive events improves people's affective states, contrary to their affective forecasts.",
+      "authors": [
+        "Minkyung Koo",
+        "Sara B. Algoe",
+        "Timothy D. Wilson",
+        "Daniel T. Gilbert"
+      ],
+      "year": 2008,
+      "doi": "10.1037/a0013316",
+      "url": "https://doi.org/10.1037/a0013316",
+      "source_type": "journal-article",
+      "role": "counterfactual appreciation",
+      "verified_via": [
+        "https://api.crossref.org/works/10.1037/a0013316",
+        "receipt: data/scholarship/receipts/koo2008.json",
+        "https://europepmc.org/article/MED/18954203",
+        "receipt: data/scholarship/receipts/epmc-koo2008.json",
+        "receipt: data/scholarship/receipts/revision/koo2008-crossref-retry.json",
+        "receipt: data/scholarship/receipts/revision/koo2008-author.pdf",
+        "receipt: data/scholarship/receipts/v090/reading.json"
+      ],
+      "access_level": "author_hosted_full_text_targeted_sections",
+      "summary": "Four studies distinguish imagining the nonoccurrence of an existing positive event from recounting its occurrence; measured endpoints include affect and relationship satisfaction, with forecasts examined separately.",
+      "evidence_ceiling": "Mental subtraction of an existing benefit is distinct from detecting no harm or valuing a prevented harm. Brief self-report outcomes do not establish durable benefit, a precision mechanism, or unchanged beliefs. Studies 1-2 did not find significant condition differences on the direct event-gratitude item.",
+      "inspected_locators": [
+        "pp. 1217-1219: rationale and Study 1",
+        "pp. 1220-1222: Studies 2-4",
+        "pp. 1222-1223: General Discussion"
+      ]
+    },
+    {
+      "key": "mccullough2001",
+      "title": "Is gratitude a moral affect?",
+      "authors": [
+        "Michael E. McCullough",
+        "Shelley D. Kilpatrick",
+        "Robert A. Emmons",
+        "David B. Larson"
+      ],
+      "year": 2001,
+      "doi": "10.1037/0033-2909.127.2.249",
+      "url": "https://doi.org/10.1037/0033-2909.127.2.249",
+      "source_type": "journal-article",
+      "role": "moral and interpersonal construct",
+      "verified_via": [
+        "https://api.crossref.org/works/10.1037/0033-2909.127.2.249",
+        "receipt: data/scholarship/receipts/mccullough2001.json",
+        "https://europepmc.org/article/MED/11316013",
+        "receipt: data/scholarship/receipts/epmc-mccullough2001.json"
+      ],
+      "access_level": "primary_article_abstract",
+      "summary": "Conceptualizes gratitude as a moral barometer, motive and reinforcer associated with receiving another person's moral action.",
+      "evidence_ceiling": "A conceptual account; impersonal absence appreciation lacks the benefactor structure and should not be relabeled as the same construct without testing."
+    },
+    {
+      "key": "mirza2019",
+      "title": "Introducing a Bayesian model of selective attention based on active inference",
+      "authors": [
+        "M. Berk Mirza",
+        "Rick A. Adams",
+        "Karl Friston",
+        "Thomas Parr"
+      ],
+      "year": 2019,
+      "doi": "10.1038/s41598-019-50138-8",
+      "url": "https://doi.org/10.1038/s41598-019-50138-8",
+      "source_type": "journal-article",
+      "role": "selective attention model",
+      "verified_via": [
+        "https://api.crossref.org/works/10.1038/s41598-019-50138-8",
+        "receipt: data/scholarship/receipts/mirza2019.json",
+        "receipt: data/scholarship/receipts/gaze/mirza2019.html"
+      ],
+      "access_level": "full_text_targeted_sections",
+      "summary": "A computational selective-attention account relates precision, task context and active sampling; it supplies model lineage for distinguishing information gain from observation preferences.",
+      "evidence_ceiling": "Targeted full-text model reading, not empirical validation of gratitude-to-gaze transfer or the project's region partition. Published model code and participant data were not independently reproduced.",
+      "inspected_locators": [
+        "Abstract",
+        "Introduction",
+        "Selective attention model and active inference sections",
+        "Discussion"
+      ]
+    },
+    {
+      "key": "newman2021",
+      "title": "Comparing daily physiological and psychological benefits of gratitude and optimism using a digital platform.",
+      "authors": [
+        "David B. Newman",
+        "Amie M. Gordon",
+        "Wendy Berry Mendes"
+      ],
+      "year": 2021,
+      "doi": "10.1037/emo0001025",
+      "url": "https://doi.org/10.1037/emo0001025",
+      "source_type": "journal-article",
+      "role": "gratitude versus optimism distinction",
+      "verified_via": [
+        "https://api.crossref.org/works/10.1037/emo0001025",
+        "receipt: data/scholarship/receipts/newman2021.json",
+        "https://europepmc.org/article/MED/34780238",
+        "receipt: data/scholarship/receipts/epmc-newman2021.json"
+      ],
+      "access_level": "primary_article_abstract",
+      "summary": "Ecological momentary assessment reports overlapping but distinguishable associations of trait gratitude and optimism with daily experiences and physiology.",
+      "evidence_ceiling": "Observational associations; not an intervention trial and not evidence that the two constructs are interchangeable."
+    },
+    {
+      "key": "rubin1976",
+      "title": "Inference and missing data",
+      "authors": [
+        "DONALD B. RUBIN"
+      ],
+      "year": 1976,
+      "doi": "10.1093/biomet/63.3.581",
+      "url": "https://doi.org/10.1093/biomet/63.3.581",
+      "source_type": "journal-article",
+      "role": "missing-data methods",
+      "verified_via": [
+        "https://api.crossref.org/works/10.1093/biomet/63.3.581",
+        "receipt: data/scholarship/receipts/rubin1976.json"
+      ],
+      "access_level": "publisher_deposited_metadata",
+      "summary": "Publisher metadata verifies the foundational inference-and-missing-data article.",
+      "evidence_ceiling": "Metadata only; the project uses an explicit missing-observation symbol and does not assert an unverified ignorability theorem."
+    },
+    {
+      "key": "sajid2021",
+      "title": "Active Inference: Demystified and Compared",
+      "authors": [
+        "Noor Sajid",
+        "Philip J. Ball",
+        "Thomas Parr",
+        "Karl J. Friston"
+      ],
+      "year": 2021,
+      "doi": "10.1162/neco_a_01357",
+      "url": "https://doi.org/10.1162/neco_a_01357",
+      "source_type": "journal-article",
+      "role": "finite active inference comparison",
+      "verified_via": [
+        "https://api.crossref.org/works/10.1162/neco_a_01357",
+        "receipt: data/scholarship/receipts/sajid2021.json"
+      ],
+      "access_level": "publisher_deposited_abstract",
+      "summary": "Compares discrete-state active inference and reinforcement learning, including preference learning and uncertainty-sensitive exploration.",
+      "evidence_ceiling": "Demonstrations in specified computational tasks, not superiority for psychological interventions."
+    },
+    {
+      "key": "seymour2005",
+      "title": "Opponent appetitive-aversive neural processes underlie predictive learning of pain relief",
+      "authors": [
+        "Ben Seymour",
+        "John P O'Doherty",
+        "Martin Koltzenburg",
+        "Katja Wiech",
+        "Richard Frackowiak",
+        "Karl Friston",
+        "Raymond Dolan"
+      ],
+      "year": 2005,
+      "doi": "10.1038/nn1527",
+      "url": "https://doi.org/10.1038/nn1527",
+      "source_type": "journal-article",
+      "role": "relief learning",
+      "verified_via": [
+        "https://api.crossref.org/works/10.1038/nn1527",
+        "receipt: data/scholarship/receipts/seymour2005.json",
+        "https://europepmc.org/article/MED/16116445",
+        "receipt: data/scholarship/receipts/epmc-seymour2005.json"
+      ],
+      "access_level": "primary_article_abstract",
+      "summary": "Reports conditioning of expectations of pain relief and reward-like/opponent neural learning signals during experimental pain.",
+      "evidence_ceiling": "Termination of pain is a measured human relief paradigm; a finite avoided-harm utility contrast does not reproduce its neural or subjective outcomes."
+    },
+    {
+      "key": "coricelli2005",
+      "title": "Regret and its avoidance: a neuroimaging study of choice behavior",
+      "authors": [
+        "Giorgio Coricelli",
+        "Hugo D Critchley",
+        "Mateus Joffily",
+        "John P O'Doherty",
+        "Angela Sirigu",
+        "Raymond J Dolan"
+      ],
+      "year": 2005,
+      "doi": "10.1038/nn1514",
+      "url": "https://doi.org/10.1038/nn1514",
+      "source_type": "journal-article",
+      "role": "counterfactual outcome comparison",
+      "verified_via": [
+        "https://api.crossref.org/works/10.1038/nn1514",
+        "receipt: data/scholarship/receipts/coricelli2005.json",
+        "https://europepmc.org/article/MED/16116457",
+        "receipt: data/scholarship/receipts/epmc-coricelli2005.json"
+      ],
+      "access_level": "primary_article_abstract",
+      "summary": "Reports regret induced by information about an unchosen gamble and changing subsequent choice behavior.",
+      "evidence_ceiling": "Regret and counterfactual feedback provide a comparator paradigm, not direct evidence about gratitude or non-reification."
+    },
+    {
+      "key": "shah2016",
+      "title": "A pessimistic view of optimistic belief updating",
+      "authors": [
+        "Punit Shah",
+        "Adam J.L. Harris",
+        "Geoffrey Bird",
+        "Caroline Catmur",
+        "Ulrike Hahn"
+      ],
+      "year": 2016,
+      "doi": "10.1016/j.cogpsych.2016.05.004",
+      "url": "https://doi.org/10.1016/j.cogpsych.2016.05.004",
+      "source_type": "journal-article",
+      "role": "optimism estimator critique",
+      "verified_via": [
+        "https://api.crossref.org/works/10.1016/j.cogpsych.2016.05.004",
+        "receipt: data/scholarship/receipts/shah2016.json",
+        "https://europepmc.org/article/MED/27542765",
+        "receipt: data/scholarship/receipts/epmc-shah2016.json"
+      ],
+      "access_level": "primary_article_abstract",
+      "summary": "Uses task analyses, simulations and experiments to argue that apparent optimistic updating can reflect statistical artifacts; emphasizes normative Bayesian comparisons.",
+      "evidence_ceiling": "Retain the competing Garrett reply; the critique motivates null-calibrated estimators rather than settling all optimism research."
+    },
+    {
+      "key": "sharot2011",
+      "title": "The optimism bias",
+      "authors": [
+        "Tali Sharot"
+      ],
+      "year": 2011,
+      "doi": "10.1016/j.cub.2011.10.030",
+      "url": "https://doi.org/10.1016/j.cub.2011.10.030",
+      "source_type": "journal-article",
+      "role": "optimism framing",
+      "verified_via": [
+        "https://api.crossref.org/works/10.1016/j.cub.2011.10.030",
+        "receipt: data/scholarship/receipts/sharot2011.json"
+      ],
+      "access_level": "publisher_deposited_metadata",
+      "summary": "Publisher metadata verifies the optimism-bias overview used in the source preprint.",
+      "evidence_ceiling": "Metadata only; cannot justify treating optimism as a validated well-being outcome."
+    },
+    {
+      "key": "smith2022",
+      "title": "A step-by-step tutorial on active inference and its application to empirical data",
+      "authors": [
+        "Ryan Smith",
+        "Karl J. Friston",
+        "Christopher J. Whyte"
+      ],
+      "year": 2022,
+      "doi": "10.1016/j.jmp.2021.102632",
+      "url": "https://doi.org/10.1016/j.jmp.2021.102632",
+      "source_type": "journal-article",
+      "role": "POMDP inference and learning methods",
+      "verified_via": [
+        "https://api.crossref.org/works/10.1016/j.jmp.2021.102632",
+        "receipt: data/scholarship/receipts/smith2022.json",
+        "https://europepmc.org/article/MED/35340847",
+        "receipt: data/scholarship/receipts/epmc-smith2022.json"
+      ],
+      "access_level": "primary_article_abstract",
+      "summary": "Tutorial provides discrete POMDP construction, simulation, fitting and mathematical implementation guidance.",
+      "evidence_ceiling": "Abstract inspected; specific Dirichlet-count choices in this project require explicit model declarations and independent numerical controls."
+    },
+    {
+      "key": "stone2022",
+      "title": "Effects of the Gratitude Letter and Positive Attention Bias Modification on Attentional Deployment and Emotional States",
+      "authors": [
+        "Bryant M. Stone",
+        "John D. Lindt",
+        "Norka E. Rabinovich",
+        "David G. Gilbert"
+      ],
+      "year": 2022,
+      "doi": "10.1007/s10902-021-00377-2",
+      "url": "https://doi.org/10.1007/s10902-021-00377-2",
+      "source_type": "journal-article",
+      "role": "attention intervention candidate",
+      "verified_via": [
+        "https://api.crossref.org/works/10.1007/s10902-021-00377-2",
+        "receipt: data/scholarship/receipts/stone2022.json"
+      ],
+      "access_level": "publisher_deposited_metadata",
+      "summary": "Publisher metadata verifies a study comparing gratitude-letter and positive-attention-bias modification effects on attention and emotion.",
+      "evidence_ceiling": "Metadata only; no unsupported direction, effect size or mediation claim extracted from the title."
+    },
+    {
+      "key": "watkins2022",
+      "title": "Modifying interpretation bias leads to congruent changes in gratitude",
+      "authors": [
+        "Philip C. Watkins",
+        "Peter Munger",
+        "Brandy Hutton",
+        "Kahle Elliot",
+        "Andrew Mathews"
+      ],
+      "year": 2022,
+      "doi": "10.1080/17439760.2021.1940249",
+      "url": "https://doi.org/10.1080/17439760.2021.1940249",
+      "source_type": "journal-article",
+      "role": "interpretation-bias candidate",
+      "verified_via": [
+        "https://api.crossref.org/works/10.1080/17439760.2021.1940249",
+        "receipt: data/scholarship/receipts/watkins2022.json"
+      ],
+      "access_level": "publisher_deposited_metadata",
+      "summary": "Publisher metadata verifies an experimental article concerning interpretation-bias modification and gratitude.",
+      "evidence_ceiling": "Metadata only; an effect described in a title is not a validated mechanistic bridge for this model."
+    },
+    {
+      "key": "wood2010",
+      "title": "Gratitude and well-being: A review and theoretical integration",
+      "authors": [
+        "Alex M. Wood",
+        "Jeffrey J. Froh",
+        "Adam W.A. Geraghty"
+      ],
+      "year": 2010,
+      "doi": "10.1016/j.cpr.2010.03.005",
+      "url": "https://doi.org/10.1016/j.cpr.2010.03.005",
+      "source_type": "journal-article",
+      "role": "gratitude construct and review",
+      "verified_via": [
+        "https://api.crossref.org/works/10.1016/j.cpr.2010.03.005",
+        "receipt: data/scholarship/receipts/wood2010.json",
+        "https://europepmc.org/article/MED/20451313",
+        "receipt: data/scholarship/receipts/epmc-wood2010.json"
+      ],
+      "access_level": "primary_article_abstract",
+      "summary": "Integrates interpersonal gratitude with habitual appreciation of positive life aspects and critically discusses intervention limitations.",
+      "evidence_ceiling": "Review-level conceptual framing, not direct proof of precision learning or efficacy of an impersonal absence practice."
+    },
+    {
+      "key": "yu2018",
+      "title": "Decomposing Gratitude: Representation and Integration of Cognitive Antecedents of Gratitude in the Brain",
+      "authors": [
+        "Hongbo Yu",
+        "Xiaoxue Gao",
+        "Yuanyuan Zhou",
+        "Xiaolin Zhou"
+      ],
+      "year": 2018,
+      "doi": "10.1523/jneurosci.2944-17.2018",
+      "url": "https://doi.org/10.1523/jneurosci.2944-17.2018",
+      "source_type": "journal-article",
+      "role": "interpersonal gratitude and avoided pain",
+      "verified_via": [
+        "https://api.crossref.org/works/10.1523/jneurosci.2944-17.2018",
+        "receipt: data/scholarship/receipts/yu2018.json"
+      ],
+      "access_level": "publisher_deposited_abstract",
+      "summary": "Reports independently manipulating benefactor cost and recipient pain reduction with fMRI and reciprocal giving.",
+      "evidence_ceiling": "Abstract-level human social task; distinguishing benefit from benefactor cost matters, but no corresponding neural or interpersonal variables are measured in the finite simulation."
+    },
+    {
+      "key": "garfield1995",
+      "title": "The Fundamental Wisdom of the Middle Way: Nāgārjuna’s Mūlamadhyamakakārikā",
+      "authors": [
+        "Jay L. Garfield"
+      ],
+      "year": 1995,
+      "doi": "10.1093/oso/9780195103175.001.0001",
+      "url": "https://academic.oup.com/book/50348/chapter-abstract/422713050",
+      "source_type": "book",
+      "role": "philosophical interpretation boundary",
+      "verified_via": [
+        "https://academic.oup.com/book/50348/chapter-abstract/422713050",
+        "receipt: data/scholarship/receipts/primary-page-observations.json"
+      ],
+      "access_level": "publisher_metadata",
+      "summary": "Translation and commentary by Jay L. Garfield on Nāgārjuna; publisher title and bibliographic identity verified.",
+      "evidence_ceiling": "Publisher metadata only; no verse-level quotation or claimed full-text exegesis. The erroneous publisher landing-page abstract is not used. Philosophical reading does not validate a neural or clinical model."
+    },
+    {
+      "key": "garfield2001",
+      "title": "Empty Words: Buddhist Philosophy and Cross-Cultural Interpretation",
+      "authors": [
+        "Jay L. Garfield"
+      ],
+      "year": 2001,
+      "doi": "10.1093/oso/9780195145519.001.0001",
+      "url": "https://academic.oup.com/book/49905",
+      "source_type": "book",
+      "role": "philosophical interpretation boundary",
+      "verified_via": [
+        "https://academic.oup.com/book/49905",
+        "receipt: data/scholarship/receipts/primary-page-observations.json"
+      ],
+      "access_level": "publisher_synopsis",
+      "summary": "Publisher synopsis identifies essays on Madhyamaka, Yogacara, Buddhist ethics and cross-cultural interpretation.",
+      "evidence_ceiling": "Synopsis only; motivates interpretive caution, not doctrinal equivalence between Bayesian models and Buddhist philosophy."
+    },
+    {
+      "key": "thanissaro1997",
+      "title": "Kaccayanagotta Sutta: To Kaccayana Gotta (on Right View), SN 12.15",
+      "authors": [
+        "Thanissaro Bhikkhu (translator)"
+      ],
+      "year": 1997,
+      "doi": null,
+      "url": "https://www.accesstoinsight.org/tipitaka/sn/sn12/sn12.015.than.html",
+      "source_type": "primary_text_translation",
+      "role": "non-reification and anti-nihilism boundary",
+      "verified_via": [
+        "https://www.accesstoinsight.org/tipitaka/sn/sn12/sn12.015.than.html",
+        "receipt: data/scholarship/receipts/sn1215.html"
+      ],
+      "access_level": "full_translated_text",
+      "summary": "Translation contrasts attachment to existence/non-existence with dependent origination and cessation; supplies a textual reason not to equate the project title with a doctrine that nothing exists.",
+      "evidence_ceiling": "Historical religious text in translation, not experimental evidence; no equivalence to active inference, gratitude efficacy or realization follows."
+    },
+    {
+      "key": "efron1979",
+      "title": "Bootstrap Methods: Another Look at the Jackknife",
+      "authors": [
+        "B. Efron"
+      ],
+      "year": 1979,
+      "doi": "10.1214/aos/1176344552",
+      "url": "https://doi.org/10.1214/aos/1176344552",
+      "source_type": "journal-article",
+      "role": "bootstrap lineage",
+      "verified_via": [
+        "https://api.crossref.org/works/10.1214/aos/1176344552",
+        "receipt: data/scholarship/receipts/efron1979.json",
+        "https://ledaliang.github.io/journalclub/_static/efron1979/Efron1979.pdf",
+        "reading: docs/bootstrap-availability-research.md"
+      ],
+      "access_level": "targeted_full_text",
+      "inspected_locators": [
+        "Section 2, printed pages 3-4: resampling steps 1-3, equations 2.4-2.8 and calculation methods"
+      ],
+      "summary": "The inspected article scan defines independent empirical resampling with replacement and gives its conditional Bernoulli example; direct calculation and Monte Carlo approximation are distinguished.",
+      "evidence_ceiling": "Targeted passages support the resampling construction, not universal finite-sample coverage. The strict-failure Bernoulli availability formula is an independent project derivation."
+    },
+    {
+      "key": "holm1979",
+      "title": "A Simple Sequentially Rejective Multiple Test Procedure",
+      "authors": [
+        "Sture Holm"
+      ],
+      "year": 1979,
+      "doi": null,
+      "url": "https://www.jstor.org/stable/4615733",
+      "source_type": "journal-article",
+      "role": "sequential multiple-testing lineage",
+      "verified_via": [
+        "https://www.jstor.org/stable/i412579",
+        "receipt: data/scholarship/receipts/methods-jstor-primary-observations.json"
+      ],
+      "access_level": "search_indexed_publisher_metadata",
+      "summary": "The primary JSTOR issue table of contents identifies Holm's article in Scandinavian Journal of Statistics 6(2), pages 65-70. The project independently implements and tests its multiple-testing adjustment.",
+      "evidence_ceiling": "Indexed primary issue metadata inspected; article full text not read. Candidate DOI 10.2307/4615733 returned Crossref 404, so DOI is left unset rather than asserting registration. Direct article HTML was an interstitial, not article evidence."
+    },
+    {
+      "key": "clopper1934",
+      "title": "THE USE OF CONFIDENCE OR FIDUCIAL LIMITS ILLUSTRATED IN THE CASE OF THE BINOMIAL",
+      "authors": [
+        "C. J. CLOPPER",
+        "E. S. PEARSON"
+      ],
+      "year": 1934,
+      "doi": "10.1093/biomet/26.4.404",
+      "url": "https://doi.org/10.1093/biomet/26.4.404",
+      "source_type": "journal-article",
+      "role": "binomial interval lineage",
+      "verified_via": [
+        "https://api.crossref.org/works/10.1093/biomet/26.4.404",
+        "receipt: data/scholarship/receipts/clopper1934.json"
+      ],
+      "access_level": "publisher_metadata",
+      "summary": "Publisher-deposited metadata identifies a methods article on binomial confidence/fiducial limits.",
+      "evidence_ceiling": "Metadata only; the repository independently computes exact binomial intervals and checks its numerical implementation."
+    },
+    {
+      "key": "welch1947",
+      "title": "THE GENERALIZATION OF ‘STUDENT'S’ PROBLEM WHEN SEVERAL DIFFERENT POPULATION VARLANCES ARE INVOLVED",
+      "authors": [
+        "B. L. WELCH"
+      ],
+      "year": 1947,
+      "doi": "10.1093/biomet/34.1-2.28",
+      "url": "https://doi.org/10.1093/biomet/34.1-2.28",
+      "source_type": "journal-article",
+      "role": "unequal-variance analytic comparator lineage",
+      "verified_via": [
+        "https://api.crossref.org/works/10.1093/biomet/34.1-2.28",
+        "receipt: data/scholarship/receipts/welch1947-retry.json"
+      ],
+      "access_level": "publisher_metadata",
+      "summary": "Publisher-deposited metadata identifies the generalization of Student inference with differing population variances.",
+      "evidence_ceiling": "Metadata only; not evidence that the project-specific stratified analytic interval achieves its nominal coverage. Crossref title spelling VARLANCES is retained."
+    },
+    {
+      "key": "satterthwaite1946",
+      "title": "An Approximate Distribution of Estimates of Variance Components",
+      "authors": [
+        "F. E. Satterthwaite"
+      ],
+      "year": 1946,
+      "doi": "10.2307/3002019",
+      "url": "https://doi.org/10.2307/3002019",
+      "source_type": "journal-article",
+      "role": "variance-component degrees-of-freedom lineage",
+      "verified_via": [
+        "https://api.crossref.org/works/10.2307/3002019",
+        "receipt: data/scholarship/receipts/satterthwaite1946-corrected.json",
+        "https://www.jstor.org/stable/i350476",
+        "receipt: data/scholarship/receipts/methods-jstor-primary-observations.json"
+      ],
+      "access_level": "publisher_metadata",
+      "summary": "Publisher metadata identifies the article on approximate distributions of variance-component estimates.",
+      "evidence_ceiling": "Metadata only; the project-specific effective degrees of freedom and operating characteristics require independent numerical checks. Supplied DOI 10.2307/3002022 was rejected because it identifies Mood and Snedecor, not this article."
+    },
+    {
+      "key": "phipson2010",
+      "title": "Permutation P-values Should Never Be Zero: Calculating Exact P-values When Permutations Are Randomly Drawn",
+      "authors": [
+        "Belinda Phipson",
+        "Gordon K Smyth"
+      ],
+      "year": 2010,
+      "doi": "10.2202/1544-6115.1585",
+      "url": "https://doi.org/10.2202/1544-6115.1585",
+      "source_type": "journal-article",
+      "role": "finite Monte Carlo p-value discipline",
+      "verified_via": [
+        "https://api.crossref.org/works/10.2202/1544-6115.1585",
+        "receipt: data/scholarship/receipts/phipson2010-retry.json"
+      ],
+      "access_level": "publisher_deposited_abstract",
+      "summary": "The deposited abstract warns that naive randomly sampled permutation p-values may be understated and discusses a discrete-null computation strategy, particularly relevant with multiple tests.",
+      "evidence_ceiling": "Publisher-deposited abstract inspected; no full-text derivation claimed. The project separately declares its plus-one convention, sign-flip assumptions and Monte Carlo intervals."
+    },
+    {
+      "key": "morris2019",
+      "title": "Using simulation studies to evaluate statistical methods",
+      "authors": [
+        "Tim P. Morris",
+        "Ian R. White",
+        "Michael J. Crowther"
+      ],
+      "year": 2019,
+      "doi": "10.1002/sim.8086",
+      "url": "https://doi.org/10.1002/sim.8086",
+      "source_type": "journal-article",
+      "role": "simulation-study design and reporting",
+      "verified_via": [
+        "https://api.crossref.org/works/10.1002/sim.8086",
+        "receipt: data/scholarship/receipts/morris2019.json",
+        "receipt: data/scholarship/receipts/revision/morris2019-crossref.json",
+        "receipt: data/scholarship/receipts/revision/morris2019-fulltext.xml",
+        "receipt: data/scholarship/receipts/review20261019-simulation.json"
+      ],
+      "access_level": "full_text_targeted_sections",
+      "summary": "ADEMP separates generating mechanisms, estimands, analysis methods and performance measures; method comparisons require compatible targets and Monte Carlo uncertainty. Failure handling changes what performance is estimated.",
+      "evidence_ceiling": "A simulation-methods tutorial, not certification of this implementation or human-trial power. Fixed-world averages, within-world contrasts and alternative weighting schemes are different declared targets.",
+      "inspected_locators": [
+        "sim8086-sec-0006",
+        "sim8086-sec-0007",
+        "sim8086-sec-0016",
+        "sim8086-sec-0017",
+        "sim8086-sec-0018",
+        "Sections 3.2, 4.3, 5.2 (Table 6), 5.3 (equation 1) and 6.2"
+      ]
+    },
+    {
+      "key": "brier1950",
+      "title": "VERIFICATION OF FORECASTS EXPRESSED IN TERMS OF PROBABILITY",
+      "authors": [
+        "GLENN W. BRIER"
+      ],
+      "year": 1950,
+      "doi": "10.1175/1520-0493(1950)078<0001:vofeit>2.0.co;2",
+      "url": "https://doi.org/10.1175/1520-0493%281950%29078%3C0001%3Avofeit%3E2.0.co%3B2",
+      "source_type": "journal-article",
+      "role": "probabilistic forecast verification lineage",
+      "verified_via": [
+        "https://api.crossref.org/works/10.1175/1520-0493%281950%29078%3C0001%3Avofeit%3E2.0.co%3B2",
+        "receipt: data/scholarship/receipts/brier1950.json"
+      ],
+      "access_level": "publisher_metadata",
+      "summary": "Publisher-deposited metadata identifies the original article on verifying probability forecasts.",
+      "evidence_ceiling": "Metadata only; no abstract available in the inspected publisher record and no full-text reading claimed. This project explicitly defines its one-component binary Brier convention."
+    },
+    {
+      "key": "white2024",
+      "title": "How to check a simulation study",
+      "authors": [
+        "Ian R White",
+        "Tra My Pham",
+        "Matteo Quartagno",
+        "Tim P Morris"
+      ],
+      "year": 2024,
+      "doi": "10.1093/ije/dyad134",
+      "url": "https://doi.org/10.1093/ije/dyad134",
+      "source_type": "journal-article",
+      "role": "simulation diagnostics and failure reporting",
+      "verified_via": [
+        "https://api.crossref.org/works/10.1093/ije/dyad134",
+        "receipt: data/scholarship/receipts/revision/white2024-crossref.json",
+        "receipt: data/scholarship/receipts/revision/white2024-fulltext.xml"
+      ],
+      "access_level": "full_text_targeted_sections",
+      "summary": "Recommends known-answer scenarios, staged generator checks, reproducible problematic datasets, and investigation of failures, outliers and coverage before changing a method.",
+      "evidence_ceiling": "Methods guidance does not validate any repository result. A fallback procedure changes the evaluated method; failures and excluded replications require explicit accounting.",
+      "inspected_locators": [
+        "S5",
+        "S14",
+        "S16",
+        "S19",
+        "S21",
+        "S25",
+        "S28",
+        "S30",
+        "S32"
+      ],
+      "date_note": "Online 2023-10-13; issue date 2024-02-01; key/year use issue year."
+    },
+    {
+      "key": "hall1988",
+      "title": "Theoretical Comparison of Bootstrap Confidence Intervals",
+      "authors": [
+        "Peter Hall"
+      ],
+      "year": 1988,
+      "doi": "10.1214/aos/1176350933",
+      "url": "https://doi.org/10.1214/aos/1176350933",
+      "source_type": "journal-article",
+      "role": "bootstrap interval theory",
+      "verified_via": [
+        "https://api.crossref.org/works/10.1214/aos/1176350933",
+        "receipt: data/scholarship/receipts/revision/hall1988-crossref.json"
+      ],
+      "access_level": "publisher_deposited_abstract",
+      "summary": "The deposited abstract compares bootstrap interval families and highlights percentile-t and accelerated bias correction under its theoretical comparison.",
+      "evidence_ceiling": "Publisher-deposited abstract and metadata only. Publisher HTML was a bot challenge, not full text. No theorem assumptions or finite-sample coverage guarantee are inferred for the project.",
+      "inspected_locators": [
+        "Crossref message.abstract"
+      ]
+    },
+    {
+      "key": "thanissaro1997mn121",
+      "title": "Cula-suññata Sutta: The Lesser Discourse on Emptiness (MN 121)",
+      "authors": [
+        "Thanissaro Bhikkhu"
+      ],
+      "year": 1997,
+      "doi": null,
+      "url": "https://www.accesstoinsight.org/tipitaka/mn/mn.121.than.html",
+      "source_type": "translated-primary-text",
+      "role": "absence, residual presence and contemplative context",
+      "verified_via": [
+        "receipt: data/scholarship/receipts/revision/thanissaro1997mn121.html"
+      ],
+      "access_level": "full_translated_text",
+      "summary": "The translation distinguishes what is absent from what remains, moves through successive contemplative perceptions, and identifies even theme-less concentration as fashioned and impermanent.",
+      "evidence_ceiling": "Named English translation only; copyright 1997, Access to Insight revision 2013-11-30. No Pali collation, modern translation comparison, Madhyamaka identity, or empirical attainment validation.",
+      "inspected_locators": [
+        "opening palace/wilderness passage",
+        "Nothingness",
+        "Theme-Less Concentration",
+        "Release",
+        "page copyright and citation footer"
+      ]
+    },
+    {
+      "key": "bootci2026",
+      "title": "Nonparametric Bootstrap Confidence Intervals (boot.ci)",
+      "authors": [
+        "boot package documentation"
+      ],
+      "year": 2026,
+      "doi": null,
+      "url": "https://www.stat.math.ethz.ch/R-manual/R-devel/library/boot/html/boot.ci.html",
+      "source_type": "software-documentation",
+      "role": "studentized bootstrap variance contract",
+      "verified_via": [
+        "receipt: data/scholarship/receipts/revision/bootci-manual.html"
+      ],
+      "access_level": "full_manual_page",
+      "summary": "The boot.ci manual requires variance estimates for the original statistic and bootstrap replicates for studentized intervals and warns about extreme order-statistic endpoints.",
+      "evidence_ceiling": "Official manual snapshot for boot 1.3-32, retrieved 2026-10-15; 2026 denotes retrieval, not a claimed publication date. R code examples were read, not executed. The manual does not certify the project Python implementation.",
+      "inspected_locators": [
+        "Description",
+        "Arguments: index, var.t0, var.t, t0, t",
+        "Details",
+        "Examples",
+        "package version footer"
+      ]
+    },
+    {
+      "key": "sandvedsmith2026noself",
+      "title": "There is no self-evidence: A physics of emptiness realisation",
+      "authors": [
+        "Lars Sandved-Smith",
+        "Chris Fields",
+        "Thomas Doctor",
+        "Ruben Laukkonen",
+        "Jakob Hohwy"
+      ],
+      "year": 2026,
+      "doi": null,
+      "url": "https://osf.io/preprints/psyarxiv/m78z2_v1",
+      "source_type": "preprint",
+      "role": "primary conceptual bridge from gratitude for conditions of inquiry to practice, examinability and ongoing revisability",
+      "verified_via": [
+        "data/sources/emptiness_preprint_v1.pdf; SHA256 94e2335c3a4a37b8d49039b11b45ccda25bad65d4b80aa15428b84abfba699ac",
+        "docs/emptiness-integration-research.md"
+      ],
+      "access_level": "targeted_full_text_local_pdf",
+      "summary": "The inspected discussion makes an assumed self/world structural commitment available to inquiry, allows useful representations to persist, assumes metacognitive access for its reduction argument, and motivates ongoing revision under changing conditions.",
+      "evidence_ceiling": "25-page PDF dated 2026-05-23; targeted sections, not an empirical validation of awakening or a comprehensive philosophical consensus. OSF landing access was blocked; local PDF identity is independently pinned.",
+      "inspected_locators": [
+        "sections 4.1-4.3, printed pp. 12-15",
+        "section 4.3, footnote 7, printed p. 15",
+        "sections 5.1-5.3, printed pp. 16-18",
+        "sections 6.1-6.2, printed pp. 18-20"
+      ]
+    },
+    {
+      "key": "friedman2026realizing",
+      "title": "Realizing Emptiness, version 3.0.0",
+      "authors": [
+        "Daniel Ari Friedman"
+      ],
+      "year": 2026,
+      "doi": null,
+      "url": "https://github.com/docxology/realizing_emptiness/tree/bd91fa1c230551180ed741d1951840e3628da35d",
+      "source_type": "research-software",
+      "role": "commit-pinned executable model admission, QRF repertoire, exact finite VFE and practice/revision interoperability",
+      "verified_via": [
+        "docs/emptiness-integration-research.md",
+        "installed distribution realizing-emptiness 3.0.0 and VCS direct_url.json"
+      ],
+      "access_level": "executed_pinned_source_and_targeted_code",
+      "summary": "Real installed APIs validate operational QRF assignments, restrict admissible repertoires, compute categorical KL/accuracy/free energy and compare terms; practice_protocol_map supplies metadata and ongoing revision supplies an in-sample finite diagnostic.",
+      "evidence_ceiling": "Source-qualified finite software. Practice deltas are not enacted upstream, revision selects and scores the same windows, and no software API certifies gratitude, realization, neural implementation or clinical benefit.",
+      "inspected_locators": [
+        "src/formalism/models.py: BoundaryScreen, QRFDeployment, SeparationPrior, FreeEnergyTerms, BMRComparison",
+        "src/practice/protocols.py: practice_protocol_map",
+        "src/simulation/emergence.py: _run_revision_stream, build_ongoing_revision_audit",
+        "src/modeling/specifications/practice_mapping.gnn.md"
+      ]
+    },
+    {
+      "key": "bartlett2006",
+      "title": "Gratitude and Prosocial Behavior: Helping When It Costs You",
+      "authors": [
+        "Monica Y. Bartlett",
+        "David DeSteno"
+      ],
+      "year": 2006,
+      "doi": "10.1111/j.1467-9280.2006.01705.x",
+      "url": "https://doi.org/10.1111/j.1467-9280.2006.01705.x",
+      "source_type": "journal-article",
+      "role": "costly social motivation and affect comparator",
+      "verified_via": [
+        "https://greatergood.berkeley.edu/images/uploads/Gratitude_and_Prosocial_Behavior_Helping_When_It_Costs_You.pdf",
+        "https://api.crossref.org/works/10.1111/j.1467-9280.2006.01705.x",
+        "receipt: data/scholarship/receipts/v040/bartlett2006-crossref.json",
+        "receipt: data/scholarship/receipts/v040/bartlett2006.pdf"
+      ],
+      "access_level": "full_text_targeted_sections",
+      "summary": "Interpersonally induced gratitude increased costly helping relative to neutral/amusement conditions; source attribution constrained incidental helping of strangers.",
+      "evidence_ceiling": "Laboratory helping, not contemplative inquiry, benefactor-free appreciation or emptiness; mediation does not eliminate all rival explanations.",
+      "inspected_locators": [
+        "Study 1 methods/results, pp. 320-322",
+        "Studies 2-3, pp. 322-324",
+        "General Discussion, pp. 324-325"
+      ]
+    },
+    {
+      "key": "dahl2015",
+      "title": "Reconstructing and deconstructing the self: cognitive mechanisms in meditation practice",
+      "authors": [
+        "Cortland J. Dahl",
+        "Antoine Lutz",
+        "Richard J. Davidson"
+      ],
+      "year": 2015,
+      "doi": "10.1016/j.tics.2015.07.001",
+      "url": "https://doi.org/10.1016/j.tics.2015.07.001",
+      "source_type": "journal-article",
+      "role": "proposed contemplative practice taxonomy",
+      "verified_via": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC4595910/",
+        "https://api.crossref.org/works/10.1016/j.tics.2015.07.001",
+        "receipt: data/scholarship/receipts/v040/dahl2015-crossref.json",
+        "receipt: data/scholarship/receipts/v040/dahl2015-pmc.html"
+      ],
+      "access_level": "full_text_targeted_sections",
+      "summary": "Proposes attentional, constructive and deconstructive practice families, separating meta-awareness, reappraisal and self-inquiry while retaining ethical, interpersonal and cultural context.",
+      "evidence_ceiling": "A framework with acknowledged empirical gaps, not evidence that gratitude causes insight; constructive preparation is our proposed mapping.",
+      "inspected_locators": [
+        "Constructive Family: Perspective Taking and Reappraisal",
+        "Deconstructive Family: Self-inquiry and Insight",
+        "Boxes 1-2; Concluding Remarks and Future Directions"
+      ]
+    },
+    {
+      "key": "sandvedsmith2021",
+      "title": "Towards a computational phenomenology of mental action: modelling meta-awareness and attentional control with deep parametric active inference",
+      "authors": [
+        "Lars Sandved-Smith",
+        "Casper Hesp",
+        "Jérémie Mattout",
+        "Karl Friston",
+        "Antoine Lutz",
+        "Maxwell J. D. Ramstead"
+      ],
+      "year": 2021,
+      "doi": "10.1093/nc/niab018",
+      "url": "https://doi.org/10.1093/nc/niab018",
+      "source_type": "journal-article",
+      "role": "simulated metacognitive access and control",
+      "verified_via": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC8396119/",
+        "https://api.crossref.org/works/10.1093/nc/niab018",
+        "receipt: data/scholarship/receipts/v040/sandvedsmith2021-crossref.json",
+        "receipt: data/scholarship/receipts/v040/sandvedsmith2021.xml",
+        "https://doi.org/10.1093/nc/niab035",
+        "receipt: data/scholarship/receipts/v040/sandvedsmith2021-note.xml"
+      ],
+      "access_level": "full_text_targeted_sections",
+      "summary": "A simulated hierarchy separates perceptual, attentional and meta-awareness levels and access to cognitive states from their control; empirical fitting remains future work.",
+      "evidence_ceiling": "Our binary gate is simpler and does not implement or validate the three-level architecture. Opacity and access do not by themselves establish realization. Publisher correction niab035 assigns issue 1.",
+      "inspected_locators": [
+        "Sections s1-s2 and s2-s3: opacity/transparency and hierarchy",
+        "Sections s3-s3 and s4-s1: access/control",
+        "Section s4-s2: future empirical work"
+      ]
+    },
+    {
+      "key": "laukkonen2021",
+      "title": "From many to (n)one: Meditation and the plasticity of the predictive mind",
+      "authors": [
+        "Ruben E. Laukkonen",
+        "Heleen A. Slagter"
+      ],
+      "year": 2021,
+      "doi": "10.1016/j.neubiorev.2021.06.021",
+      "url": "https://doi.org/10.1016/j.neubiorev.2021.06.021",
+      "source_type": "journal-article",
+      "role": "theoretical contrast and philosophical boundary",
+      "verified_via": [
+        "https://researchportal.scu.edu.au/esploro/outputs/journalArticle/From-many-to-none-Meditation-and/991013062213702368",
+        "https://api.crossref.org/works/10.1016/j.neubiorev.2021.06.021",
+        "receipt: data/scholarship/receipts/v040/laukkonen2021-crossref.json",
+        "receipt: data/scholarship/receipts/v040/laukkonen2021-scu.pdf"
+      ],
+      "access_level": "full_text_targeted_sections",
+      "summary": "Proposes reduced temporal/conceptual depth in meditation, discussing a radical nondual endpoint and distinctions among traditions.",
+      "evidence_ceiling": "Theory/review rather than empirical proof of an endpoint. Predictive switching is not that endpoint or an agreed definition of emptiness; a winning model can still be reified.",
+      "inspected_locators": [
+        "Section 3.3, printed pp. 205-206",
+        "Discussion and future directions, printed pp. 212-214",
+        "Section 6.2 conclusion"
+      ]
+    },
+    {
+      "key": "wilson2019",
+      "title": "Ten simple rules for the computational modeling of behavioral data",
+      "authors": [
+        "Robert C. Wilson",
+        "Anne G. E. Collins"
+      ],
+      "year": 2019,
+      "doi": "10.7554/eLife.49547",
+      "url": "https://doi.org/10.7554/eLife.49547",
+      "source_type": "journal-article",
+      "role": "computational identification and validation methods",
+      "verified_via": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC6879303/",
+        "https://api.crossref.org/works/10.7554/eLife.49547",
+        "receipt: data/scholarship/receipts/v040/wilson2019-crossref.json",
+        "receipt: data/scholarship/receipts/v040/wilson2019.xml"
+      ],
+      "access_level": "full_text_targeted_sections",
+      "summary": "Parameter recovery depends on the parameter regime; model recovery uses confusion matrices, and relative comparison needs checks of generated behavior and absolute adequacy.",
+      "evidence_ceiling": "Software replay and exact finite evidence do not establish human parameter identification, empirical model recovery or philosophical validity.",
+      "inspected_locators": [
+        "Section s7: parameter recovery",
+        "Section s8 and s8-4: model recovery and candidate-set limitation",
+        "Section s10: validation; Appendix 3"
+      ]
+    },
+    {
+      "key": "yarbus1967",
+      "title": "Eye Movements During Perception of Complex Objects",
+      "authors": [
+        "Alfred L. Yarbus"
+      ],
+      "year": 1967,
+      "doi": "10.1007/978-1-4899-5379-7_8",
+      "url": "https://link.springer.com/chapter/10.1007/978-1-4899-5379-7_8",
+      "source_type": "book-chapter",
+      "role": "Task-directed scene-viewing lineage",
+      "verified_via": [
+        "receipt: data/scholarship/receipts/gaze/yarbus1967-complex.html"
+      ],
+      "access_level": "publisher_metadata_and_abstract",
+      "inspected_locators": [
+        "Chapter title, abstract, pp. 171-211 and DOI metadata"
+      ],
+      "summary": "The complex-objects chapter identifies the historical scene-viewing lineage; chapter identity differs from the stationary-object chapter linked in the gratitude preprint bibliography.",
+      "evidence_ceiling": "Full chapter subscription restricted and not read; no detailed original experimental finding inferred from metadata. Castelhano et al. provide separately inspected task-instruction evidence."
+    },
+    {
+      "key": "castelhano2009",
+      "title": "Viewing task influences eye movement control during active scene perception",
+      "authors": [
+        "Monica S. Castelhano",
+        "Michael L. Mack",
+        "John M. Henderson"
+      ],
+      "year": 2009,
+      "doi": "10.1167/9.3.6",
+      "url": "https://doi.org/10.1167/9.3.6",
+      "source_type": "journal-article",
+      "role": "Empirical task-directed scene viewing and metric distinctions",
+      "verified_via": [
+        "https://www.pure.ed.ac.uk/ws/portalfiles/portal/12627795/CASTELHANO_MS_Viewing_task_influences_eye_movement_control_during_active_scene_perception.pdf",
+        "receipt: data/scholarship/receipts/gaze/castelhano2009.pdf"
+      ],
+      "access_level": "full_text_targeted_sections",
+      "inspected_locators": [
+        "Abstract and Introduction, printed pp. 1-2",
+        "Methods, printed pp. 3-4",
+        "Results and General discussion, printed pp. 5-12"
+      ],
+      "summary": "Twenty participants viewed natural scenes under search and memorization instructions. Task affected region selection and aggregate fixation measures, while individual fixation durations and average saccade amplitude did not show the same effects.",
+      "evidence_ceiling": "Task-instruction experiment, not gratitude or contemplative practice. Full article acquired and targeted sections inspected; participant data and supplementary analyses not reanalyzed."
+    },
+    {
+      "key": "munch1893",
+      "title": "The Scream, NG.M.00939",
+      "authors": [
+        "Edvard Munch"
+      ],
+      "year": 1893,
+      "doi": null,
+      "url": "https://www.nasjonalmuseet.no/en/collection/object/NG.M.00939",
+      "source_type": "museum-collection-record",
+      "role": "Painting identity and licensed reproduction provenance",
+      "verified_via": [
+        "receipt: data/scholarship/receipts/gaze/scream-museum.html",
+        "receipt: data/scholarship/receipts/gaze/scream-commons.html",
+        "data/artwork/provenance.json"
+      ],
+      "access_level": "primary_collection_record_and_original_image",
+      "inspected_locators": [
+        "Museum accession/title/date",
+        "Commons original-file photographer, license, checksum and pixel dimensions"
+      ],
+      "summary": "The museum identifies Munch's 1893 painting NG.M.00939. The acquired photographic reproduction credits Nasjonalmuseet/Borre Hostland and is supplied under CC BY 4.0.",
+      "evidence_ceiling": "Image provenance, not scholarly evidence for regional valence or measured gaze. Full-frame registration and overlays are project additions; painting pixels are not inference inputs."
+    },
+    {
+      "key": "romano2005",
+      "title": "Exact and Approximate Stepdown Methods for Multiple Hypothesis Testing",
+      "authors": [
+        "Joseph P. Romano",
+        "Michael Wolf"
+      ],
+      "year": 2005,
+      "doi": "10.1198/016214504000000539",
+      "url": "https://doi.org/10.1198/016214504000000539",
+      "source_type": "journal-article",
+      "role": "Joint-bootstrap lineage and conditions for centered maxima",
+      "verified_via": [
+        "receipt: data/scholarship/receipts/v060/romano2005.pdf",
+        "receipt: data/scholarship/receipts/v060/romano2005-crossref.json"
+      ],
+      "access_level": "full_text_targeted_sections",
+      "inspected_locators": [
+        "Published author PDF: introduction and section 4.2, pp. 102-103; Assumptions B1-B2, Theorems 6-7, Remarks 4-8"
+      ],
+      "summary": "Centered joint bootstrap maxima require joint consistency and a suitable nondegenerate limiting law. Studentization and stepdown are distinct choices.",
+      "evidence_ceiling": "Targeted published-PDF reading; the project implements a single-step original-SE-standardized rectangle, not Romano-Wolf stepdown or a finite-sample coverage theorem."
+    },
+    {
+      "key": "hothorn2008",
+      "title": "Simultaneous Inference in General Parametric Models",
+      "authors": [
+        "Torsten Hothorn",
+        "Frank Bretz",
+        "Peter Westfall"
+      ],
+      "year": 2008,
+      "doi": "10.1002/bimj.200810425",
+      "url": "https://doi.org/10.1002/bimj.200810425",
+      "source_type": "journal-article",
+      "role": "Joint covariance, positive variances and common critical values",
+      "verified_via": [
+        "receipt: data/scholarship/receipts/v060/hothorn2008.pdf",
+        "receipt: data/scholarship/receipts/v060/hothorn2008-crossref.json"
+      ],
+      "access_level": "full_text_targeted_sections",
+      "inspected_locators": [
+        "Author technical report 019, 2008-02-15, sections 2-3, pp. 2-6"
+      ],
+      "summary": "Simultaneous confidence regions use joint covariance and positive marginal variances; a common critical value differs from pointwise inference.",
+      "evidence_ceiling": "Author technical report inspected; journal identity verified but final journal layout not read. An inconsistent confidence-level display in report section 3.2 is not imported."
+    },
+    {
+      "key": "kobayashi2019",
+      "title": "Common neural code for reward and information value",
+      "authors": [
+        "Kenji Kobayashi",
+        "Ming Hsu"
+      ],
+      "year": 2019,
+      "doi": "10.1073/pnas.1820145116",
+      "url": "https://doi.org/10.1073/pnas.1820145116",
+      "source_type": "journal-article",
+      "role": "Instrumental and anticipatory alternatives to a fixed information bonus",
+      "verified_via": [
+        "receipt: data/scholarship/receipts/v060/kobayashi2019.pdf",
+        "receipt: data/scholarship/receipts/v060/kobayashi2019-crossref-retry.json"
+      ],
+      "access_level": "full_text_targeted_sections",
+      "inspected_locators": [
+        "Author laboratory article PDF, pp. 2-3 Results; pp. 5-6 Discussion and behavioral methods"
+      ],
+      "summary": "An actionable-lottery model comparison separates instrumental value, fixed or entropy bonuses and anticipatory utility. The combined account improves prediction in that task, while other settings may support other motives.",
+      "evidence_ceiling": "Targeted article reading; supplement and raw data not inspected. This task does not identify gratitude, the project's information coefficient, a neural implementation or an emptiness mechanism."
+    },
+    {
+      "key": "vanlieshout2018",
+      "title": "Induction and Relief of Curiosity Elicit Parietal and Frontal Activity",
+      "authors": [
+        "Lieke L. F. van Lieshout",
+        "Annelinde R. E. Vandenbroucke",
+        "Nils C. J. Müller",
+        "Roshan Cools",
+        "Floris P. de Lange"
+      ],
+      "year": 2018,
+      "doi": "10.1523/JNEUROSCI.2816-17.2018",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6705901/",
+      "source_type": "journal-article",
+      "role": "Costly noninstrumental information demand and its measurement boundary",
+      "verified_via": [
+        "receipt: data/scholarship/receipts/v060/vanlieshout2018.html",
+        "receipt: data/scholarship/receipts/v060/vanlieshout2018-crossref.json"
+      ],
+      "access_level": "full_text_targeted_sections",
+      "inspected_locators": [
+        "PMC article: Participants, behavioral Procedures/Analysis Experiments 1-2, Behavioral Results 1-3, Discussion on outcome uncertainty"
+      ],
+      "summary": "Participants could wait an additional 3-6 seconds to learn an outcome without changing payout. The uncertainty predictor multiplies entropy by payoff difference, rather than measuring pure entropy.",
+      "evidence_ceiling": "Targeted full-text sections, not raw-data reanalysis. Waiting, curiosity and this outcome-uncertainty predictor do not identify gratitude, candidate information gain or realization."
+    },
+    {
+      "key": "desteno2014",
+      "title": "Gratitude: A Tool for Reducing Economic Impatience",
+      "authors": [
+        "David DeSteno",
+        "Ye Li",
+        "Leah Dickens",
+        "Jennifer S. Lerner"
+      ],
+      "year": 2014,
+      "doi": "10.1177/0956797614529979",
+      "url": "https://doi.org/10.1177/0956797614529979",
+      "source_type": "journal-article",
+      "role": "Patience as an action bridge and a rival explanation for inquiry",
+      "verified_via": [
+        "receipt: data/scholarship/receipts/v060/desteno2014.pdf",
+        "receipt: data/scholarship/receipts/v060/desteno2014-crossref.json"
+      ],
+      "access_level": "full_text_targeted_sections",
+      "inspected_locators": [
+        "Harvard author accepted manuscript, pp. 7-12: Method, manipulation checks, temporal discounting and Discussion"
+      ],
+      "summary": "Seventy-five young adults received gratitude, happiness or neutral recall before incentivized intertemporal choices. The planned gratitude-versus-pooled-comparators contrast favored patience.",
+      "evidence_ceiling": "Accepted manuscript and journal metadata inspected; supplement/data not reanalyzed. No claim for every pairwise contrast, durable adherence or gratitude-to-realization mediation."
+    },
+    {
+      "key": "nelsonnarens1990",
+      "title": "Metamemory: A Theoretical Framework and New Findings",
+      "authors": [
+        "Thomas O. Nelson",
+        "Louis Narens"
+      ],
+      "year": 1990,
+      "doi": "10.1016/S0079-7421(08)60053-5",
+      "url": "https://sites.socsci.uci.edu/~lnarens/1990/Nelson%26Narens_Book_Chapter_1990.pdf",
+      "source_type": "book-chapter",
+      "role": "Separate metalevel monitoring from control of object-level processing",
+      "verified_via": [
+        "receipt: data/scholarship/receipts/v070/nelson1990-retry.pdf",
+        "receipt: data/scholarship/receipts/v070/nelson1990-crossref.json"
+      ],
+      "access_level": "full_text_targeted_sections",
+      "inspected_locators": [
+        "Institutional author scan, printed pp. 125-130, principles 1-3, Figure 1, monitoring, control and introspection"
+      ],
+      "summary": "A meta-level models object-level processes; monitoring informs that model, while control changes processing. Introspection is fallible data to explain.",
+      "evidence_ceiling": "Targeted theoretical framework, not a reproduction of its memory experiments. The inspected title page supplies both authors and volume 26, which current Crossref metadata incompletely records. A flat joint scene/encoding model is not the complete architecture."
+    },
+    {
+      "key": "fleminglau2014",
+      "title": "How to measure metacognition",
+      "authors": [
+        "Stephen M. Fleming",
+        "Hakwan C. Lau"
+      ],
+      "year": 2014,
+      "doi": "10.3389/fnhum.2014.00443",
+      "url": "https://doi.org/10.3389/fnhum.2014.00443",
+      "source_type": "journal-article",
+      "role": "Distinguish confidence, metacognitive sensitivity and efficiency",
+      "verified_via": [
+        "receipt: data/scholarship/receipts/v070/fleming2014.xml",
+        "receipt: data/scholarship/receipts/v070/fleming2014-crossref.json"
+      ],
+      "access_level": "full_text_targeted_sections",
+      "inspected_locators": [
+        "Introduction and Figure 1, confidence-accuracy table, ROC, efficiency, bias and probability-judgment sections"
+      ],
+      "summary": "Confidence level, discrimination of correct versus incorrect decisions and efficiency conditional on first-order performance are distinct measurement targets.",
+      "evidence_ceiling": "Methodological review used for its authors' measurement framework, not new intervention evidence. A synthetic posterior entropy/Brier loss is not measured human metacognitive sensitivity or efficiency; no raw human data or meta-d-prime fitting was performed."
+    },
+    {
+      "key": "tatler2011",
+      "title": "Eye guidance in natural vision: Reinterpreting salience",
+      "authors": [
+        "B. W. Tatler",
+        "M. M. Hayhoe",
+        "M. F. Land",
+        "D. H. Ballard"
+      ],
+      "year": 2011,
+      "doi": "10.1167/11.5.5",
+      "url": "https://www.cs.utexas.edu/~dana/Tatler.pdf",
+      "source_type": "journal-article",
+      "role": "task-dependent natural gaze",
+      "verified_via": [
+        "https://api.crossref.org/works/10.1167/11.5.5",
+        "receipt: data/scholarship/receipts/v080/tatler2011-identity.json",
+        "docs/scholarship-v080-research.md"
+      ],
+      "access_level": "full_text_targeted_sections",
+      "summary": "A review and theoretical synthesis argues that gaze guidance must reflect behavioral relevance, learning and changing information needs, rather than static image salience alone.",
+      "evidence_ceiling": "Not a gratitude experiment or validation of the authored scene policy. Low-level salience is not claimed to be irrelevant. Targeted introduction, salience evaluation and conclusions inspected.",
+      "inspected_locators": [
+        "Introduction, published p. 1",
+        "Image-salience evaluation, pp. 2-3",
+        "Conclusions, pp. 17-18"
+      ]
+    },
+    {
+      "key": "vo2016",
+      "title": "You think you know where you looked? You better look again",
+      "authors": [
+        "Melissa L.-H. Võ",
+        "Avigael M. Aizenman",
+        "Jeremy M. Wolfe"
+      ],
+      "year": 2016,
+      "doi": "10.1037/xhp0000264",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5079107/",
+      "source_type": "journal-article",
+      "role": "gaze monitoring versus recorded fixation",
+      "verified_via": [
+        "https://api.crossref.org/works/10.1037/xhp0000264",
+        "receipt: data/scholarship/receipts/v080/vo2016-identity.json",
+        "docs/scholarship-v080-research.md"
+      ],
+      "access_level": "full_text_targeted_sections",
+      "summary": "Retrospective own-fixation reports offered little advantage over guesses about another observer in the inspected image-viewing tasks. Looking and knowledge of where one looked require separate measurements.",
+      "evidence_ceiling": "Small, task-specific retrospective-report experiments do not establish absence of online monitoring or effects of deliberate training. The second own/other contrast was marginal, not a robust privileged-access effect. No meditation or gratitude manipulation.",
+      "inspected_locators": [
+        "Methods: Participants, Procedure and Analysis",
+        "Results and Discussion"
+      ]
+    },
+    {
+      "key": "lutz2015",
+      "title": "Investigating the phenomenological matrix of mindfulness-related practices from a neurocognitive perspective",
+      "authors": [
+        "Antoine Lutz",
+        "Amishi P. Jha",
+        "John D. Dunne",
+        "Clifford D. Saron"
+      ],
+      "year": 2015,
+      "doi": "10.1037/a0039585",
+      "url": "https://doi.org/10.1037/a0039585",
+      "source_type": "journal-article",
+      "role": "meta-awareness and dereification as distinct constructs",
+      "verified_via": [
+        "https://api.crossref.org/works/10.1037/a0039585",
+        "receipt: data/scholarship/receipts/v080/lutz2015-identity.json",
+        "docs/scholarship-v080-research.md"
+      ],
+      "access_level": "full_text_targeted_sections",
+      "summary": "A heuristic phenomenological matrix distinguishes object orientation, dereification and meta-awareness. Heightened meta-awareness can occur without dereification, strengthening the separation of noticing a construction from changing how it is held.",
+      "evidence_ceiling": "The framework and practice placements are provisional. Proposed dimensions are not a validated common scale or a statistical-independence result. No gratitude efficacy or sufficiency criterion for realizing emptiness follows.",
+      "inspected_locators": [
+        "Functional dimensions, printed pp. 637-642",
+        "Research directions, pp. 649-650"
+      ]
+    },
+    {
+      "key": "vandam2018",
+      "title": "Mind the Hype: A Critical Evaluation and Prescriptive Agenda for Research on Mindfulness and Meditation",
+      "authors": [
+        "Nicholas T. Van Dam",
+        "Marieke K. van Vugt",
+        "David R. Vago",
+        "Laura Schmalzl",
+        "Clifford D. Saron",
+        "Andrew Olendzki",
+        "Ted Meissner",
+        "Sara W. Lazar",
+        "Catherine E. Kerr",
+        "Jolie Gorchov",
+        "Kieran C. R. Fox",
+        "Brent A. Field",
+        "Willoughby B. Britton",
+        "Julie A. Brefczynski-Lewis",
+        "David E. Meyer"
+      ],
+      "year": 2018,
+      "doi": "10.1177/1745691617709589",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5758421/",
+      "source_type": "journal-article",
+      "role": "construct validity and contemplative measurement",
+      "verified_via": [
+        "https://api.crossref.org/works/10.1177/1745691617709589",
+        "receipt: data/scholarship/receipts/v080/vandam2018-identity.json",
+        "docs/scholarship-v080-research.md"
+      ],
+      "access_level": "full_text_targeted_sections",
+      "summary": "A critical methodological synthesis recommends specifying instructions, constructs and measures, discussing changing questionnaire interpretations, demand characteristics and the grouping of distinct practices.",
+      "evidence_ceiling": "A critical synthesis, not evidence that all practices are ineffective or all reports invalid. Reported experience, chosen inquiry and independent performance should be triangulated without treating any one as a realization scale. Issue year is 2018; online-first year is 2017.",
+      "inspected_locators": [
+        "II.B-II.C: semantic ambiguity and integrative assessment",
+        "III.A: construct validity and self-report recommendations"
+      ]
+    },
+    {
+      "key": "seaman2013",
+      "title": "What Is Meant by “Missing at Random”?",
+      "authors": [
+        "Shaun Seaman",
+        "John Galati",
+        "Dan Jackson",
+        "John Carlin"
+      ],
+      "year": 2013,
+      "doi": "10.1214/13-STS415",
+      "url": "https://arxiv.org/abs/1306.2812",
+      "source_type": "journal-article",
+      "role": "missing-observation mechanism and ignorability",
+      "verified_via": [
+        "https://api.crossref.org/works/10.1214/13-STS415",
+        "receipt: data/scholarship/receipts/v090/identities.json",
+        "receipt: data/scholarship/receipts/v090/reading.json",
+        "docs/scholarship-v090-research.md"
+      ],
+      "access_level": "author_deposited_full_text_targeted_sections",
+      "summary": "Clarifies realized and everywhere missing-at-random conditions and how assumptions about the observation mechanism, parameters and priors relate to specific likelihood and Bayesian inference targets.",
+      "evidence_ceiling": "Missing at random does not mean zero information. The article does not validate this project's no-update sentinel or authorize ignoring arbitrary recording failure.",
+      "inspected_locators": [
+        "sections 1-2",
+        "section 5",
+        "sections 5.1-5.2, Theorems 1-2"
+      ]
+    },
+    {
+      "key": "epstude2008",
+      "title": "The Functional Theory of Counterfactual Thinking",
+      "authors": [
+        "Kai Epstude",
+        "Neal J. Roese"
+      ],
+      "year": 2008,
+      "doi": "10.1177/1088868308316091",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2408534/",
+      "source_type": "journal-article",
+      "role": "counterfactual evaluation, affect and action pathways",
+      "verified_via": [
+        "https://api.crossref.org/works/10.1177/1088868308316091",
+        "receipt: data/scholarship/receipts/v090/identities.json",
+        "receipt: data/scholarship/receipts/v090/reading.json",
+        "docs/scholarship-v090-research.md"
+      ],
+      "access_level": "full_text_targeted_sections",
+      "summary": "A functional framework distinguishes content-specific action information from content-neutral affect, motivation and processing pathways, including contrast with and assimilation toward an alternative.",
+      "evidence_ceiling": "Theoretical synthesis, not validation of the project's utility equation as a human affect measure. Avoided harm, relief and gratitude remain separate constructs.",
+      "inspected_locators": [
+        "contrast and causal inference",
+        "content-specific and content-neutral pathways",
+        "general implications: reflection and evaluation"
+      ]
+    },
+    {
+      "key": "garfieldthakchoe2011",
+      "title": "Identifying the Object of Negation and the Status of Conventional Truth: Why the dGag Bya Matters So Much to Tibetan Mādhyamikas",
+      "authors": [
+        "Jay L. Garfield",
+        "Sonam Thakchöe"
+      ],
+      "year": 2011,
+      "doi": "10.1093/acprof:oso/9780199751426.003.0005",
+      "url": "https://jaygarfield.org/wp-content/uploads/2014/01/identifying_the_object_of_negation_and_t.pdf",
+      "source_type": "book-chapter",
+      "role": "object of negation, conventional efficacy and interpretive differences",
+      "verified_via": [
+        "https://api.crossref.org/works/10.1093/acprof:oso/9780199751426.003.0005",
+        "receipt: data/scholarship/receipts/v090/identities.json",
+        "receipt: data/scholarship/receipts/v090/reading.json",
+        "docs/scholarship-v090-research.md"
+      ],
+      "access_level": "author_hosted_scanned_print_chapter_targeted_pages",
+      "summary": "Distinguishes intrinsic nature from conventional phenomena, rejects reifying emptiness as another intrinsic nature, and compares Tsongkhapa and Gorampa without adjudicating their disagreement.",
+      "evidence_ceiling": "Philosophical analysis does not establish that model flexibility or conventional correction constitutes realization. The inspected print title page is dated 2011; the publisher and Crossref record the online date 2010-12-24. Pages 73-87 refer to the inspected print edition.",
+      "inspected_locators": [
+        "pp. 73-74",
+        "pp. 76-85",
+        "pp. 86-87"
+      ]
+    },
+    {
+      "key": "thanissaro2002an2",
+      "title": "Kataññu Suttas: Gratitude (AN 2.31–32)",
+      "authors": [
+        "Thanissaro Bhikkhu (translator)"
+      ],
+      "year": 2002,
+      "doi": null,
+      "url": "https://accesstoinsight.org/tipitaka/an/an02/an02.031.than.html",
+      "source_type": "translated-primary-text",
+      "role": "benefaction and ethical repayment boundary",
+      "verified_via": [
+        "receipt: data/scholarship/receipts/v0110/access.json",
+        "receipt: data/scholarship/receipts/v0110/reading.json"
+      ],
+      "access_level": "full_translated_text",
+      "inspected_locators": [
+        "AN 2.31–32 in this edition; PTS A i 61; II,iv,1–2; both translated passages and copyright/citation footer"
+      ],
+      "summary": "Gratitude and repayment are connected to benefactors and ethical cultivation.",
+      "evidence_ceiling": "Translated scripture; neither a benefactor-free appreciation measure nor evidence for gratitude causing realization."
+    },
+    {
+      "key": "thanissaro2004mn22",
+      "title": "Alagaddupama Sutta: The Water-Snake Simile (MN 22)",
+      "authors": [
+        "Thanissaro Bhikkhu (translator)"
+      ],
+      "year": 2004,
+      "doi": null,
+      "url": "https://accesstoinsight.org/tipitaka/mn/mn.022.than.html",
+      "source_type": "translated-primary-text",
+      "role": "skillful reliance and subsequent relinquishment",
+      "verified_via": [
+        "receipt: data/scholarship/receipts/v0110/access.json",
+        "receipt: data/scholarship/receipts/v0110/reading.json"
+      ],
+      "access_level": "full_text_targeted_sections",
+      "inspected_locators": [
+        "MN 22; The Water-Snake Simile and The Raft Simile; translator introduction; title/footer"
+      ],
+      "summary": "The raft is used to cross before it is relinquished; studying doctrine also requires understanding its purpose.",
+      "evidence_ceiling": "Liberation-oriented textual analogy, not a model-selection rule. Translator introduction is interpretation, distinct from the discourse."
+    },
+    {
+      "key": "thanissaro1997sn3585",
+      "title": "Suñña Sutta: Empty (SN 35.85)",
+      "authors": [
+        "Thanissaro Bhikkhu (translator)"
+      ],
+      "year": 1997,
+      "doi": null,
+      "url": "https://accesstoinsight.org/tipitaka/sn/sn35/sn35.085.than.html",
+      "source_type": "translated-primary-text",
+      "role": "specified object of emptiness in an early Buddhist discourse",
+      "verified_via": [
+        "receipt: data/scholarship/receipts/v0110/access.json",
+        "receipt: data/scholarship/receipts/v0110/reading.json"
+      ],
+      "access_level": "full_translated_text",
+      "inspected_locators": [
+        "SN 35.85; PTS S iv 54; complete short discourse and title/footer"
+      ],
+      "summary": "The discourse applies emptiness of self or what pertains to self across sensory and mental domains.",
+      "evidence_ceiling": "Named translation, without Pali collation; not identical to absent events, missing data or all later Madhyamaka interpretations."
+    },
+    {
+      "key": "laozilegge2008",
+      "title": "The Tao Teh King, or the Tao and its Characteristics",
+      "authors": [
+        "Laozi",
+        "James Legge (translator)"
+      ],
+      "year": 2008,
+      "doi": null,
+      "url": "https://www.gutenberg.org/files/216/216-h/216-h.htm",
+      "source_type": "translated-primary-text",
+      "role": "functional absence as a bounded Daoist comparison",
+      "verified_via": [
+        "receipt: data/scholarship/receipts/v0110/access.json",
+        "receipt: data/scholarship/receipts/v0110/reading.json"
+      ],
+      "access_level": "full_text_targeted_sections",
+      "inspected_locators": [
+        "Project Gutenberg ebook 216, supplied HTML release 2008-07-12, updated 2013-02-04; Part I, chapter 11; adjacent chapters 10 and 12"
+      ],
+      "summary": "Chapter 11 uses constructed objects and their unfilled spaces to explain usefulness.",
+      "evidence_ceiling": "Legge English digital edition; no Chinese manuscript collation, gratitude mechanism or Buddhist equivalence."
+    },
+    {
+      "key": "chan2025laozi",
+      "title": "Laozi",
+      "authors": [
+        "Alan Chan"
+      ],
+      "year": 2025,
+      "doi": null,
+      "url": "https://plato.stanford.edu/archives/win2025/entries/laozi/",
+      "source_type": "encyclopedia-entry",
+      "role": "Daoist translation and interpretive plurality",
+      "verified_via": [
+        "receipt: data/scholarship/receipts/v0110/access.json",
+        "receipt: data/scholarship/receipts/v0110/reading.json"
+      ],
+      "access_level": "full_text_targeted_sections",
+      "inspected_locators": [
+        "Winter 2025 SEP archive; introduction; sections 3, 6 and 7; author citation page"
+      ],
+      "summary": "Chan distinguishes interpretations of wu and explains wuwei within practical and political contexts.",
+      "evidence_ceiling": "Scholarly interpretation; not a consensus translation, empirical causal finding or identification of wu with Buddhist emptiness."
+    },
+    {
+      "key": "siderits2026buddha",
+      "title": "Buddha",
+      "authors": [
+        "Mark Siderits"
+      ],
+      "year": 2026,
+      "doi": null,
+      "url": "https://plato.stanford.edu/archives/sum2026/entries/buddha/",
+      "source_type": "encyclopedia-entry",
+      "role": "early Buddhist textual transmission and interpretation boundary",
+      "verified_via": [
+        "receipt: data/scholarship/receipts/v0110/access.json",
+        "receipt: data/scholarship/receipts/v0110/reading.json"
+      ],
+      "access_level": "full_text_targeted_sections",
+      "inspected_locators": [
+        "Summer 2026 SEP archive; section 1, Buddha as Philosopher; section 2 opening; author citation page"
+      ],
+      "summary": "Siderits explicitly treats the Buddha through transmitted texts and subsequent philosophical interpretation.",
+      "evidence_ceiling": "Scholarly reconstruction with disputed readings; neither direct historical transcript nor doctrinal consensus."
+    },
+    {
+      "key": "epictetuslong1887",
+      "title": "The Discourses of Epictetus; with the Encheiridion and Fragments",
+      "authors": [
+        "Epictetus",
+        "George Long (translator)"
+      ],
+      "year": 1887,
+      "doi": null,
+      "url": "https://archive.org/details/dscrsesepictetus00epiciala",
+      "source_type": "translated-primary-text",
+      "role": "providential gratitude for perceptual and interpretive capacities as a contrast",
+      "verified_via": [
+        "receipt: data/scholarship/receipts/v0110/epictetus-scan-ocr-retrieval.json",
+        "receipt: data/scholarship/receipts/v0110/epictetus-scans.json",
+        "receipt: data/scholarship/receipts/v0110/epictetus-verified-pages.json",
+        "receipt: data/scholarship/receipts/v0110/reading.json"
+      ],
+      "access_level": "scanned_print_translation_targeted_pages",
+      "inspected_locators": [
+        "1887 scanned title page, leaf n6",
+        "Book I, chapter VI, Of Providence, printed pp. 19–21, leaves n66–n68",
+        "Chapter context through printed p. 23 in OCR; no complete-book reading"
+      ],
+      "summary": "Gratitude for perceptual and interpretive capacities belongs to an explicitly providential argument.",
+      "evidence_ceiling": "A textual contrast, not Buddhist equivalence or a model parameter. Print title page says 1887; linked Perseus TEI sourceDesc says 1890. This entry cites the print witness."
+    }
+  ]
+}

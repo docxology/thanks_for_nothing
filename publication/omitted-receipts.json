@@ -1,0 +1,1064 @@
+[
+  {
+    "path": "data/scholarship/receipts/algoe2012.json",
+    "bytes": 10338,
+    "sha256": "207ec5221975a883bda95b5ec76f0d6003cebfabdb2c7df22468237516faf902",
+    "disposition": "not redistributed"
+  },
+  {
+    "path": "data/scholarship/receipts/bennett2023.json",
+    "bytes": 39711,
+    "sha256": "47dac65c87eec627a1d14127b21f35bc34c69b916f79db1749eec78f3bcd1719",
+    "disposition": "not redistributed"
+  },
+  {
+    "path": "data/scholarship/receipts/bibliography-parsed.json",
+    "bytes": 28602,
+    "sha256": "71ec8fd22191bf4bf07cafb73dc0863478a81bc7714f62810c6117158557ff47",
+    "disposition": "not redistributed"
+  },
+  {
+    "path": "data/scholarship/receipts/brier1950.json",
+    "bytes": 1729,
+    "sha256": "4092f796d436b40023ec183b6c5d147774a4fc0ac54d504c5045d6b52ef12c81",
+    "disposition": "not redistributed"
+  },
+  {
+    "path": "data/scholarship/receipts/clopper1934.json",
+    "bytes": 1967,
+    "sha256": "d68c038efabbd87f78f62c9d17e2cd871bea1679d221d9d00e55ea075b81e736",
+    "disposition": "not redistributed"
+  },
+  {
+    "path": "data/scholarship/receipts/coricelli2005.json",
+    "bytes": 19207,
+    "sha256": "8eddce38146261f92b29d812379fef1c0e14fdfe282a5e33b1b6bd5bbe0755a4",
+    "disposition": "not redistributed"
+  },
+  {
+    "path": "data/scholarship/receipts/cregg2021.json",
+    "bytes": 36202,
+    "sha256": "a7ed6430cab39e4400ebf1d1b7ecf75ca548bcb7c14b0c421eadb7ba646c1cc7",
+    "disposition": "not redistributed"
+  },
+  {
+    "path": "data/scholarship/receipts/cunha2019.json",
+    "bytes": 9815,
+    "sha256": "79a1d2752aab510febcebf255c679a3c8b2e3fb68c07811d364964fa7b4f5cb5",
+    "disposition": "not redistributed"
+  },
+  {
+    "path": "data/scholarship/receipts/davis2016.json",
+    "bytes": 3224,
+    "sha256": "039c08cfaceb90d46edcd31a6b551620fc25e8c693d4923dd3020002f9c87ffd",
+    "disposition": "not redistributed"
+  },
+  {
+    "path": "data/scholarship/receipts/dickens2017.json",
+    "bytes": 12827,
+    "sha256": "cf9a94d564f4bc68f415a9325a4e6ee2e828651ec821a8faaff1a9995f3cea50",
+    "disposition": "not redistributed"
+  },
+  {
+    "path": "data/scholarship/receipts/efron1979.json",
+    "bytes": 1786,
+    "sha256": "8686001599b054741c9c6feb3c76ef0a0db4c4c3ddd2743968b09a8bb44665ef",
+    "disposition": "not redistributed"
+  },
+  {
+    "path": "data/scholarship/receipts/emmons2003.json",
+    "bytes": 13002,
+    "sha256": "cf32c944ff7a6d53834d3f8fd55787b4baa784d9992771ef90a92767e6ddc4a0",
+    "disposition": "not redistributed"
+  },
+  {
+    "path": "data/scholarship/receipts/epmc-coricelli2005.json",
+    "bytes": 5690,
+    "sha256": "c78dcfde8c4ed4ee731cb968f437197ec4aa905037e2f67f59b04d53f4952e5d",
+    "disposition": "not redistributed"
+  },
+  {
+    "path": "data/scholarship/receipts/epmc-cregg2021.json",
+    "bytes": 193,
+    "sha256": "cc820b2b2698ea67c107b19b058eeae0926bb076b86d36235ce2a82802c348b6",
+    "disposition": "not redistributed"
+  },
+  {
+    "path": "data/scholarship/receipts/epmc-cunha2019.json",
+    "bytes": 5875,
+    "sha256": "3eb2bb2e5c76c3f9e4b6b54911f0a655fb33d69e30830893d11b94dbabbfe12c",
+    "disposition": "not redistributed"
+  },
+  {
+    "path": "data/scholarship/receipts/epmc-davis2016.json",
+    "bytes": 6516,
+    "sha256": "28c43ac59ad937744d73abe4b156c9046db5b0631ba0ce2c93898bf7e637dd7d",
+    "disposition": "not redistributed"
+  },
+  {
+    "path": "data/scholarship/receipts/epmc-dickens2017.json",
+    "bytes": 196,
+    "sha256": "d6445d0c932c6999b177e881128da0d604fb9e3e492a9d37f024411cab288d12",
+    "disposition": "not redistributed"
+  },
+  {
+    "path": "data/scholarship/receipts/epmc-emmons2003.json",
+    "bytes": 193,
+    "sha256": "648009061014a594b7211f5c64953a244edbe2e8140729a2bdc39ef252cf55f0",
+    "disposition": "not redistributed"
+  },
+  {
+    "path": "data/scholarship/receipts/epmc-garrett2014.json",
+    "bytes": 5881,
+    "sha256": "93748948576b4bc9cc0cb54d8840cb5c6d8e85dd236244b933594e5a017157fc",
+    "disposition": "not redistributed"
+  },
+  {
+    "path": "data/scholarship/receipts/epmc-garrett2017.json",
+    "bytes": 4540,
+    "sha256": "e19f1844c36947a476c7e72405b67e5b6450c0217e767944481b5163399fc0c9",
+    "disposition": "not redistributed"
+  },
+  {
+    "path": "data/scholarship/receipts/epmc-gneiting2007.json",
+    "bytes": 193,
+    "sha256": "64a1ab8882738cc5d13f133197ada8f2006df99e6a235ede80cddf13aae08160",
+    "disposition": "not redistributed"
+  },
+  {
+    "path": "data/scholarship/receipts/epmc-gratitudemeta2025.json",
+    "bytes": 5977,
+    "sha256": "b11a41e8f4c5846cb9688364993a7bb8125281d53076b8b4c527e94261e26d7f",
+    "disposition": "not redistributed"
+  },
+  {
+    "path": "data/scholarship/receipts/epmc-hartanto2023.json",
+    "bytes": 196,
+    "sha256": "db2e71d874d5be922488f9ff36b93d0ed6018990eeb9af1033da659f82ecc485",
+    "disposition": "not redistributed"
+  },
+  {
+    "path": "data/scholarship/receipts/epmc-heckendorf2019.json",
+    "bytes": 6649,
+    "sha256": "0a36560f31279bd036049d6756b1d58e62f3f12f4ffd3f15d61545516c97fc15",
+    "disposition": "not redistributed"
+  },
+  {
+    "path": "data/scholarship/receipts/epmc-kerry2023.json",
+    "bytes": 5825,
+    "sha256": "b5ca9aa03742a7aab6910051fd0ad539caf4a9648d1119d329aabcce15e60a87",
+    "disposition": "not redistributed"
+  },
+  {
+    "path": "data/scholarship/receipts/epmc-koo2008.json",
+    "bytes": 5479,
+    "sha256": "d9435a46426de4cedfce7910a11416bf15186bc0a2abe58ac50fb51f9fa1e763",
+    "disposition": "not redistributed"
+  },
+  {
+    "path": "data/scholarship/receipts/epmc-mccullough2001.json",
+    "bytes": 3551,
+    "sha256": "3e03eabdb1c18f119276f4bf19bca08697861c2dfb7b6cfaef189418ac1fbc4a",
+    "disposition": "not redistributed"
+  },
+  {
+    "path": "data/scholarship/receipts/epmc-newman2021.json",
+    "bytes": 5431,
+    "sha256": "108474f49de8546a709088eadb872a1eb4c0b490d037cd02aebb401807523a82",
+    "disposition": "not redistributed"
+  },
+  {
+    "path": "data/scholarship/receipts/epmc-rubin1976.json",
+    "bytes": 190,
+    "sha256": "2d6b88ef0f2455be651acb3e5efdc6f4a6f212faae9e88e5181bc0af4b4f598c",
+    "disposition": "not redistributed"
+  },
+  {
+    "path": "data/scholarship/receipts/epmc-seymour2005.json",
+    "bytes": 6728,
+    "sha256": "3e5a04db6201ace46b303fa2be864810e19f67e903826112205359be710df476",
+    "disposition": "not redistributed"
+  },
+  {
+    "path": "data/scholarship/receipts/epmc-shah2016.json",
+    "bytes": 7127,
+    "sha256": "20ef1c7f7bfe3fc4e701e510ee31366cf6514482d2c57d0b18b6916fc04758fb",
+    "disposition": "not redistributed"
+  },
+  {
+    "path": "data/scholarship/receipts/epmc-sharot2011.json",
+    "bytes": 4288,
+    "sha256": "f0ee6f57956b0e11c6db2be751c01c5a86396ac2b0d0ac202a3ba84e99fb72f5",
+    "disposition": "not redistributed"
+  },
+  {
+    "path": "data/scholarship/receipts/epmc-smith2022.json",
+    "bytes": 5690,
+    "sha256": "01a8631dd771c3feea6fe1abf2f18105769437ed300f9cc3667ad0307456b84f",
+    "disposition": "not redistributed"
+  },
+  {
+    "path": "data/scholarship/receipts/epmc-stone2022.json",
+    "bytes": 193,
+    "sha256": "8ead836dc9329a8cdc1d6828ed3813eb63558d2714a9b3ac516befa517895847",
+    "disposition": "not redistributed"
+  },
+  {
+    "path": "data/scholarship/receipts/epmc-watkins2022.json",
+    "bytes": 196,
+    "sha256": "6727ecbdf8cd247ec3cb97c32edb646718830d7791ad15686a2430d34acfeae1",
+    "disposition": "not redistributed"
+  },
+  {
+    "path": "data/scholarship/receipts/epmc-wood2010.json",
+    "bytes": 4238,
+    "sha256": "85852b1b715185eba3eb21baabada732a666870420d20b69c7b5a0f1f09d197e",
+    "disposition": "not redistributed"
+  },
+  {
+    "path": "data/scholarship/receipts/fisher2026.json",
+    "bytes": 4448,
+    "sha256": "e0a98c3aeaa8c6cb2d8309dfa5e3b4773c464b8fa9a51f6dddbe997cedfacf7a",
+    "disposition": "not redistributed"
+  },
+  {
+    "path": "data/scholarship/receipts/friston2017.json",
+    "bytes": 13574,
+    "sha256": "72263da85fdbdeb6d5754ba5c602a5789ace9ccfc52aab1524a76b87c96b4022",
+    "disposition": "not redistributed"
+  },
+  {
+    "path": "data/scholarship/receipts/garrett2014.json",
+    "bytes": 12212,
+    "sha256": "a93fb58f29238724f61ed1979d3790cdcad27a4e0164a0663d5a492282cd7626",
+    "disposition": "not redistributed"
+  },
+  {
+    "path": "data/scholarship/receipts/garrett2017.json",
+    "bytes": 16854,
+    "sha256": "e4471b12cd74bcd3704782771891d7b08a2fb5b0d6d46ccea35ed4953ab53a4e",
+    "disposition": "not redistributed"
+  },
+  {
+    "path": "data/scholarship/receipts/gaze/castelhano2009.pdf",
+    "bytes": 1433932,
+    "sha256": "a0e3bfd72254f94d4d07f1777a5b112bf2139bec694a03c2103d4ce317e3e60a",
+    "disposition": "not redistributed"
+  },
+  {
+    "path": "data/scholarship/receipts/gaze/castelhano2009.pdf.headers",
+    "bytes": 689,
+    "sha256": "caf8cfa29c45dc2a3ec5ab9c4fd6c199d33e41deca2c48e3bbe4f1ebcb338eaa",
+    "disposition": "not redistributed"
+  },
+  {
+    "path": "data/scholarship/receipts/gaze/manifest.json",
+    "bytes": 3244,
+    "sha256": "80d967a7bb3ef731cfec2bae0e93c4f16d3bd005541f91452f16105d24c0037d",
+    "disposition": "not redistributed"
+  },
+  {
+    "path": "data/scholarship/receipts/gaze/mirza2019.html",
+    "bytes": 528447,
+    "sha256": "d5319b6331329f7f51baf54f7a5f0b191543a645e34c72e7a4484b6f0331c879",
+    "disposition": "not redistributed"
+  },
+  {
+    "path": "data/scholarship/receipts/gaze/mirza2019.html.headers",
+    "bytes": 3759,
+    "sha256": "8b4140c09ca322379adafc05b3c290db9aba985176633b22b546465337a5ec14",
+    "disposition": "not redistributed"
+  },
+  {
+    "path": "data/scholarship/receipts/gaze/scream-commons.html",
+    "bytes": 190566,
+    "sha256": "f1c71628b179004484f6e44b70d7b5354127143c70ece4040a035462dee308f4",
+    "disposition": "not redistributed"
+  },
+  {
+    "path": "data/scholarship/receipts/gaze/scream-commons.html.headers",
+    "bytes": 5782,
+    "sha256": "81db9cea720a65369968584c4fdfcf50699e204b9cd3b1d4dbff09288a74a045",
+    "disposition": "not redistributed"
+  },
+  {
+    "path": "data/scholarship/receipts/gaze/scream-museum.html",
+    "bytes": 189354,
+    "sha256": "3e5a03ba6d4b69ecf89298116dc8ddac15276b4a6bd1d12a894b6eaf0cefa150",
+    "disposition": "not redistributed"
+  },
+  {
+    "path": "data/scholarship/receipts/gaze/scream-museum.html.headers",
+    "bytes": 4184,
+    "sha256": "0b3a2d04c87b024403225335de57f24d6a9ddc2c02270d7ed94c6bb9af26b377",
+    "disposition": "not redistributed"
+  },
+  {
+    "path": "data/scholarship/receipts/gaze/source-inventory.json",
+    "bytes": 4933,
+    "sha256": "4dae4340a5620c2053aba54d67881086d8283a75773189c4c69786de7d4e46ec",
+    "disposition": "not redistributed"
+  },
+  {
+    "path": "data/scholarship/receipts/gaze/yarbus1967-complex.html",
+    "bytes": 263281,
+    "sha256": "d574d0a934e487ad7ebfbb7654a58dd9066d4422ac142949e9746054fbcc8b59",
+    "disposition": "not redistributed"
+  },
+  {
+    "path": "data/scholarship/receipts/gaze/yarbus1967-complex.html.headers",
+    "bytes": 4067,
+    "sha256": "17f1b160ba39b4517f6b4f4fe53b8885ce1c814c4a8f27595405559350ce367a",
+    "disposition": "not redistributed"
+  },
+  {
+    "path": "data/scholarship/receipts/gneiting2007.json",
+    "bytes": 6491,
+    "sha256": "e6eeca7eb70a10b5e18b9f47657f5742eb857c9cdf50596264e144f7f98a001d",
+    "disposition": "not redistributed"
+  },
+  {
+    "path": "data/scholarship/receipts/goh2023.json",
+    "bytes": 12353,
+    "sha256": "d443a4687a62823ae3130570ef60a14a8d7a5562261a1bee9222c0f1efe19b3b",
+    "disposition": "not redistributed"
+  },
+  {
+    "path": "data/scholarship/receipts/gratitudemeta2025.json",
+    "bytes": 14480,
+    "sha256": "18669d0cfed7ca57eaf0f11a029d7423fa9c1e77c02e3d2fbc1293294336a140",
+    "disposition": "not redistributed"
+  },
+  {
+    "path": "data/scholarship/receipts/hartanto2023.json",
+    "bytes": 14005,
+    "sha256": "0d744cdce3cacdfa9753934434b177877a2d3b78bae44d5e798f110be6e460e2",
+    "disposition": "not redistributed"
+  },
+  {
+    "path": "data/scholarship/receipts/he2022.json",
+    "bytes": 16747,
+    "sha256": "df55b7ae69c986115f5c7f48119ffffb9f7f2260750117d575b91d9f1cadf8ee",
+    "disposition": "not redistributed"
+  },
+  {
+    "path": "data/scholarship/receipts/heckendorf2019.json",
+    "bytes": 27802,
+    "sha256": "2035378b75d1235e5aafb13b8704c3bf9505d974d869bf42b23c9229acf805bb",
+    "disposition": "not redistributed"
+  },
+  {
+    "path": "data/scholarship/receipts/hesp2021.json",
+    "bytes": 43187,
+    "sha256": "b16e4dc4fba05b50a6ce4d1a7f82314128ef43cc946a1d7c4751eb2631c7930a",
+    "disposition": "not redistributed"
+  },
+  {
+    "path": "data/scholarship/receipts/hobbs2022.json",
+    "bytes": 23144,
+    "sha256": "a0aba9789e8486f221a71196f29a573cfd8e674c91b25bf0d3e40c4621255b5d",
+    "disposition": "not redistributed"
+  },
+  {
+    "path": "data/scholarship/receipts/holm1979-jstor.html",
+    "bytes": 3038,
+    "sha256": "32ed63159c77e21ee19ca1b9aa3213ccf0218eb59539560b132a8e68ef0e18ea",
+    "disposition": "not redistributed"
+  },
+  {
+    "path": "data/scholarship/receipts/holm1979-retry.json",
+    "bytes": 19,
+    "sha256": "ae8462e3af85ca7577aaa97ff22a194f9dfd7fada58cf4944b53d2fdfa7b1f92",
+    "disposition": "not redistributed"
+  },
+  {
+    "path": "data/scholarship/receipts/kerry2023.json",
+    "bytes": 15103,
+    "sha256": "555f8bb27dd7043c6b0ef30b516acd3e14a9ed80754ebeb2651826df4b4bce0b",
+    "disposition": "not redistributed"
+  },
+  {
+    "path": "data/scholarship/receipts/koo2008.json",
+    "bytes": 2945,
+    "sha256": "bf9bcb88125c8e9cdce3331e7f8fbffa3a809fc20227dce05769b7e0e947d85e",
+    "disposition": "not redistributed"
+  },
+  {
+    "path": "data/scholarship/receipts/mccullough2001.json",
+    "bytes": 27254,
+    "sha256": "ce5475b2931e628c17180d88206e166ba1b874cfcbc43b5d69f8ae917a433e6c",
+    "disposition": "not redistributed"
+  },
+  {
+    "path": "data/scholarship/receipts/metadata-summary.json",
+    "bytes": 53630,
+    "sha256": "09f3d1264e5eebdf10be1156da312ecfd0a6da16e1fc74f4d1b3d02fd90b6ceb",
+    "disposition": "not redistributed"
+  },
+  {
+    "path": "data/scholarship/receipts/methods-addition-audit.json",
+    "bytes": 709,
+    "sha256": "427ee8196397a1bad326010607251ff3d27c6de2b3ce95038bfe51e652e4d6a9",
+    "disposition": "not redistributed"
+  },
+  {
+    "path": "data/scholarship/receipts/methods-jstor-primary-observations.json",
+    "bytes": 1069,
+    "sha256": "663805dd34662f1ba23f2c02e7b4c032dda7c8a21d6abc5f9e637e39dbf1f191",
+    "disposition": "not redistributed"
+  },
+  {
+    "path": "data/scholarship/receipts/methods-jstor-primary-search.json",
+    "bytes": 1069,
+    "sha256": "663805dd34662f1ba23f2c02e7b4c032dda7c8a21d6abc5f9e637e39dbf1f191",
+    "disposition": "not redistributed"
+  },
+  {
+    "path": "data/scholarship/receipts/mirza2019.json",
+    "bytes": 31081,
+    "sha256": "691f2023a75cce9a6ea6da16ffde0ece4a995c2b2ed675a1994e6a34d6113973",
+    "disposition": "not redistributed"
+  },
+  {
+    "path": "data/scholarship/receipts/morris2019.json",
+    "bytes": 14200,
+    "sha256": "349ace3b17d8d9d4948f370460c763ca1c953933550592a5b30b13e809d0f0b3",
+    "disposition": "not redistributed"
+  },
+  {
+    "path": "data/scholarship/receipts/newman2021.json",
+    "bytes": 3142,
+    "sha256": "b00eee07d7f502ba620ab2f6098e2fd7bc1f42c2dcaa7d44ec3598c948700619",
+    "disposition": "not redistributed"
+  },
+  {
+    "path": "data/scholarship/receipts/phipson2010-retry.json",
+    "bytes": 3588,
+    "sha256": "d0397fd8ae7ecbaf0b7298c9391392286c4792e0ae7fd4f8c26ebff3006058ef",
+    "disposition": "not redistributed"
+  },
+  {
+    "path": "data/scholarship/receipts/primary-page-observations.json",
+    "bytes": 1435,
+    "sha256": "92c023090641447be2f494213d74e1cabaaf37c5090d02563fde84bab5754ca1",
+    "disposition": "not redistributed"
+  },
+  {
+    "path": "data/scholarship/receipts/primary-web-capture.json",
+    "bytes": 14406,
+    "sha256": "18dd5bdc2e77cdb759c85c3babbf6d924a82480747584abb7658fda04a90b0ee",
+    "disposition": "not redistributed"
+  },
+  {
+    "path": "data/scholarship/receipts/review20261019-choi.json",
+    "bytes": 917,
+    "sha256": "caf9ffd04aed691632d09fdc8de9022bfbc71071d618b65e5662603650addb24",
+    "disposition": "not redistributed"
+  },
+  {
+    "path": "data/scholarship/receipts/review20261019-gneiting.json",
+    "bytes": 1687,
+    "sha256": "13a0fd57c99829bfe17b620b69e8166f1ca88b33c4ee81b6b44781ba40d08f32",
+    "disposition": "not redistributed"
+  },
+  {
+    "path": "data/scholarship/receipts/review20261019-moore.json",
+    "bytes": 985,
+    "sha256": "06b729261c23e90294dbb6c359ed56739f6a6f9cf4ffef3bf7188d60e294d48a",
+    "disposition": "not redistributed"
+  },
+  {
+    "path": "data/scholarship/receipts/review20261019-simulation.json",
+    "bytes": 2302,
+    "sha256": "4c08ea836aea02b52ddb5e08ed110ced4c660c9afe458df3a525c951a2623b78",
+    "disposition": "not redistributed"
+  },
+  {
+    "path": "data/scholarship/receipts/revision/bennett2023-crossref.json",
+    "bytes": 39711,
+    "sha256": "47dac65c87eec627a1d14127b21f35bc34c69b916f79db1749eec78f3bcd1719",
+    "disposition": "not redistributed"
+  },
+  {
+    "path": "data/scholarship/receipts/revision/bennett2023-epmc.json",
+    "bytes": 6098,
+    "sha256": "4c8b0f38e47b58a5e4d5e9e74ab90f524c652e0ff7573b70d040f86a766cd1c0",
+    "disposition": "not redistributed"
+  },
+  {
+    "path": "data/scholarship/receipts/revision/bennett2023-fulltext.xml",
+    "bytes": 300004,
+    "sha256": "346488b1b246d612a42a39ee7c7c347edf9b523553abf2b566c944146d1b3f7d",
+    "disposition": "not redistributed"
+  },
+  {
+    "path": "data/scholarship/receipts/revision/bootci-manual.html",
+    "bytes": 13054,
+    "sha256": "1e8e91decd8b61c5960137383bc52861f8cde69f2e5ca278660ae2566329d170",
+    "disposition": "not redistributed"
+  },
+  {
+    "path": "data/scholarship/receipts/revision/cunha2019-crossref.json",
+    "bytes": 9815,
+    "sha256": "79a1d2752aab510febcebf255c679a3c8b2e3fb68c07811d364964fa7b4f5cb5",
+    "disposition": "not redistributed"
+  },
+  {
+    "path": "data/scholarship/receipts/revision/cunha2019-epmc.json",
+    "bytes": 5875,
+    "sha256": "81a8e0e3d09aa1f3786b190c5185a0eebecb772ef31efe81994c1d2f72a7d312",
+    "disposition": "not redistributed"
+  },
+  {
+    "path": "data/scholarship/receipts/revision/cunha2019-fulltext.xml",
+    "bytes": 86921,
+    "sha256": "37a2344c47311058558c468d57a862f40bc4201fa7e50a2449fdc0da85cff02f",
+    "disposition": "not redistributed"
+  },
+  {
+    "path": "data/scholarship/receipts/revision/hall1988-crossref.json",
+    "bytes": 2835,
+    "sha256": "8983c49121c812dada4f5c2d29c7b0ae2e5ce82add371837c222424ab589db1f",
+    "disposition": "not redistributed"
+  },
+  {
+    "path": "data/scholarship/receipts/revision/hall1988-publisher.html",
+    "bytes": 1162,
+    "sha256": "67a8fabd0aa9dfaba2ef09ef836c846af4ade47f7b256595d309825a5e5b3084",
+    "disposition": "not redistributed"
+  },
+  {
+    "path": "data/scholarship/receipts/revision/he2022-crossref.json",
+    "bytes": 16747,
+    "sha256": "df55b7ae69c986115f5c7f48119ffffb9f7f2260750117d575b91d9f1cadf8ee",
+    "disposition": "not redistributed"
+  },
+  {
+    "path": "data/scholarship/receipts/revision/he2022-epmc.json",
+    "bytes": 5202,
+    "sha256": "0e8585d2f231add55135e3d17c1c20bb12e0b46539d529a27432176d6c698b8a",
+    "disposition": "not redistributed"
+  },
+  {
+    "path": "data/scholarship/receipts/revision/he2022-fulltext.xml",
+    "bytes": 87761,
+    "sha256": "9cb8cb0cd8868bc2fe849fdcc465adf158f97e127f69ca985a380bc0fd75b3e0",
+    "disposition": "not redistributed"
+  },
+  {
+    "path": "data/scholarship/receipts/revision/inspection-ledger.json",
+    "bytes": 9909,
+    "sha256": "07bb7451a6b107cb4627ac05c096b6069cf3db490ae9484e0aa4162e5d2f18b3",
+    "disposition": "not redistributed"
+  },
+  {
+    "path": "data/scholarship/receipts/revision/kerry2023-crossref.json",
+    "bytes": 15103,
+    "sha256": "555f8bb27dd7043c6b0ef30b516acd3e14a9ed80754ebeb2651826df4b4bce0b",
+    "disposition": "not redistributed"
+  },
+  {
+    "path": "data/scholarship/receipts/revision/kerry2023-epmc.json",
+    "bytes": 5825,
+    "sha256": "b5ca9aa03742a7aab6910051fd0ad539caf4a9648d1119d329aabcce15e60a87",
+    "disposition": "not redistributed"
+  },
+  {
+    "path": "data/scholarship/receipts/revision/kerry2023-fulltext.xml",
+    "bytes": 153842,
+    "sha256": "803a7259fd804611d8f558e64a0475e0873ad70f3211fac7e2ce88adbd801cf5",
+    "disposition": "not redistributed"
+  },
+  {
+    "path": "data/scholarship/receipts/revision/koo2008-author.pdf",
+    "bytes": 70684,
+    "sha256": "1c3cfd6978e287f2587cceb591ccbde53c11afdd9035379dc29b214f2d93c7e6",
+    "disposition": "not redistributed"
+  },
+  {
+    "path": "data/scholarship/receipts/revision/koo2008-crossref-retry.json",
+    "bytes": 2945,
+    "sha256": "bf9bcb88125c8e9cdce3331e7f8fbffa3a809fc20227dce05769b7e0e947d85e",
+    "disposition": "not redistributed"
+  },
+  {
+    "path": "data/scholarship/receipts/revision/koo2008-epmc.json",
+    "bytes": 5479,
+    "sha256": "d9435a46426de4cedfce7910a11416bf15186bc0a2abe58ac50fb51f9fa1e763",
+    "disposition": "not redistributed"
+  },
+  {
+    "path": "data/scholarship/receipts/revision/morris2019-crossref.json",
+    "bytes": 14200,
+    "sha256": "349ace3b17d8d9d4948f370460c763ca1c953933550592a5b30b13e809d0f0b3",
+    "disposition": "not redistributed"
+  },
+  {
+    "path": "data/scholarship/receipts/revision/morris2019-epmc.json",
+    "bytes": 5816,
+    "sha256": "d5041437812c02e56eb6fe82213873dc4d92fbaf17955b019658bd1cc9844c38",
+    "disposition": "not redistributed"
+  },
+  {
+    "path": "data/scholarship/receipts/revision/morris2019-fulltext.xml",
+    "bytes": 285239,
+    "sha256": "c5f525e6e495c17d25bc191c728452377752e4b476e2ef096e5595f9f879f0bd",
+    "disposition": "not redistributed"
+  },
+  {
+    "path": "data/scholarship/receipts/revision/retrievals-extra.json",
+    "bytes": 1360,
+    "sha256": "92318c88529fbda0380f3ed270ce2cd24fba7a5ba07fb43dd99f6447401b3d9b",
+    "disposition": "not redistributed"
+  },
+  {
+    "path": "data/scholarship/receipts/revision/retrievals-methods.json",
+    "bytes": 1359,
+    "sha256": "69056b2ed1ed4b354b1c8caef78a6f4355b1d60206ca0cf5b678add69024ca3b",
+    "disposition": "not redistributed"
+  },
+  {
+    "path": "data/scholarship/receipts/revision/retrievals.json",
+    "bytes": 9128,
+    "sha256": "cb33c0fcfe4b919cf1fa2879cde54bf7a90923e41a90e95acc4ae66eb375ffcf",
+    "disposition": "not redistributed"
+  },
+  {
+    "path": "data/scholarship/receipts/revision/thanissaro1997mn121.html",
+    "bytes": 23472,
+    "sha256": "251daca5cd0ac51b972fd728b00691263fa37183944f259a81d9b508668540cf",
+    "disposition": "not redistributed"
+  },
+  {
+    "path": "data/scholarship/receipts/revision/white2024-crossref.json",
+    "bytes": 6859,
+    "sha256": "ac03ab4823156b95e0724f32df8119dc1e71f648576ba1e7b0b270363c96d4db",
+    "disposition": "not redistributed"
+  },
+  {
+    "path": "data/scholarship/receipts/revision/white2024-fulltext.xml",
+    "bytes": 57795,
+    "sha256": "283a72e28ebbd4548ab9654e425d321899f471769ca7ea4ac33dd4779e61a0f0",
+    "disposition": "not redistributed"
+  },
+  {
+    "path": "data/scholarship/receipts/revision/yu2018-crossref.json",
+    "bytes": 16856,
+    "sha256": "918400d87900230ab35b9bb2013a54e80b1bbcd1f1a4197c725e9322715df20b",
+    "disposition": "not redistributed"
+  },
+  {
+    "path": "data/scholarship/receipts/revision/yu2018-epmc.json",
+    "bytes": 10247,
+    "sha256": "66bc2de9ed28017c36fbe2bc4640138dfb36e54d9e211cc144a7e2c57ea5b639",
+    "disposition": "not redistributed"
+  },
+  {
+    "path": "data/scholarship/receipts/rubin1976.json",
+    "bytes": 1805,
+    "sha256": "83ebe0af45d820bd177a634d45a9908950a144c1e5563726e9ba260ba01b2021",
+    "disposition": "not redistributed"
+  },
+  {
+    "path": "data/scholarship/receipts/sajid2021.json",
+    "bytes": 14401,
+    "sha256": "ec1f0bcb8361279d2dd80ac4e768787a331a03b9819e078d2fcd40bbf1aea5de",
+    "disposition": "not redistributed"
+  },
+  {
+    "path": "data/scholarship/receipts/satterthwaite1946-corrected.json",
+    "bytes": 1496,
+    "sha256": "e50a1adb2b30f8048475f2b7f7f1c14bab01456be830b261a5e6ba2215d59baa",
+    "disposition": "not redistributed"
+  },
+  {
+    "path": "data/scholarship/receipts/satterthwaite1946-retry.json",
+    "bytes": 1544,
+    "sha256": "b95dad63a4eb31a0505256b15f2340c4a9ef3bdf77485b81ce3e7c60702a64cc",
+    "disposition": "not redistributed"
+  },
+  {
+    "path": "data/scholarship/receipts/seymour2005.json",
+    "bytes": 20158,
+    "sha256": "b056f2a366e93819f17ec6dc627641f279f44b320186e4d938f575fe1489b589",
+    "disposition": "not redistributed"
+  },
+  {
+    "path": "data/scholarship/receipts/shah2016.json",
+    "bytes": 37142,
+    "sha256": "6dd81b9939407edce27468071c492412e1395ef5e09285ba209600127a9085be",
+    "disposition": "not redistributed"
+  },
+  {
+    "path": "data/scholarship/receipts/sharot2011.json",
+    "bytes": 6362,
+    "sha256": "79b724fc2dc7461b2f109e1e59b1b5d6a3bc0acd382f1cf2868a314eab072191",
+    "disposition": "not redistributed"
+  },
+  {
+    "path": "data/scholarship/receipts/smith2022.json",
+    "bytes": 28389,
+    "sha256": "8968efc81c013701ecaa135c38abe15b1148114671b8872e2c7bda772ffa1f8b",
+    "disposition": "not redistributed"
+  },
+  {
+    "path": "data/scholarship/receipts/sn1215.html",
+    "bytes": 13607,
+    "sha256": "f96fb2e97f502b3efa3b2360762e98af75ff95fb42446463c2baa534cc0a0b0d",
+    "disposition": "not redistributed"
+  },
+  {
+    "path": "data/scholarship/receipts/stone2022.json",
+    "bytes": 29872,
+    "sha256": "2f3a6db7b1d0f16a6a3bdd9604baa3ef29e10db2bddf4377c2736b914cff19f5",
+    "disposition": "not redistributed"
+  },
+  {
+    "path": "data/scholarship/receipts/v0110/access.json",
+    "bytes": 5102,
+    "sha256": "912425b0183a97db11a0bb265af4b5ebd290d549b280be5a7550ea742b2d05a1",
+    "disposition": "not redistributed"
+  },
+  {
+    "path": "data/scholarship/receipts/v0110/completion.json",
+    "bytes": 6803,
+    "sha256": "1317dd3ba718ad575ae1c646cdd4469101d7b568aac00479a7dcd5e409b13905",
+    "disposition": "not redistributed"
+  },
+  {
+    "path": "data/scholarship/receipts/v0110/epictetus-linked-scan-metadata.json",
+    "bytes": 2682,
+    "sha256": "9e73ab5c6cc0500bf98159b1157d80e93cae196f736e4e133715388295613c1f",
+    "disposition": "not redistributed"
+  },
+  {
+    "path": "data/scholarship/receipts/v0110/epictetus-long-retrieval.json",
+    "bytes": 507,
+    "sha256": "8b45bb0bf7438dc820cfe43f1c68a2661b28825e119ee1811ab710010d8e0e12",
+    "disposition": "not redistributed"
+  },
+  {
+    "path": "data/scholarship/receipts/v0110/epictetus-page20-retrieval.json",
+    "bytes": 399,
+    "sha256": "268718dd2749ee54049b4cb0ac1dbe497af209d0106e06cc8ad20225ee760860",
+    "disposition": "not redistributed"
+  },
+  {
+    "path": "data/scholarship/receipts/v0110/epictetus-retrieval.json",
+    "bytes": 416,
+    "sha256": "326d945c8bb675f741d6a0f32f6a6ceef48e5475b6826b3264def3c94e2ef4b2",
+    "disposition": "not redistributed"
+  },
+  {
+    "path": "data/scholarship/receipts/v0110/epictetus-scan-ocr-retrieval.json",
+    "bytes": 391,
+    "sha256": "1ea8730c5f63dd0fce1a1a972a2f6bcc79bd631a76f2e3c461d8bb51d9a68789",
+    "disposition": "not redistributed"
+  },
+  {
+    "path": "data/scholarship/receipts/v0110/epictetus-scans.json",
+    "bytes": 845,
+    "sha256": "5a4eb5c333127bb0c01e073a4a4fe13a9b31bdd423ab406e8e64653e458e83c5",
+    "disposition": "not redistributed"
+  },
+  {
+    "path": "data/scholarship/receipts/v0110/epictetus-title-retrieval.json",
+    "bytes": 395,
+    "sha256": "97c0851cfca9d8393c6b65e9b235eb3f8e7f8c3afb6748f4743aba7bbc061d06",
+    "disposition": "not redistributed"
+  },
+  {
+    "path": "data/scholarship/receipts/v0110/epictetus-verified-pages.json",
+    "bytes": 1140,
+    "sha256": "1b82daa5a45cee686e82246c6097e4e3e3e159c9fbd347208ccefe4a35ee36d8",
+    "disposition": "not redistributed"
+  },
+  {
+    "path": "data/scholarship/receipts/v0110/proposed-catalog.json",
+    "bytes": 7636,
+    "sha256": "86a36040d2e800fb4673e0b393afad9d890628c3466133fddc42a2fc7ac4b00a",
+    "disposition": "not redistributed"
+  },
+  {
+    "path": "data/scholarship/receipts/v0110/proposed-references.bib",
+    "bytes": 3070,
+    "sha256": "ebca868e801f786ab76829f48c5e0c85bf100382c2cc3960a30f6d075eee6e49",
+    "disposition": "not redistributed"
+  },
+  {
+    "path": "data/scholarship/receipts/v0110/reading.json",
+    "bytes": 4087,
+    "sha256": "40d5e363bf3687df87f9336ed8842c3d86883aa7e21803b65191a5b1aa9918b8",
+    "disposition": "not redistributed"
+  },
+  {
+    "path": "data/scholarship/receipts/v0110/validation-invocations.json",
+    "bytes": 526,
+    "sha256": "d8cff93e7ea64bdec15ab54cc4270b895b78a3a52a47102a5958e0b0184e1167",
+    "disposition": "not redistributed"
+  },
+  {
+    "path": "data/scholarship/receipts/v0110/validation-negative-final.json",
+    "bytes": 2926,
+    "sha256": "b1b0915bb06b370f004cdd8d2aa04d01b52e2d7d667cd76d3f648ec07690e3f4",
+    "disposition": "not redistributed"
+  },
+  {
+    "path": "data/scholarship/receipts/v0110/validation-negative.json",
+    "bytes": 2928,
+    "sha256": "2f7d00161a22c9b8db61a1dda57fc9c95cca0bc08a0917f9155eb951ebb8aba7",
+    "disposition": "not redistributed"
+  },
+  {
+    "path": "data/scholarship/receipts/v0110/validation-positive-final.json",
+    "bytes": 2941,
+    "sha256": "797cab15d98b803f106c80862be5f6d9e48e03893b2a09f2bd5b33724d19f387",
+    "disposition": "not redistributed"
+  },
+  {
+    "path": "data/scholarship/receipts/v0110/validation-positive.json",
+    "bytes": 2944,
+    "sha256": "a525946f79b3a3b267c0fd86751c1fa8bc0ee9e1805af441e2aa55be091bd691",
+    "disposition": "not redistributed"
+  },
+  {
+    "path": "data/scholarship/receipts/v0110/verify-receipts.cjs",
+    "bytes": 2275,
+    "sha256": "192e18e74f1960c272df79b675b90a9f930ec2f00f5a85623dda3ed366cf3a60",
+    "disposition": "not redistributed"
+  },
+  {
+    "path": "data/scholarship/receipts/v0110/visual-reading.json",
+    "bytes": 1991,
+    "sha256": "8ce7e4c71df0c5d97299c2468bf2cabeabc43ecdda020f0a265ce8c794632010",
+    "disposition": "not redistributed"
+  },
+  {
+    "path": "data/scholarship/receipts/v0110/workspace-status.txt",
+    "bytes": 290,
+    "sha256": "96950d646930707a28f0aaabafe0e424acce10f0003109cee9f8600b15e240f8",
+    "disposition": "not redistributed"
+  },
+  {
+    "path": "data/scholarship/receipts/v040/bartlett2006-crossref.json",
+    "bytes": 7244,
+    "sha256": "6ae503cfb02c690a1845a68500288db46333306313348a9981d385c7dfdd48bb",
+    "disposition": "not redistributed"
+  },
+  {
+    "path": "data/scholarship/receipts/v040/bartlett2006.pdf",
+    "bytes": 109659,
+    "sha256": "e03e6e6e1506377fe78be81243afa601c16ea02de2635039a1f0d23b190ab709",
+    "disposition": "not redistributed"
+  },
+  {
+    "path": "data/scholarship/receipts/v040/dahl2015-crossref.json",
+    "bytes": 39891,
+    "sha256": "a02480874c2fc20701d9b2c9457cfd3ee64f638032cad43b50a959a52c84a8b8",
+    "disposition": "not redistributed"
+  },
+  {
+    "path": "data/scholarship/receipts/v040/dahl2015-pmc.html",
+    "bytes": 265875,
+    "sha256": "65463de9469f94ab79827ab0437e0516a977b8021a459d132babd9f8def16ecf",
+    "disposition": "not redistributed"
+  },
+  {
+    "path": "data/scholarship/receipts/v040/laukkonen2021-crossref.json",
+    "bytes": 55026,
+    "sha256": "c23bf1b6ceee387f5349cf62b554ea048d936361a4fc5e6a0bbc46684b2d4b44",
+    "disposition": "not redistributed"
+  },
+  {
+    "path": "data/scholarship/receipts/v040/laukkonen2021-scu.pdf",
+    "bytes": 2057433,
+    "sha256": "58dbebc9e997856048f814161524cd5ad648b49c6df5f19bbe704cd378d6489e",
+    "disposition": "not redistributed"
+  },
+  {
+    "path": "data/scholarship/receipts/v040/sandvedsmith2021-crossref.json",
+    "bytes": 30953,
+    "sha256": "dcd8d55d1a8569ba259012fb335d7b7ef069f1da8a3623bf5bcf92cb6239bb46",
+    "disposition": "not redistributed"
+  },
+  {
+    "path": "data/scholarship/receipts/v040/sandvedsmith2021-note.xml",
+    "bytes": 11462,
+    "sha256": "150f7045b3b13e92875634ae0e4f3fc43c41d05ba0a8d56209eb348c73329206",
+    "disposition": "not redistributed"
+  },
+  {
+    "path": "data/scholarship/receipts/v040/sandvedsmith2021.xml",
+    "bytes": 181733,
+    "sha256": "79951e03be841b5edb9f4ec1aa286b3860663d84dcca6e8f29698a47187dd44c",
+    "disposition": "not redistributed"
+  },
+  {
+    "path": "data/scholarship/receipts/v040/wilson2019-crossref.json",
+    "bytes": 31490,
+    "sha256": "0e0711140cf5fcd2021d6f3fa63eecaed71f1676b997dd9c9f594e891c5fe79b",
+    "disposition": "not redistributed"
+  },
+  {
+    "path": "data/scholarship/receipts/v040/wilson2019.xml",
+    "bytes": 300202,
+    "sha256": "dad14d83e67c77ec898e30b5c12a49418ddf0ce015f018914e9bc171cd68b767",
+    "disposition": "not redistributed"
+  },
+  {
+    "path": "data/scholarship/receipts/v060/desteno2014-crossref.json",
+    "bytes": 9033,
+    "sha256": "33e3e9170c0fdc85948cd2ca7da11c0653afd8bcdbfcd865ef6fe7483d73dad3",
+    "disposition": "not redistributed"
+  },
+  {
+    "path": "data/scholarship/receipts/v060/desteno2014.pdf",
+    "bytes": 582024,
+    "sha256": "35cf33a876c5ca75a002bec5ec116e1e8f19b88f913190e16d6218aa474a589f",
+    "disposition": "not redistributed"
+  },
+  {
+    "path": "data/scholarship/receipts/v060/hothorn2008-crossref.json",
+    "bytes": 7938,
+    "sha256": "d6f6c33397ea2764a9b4fa25b4e070090dd262b96b58eba187ea41ed1a45f8b7",
+    "disposition": "not redistributed"
+  },
+  {
+    "path": "data/scholarship/receipts/v060/hothorn2008.pdf",
+    "bytes": 416127,
+    "sha256": "e5a1a1e1790b11db29fc18c435f83c9bdf69e1fd01eb504d16e61dedbf28f3f1",
+    "disposition": "not redistributed"
+  },
+  {
+    "path": "data/scholarship/receipts/v060/kobayashi2019-crossref-retry.json",
+    "bytes": 8426,
+    "sha256": "981fda714a77473f53e061c6057b393221e446c1bfe3c6247ad8aa0996cf313c",
+    "disposition": "not redistributed"
+  },
+  {
+    "path": "data/scholarship/receipts/v060/kobayashi2019.pdf",
+    "bytes": 882305,
+    "sha256": "2d5fcfc34a3c89db9fda5cb5b9586659b73b6a203382f34655112205eba23e8c",
+    "disposition": "not redistributed"
+  },
+  {
+    "path": "data/scholarship/receipts/v060/manifest.json",
+    "bytes": 1968,
+    "sha256": "b9088f2a30d2dac2938fbc62595ee8230a259fb4184a810d0f8b35c654629983",
+    "disposition": "not redistributed"
+  },
+  {
+    "path": "data/scholarship/receipts/v060/romano2005-crossref.json",
+    "bytes": 3027,
+    "sha256": "26be3a09d37146b11e7e5fdd5f9e158a576c76d868a3720ab37b83ada1d822fc",
+    "disposition": "not redistributed"
+  },
+  {
+    "path": "data/scholarship/receipts/v060/romano2005.pdf",
+    "bytes": 362932,
+    "sha256": "2623c4335cdac339333ffaf7beade68049b0437d3a2337207c59556fb1f8a4f3",
+    "disposition": "not redistributed"
+  },
+  {
+    "path": "data/scholarship/receipts/v060/vanlieshout2018-crossref.json",
+    "bytes": 12936,
+    "sha256": "80ccb67dc7d4df9372a4a1f1cb71620cb93fe2d2ce00d980531ed787ffbfe5e1",
+    "disposition": "not redistributed"
+  },
+  {
+    "path": "data/scholarship/receipts/v060/vanlieshout2018.html",
+    "bytes": 235951,
+    "sha256": "0621e3b0b404932a9b98d7c8d1cfbecb0f0077ad16d32c650169a40385eca5e7",
+    "disposition": "not redistributed"
+  },
+  {
+    "path": "data/scholarship/receipts/v060/verified-sources.json",
+    "bytes": 3319,
+    "sha256": "786581e74da5f4ee29fd8c4411972415758e6ab8cf5a557b55b9115c4aea0add",
+    "disposition": "not redistributed"
+  },
+  {
+    "path": "data/scholarship/receipts/v070/fleming2014-crossref.json",
+    "bytes": 17425,
+    "sha256": "3bee2efe8f55590380d1f9ad2adac1f9361a36c8430d729b5ec9754d0e727714",
+    "disposition": "not redistributed"
+  },
+  {
+    "path": "data/scholarship/receipts/v070/fleming2014.xml",
+    "bytes": 114805,
+    "sha256": "ee3af853022ab0b7f01fba72e3822e7ce0817747b68719f6954d71497b76770e",
+    "disposition": "not redistributed"
+  },
+  {
+    "path": "data/scholarship/receipts/v070/nelson1990-crossref.json",
+    "bytes": 22122,
+    "sha256": "c0d09eb3a9754918ed01c00b8bd577d01e49fb3b552d50f4d9225a7a6c85cfd2",
+    "disposition": "not redistributed"
+  },
+  {
+    "path": "data/scholarship/receipts/v070/nelson1990-retry.pdf",
+    "bytes": 1630400,
+    "sha256": "e6cd6dc38edcb127276baa5f3d779df6ef395308ecd575568e5399ea72b445df",
+    "disposition": "not redistributed"
+  },
+  {
+    "path": "data/scholarship/receipts/v080/lutz2015-identity.json",
+    "bytes": 1550,
+    "sha256": "f78b549b0363cccb4eeaa4d1f0305eea204c21fa20157528bf14e2306e12fa42",
+    "disposition": "not redistributed"
+  },
+  {
+    "path": "data/scholarship/receipts/v080/tatler2011-identity.json",
+    "bytes": 1506,
+    "sha256": "20cddc4b7f5515918dca83c3770fecfabcb1fc3c89946c971da78500d93d64f3",
+    "disposition": "not redistributed"
+  },
+  {
+    "path": "data/scholarship/receipts/v080/vandam2018-identity.json",
+    "bytes": 6098,
+    "sha256": "9635fd8cc868134dd38a1237289a0bdd858cee51b32745b2163c04e229c3dcd2",
+    "disposition": "not redistributed"
+  },
+  {
+    "path": "data/scholarship/receipts/v080/vo2016-identity.json",
+    "bytes": 1343,
+    "sha256": "07c2577aeb3738a00b1c3c8190496222e6e2ec04e2232664e8d5a3c987cf5bc7",
+    "disposition": "not redistributed"
+  },
+  {
+    "path": "data/scholarship/receipts/v090/identities.json",
+    "bytes": 3367,
+    "sha256": "3e32bc80b4b91fcd914552ef72c830f80fe22dba2d7b04352943f56a551712ea",
+    "disposition": "not redistributed"
+  },
+  {
+    "path": "data/scholarship/receipts/v090/reading.json",
+    "bytes": 2771,
+    "sha256": "7cec509701965b42c3d6657da35fd475a817454266af3cebf6ba28befe3edaa9",
+    "disposition": "not redistributed"
+  },
+  {
+    "path": "data/scholarship/receipts/watkins2022.json",
+    "bytes": 7536,
+    "sha256": "58768222c417c2ed9b48cf37ef211282024c905d4547b7f89c684bfdbf3b17fc",
+    "disposition": "not redistributed"
+  },
+  {
+    "path": "data/scholarship/receipts/welch1947-retry.json",
+    "bytes": 1840,
+    "sha256": "2de56bf1540f7c242f4f6b747fc9bbb3bf0e9d59daddf427cda4168eb7bfcc61",
+    "disposition": "not redistributed"
+  },
+  {
+    "path": "data/scholarship/receipts/wood2010.json",
+    "bytes": 46407,
+    "sha256": "8c06faf766425ba162942f1a809a0441ce009ef76025f311106578c4a6724dd6",
+    "disposition": "not redistributed"
+  },
+  {
+    "path": "data/scholarship/receipts/yu2018.json",
+    "bytes": 16856,
+    "sha256": "918400d87900230ab35b9bb2013a54e80b1bbcd1f1a4197c725e9322715df20b",
+    "disposition": "not redistributed"
+  }
+]

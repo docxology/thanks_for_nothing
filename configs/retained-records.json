@@ -1,0 +1,17 @@
+[
+  {
+    "name": "gaze.json",
+    "sha256": "8e0a9816909cb68c17c2e9426374ee62be60645d0f41968770d52a0b747bda9d",
+    "gzip_sha256": "3c1b5dff473a03ad6dd0a0881d093f4d533bba8c7b1b60ce267ed17cc6d61da6"
+  },
+  {
+    "name": "boundary_gaze.json",
+    "sha256": "982383b0ff6a1920edb5f49773bd50f80ed6213ec2d2eb0ac321b2cbe2c1394e",
+    "gzip_sha256": "4ab59300828ab24ce43aee37e2f2bfd2963997734d4e56185eb46cd909de455e"
+  },
+  {
+    "name": "emptiness_practice.json",
+    "sha256": "b183e103b8ff83dbee55bcaf31494b266ff80d31398a9291a202297cc2408da0",
+    "gzip_sha256": "fa3937e5a27364d64eaae4b20ccb16c96247eaebf24e1a5e4c30f0f8f2bfc7dd"
+  }
+]

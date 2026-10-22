@@ -1,0 +1,2 @@
+# Copyright (c) 2026 Daniel Ari Friedman
+MATRIX_MAX_LEN: int

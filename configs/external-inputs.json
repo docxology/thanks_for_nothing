@@ -1,0 +1,20 @@
+{
+  "schema": "thanks_for_nothing.external_inputs.v1",
+  "inputs": [
+    {
+      "path": "data/sources/gratitude_original.ipynb",
+      "sha256": "1b8a0400ba6c457d1da8ca28a369f60be2f367fb760a794c78ce7125a321ceb6",
+      "url": "https://drive.usercontent.google.com/download?id=1OaYkfpko5RO1JIKgj-Ayb_tNfdTcmt0z&export=download"
+    },
+    {
+      "path": "data/sources/yarbus_original.ipynb",
+      "sha256": "ab9f36b515d1534d24b7e676841fa5cea7c264370f6ee566798c8b1b3de62510",
+      "url": "https://drive.usercontent.google.com/download?id=1D6KJIQgzZhpKOaX4WKgjWl10xG_ZoMdO&export=download"
+    },
+    {
+      "path": "data/scholarship/receipts/v060/desteno2014.pdf",
+      "sha256": "35cf33a876c5ca75a002bec5ec116e1e8f19b88f913190e16d6218aa474a589f",
+      "url": "https://jenniferlerner.com/wp-content/uploads/2017/07/7.Gratitude.pdf"
+    }
+  ]
+}

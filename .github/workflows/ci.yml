@@ -1,0 +1,77 @@
+name: Numerical and package qualification
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  qualify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 180
+    strategy:
+      fail-fast: false
+      matrix:
+        python: ["3.11", "3.14"]
+    env:
+      UV_LINK_MODE: copy
+    steps:
+      - name: Checkout source
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
+        with:
+          persist-credentials: false
+      - name: Prepare temporary directories
+        run: |
+          mkdir -p "$RUNNER_TEMP/uv-cache" "$RUNNER_TEMP/tfn-tmp" "$RUNNER_TEMP/tfn-matplotlib"
+          printf '%s\n' \
+            "UV_CACHE_DIR=$RUNNER_TEMP/uv-cache" \
+            "TMPDIR=$RUNNER_TEMP/tfn-tmp" \
+            "MPLCONFIGDIR=$RUNNER_TEMP/tfn-matplotlib" \
+            "TFN_WHEEL_ENV=$RUNNER_TEMP/tfn-wheel-env" >> "$GITHUB_ENV"
+      - name: Install uv and select Python
+        uses: astral-sh/setup-uv@1c37ad07a6a961277cf70c0d37d6f313000f5884 # v10.3.0
+        with:
+          version: "0.12.0"
+          python-version: ${{ matrix.python }}
+          enable-cache: false
+      - name: Install locked development environment
+        run: uv sync --frozen --extra dev
+      - name: Install real publication-test renderers
+        run: |
+          sudo apt-get update
+          sudo apt-get install --no-install-recommends -y texlive-xetex texlive-latex-recommended texlive-fonts-recommended lmodern poppler-utils
+      - name: Install checksum-pinned Pandoc
+        run: |
+          archive="$RUNNER_TEMP/pandoc-3.12.1-linux-amd64.tar.gz"
+          curl --fail --location --retry 3 https://github.com/jgm/pandoc/releases/download/3.12.1/pandoc-3.12.1-linux-amd64.tar.gz --output "$archive"
+          printf '%s  %s\n' d0c90410e90204c9ca83b8539fac5c7aed01fd537207e4585849f8abc5df20b8 "$archive" > "$archive.sha256"
+          sha256sum --check "$archive.sha256"
+          mkdir -p "$RUNNER_TEMP/tfn-pandoc"
+          tar --extract --gzip --file "$archive" --strip-components=1 --directory "$RUNNER_TEMP/tfn-pandoc"
+          "$RUNNER_TEMP/tfn-pandoc/bin/pandoc" --version
+          printf '%s\n' "$RUNNER_TEMP/tfn-pandoc/bin" >> "$GITHUB_PATH"
+      - name: Strict source checks
+        run: |
+          uv run --no-sync ruff check src tests scripts typings
+          uv run --no-sync basedpyright --pythonversion "${{ matrix.python }}"
+      - name: Acquire omitted original-host inputs for this run only
+        run: uv run --no-sync python scripts/acquire_external_inputs.py
+      - name: Real numerical and integration tests
+        # Canonical JSON is stored compressed to fit GitHub's per-file limit.
+        run: |
+          uv run --no-sync python scripts/restore_records.py
+          uv run --no-sync pytest tests/ --cov=thanks_for_nothing --cov-fail-under=90 --junitxml=ci-tests.xml
+      - name: Build distributions
+        run: uv build
+      - name: Install wheel with locked dependencies in a separate environment
+        run: |
+          uv export --frozen --no-dev --no-emit-project --output-file "$RUNNER_TEMP/tfn-wheel-requirements.txt"
+          uv venv "$TFN_WHEEL_ENV" --python "${{ matrix.python }}"
+          uv pip install --python "$TFN_WHEEL_ENV/bin/python" --requirement "$RUNNER_TEMP/tfn-wheel-requirements.txt"
+          uv pip install --python "$TFN_WHEEL_ENV/bin/python" --no-deps dist/*.whl
+      - name: Qualify installed wheel outside checkout
+        working-directory: ${{ runner.temp }}
+        run: '"$TFN_WHEEL_ENV/bin/python" -I "$GITHUB_WORKSPACE/scripts/qualify_wheel.py" --root "$GITHUB_WORKSPACE"'

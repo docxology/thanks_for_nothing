@@ -1,0 +1,44 @@
+{
+  "schema": "thanks_for_nothing.source_manifest.v1",
+  "retrieved_date": "2026-10-15",
+  "sources": [
+    {
+      "key": "sandvedsmith2026noself",
+      "path": "data/sources/emptiness_preprint_v1.pdf",
+      "sha256": "94e2335c3a4a37b8d49039b11b45ccda25bad65d4b80aa15428b84abfba699ac",
+      "url": "https://osf.io/preprints/psyarxiv/m78z2_v1",
+      "role": "Realizing Emptiness conceptual primary source; full local PDF admitted from pinned sibling project",
+      "license": "CC-BY-4.0",
+      "public_distribution": "included unchanged with THIRD_PARTY.md attribution"
+    },
+    {
+      "key": "fisher2025",
+      "path": "data/sources/gratitude_preprint_v1.docx",
+      "sha256": "f9ba1ed0e3e5ecff219348eccc322a1ee5156d001eba7eff87be91ac01a08e46",
+      "url": "https://osf.io/preprints/psyarxiv/xm25y_v1",
+      "role": "user-specified primary preprint version",
+      "license": "CC-BY-4.0",
+      "locator": "OSF primary file 69041b18f48a0340f9c18239, download ycnpg",
+      "public_distribution": "included unchanged with THIRD_PARTY.md attribution"
+    },
+    {
+      "key": "source_belief_notebook",
+      "path": "data/sources/gratitude_original.ipynb",
+      "sha256": "1b8a0400ba6c457d1da8ca28a369f60be2f367fb760a794c78ce7125a321ceb6",
+      "url": "https://colab.research.google.com/drive/1OaYkfpko5RO1JIKgj-Ayb_tNfdTcmt0z",
+      "role": "user-specified original belief-updating notebook",
+      "license": "not declared in notebook metadata",
+      "public_distribution": "omitted; separately acquire for local research"
+    },
+    {
+      "key": "source_attention_notebook",
+      "path": "data/sources/yarbus_original.ipynb",
+      "sha256": "ab9f36b515d1534d24b7e676841fa5cea7c264370f6ee566798c8b1b3de62510",
+      "url": "https://colab.research.google.com/drive/1D6KJIQgzZhpKOaX4WKgjWl10xG_ZoMdO",
+      "role": "original attention notebook linked by primary preprint",
+      "license": "not declared in notebook metadata",
+      "public_distribution": "omitted; separately acquire for local research"
+    }
+  ],
+  "redistribution_verified_on": "2026-10-20"
+}

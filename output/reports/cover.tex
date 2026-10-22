@@ -1,0 +1,39 @@
+\usepackage{graphicx}
+\setkeys{Gin}{keepaspectratio=true}
+\usepackage{float}
+\usepackage{etoolbox}
+\apptocmd{\tableofcontents}{\clearpage}{}{\PackageError{thanks-for-nothing}{Cannot separate contents from manuscript}{}}
+\floatplacement{figure}{H}
+\AtBeginEnvironment{CSLReferences}{\small\interlinepenalty=10000}
+\setlength{\emergencystretch}{5em}
+\renewcommand{\maketitle}{\begin{titlepage}\thispagestyle{empty}\centering
+\begin{minipage}{0.91\textwidth}\raggedright
+\vspace*{6mm}
+{\sffamily\fontsize{8}{11}\selectfont COMPUTATIONAL MODELS · CONCEPTUAL INQUIRY · REPRODUCIBLE RESEARCH\par}
+\vspace{7mm}
+{\sffamily\bfseries\fontsize{42}{46}\selectfont Thanks for Nothing\par}
+\vspace{4mm}
+{\sffamily\fontsize{17}{22}\selectfont Gratitude, Model Revisability, and the Practice of Realizing Emptiness\par}
+\vspace{5mm}
+{\sffamily\fontsize{10}{14}\selectfont A source-grounded study of gratitude, absence and revisable representations. Synthetic experiments clarify enabling operations; human gratitude and realization require separate evidence.\par}
+\vspace{7mm}
+\includegraphics[width=\linewidth,height=122mm,keepaspectratio]{\detokenize{/Volumes/GitVault/Local/worktrees/tfn-publication-20261022/docs/manuscript/assets/emptiness-cover-v0.3.png}}\par
+\vspace{2mm}
+{\scriptsize Conceptual cover illustration generated with AI; not a scientific result.\par}
+\vspace{7mm}
+{\large\bfseries Daniel Ari Friedman\par}
+Active Inference Institute\par
+\href{https://orcid.org/0000-0001-6232-9096}{ORCID: 0000-0001-6232-9096}\par
+\href{mailto:daniel@activeinference.institute}{daniel@activeinference.institute}\par
+\vspace{4mm}
+Code and reproducibility materials: \url{https://github.com/docxology/thanks_for_nothing}\par
+\vspace{3mm}
+DOI: \href{https://doi.org/10.5281/zenodo.23402517}{10.5281/zenodo.23402517}\par
+\vspace{6mm}
+{\small Research manuscript, version 0.11.0\quad 2026-10-22\par}
+{\small Paper: \href{https://creativecommons.org/licenses/by/4.0/}{CC BY 4.0}; original code: MIT. Third-party rights remain separate.\par}
+\end{minipage}\end{titlepage}
+\thispagestyle{empty}\noindent\includegraphics[width=\textwidth,height=0.96\textheight,keepaspectratio]{\detokenize{/Volumes/GitVault/Local/tmp/tfn-release-20261022/canonical/frontmatter/graphical-abstract-meanings.pdf}}\par{\footnotesize Evidence: \hyperref[sec-absence-model]{Recorded absence}\quad\hyperref[sec-absence-concept]{Missingness}\quad\hyperref[sec-value-interpretation]{Counterfactual value}\quad\hyperref[sec-sufficiency]{Revisability}\par}\clearpage
+\thispagestyle{empty}\noindent\includegraphics[width=\textwidth,height=0.96\textheight,keepaspectratio]{\detokenize{/Volumes/GitVault/Local/tmp/tfn-release-20261022/canonical/frontmatter/graphical-abstract-experiments.pdf}}\par{\footnotesize Evidence: \hyperref[sec-main-recall]{Recall}\quad\hyperref[sec-absence-model]{Absence}\quad\hyperref[sec-gaze-transfer-model]{Transfer}\quad\hyperref[sec-main-practice]{Enacted inquiry}\quad\hyperref[sec-main-gaze]{Scene sampling}\quad\hyperref[sec-main-boundary]{Scene/encoding}\par}\clearpage
+\thispagestyle{empty}\noindent\includegraphics[width=\textwidth,height=0.96\textheight,keepaspectratio]{\detokenize{/Volumes/GitVault/Local/tmp/tfn-release-20261022/canonical/frontmatter/gnn-model-card.pdf}}\par{\footnotesize Evidence: \hyperref[sec-gnn-graphs]{Model inventory}\quad\hyperref[sec-methods]{Methods}\quad\hyperref[sec-main-identification]{Limits}\quad\href{frontmatter/gnn-model-card.html}{Complete cards}\par}\clearpage
+\setcounter{page}{1}}

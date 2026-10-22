@@ -1,0 +1,177 @@
+{
+  "schema": "thanks_for_nothing.validation.v1",
+  "gates": [
+    {
+      "name": "gnn_graphs_source_and_execution",
+      "passed": true,
+      "detail": "Parsed topology, tensor shapes, native renderer products and consumed source identities."
+    },
+    {
+      "name": "learned_parameters_replay",
+      "passed": true,
+      "detail": "Learned matrices replay before assessment, with shared exposure identities."
+    },
+    {
+      "name": "gaze_replication_and_extension_replay",
+      "passed": true,
+      "detail": "Original percentages, transfer, active scene risk and paired controls replay."
+    },
+    {
+      "name": "gaze_joint_uncertainty_replay",
+      "passed": true,
+      "detail": "One paired-block family, exact identities, unavailable constants and coverage replay."
+    },
+    {
+      "name": "boundary_gaze_intersection_replay",
+      "passed": true,
+      "detail": "Joint scene/encoding sampling, exact nulls, anchored target and 84-member family replay."
+    },
+    {
+      "name": "boundary_upstream_integration_replay",
+      "passed": true,
+      "detail": "Pinned QRF equality, normalized alternative and full-covariance controls replay."
+    },
+    {
+      "name": "exact_decision_replay",
+      "passed": true,
+      "detail": "Every count, rational selection probability and conditional predictive loss replays."
+    },
+    {
+      "name": "emptiness_practice_replay",
+      "passed": true,
+      "detail": "Preference/access controls, independent assessment and replicate estimates replay."
+    },
+    {
+      "name": "upstream_practice_integration",
+      "passed": true,
+      "detail": "Real installed APIs, executing source hashes and bounded upstream controls replay."
+    },
+    {
+      "name": "caption_completeness",
+      "passed": true,
+      "detail": "Every scientific figure has task, reading, uncertainty and scope fields."
+    },
+    {
+      "name": "documentation_closure",
+      "passed": true,
+      "detail": "Indexed guides and local Markdown references match the recorded inputs."
+    },
+    {
+      "name": "documentation_facts_replay",
+      "passed": true,
+      "detail": "Current publication quantities and protocol settings replay from their actual producers."
+    },
+    {
+      "name": "publication_metadata_and_formalisms",
+      "passed": true,
+      "detail": "Author, DOI status, cover and ordered equation/figure registries admitted."
+    },
+    {
+      "name": "manuscript_variables_and_supplements",
+      "passed": true,
+      "detail": "IMRAD components, generated values, producer bindings and composed bytes replay exactly."
+    },
+    {
+      "name": "independent_source_and_dependency_pins",
+      "passed": true,
+      "detail": "Live bytes and executing imports admitted."
+    },
+    {
+      "name": "artifact_inventory",
+      "passed": true,
+      "detail": "Every declared artifact hash and byte count checked."
+    },
+    {
+      "name": "gnn_main_model_binding",
+      "passed": true,
+      "detail": "Main study binds current packaged GNN bytes."
+    },
+    {
+      "name": "paired_design",
+      "passed": true,
+      "detail": "Balanced agents, shared exposures and baselines, matched recall dose."
+    },
+    {
+      "name": "statistics_replay",
+      "passed": true,
+      "detail": "All 8 contrasts replay from on-disk agent rows."
+    },
+    {
+      "name": "absence_controls",
+      "passed": true,
+      "detail": "Missingness, invalid-probability, label-invariance and valuation nulls."
+    },
+    {
+      "name": "native_attention",
+      "passed": true,
+      "detail": "Actual native receipt and probability checks."
+    },
+    {
+      "name": "statistical_controls",
+      "passed": true,
+      "detail": "Fixture identities, admitted budgets, rate denominators, exact bounds and controls."
+    },
+    {
+      "name": "sensitivity_admission",
+      "passed": true,
+      "detail": "Every cell has distinct admitted GNN bytes and paired exposures."
+    },
+    {
+      "name": "figure_integrity_and_legibility",
+      "passed": true,
+      "detail": "PNG/SVG/source digests, visible legend entries, semantic colors and placement fonts."
+    },
+    {
+      "name": "main_results_figure_context",
+      "passed": true,
+      "detail": "Situations accompany main results; detailed charts remain supplementary."
+    },
+    {
+      "name": "scholarship_closure",
+      "passed": true,
+      "detail": "Unique source and bibliography keys, citations and evidence ceilings."
+    },
+    {
+      "name": "world_traditions_provenance",
+      "passed": true,
+      "detail": "Qualitative rows, linked source identities and companion exactly replay authored inputs."
+    },
+    {
+      "name": "manuscript_scope",
+      "passed": true,
+      "detail": "Bounded prohibited-claim language check and complete variable hydration."
+    },
+    {
+      "name": "research_input_custody",
+      "passed": true,
+      "detail": "Live inputs and executing package match the original source tree receipt."
+    },
+    {
+      "name": "preserved_specifications",
+      "passed": true,
+      "detail": "Every consumed declaration is preserved and matches any explicit input directory."
+    },
+    {
+      "name": "source_reconstruction_scope",
+      "passed": true,
+      "detail": "Digest-bound source audit controls replay exactly."
+    },
+    {
+      "name": "claim_evidence_ceilings",
+      "passed": true,
+      "detail": "Unique bounded claims bind real artifacts, passed gates and evidence limits."
+    },
+    {
+      "name": "rendered_products_present",
+      "passed": true,
+      "detail": "Required products exist; visual inspection is recorded separately."
+    },
+    {
+      "name": "executed_notebook_present",
+      "passed": true,
+      "detail": "Required products exist; visual inspection is recorded separately."
+    }
+  ],
+  "all_pass": true,
+  "evidence_ceiling": "Finite model validation; no empirical efficacy, attainment or neural claim."
+}

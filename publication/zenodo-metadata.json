@@ -1,0 +1,35 @@
+{
+  "metadata": {
+    "title": "Thanks for Nothing: Gratitude, Model Revisability, and the Practice of Realizing Emptiness",
+    "upload_type": "publication",
+    "publication_type": "preprint",
+    "publication_date": "2026-10-22",
+    "version": "0.11.0",
+    "creators": [
+      {
+        "name": "Friedman, Daniel Ari",
+        "orcid": "0000-0001-6232-9096",
+        "affiliation": "Active Inference Institute"
+      }
+    ],
+    "access_right": "open",
+    "license": "cc-by-4.0",
+    "description": "<p>Gratitude can concern a benefit received, a harm that did not occur,\nor the conditions that make one’s own assumptions examinable. We develop\nthe proposal that appreciating these conditions can orient practice\ntoward realizing emptiness: examining how distinctions arise,\nrelinquishing their assumed intrinsic necessity, and retaining their\nconditional usefulness. The argument distinguishes an observed absence,\na missing observation, counterfactual valuation and non-reification, and\nplaces their differences in dialogue with explicitly situated\nphilosophical and scriptural sources. We reconstruct Fisher, Sandved\nSmith and Hohwy’s gratitude and gaze notebooks, then separate faithful\nreconstruction from corrected experiments and new mechanisms.\nGNN-declared paired recall experiments use 5120 independent agent-world\nunits, matched environmental exposure and replay dose, normalized\nlikelihoods, and independent predictive assessment. Pinned Realizing\nEmptiness interfaces supply structural admission and finite mathematical\ncomparators. An enacted inquiry model separates appreciation, costly\nactivity, access to alternatives and evidence-responsive retention or\nrevision; explicit learning-to-gaze and joint scene/encoding experiments\nexamine transfer and identifiability. Exact count enumeration,\nmathematical nulls, paired controls and joint bootstrap inference make\nthe resulting software claims independently checkable.</p>\n<p>Selective positive recall reduces the declared optimism summary,\nwhile its predictive consequences depend on the world mixture and the\nspecified transfer bridge. Counterfactual absence valuation preserves\ninference by construction. Accessible inquiry can revise a contradicted\nrestriction and retain a useful one; activity without access instead\nincurs costs while preserving rigid forecasts. Exact analysis exposes\nrare adverse selections absent from seeded realizations. The original\ngaze code reproduces the pre-intervention occupancy but contains no\nimplemented after intervention. Our active-scene extension finds a\ncontext-dependent access advantage without an additional\ninquiry-specific predictive advantage. Joint scene/encoding inquiry\ndistinguishes learning an encoding from combining it with scene\nevidence: observationally equivalent labels remain unidentifiable, and\nexcluded hypotheses cannot be recovered. Known-answer fixtures also\nretain skew-related undercoverage and unavailable rare-event estimates\nrather than treating replication size as a remedy for every inferential\nfailure. The contribution is a reproducible account of enabling\noperations and their limits, together with a falsifiable human research\nprogram that separates inquiry value from patience, anticipated good\nnews and instrumental information demand. Synthetic model results\nestablish neither human gratitude nor contemplative realization or\nclinical benefit. Code, declared models and reproducibility materials\nare available at <a\nhref=\"https://github.com/docxology/thanks_for_nothing\">github.com/docxology/thanks_for_nothing</a>.</p>",
+    "keywords": [
+      "gratitude",
+      "emptiness",
+      "active inference",
+      "model revisability",
+      "generalized notation notation",
+      "reproducible research"
+    ],
+    "notes": "Combined manuscript and single-commit code snapshot. Original paper and figures: CC BY 4.0. Original software and computational records: MIT. Third-party works retain their separate terms; see THIRD_PARTY.md. Original unlicensed notebooks and raw scholarly downloads are excluded; exact local acquisition is documented.",
+    "related_identifiers": [
+      {
+        "identifier": "https://github.com/docxology/thanks_for_nothing/releases/tag/v0.11.0",
+        "relation": "hasPart",
+        "scheme": "url"
+      }
+    ]
+  }
+}

@@ -1,0 +1,37 @@
+cff-version: 1.2.0
+message: "Please cite this software when using its computational models or implementation. Cite the original research separately."
+type: software
+title: "Thanks for Nothing: Gratitude, Model Revisability, and the Practice of Realizing Emptiness"
+authors:
+  - family-names: Friedman
+    given-names: Daniel Ari
+    orcid: "https://orcid.org/0000-0001-6232-9096"
+version: 0.11.0
+date-released: "2026-10-22"
+repository-code: "https://github.com/docxology/thanks_for_nothing"
+license: MIT
+abstract: >-
+  A research software package separating source-notebook reconstruction,
+  paired GNN-driven synthetic gratitude-inspired recall experiments, and finite
+  distinctions among observed absence, missing evidence, counterfactual valuation
+  and enacted inquiry toward model revisability. Appreciation for the conditions
+  of inquiry motivates a conceptual orientation toward practicing realization of
+  emptiness. The finite extension separates preference, costly activity, access,
+  exact prior comparison and independent prediction. Computational results do not establish human
+  efficacy, clinical benefit or contemplative attainment.
+keywords:
+  - gratitude
+  - active inference
+  - generalized notation notation
+  - reproducible research
+  - counterfactual valuation
+  - synthetic experiments
+references:
+  - type: generic
+    title: "Thanks for Nothing: combined manuscript and code archive"
+    authors:
+      - family-names: Friedman
+        given-names: Daniel Ari
+    doi: "10.5281/zenodo.23402517"
+    url: "https://doi.org/10.5281/zenodo.23402517"
+    notes: "Combined manuscript and code archive; paper CC BY 4.0, original code MIT. Not a software-only DOI."

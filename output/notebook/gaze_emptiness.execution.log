@@ -1,0 +1,5 @@
+[NbConvertApp] Converting notebook /Volumes/GitVault/Local/worktrees/tfn-publication-20261022/notebooks/gaze_emptiness.ipynb to notebook
+[IPKernelApp] WARNING | Kernel is running over TCP without encryption. All communication (including code and outputs) is sent in plain text and is susceptible to eavesdropping. Use IPC transport or launch with kernel manager-provisioned CurveZMQ keys to enable transport encryption.
+[NbConvertApp] Writing 11508025 bytes to /Volumes/GitVault/Local/tmp/tfn-release-20261022/canonical/notebook/gaze_emptiness.executed.ipynb
+[NbConvertApp] Converting notebook /Volumes/GitVault/Local/tmp/tfn-release-20261022/canonical/notebook/gaze_emptiness.executed.ipynb to html
+[NbConvertApp] Writing 11532581 bytes to /Volumes/GitVault/Local/tmp/tfn-release-20261022/canonical/notebook/gaze_emptiness.html

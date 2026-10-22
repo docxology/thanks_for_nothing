@@ -1,0 +1,577 @@
+{
+  "schema": "thanks_for_nothing.statistical_calibration.v3",
+  "seed": 20268316,
+  "alpha": 0.05,
+  "bootstrap_draws": 1023,
+  "permutation_draws": 1023,
+  "rows": [
+    {
+      "fixture": "symmetric_null",
+      "true_difference": 0.0,
+      "experiments": 4096,
+      "sample_size": 64,
+      "rejections": 190,
+      "rejection_rate": 0.04638671875,
+      "rejection_ci_low": 0.04014931659452193,
+      "rejection_ci_high": 0.053280897106796114,
+      "covered": 3864,
+      "coverage_rate": 0.943359375,
+      "coverage_ci_low": 0.9358361089113504,
+      "coverage_ci_high": 0.9502420996838152,
+      "analytic_t_covered": 3898,
+      "analytic_t_coverage_rate": 0.95166015625,
+      "analytic_t_coverage_ci_low": 0.9446402490935628,
+      "analytic_t_coverage_ci_high": 0.9580264193427201,
+      "strata": 1,
+      "sign_flip_assumption": "satisfied under the zero-mean null",
+      "studentized_available": 4096,
+      "studentized_covered": 3887,
+      "studentized_coverage_rate": 0.948974609375,
+      "studentized_coverage_ci_low": 0.9417865972477893,
+      "studentized_coverage_ci_high": 0.9555132507812576,
+      "rejection_mcse": 0.003286268152111172,
+      "coverage_mcse": 0.0036117911488123184
+    },
+    {
+      "fixture": "one_sd_positive_control",
+      "true_difference": 1.0,
+      "experiments": 4096,
+      "sample_size": 64,
+      "rejections": 4096,
+      "rejection_rate": 1.0,
+      "rejection_ci_low": 0.9990998000877902,
+      "rejection_ci_high": 1.0,
+      "covered": 3860,
+      "coverage_rate": 0.9423828125,
+      "coverage_ci_low": 0.9348033072103071,
+      "coverage_ci_high": 0.949323299256771,
+      "analytic_t_covered": 3893,
+      "analytic_t_coverage_rate": 0.950439453125,
+      "analytic_t_coverage_ci_low": 0.9433424705126843,
+      "analytic_t_coverage_ci_high": 0.9568847386366308,
+      "strata": 1,
+      "sign_flip_assumption": "non-null positive control",
+      "studentized_available": 4096,
+      "studentized_covered": 3881,
+      "studentized_coverage_rate": 0.947509765625,
+      "studentized_coverage_ci_low": 0.940232257089974,
+      "studentized_coverage_ci_high": 0.9541402196495731,
+      "rejection_mcse": 0.0,
+      "coverage_mcse": 0.0036409082241156627
+    },
+    {
+      "fixture": "symmetric_heavy_tail",
+      "true_difference": 0.0,
+      "experiments": 4096,
+      "sample_size": 64,
+      "rejections": 224,
+      "rejection_rate": 0.0546875,
+      "rejection_ci_low": 0.04792208884782208,
+      "rejection_ci_high": 0.06209650893731782,
+      "covered": 3804,
+      "coverage_rate": 0.9287109375,
+      "coverage_ci_low": 0.9203989354337792,
+      "coverage_ci_high": 0.9364049422436832,
+      "analytic_t_covered": 3885,
+      "analytic_t_coverage_rate": 0.948486328125,
+      "analytic_t_coverage_ci_low": 0.9412683165721389,
+      "analytic_t_coverage_ci_high": 0.9550557421232593,
+      "strata": 1,
+      "sign_flip_assumption": "satisfied under the zero-mean null",
+      "studentized_available": 4096,
+      "studentized_covered": 3786,
+      "studentized_coverage_rate": 0.92431640625,
+      "studentized_coverage_ci_low": 0.9157879542973402,
+      "studentized_coverage_ci_high": 0.9322335242926243,
+      "rejection_mcse": 0.003552644582728332,
+      "coverage_mcse": 0.004020423084002801
+    },
+    {
+      "fixture": "centered_exponential",
+      "true_difference": 0.0,
+      "experiments": 4096,
+      "sample_size": 64,
+      "rejections": 231,
+      "rejection_rate": 0.056396484375,
+      "rejection_ci_low": 0.04952829207693783,
+      "rejection_ci_high": 0.06390559933606638,
+      "covered": 3835,
+      "coverage_rate": 0.936279296875,
+      "coverage_ci_low": 0.9283607955478878,
+      "coverage_ci_high": 0.9435682267856453,
+      "analytic_t_covered": 3864,
+      "analytic_t_coverage_rate": 0.943359375,
+      "analytic_t_coverage_ci_low": 0.9358361089113504,
+      "analytic_t_coverage_ci_high": 0.9502420996838152,
+      "strata": 1,
+      "sign_flip_assumption": "violated: zero mean does not imply sign symmetry",
+      "studentized_available": 4096,
+      "studentized_covered": 3896,
+      "studentized_coverage_rate": 0.951171875,
+      "studentized_coverage_ci_low": 0.9441210020369917,
+      "studentized_coverage_ci_high": 0.9575698836246777,
+      "rejection_mcse": 0.0036044650358429543,
+      "coverage_mcse": 0.003816480219928485
+    },
+    {
+      "fixture": "heterogeneous_gaussian",
+      "true_difference": 0.0,
+      "experiments": 4096,
+      "sample_size": 64,
+      "rejections": 191,
+      "rejection_rate": 0.046630859375,
+      "rejection_ci_low": 0.04037718156063243,
+      "rejection_ci_high": 0.05354092067073358,
+      "covered": 3869,
+      "coverage_rate": 0.944580078125,
+      "coverage_ci_low": 0.9371279396959391,
+      "coverage_ci_high": 0.9513897666278522,
+      "analytic_t_covered": 3895,
+      "analytic_t_coverage_rate": 0.950927734375,
+      "analytic_t_coverage_ci_low": 0.9438614466399666,
+      "analytic_t_coverage_ci_high": 0.9573415471607766,
+      "strata": 5,
+      "sign_flip_assumption": "satisfied separately within 5 zero-mean strata",
+      "studentized_available": 4096,
+      "studentized_covered": 3891,
+      "studentized_coverage_rate": 0.949951171875,
+      "studentized_coverage_ci_low": 0.9428236718592107,
+      "studentized_coverage_ci_high": 0.9564277514254248,
+      "rejection_mcse": 0.003294483075180924,
+      "coverage_mcse": 0.003574969751509956
+    },
+    {
+      "fixture": "centered_bernoulli",
+      "true_difference": 0.0,
+      "experiments": 4096,
+      "sample_size": 64,
+      "rejections": 232,
+      "rejection_rate": 0.056640625,
+      "rejection_ci_low": 0.04975790031618474,
+      "rejection_ci_high": 0.0641638910886496,
+      "covered": 3837,
+      "coverage_rate": 0.936767578125,
+      "coverage_ci_low": 0.9288754429991697,
+      "coverage_ci_high": 0.9440293901719375,
+      "analytic_t_covered": 3895,
+      "analytic_t_coverage_rate": 0.950927734375,
+      "analytic_t_coverage_ci_low": 0.9438614466399666,
+      "analytic_t_coverage_ci_high": 0.9573415471607766,
+      "strata": 1,
+      "sign_flip_assumption": "violated: centered Bernoulli 0.1 is asymmetric",
+      "studentized_available": 1576,
+      "studentized_covered": 1495,
+      "studentized_coverage_rate": 0.364990234375,
+      "studentized_coverage_ci_low": 0.35022538863755864,
+      "studentized_coverage_ci_high": 0.3799479001481592,
+      "rejection_mcse": 0.0036117911488123184,
+      "coverage_mcse": 0.0038028207913852704
+    }
+  ],
+  "controls": {
+    "exact_null_retained": true,
+    "positive_control_detected": true,
+    "seeded_control_replays": true,
+    "exhaustive_sign_oracle": true,
+    "constant_studentization_unavailable": true
+  },
+  "evidence_ceiling": "Synthetic operating characteristics, with skew/discreteness stressors and explicit studentized availability; neither empirical power nor validation of human gratitude.",
+  "discrete_availability": {
+    "sample_size": 64,
+    "probability": 0.1,
+    "draws": 1023,
+    "counts": [
+      {
+        "successes": 0,
+        "sample_probability": 0.0011790184577738665,
+        "constant_resample_probability": 1.0,
+        "interval_available_probability": 0.0
+      },
+      {
+        "successes": 1,
+        "sample_probability": 0.008384131255280765,
+        "constant_resample_probability": 0.36498652424390743,
+        "interval_available_probability": 1.7658316766947877e-202
+      },
+      {
+        "successes": 2,
+        "sample_probability": 0.029344459393482687,
+        "constant_resample_probability": 0.13108403247847505,
+        "interval_available_probability": 3.752035576025905e-63
+      },
+      {
+        "successes": 3,
+        "sample_probability": 0.0673835734220714,
+        "constant_resample_probability": 0.046301078337838045,
+        "interval_available_probability": 8.664655270466672e-22
+      },
+      {
+        "successes": 4,
+        "sample_probability": 0.11417772163184309,
+        "constant_resample_probability": 0.01607539635095263,
+        "interval_available_probability": 6.308736416585016e-8
+      },
+      {
+        "successes": 5,
+        "sample_probability": 0.15223696217579089,
+        "constant_resample_probability": 0.00548290107390481,
+        "interval_available_probability": 0.003608579571470028
+      },
+      {
+        "successes": 6,
+        "sample_probability": 0.16633297719206774,
+        "constant_resample_probability": 0.001836002435888319,
+        "interval_available_probability": 0.15259669425941622
+      },
+      {
+        "successes": 7,
+        "sample_probability": 0.1531319472561892,
+        "constant_resample_probability": 0.0006032154105470148,
+        "interval_available_probability": 0.539412033878093
+      },
+      {
+        "successes": 8,
+        "sample_probability": 0.12122945824448327,
+        "constant_resample_probability": 0.00019431905663716255,
+        "interval_available_probability": 0.8197074983992373
+      },
+      {
+        "successes": 9,
+        "sample_probability": 0.08381295878630934,
+        "constant_resample_probability": 0.0000613329413460483,
+        "interval_available_probability": 0.9391824434241371
+      },
+      {
+        "successes": 10,
+        "sample_probability": 0.05121903036941128,
+        "constant_resample_probability": 0.000018953189013803683,
+        "interval_available_probability": 0.980797467277537
+      },
+      {
+        "successes": 11,
+        "sample_probability": 0.027937652928769822,
+        "constant_resample_probability": 5.729771718794295e-6,
+        "interval_available_probability": 0.9941555722432329
+      },
+      {
+        "successes": 12,
+        "sample_probability": 0.013710144492822228,
+        "constant_resample_probability": 1.6931508682682886e-6,
+        "interval_available_probability": 0.9982694044059017
+      },
+      {
+        "successes": 13,
+        "sample_probability": 0.006093397552365427,
+        "constant_resample_probability": 4.886219080744073e-7,
+        "interval_available_probability": 0.9995002645752821
+      },
+      {
+        "successes": 14,
+        "sample_probability": 0.0024663751997669662,
+        "constant_resample_probability": 1.37582102682974e-7,
+        "interval_available_probability": 0.9998592634035973
+      },
+      {
+        "successes": 15,
+        "sample_probability": 0.0009134722962099854,
+        "constant_resample_probability": 3.775989577235679e-8,
+        "interval_available_probability": 0.9999613723719616
+      },
+      {
+        "successes": 16,
+        "sample_probability": 0.0003108343230158993,
+        "constant_resample_probability": 1.0090689833159348e-8,
+        "interval_available_probability": 0.9999896772775283
+      },
+      {
+        "successes": 17,
+        "sample_probability": 0.00009751665035792872,
+        "constant_resample_probability": 2.6226755824698302e-9,
+        "interval_available_probability": 0.9999973170064749
+      },
+      {
+        "successes": 18,
+        "sample_probability": 0.000028291867696436055,
+        "constant_resample_probability": 6.621904187627309e-10,
+        "interval_available_probability": 0.9999993225794308
+      },
+      {
+        "successes": 19,
+        "sample_probability": 7.610677859860005e-6,
+        "constant_resample_probability": 1.622118385225646e-10,
+        "interval_available_probability": 0.999999834057303
+      },
+      {
+        "successes": 20,
+        "sample_probability": 1.9026694649650022e-6,
+        "constant_resample_probability": 3.8499311255964926e-11,
+        "interval_available_probability": 0.9999999606152054
+      },
+      {
+        "successes": 21,
+        "sample_probability": 4.4294950507121576e-7,
+        "constant_resample_probability": 8.840214891060098e-12,
+        "interval_available_probability": 0.9999999909564602
+      },
+      {
+        "successes": 22,
+        "sample_probability": 9.619610463667788e-8,
+        "constant_resample_probability": 1.9608133291977315e-12,
+        "interval_available_probability": 0.999999997994088
+      },
+      {
+        "successes": 23,
+        "sample_probability": 1.951805021613767e-8,
+        "constant_resample_probability": 4.194193811313206e-13,
+        "interval_available_probability": 0.999999999570934
+      },
+      {
+        "successes": 24,
+        "sample_probability": 3.704815087322427e-9,
+        "constant_resample_probability": 8.636168555094499e-14,
+        "interval_available_probability": 0.999999999911652
+      },
+      {
+        "successes": 25,
+        "sample_probability": 6.586337933017633e-10,
+        "constant_resample_probability": 1.7085060252447202e-14,
+        "interval_available_probability": 0.999999999982522
+      },
+      {
+        "successes": 26,
+        "sample_probability": 1.0977229888362755e-10,
+        "constant_resample_probability": 3.240647911212062e-15,
+        "interval_available_probability": 0.9999999999966848
+      },
+      {
+        "successes": 27,
+        "sample_probability": 1.716603850855083e-11,
+        "constant_resample_probability": 5.880198758842096e-16,
+        "interval_available_probability": 0.9999999999993985
+      },
+      {
+        "successes": 28,
+        "sample_probability": 2.5204104159380114e-12,
+        "constant_resample_probability": 1.0182203184308259e-16,
+        "interval_available_probability": 0.9999999999998959
+      },
+      {
+        "successes": 29,
+        "sample_probability": 3.476428159914487e-13,
+        "constant_resample_probability": 1.6781820795746278e-17,
+        "interval_available_probability": 0.9999999999999828
+      },
+      {
+        "successes": 30,
+        "sample_probability": 4.5064809480373205e-14,
+        "constant_resample_probability": 2.625889871991496e-18,
+        "interval_available_probability": 0.9999999999999973
+      },
+      {
+        "successes": 31,
+        "sample_probability": 5.491768897249775e-15,
+        "constant_resample_probability": 3.955906883137687e-19,
+        "interval_available_probability": 0.9999999999999996
+      },
+      {
+        "successes": 32,
+        "sample_probability": 6.292651861432009e-16,
+        "constant_resample_probability": 1.0842021724855044e-19,
+        "interval_available_probability": 0.9999999999999999
+      },
+      {
+        "successes": 33,
+        "sample_probability": 6.779961601542917e-17,
+        "constant_resample_probability": 3.955906883137687e-19,
+        "interval_available_probability": 0.9999999999999996
+      },
+      {
+        "successes": 34,
+        "sample_probability": 6.868588550582699e-18,
+        "constant_resample_probability": 2.625889871991496e-18,
+        "interval_available_probability": 0.9999999999999973
+      },
+      {
+        "successes": 35,
+        "sample_probability": 6.541512905316876e-19,
+        "constant_resample_probability": 1.6781820795746278e-17,
+        "interval_available_probability": 0.9999999999999828
+      },
+      {
+        "successes": 36,
+        "sample_probability": 5.855057847351518e-20,
+        "constant_resample_probability": 1.0182203184308259e-16,
+        "interval_available_probability": 0.9999999999998959
+      },
+      {
+        "successes": 37,
+        "sample_probability": 4.923171763538824e-21,
+        "constant_resample_probability": 5.880198758842096e-16,
+        "interval_available_probability": 0.9999999999993985
+      },
+      {
+        "successes": 38,
+        "sample_probability": 3.8867145501622197e-22,
+        "constant_resample_probability": 3.240647911212062e-15,
+        "interval_available_probability": 0.9999999999966848
+      },
+      {
+        "successes": 39,
+        "sample_probability": 2.8790478149349865e-23,
+        "constant_resample_probability": 1.7085060252447202e-14,
+        "interval_available_probability": 0.999999999982522
+      },
+      {
+        "successes": 40,
+        "sample_probability": 1.999338760371512e-24,
+        "constant_resample_probability": 8.636168555094499e-14,
+        "interval_available_probability": 0.999999999911652
+      },
+      {
+        "successes": 41,
+        "sample_probability": 1.3003829335749712e-25,
+        "constant_resample_probability": 4.194193811313206e-13,
+        "interval_available_probability": 0.999999999570934
+      },
+      {
+        "successes": 42,
+        "sample_probability": 7.912382929159864e-27,
+        "constant_resample_probability": 1.9608133291977315e-12,
+        "interval_available_probability": 0.999999997994088
+      },
+      {
+        "successes": 43,
+        "sample_probability": 4.49799546360509e-28,
+        "constant_resample_probability": 8.840214891060098e-12,
+        "interval_available_probability": 0.9999999909564602
+      },
+      {
+        "successes": 44,
+        "sample_probability": 2.3853006246390535e-29,
+        "constant_resample_probability": 3.8499311255964926e-11,
+        "interval_available_probability": 0.9999999606152054
+      },
+      {
+        "successes": 45,
+        "sample_probability": 1.17792623438966e-30,
+        "constant_resample_probability": 1.622118385225646e-10,
+        "interval_available_probability": 0.999999834057303
+      },
+      {
+        "successes": 46,
+        "sample_probability": 5.405941655411508e-32,
+        "constant_resample_probability": 6.621904187627309e-10,
+        "interval_available_probability": 0.9999993225794308
+      },
+      {
+        "successes": 47,
+        "sample_probability": 2.3004007044304126e-33,
+        "constant_resample_probability": 2.6226755824698302e-9,
+        "interval_available_probability": 0.9999973170064749
+      },
+      {
+        "successes": 48,
+        "sample_probability": 9.052502772064146e-35,
+        "constant_resample_probability": 1.0090689833159348e-8,
+        "interval_available_probability": 0.9999896772775283
+      },
+      {
+        "successes": 49,
+        "sample_probability": 3.28435474723417e-36,
+        "constant_resample_probability": 3.775989577235679e-8,
+        "interval_available_probability": 0.9999613723719616
+      },
+      {
+        "successes": 50,
+        "sample_probability": 1.0947849157447218e-37,
+        "constant_resample_probability": 1.37582102682974e-7,
+        "interval_available_probability": 0.9998592634035973
+      },
+      {
+        "successes": 51,
+        "sample_probability": 3.3392132506374814e-39,
+        "constant_resample_probability": 4.886219080744073e-7,
+        "interval_available_probability": 0.9995002645752821
+      },
+      {
+        "successes": 52,
+        "sample_probability": 9.275592362881899e-41,
+        "constant_resample_probability": 1.6931508682682886e-6,
+        "interval_available_probability": 0.9982694044059017
+      },
+      {
+        "successes": 53,
+        "sample_probability": 2.3334823554419905e-42,
+        "constant_resample_probability": 5.729771718794295e-6,
+        "interval_available_probability": 0.9941555722432329
+      },
+      {
+        "successes": 54,
+        "sample_probability": 5.28154442589751e-44,
+        "constant_resample_probability": 0.000018953189013803683,
+        "interval_available_probability": 0.980797467277537
+      },
+      {
+        "successes": 55,
+        "sample_probability": 1.0669786718984868e-45,
+        "constant_resample_probability": 0.0000613329413460483,
+        "interval_available_probability": 0.9391824434241371
+      },
+      {
+        "successes": 56,
+        "sample_probability": 1.905319056961581e-47,
+        "constant_resample_probability": 0.00019431905663716255,
+        "interval_available_probability": 0.8197074983992373
+      },
+      {
+        "successes": 57,
+        "sample_probability": 2.9712577886340546e-49,
+        "constant_resample_probability": 0.0006032154105470148,
+        "interval_available_probability": 0.539412033878093
+      },
+      {
+        "successes": 58,
+        "sample_probability": 3.9844453104288026e-51,
+        "constant_resample_probability": 0.001836002435888319,
+        "interval_available_probability": 0.15259669425941622
+      },
+      {
+        "successes": 59,
+        "sample_probability": 4.5021980908800045e-53,
+        "constant_resample_probability": 0.00548290107390481,
+        "interval_available_probability": 0.003608579571470028
+      },
+      {
+        "successes": 60,
+        "sample_probability": 4.1687019360000195e-55,
+        "constant_resample_probability": 0.01607539635095263,
+        "interval_available_probability": 6.308736416585016e-8
+      },
+      {
+        "successes": 61,
+        "sample_probability": 3.037305599999994e-57,
+        "constant_resample_probability": 0.046301078337838045,
+        "interval_available_probability": 8.664655270466672e-22
+      },
+      {
+        "successes": 62,
+        "sample_probability": 1.6329600000000089e-59,
+        "constant_resample_probability": 0.13108403247847505,
+        "interval_available_probability": 3.752035576025905e-63
+      },
+      {
+        "successes": 63,
+        "sample_probability": 5.7600000000000165e-62,
+        "constant_resample_probability": 0.36498652424390743,
+        "interval_available_probability": 1.7658316766947877e-202
+      },
+      {
+        "successes": 64,
+        "sample_probability": 1.0000000000000035e-64,
+        "constant_resample_probability": 1.0,
+        "interval_available_probability": 0.0
+      }
+    ],
+    "exact_availability": 0.38823361915152754
+  }
+}

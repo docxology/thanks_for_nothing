@@ -1,0 +1,24 @@
+{
+  "schema": "thanks_for_nothing.upstream_practice.v1",
+  "protocol_ids": [
+    "attentional_opacification",
+    "dependent_origination_inquiry",
+    "compassion_alignment"
+  ],
+  "protocol_map_sha256": "aad2b4a5c73b5b10d303dd6716203f65104f24a8844888d6e8e5ffceeb116488",
+  "upstream_revision_sha256": "67c0ce297f6849fbe6cf382484a7501ae9509fc2cc5e5901f981577ff00ac84c",
+  "module_sha256": {
+    "formalism.models": "312a932c5b13773d87d44a04923757799866679d2cac3dbdc2a1992d82280b66",
+    "practice.protocols": "7e6600d612988e675a87043580db57b0a54486583fe2c7196de22406c876f714",
+    "simulation.emergence": "22cb93647a69de24f20e31d161d224f59c38295fda8d0c20b2db08ac0d734f8b"
+  },
+  "revision_controls": {
+    "post_dual_outperforms_after_regime_change": true,
+    "revision_gain_concentrated_at_regime_change": true,
+    "stationary_stream_shows_no_revision_jump": true,
+    "nonstationary_jump_exceeds_stationary": true
+  },
+  "all_controls_pass": true,
+  "practice_deltas_enacted_upstream": false,
+  "revision_assessment_held_out": false
+}

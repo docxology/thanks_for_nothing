@@ -1,0 +1,245 @@
+{
+  "schema": "thanks_for_nothing.illustrations.v1",
+  "entries": [
+    {
+      "number": 1,
+      "label": "fig-concept",
+      "image_path": "../../tmp/tfn-release-20261022/canonical/figures/concept_map.png",
+      "caption_sha256": "f3392e32fcb51f48f684e75724d85e56b8d3c05dfa07224f49412e5292cbe6d2"
+    },
+    {
+      "number": 2,
+      "label": "fig-world-traditions",
+      "image_path": "../../tmp/tfn-release-20261022/canonical/figures/world_traditions.png",
+      "caption_sha256": "2d4a1acb7baec9706a7e94694dda3a6471329602d70ffbcfd3d428cada0d7f51"
+    },
+    {
+      "number": 3,
+      "label": "fig-experiment-overview",
+      "image_path": "../../tmp/tfn-release-20261022/canonical/figures/experiment_overview.png",
+      "caption_sha256": "b1b9d8894714d0686a5a1bab6961b5e31c22272cb91b472754048c4b043a1b91"
+    },
+    {
+      "number": 4,
+      "label": "fig-recall-situation",
+      "image_path": "../../tmp/tfn-release-20261022/canonical/figures/recall_situation.png",
+      "caption_sha256": "9ecda0fdc424b8c6c13ee86b2ece2a48ba1bc665f8a3d396c265b66fa47dd2bf"
+    },
+    {
+      "number": 5,
+      "label": "fig-practice-situation",
+      "image_path": "../../tmp/tfn-release-20261022/canonical/figures/practice_situation.png",
+      "caption_sha256": "c7d1533bdc52ce646c63d52b0c7bb66f1b9727c8ed8abe76c740a2f9d0f6a7f5"
+    },
+    {
+      "number": 6,
+      "label": "fig-gaze-situation",
+      "image_path": "../../tmp/tfn-release-20261022/canonical/figures/gaze_situation.png",
+      "caption_sha256": "0644a20418613f0c66b72952eab6fe7c96d44bba0639071b9c669bdf4432deef"
+    },
+    {
+      "number": 7,
+      "label": "fig-boundary-situation",
+      "image_path": "../../tmp/tfn-release-20261022/canonical/figures/boundary_situation.png",
+      "caption_sha256": "6850e075a7a39af914b4bb48dc51023feb334a7e17f4dd5fb9a3d5c7453205a5"
+    },
+    {
+      "number": 8,
+      "label": "fig-gnn-model-graph",
+      "image_path": "../../tmp/tfn-release-20261022/canonical/figures/gnn_model_graph.png",
+      "caption_sha256": "4c30dec954af8fc0664cf0825cdbfca04196b31a58fc56c99851469a23365f67"
+    },
+    {
+      "number": 9,
+      "label": "fig-gnn-model-tensors",
+      "image_path": "../../tmp/tfn-release-20261022/canonical/figures/gnn_model_tensors.png",
+      "caption_sha256": "4bf5ae98acef7a579c6d2729b998541e7f0dd8d1ab05839f3f15b4f4e690a095"
+    },
+    {
+      "number": 10,
+      "label": "fig-concept-operations",
+      "image_path": "../../tmp/tfn-release-20261022/canonical/figures/concept_operations.png",
+      "caption_sha256": "a5ef44c872d1077179360b3e7f1ac119e2a22628a96736804d04abec1ed91015"
+    },
+    {
+      "number": 11,
+      "label": "fig-task-settings",
+      "image_path": "../../tmp/tfn-release-20261022/canonical/figures/task_settings.png",
+      "caption_sha256": "ea69c3e5b2420da931b13162c5c599ced59b174dde0a1596a6c38bf808b7ffd2"
+    },
+    {
+      "number": 12,
+      "label": "fig-boundary-task",
+      "image_path": "../../tmp/tfn-release-20261022/canonical/figures/boundary_task.png",
+      "caption_sha256": "069270ea3ab5fa8f16c9ae908b39560406a50560c9ac15138f4ed731d1161754"
+    },
+    {
+      "number": 13,
+      "label": "fig-practice-mechanism",
+      "image_path": "../../tmp/tfn-release-20261022/canonical/figures/practice_mechanism.png",
+      "caption_sha256": "f0eb118b18a05fb1d4279323e599c7f13d47bceb96b8552de28c689105cf283e"
+    },
+    {
+      "number": 14,
+      "label": "fig-sampling-precision",
+      "image_path": "../../tmp/tfn-release-20261022/canonical/figures/sampling_precision.png",
+      "caption_sha256": "9d97d93b9f327e13021375ebbd73c7d9fc1ffea717dd5e99c5fb1e01baf145d9"
+    },
+    {
+      "number": 15,
+      "label": "fig-exact-decision",
+      "image_path": "../../tmp/tfn-release-20261022/canonical/figures/exact_decision.png",
+      "caption_sha256": "b5acc99962635b2a98394dfd7d3db1734e57fce775345879ad9528569ffe3e64"
+    },
+    {
+      "number": 16,
+      "label": "fig-practice-revision",
+      "image_path": "../../tmp/tfn-release-20261022/canonical/figures/practice_revision.png",
+      "caption_sha256": "4c1617a61c8050486969d8361a3286124738e586a947fb72d1de7250582636a3"
+    },
+    {
+      "number": 17,
+      "label": "fig-practice-policies",
+      "image_path": "../../tmp/tfn-release-20261022/canonical/figures/practice_policies.png",
+      "caption_sha256": "d95c495e20020b7110922b0a0890c3ab12621497b5a6bc8d7d0996b1d31a310c"
+    },
+    {
+      "number": 18,
+      "label": "fig-contrasts",
+      "image_path": "../../tmp/tfn-release-20261022/canonical/figures/paired_contrasts.png",
+      "caption_sha256": "b21d3d8885afd3880295c8db3ff000977db3f6eb088958d0e89267637170123a"
+    },
+    {
+      "number": 19,
+      "label": "fig-trajectories",
+      "image_path": "../../tmp/tfn-release-20261022/canonical/figures/learning_trajectories.png",
+      "caption_sha256": "96f6099184e50c75c405f90a6c1069b8f727e10b821e5352fc920b91164e9c90"
+    },
+    {
+      "number": 20,
+      "label": "fig-calibration",
+      "image_path": "../../tmp/tfn-release-20261022/canonical/figures/calibration_by_world.png",
+      "caption_sha256": "afa6ea1266b403ccdb531e9354e696d6f3d11e3f542ee7448222e80032c88a13"
+    },
+    {
+      "number": 21,
+      "label": "fig-paired-spread",
+      "image_path": "../../tmp/tfn-release-20261022/canonical/figures/paired_spread.png",
+      "caption_sha256": "0fc2ebca3975d716128787e1d42fff85561c59bfdaf675f26e7790232d836660"
+    },
+    {
+      "number": 22,
+      "label": "fig-weighting",
+      "image_path": "../../tmp/tfn-release-20261022/canonical/figures/weighting_sensitivity.png",
+      "caption_sha256": "a0632f6e5691b037678e9326e9c5dacd7fb0139c83666021e101996d26c8aa88"
+    },
+    {
+      "number": 23,
+      "label": "fig-absence-information",
+      "image_path": "../../tmp/tfn-release-20261022/canonical/figures/absence_information.png",
+      "caption_sha256": "031e0b65105547d840510cda9bc9ed7b03634d0e1a08692edc0389de8ac567cf"
+    },
+    {
+      "number": 24,
+      "label": "fig-appreciation",
+      "image_path": "../../tmp/tfn-release-20261022/canonical/figures/appreciation_null.png",
+      "caption_sha256": "dff949061417154336758ef25003f113a3e0033a97ad501fc9d32e7d2f8dcda4"
+    },
+    {
+      "number": 25,
+      "label": "fig-yarbus-reconstruction",
+      "image_path": "../../tmp/tfn-release-20261022/canonical/figures/yarbus_reconstruction.png",
+      "caption_sha256": "004e4bba82032c91e17758cae39b09607e879de57185d2ca27d0479c5ae9c88a"
+    },
+    {
+      "number": 26,
+      "label": "fig-gaze-transfer-paths",
+      "image_path": "../../tmp/tfn-release-20261022/canonical/figures/gaze_transfer_paths.png",
+      "caption_sha256": "f943fc2e4e6b4dde6805f93b010a155deb3379ec1a5dc66096ad68c4a3bfae1b"
+    },
+    {
+      "number": 27,
+      "label": "fig-gaze-transfer-summary",
+      "image_path": "../../tmp/tfn-release-20261022/canonical/figures/gaze_transfer_summary.png",
+      "caption_sha256": "82914cd55c308fd84adf0965ba28b972dd266bc91964368576dfd685b82c414f"
+    },
+    {
+      "number": 28,
+      "label": "fig-gaze-inquiry-paths",
+      "image_path": "../../tmp/tfn-release-20261022/canonical/figures/gaze_inquiry_paths.png",
+      "caption_sha256": "45453bef0a0c90cfe3cb382345902c48f8f5946f6b98759dccb6d672c3f802ab"
+    },
+    {
+      "number": 29,
+      "label": "fig-gaze-inquiry-summary",
+      "image_path": "../../tmp/tfn-release-20261022/canonical/figures/gaze_inquiry_summary.png",
+      "caption_sha256": "b65aaa9fce6dc15994fd9b432d0c540468fe3c8f8f3ce1814323cefed9591b3b"
+    },
+    {
+      "number": 30,
+      "label": "fig-gaze-joint",
+      "image_path": "../../tmp/tfn-release-20261022/canonical/figures/gaze_joint_uncertainty.png",
+      "caption_sha256": "949d9f86d1386c5141d1731ff081e6bb97f1f2c55a4c87e5cb4c4cab0cdc1d3d"
+    },
+    {
+      "number": 31,
+      "label": "fig-joint-coverage",
+      "image_path": "../../tmp/tfn-release-20261022/canonical/figures/joint_coverage.png",
+      "caption_sha256": "1a29e2021833000b45737f04e16f44bac3e14b0bc1b719f2828bbc461af39a16"
+    },
+    {
+      "number": 32,
+      "label": "fig-boundary-outcomes",
+      "image_path": "../../tmp/tfn-release-20261022/canonical/figures/boundary_gaze_outcomes.png",
+      "caption_sha256": "e3f225adcb55d32ed0260d3d483a2a41bfcdbae4724181e25c6c8fa911a02565"
+    },
+    {
+      "number": 33,
+      "label": "fig-boundary-information",
+      "image_path": "../../tmp/tfn-release-20261022/canonical/figures/boundary_information.png",
+      "caption_sha256": "bca2a336f8deccb789f578f4d9b029d63086ae64fe30d4d68bbac8b9efa29586"
+    },
+    {
+      "number": 34,
+      "label": "fig-boundary-paths",
+      "image_path": "../../tmp/tfn-release-20261022/canonical/figures/boundary_gaze_paths.png",
+      "caption_sha256": "78ff037035d1a5a000394426fa33dbde5394c6db3b0654fee0d310bf1e51668c"
+    },
+    {
+      "number": 35,
+      "label": "fig-boundary-allocation",
+      "image_path": "../../tmp/tfn-release-20261022/canonical/figures/boundary_gaze_allocation.png",
+      "caption_sha256": "f308ec66987cce11bc732cf63618fa7c2fae5a5506ae21592066cb114a1c98c3"
+    },
+    {
+      "number": 36,
+      "label": "fig-boundary-convergence",
+      "image_path": "../../tmp/tfn-release-20261022/canonical/figures/boundary_gaze_convergence.png",
+      "caption_sha256": "e70a22180e9c77fe12b4b5f8b4639af2f3e26328593c39e949c5c79d3d6d91bd"
+    },
+    {
+      "number": 37,
+      "label": "fig-boundary-structure",
+      "image_path": "../../tmp/tfn-release-20261022/canonical/figures/boundary_structure.png",
+      "caption_sha256": "07ec51f0cff6b09b3809d0a742b0f090a35b00eaa252a1d18226929159c21b50"
+    },
+    {
+      "number": 38,
+      "label": "fig-attention",
+      "image_path": "../../tmp/tfn-release-20261022/canonical/figures/attention_policies.png",
+      "caption_sha256": "38ec17ded9ca983ca14b9e6882e5b3e8633d4beffc02af0138efb58e61fd40f0"
+    },
+    {
+      "number": 39,
+      "label": "fig-sensitivity",
+      "image_path": "../../tmp/tfn-release-20261022/canonical/figures/sensitivity.png",
+      "caption_sha256": "b4b74113b314d9ce0ef9a840aa432d35b9c3961da3afda56a1b7b4c023017651"
+    },
+    {
+      "number": 40,
+      "label": "fig-statistical-calibration",
+      "image_path": "../../tmp/tfn-release-20261022/canonical/figures/statistical_calibration.png",
+      "caption_sha256": "c7455496ba3ffe8757c6667f95b5b534b090b2e159a4f2dbc32faa59da595c91"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "schema": "thanks_for_nothing.provenance.v1",
+  "sources": [
+    {
+      "key": "sandvedsmith2026noself",
+      "path": "data/sources/emptiness_preprint_v1.pdf",
+      "sha256": "94e2335c3a4a37b8d49039b11b45ccda25bad65d4b80aa15428b84abfba699ac",
+      "bytes": 534361
+    },
+    {
+      "key": "fisher2025",
+      "path": "data/sources/gratitude_preprint_v1.docx",
+      "sha256": "f9ba1ed0e3e5ecff219348eccc322a1ee5156d001eba7eff87be91ac01a08e46",
+      "bytes": 1140258
+    },
+    {
+      "key": "source_belief_notebook",
+      "path": "data/sources/gratitude_original.ipynb",
+      "sha256": "1b8a0400ba6c457d1da8ca28a369f60be2f367fb760a794c78ce7125a321ceb6",
+      "bytes": 685496
+    },
+    {
+      "key": "source_attention_notebook",
+      "path": "data/sources/yarbus_original.ipynb",
+      "sha256": "ab9f36b515d1534d24b7e676841fa5cea7c264370f6ee566798c8b1b3de62510",
+      "bytes": 308472
+    }
+  ],
+  "dependencies": [
+    {
+      "distribution": "generalized-notation-notation",
+      "version": "4.1.0",
+      "repository": "https://github.com/ActiveInferenceInstitute/Generalized_Notation_Notation",
+      "commit": "46459949944e3217f8a6a804d4ff8c52829ef275",
+      "module": "gnn.parsers.markdown_parser",
+      "module_sha256": "24a30ea7e67d597e891fe16e521e13be5f2013af90eeb282cfe257940b281e82"
+    },
+    {
+      "distribution": "realizing-emptiness",
+      "version": "3.0.0",
+      "repository": "https://github.com/docxology/realizing_emptiness",
+      "commit": "bd91fa1c230551180ed741d1951840e3628da35d",
+      "module": "modeling.registry",
+      "module_sha256": "77bc40113fb2aa2fdbc6365d386bd9d3c863c3f7ce9ab190fdba04dac707d990"
+    }
+  ],
+  "template_repository": "https://github.com/docxology/template_code_project",
+  "template_commit": "04040a1e8eda0b31ce61db888cd1b3598f1696ca",
+  "controls": {
+    "original_sources_unchanged": true,
+    "source_manifest_matches_independent_pins": true,
+    "executing_dependencies_match_pins": true
+  }
+}

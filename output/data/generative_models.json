@@ -1,0 +1,1044 @@
+{
+  "schema": "thanks_for_nothing.generative_models.v1",
+  "source_tree_sha256": "f71abc47a28ce38ed9047c0260af76b778b4c1c83ef011a833a5f796f1c81825",
+  "models": [
+    {
+      "model_id": "attention_process_233c0a933d51ca4f",
+      "family": "attention_process",
+      "source_path": "specifications/instances/attention_process_233c0a933d51ca4f.gnn.md",
+      "source_sha256": "ca90f1daf1527b1201728c7049fdb62304d44da6b5ea3e159e4fde47ed6999ec",
+      "origins": [
+        [
+          "attention_negative",
+          "2b5411da4364e54ac7b244fbf2687a6d9e70005a6095b94c6d08f7ddd625f129"
+        ],
+        [
+          "attention_positive",
+          "1d47aaeea25350be79ff83cd96ba12d68b437b78fce03d95acd62ffde994b059"
+        ]
+      ],
+      "consumer": "thanks_for_nothing.attention:_fixed_process",
+      "meaning": "Fixed process A; agent A is separate. B,D retain location/action semantics.",
+      "uses": 3,
+      "evidence_artifact": "data/attention.json",
+      "evidence_sha256": "f6af70311dff79668cba64ce0ceba90a036b8135ca782320de46c6f8d78426f9"
+    },
+    {
+      "model_id": "boundary_diagnostic_f8503e51a2cb8485",
+      "family": "boundary_diagnostic",
+      "source_path": "specifications/instances/boundary_diagnostic_f8503e51a2cb8485.gnn.md",
+      "source_sha256": "e378857ea924d63729e1ccb74b99cf00ff2ac85222c35cc8c933d2bed0e0ccb8",
+      "origins": [
+        [
+          "boundary_gaze",
+          "4d0b48141d3b6738b215cda42546a6b2c2f467e2bb7327132819a9727775a453"
+        ],
+        [
+          "gaze",
+          "2a370a81850d838c4ab2449218548e0f5f8bbb1940add20a022aa0e01eec6735"
+        ]
+      ],
+      "consumer": "thanks_for_nothing.boundary_sampling:run_boundary_episode",
+      "meaning": "diagnostic: all spatial/probe queries; q-major/Z-major/H-minor basis.",
+      "uses": 1,
+      "evidence_artifact": "data/boundary_gaze.json",
+      "evidence_sha256": "982383b0ff6a1920edb5f49773bd50f80ed6213ec2d2eb0ac321b2cbe2c1394e"
+    },
+    {
+      "model_id": "boundary_diagnostic_restricted_c9cc422f3b149d84",
+      "family": "boundary_diagnostic_restricted",
+      "source_path": "specifications/instances/boundary_diagnostic_restricted_c9cc422f3b149d84.gnn.md",
+      "source_sha256": "693d25ef8aaa2119eb265f82bfb34cfc8bbc8f8ec5e12d1e9db442ef62d9be3a",
+      "origins": [
+        [
+          "boundary_gaze",
+          "4d0b48141d3b6738b215cda42546a6b2c2f467e2bb7327132819a9727775a453"
+        ],
+        [
+          "gaze",
+          "2a370a81850d838c4ab2449218548e0f5f8bbb1940add20a022aa0e01eec6735"
+        ]
+      ],
+      "consumer": "thanks_for_nothing.boundary_sampling:run_boundary_episode",
+      "meaning": "diagnostic: full query law with excluded-H support; q-major/Z-major/H-minor.",
+      "uses": 1,
+      "evidence_artifact": "data/boundary_gaze.json",
+      "evidence_sha256": "982383b0ff6a1920edb5f49773bd50f80ed6213ec2d2eb0ac321b2cbe2c1394e"
+    },
+    {
+      "model_id": "boundary_label_only_cbbb7fb13c21bf01",
+      "family": "boundary_label_only",
+      "source_path": "specifications/instances/boundary_label_only_cbbb7fb13c21bf01.gnn.md",
+      "source_sha256": "b191272df60891cc01b4759857d82ef8c3a34617f2ab3399dd19f8636047a9f7",
+      "origins": [
+        [
+          "boundary_gaze",
+          "4d0b48141d3b6738b215cda42546a6b2c2f467e2bb7327132819a9727775a453"
+        ],
+        [
+          "gaze",
+          "2a370a81850d838c4ab2449218548e0f5f8bbb1940add20a022aa0e01eec6735"
+        ]
+      ],
+      "consumer": "thanks_for_nothing.boundary_sampling:run_boundary_episode",
+      "meaning": "label_only: all spatial/probe queries; q-major/Z-major/H-minor basis.",
+      "uses": 1,
+      "evidence_artifact": "data/boundary_gaze.json",
+      "evidence_sha256": "982383b0ff6a1920edb5f49773bd50f80ed6213ec2d2eb0ac321b2cbe2c1394e"
+    },
+    {
+      "model_id": "boundary_label_only_restricted_e07f92eecf66b427",
+      "family": "boundary_label_only_restricted",
+      "source_path": "specifications/instances/boundary_label_only_restricted_e07f92eecf66b427.gnn.md",
+      "source_sha256": "0955c7b2819a2c7b54ed6a189a470c51ea1192376931c9b2d361857399a9faf4",
+      "origins": [
+        [
+          "boundary_gaze",
+          "4d0b48141d3b6738b215cda42546a6b2c2f467e2bb7327132819a9727775a453"
+        ],
+        [
+          "gaze",
+          "2a370a81850d838c4ab2449218548e0f5f8bbb1940add20a022aa0e01eec6735"
+        ]
+      ],
+      "consumer": "thanks_for_nothing.boundary_sampling:run_boundary_episode",
+      "meaning": "label_only: full query law with excluded-H support; q-major/Z-major/H-minor.",
+      "uses": 1,
+      "evidence_artifact": "data/boundary_gaze.json",
+      "evidence_sha256": "982383b0ff6a1920edb5f49773bd50f80ed6213ec2d2eb0ac321b2cbe2c1394e"
+    },
+    {
+      "model_id": "optimism_poor_2f9fc0b093064cd3",
+      "family": "optimism_poor",
+      "source_path": "specifications/instances/optimism_poor_2f9fc0b093064cd3.gnn.md",
+      "source_sha256": "e04358f14783c69aeabafa74ba4ec500c154938eafe6849d525f9a3c1853204a",
+      "origins": [
+        [
+          "gratitude",
+          "0180a0e11c1c6a4728ac3050f2e84a62a33666f95bca46e973f21a49195133af"
+        ],
+        [
+          "gratitude",
+          "06e72a6f85a3780fe01a91be18e61b4209b46699d7ef0bee2fcd34cc5c1b8445"
+        ],
+        [
+          "gratitude",
+          "09cf741a9f9e74b5d89ccbfeb89abe53f37211d5efc1ae8ee297b3f462592181"
+        ],
+        [
+          "gratitude",
+          "249ebf7dff9830431c57cde90d1aef40d0e84707a1e18e58fd4e6774332431e3"
+        ],
+        [
+          "gratitude",
+          "263ee6e1ea81b26b4596d7f5ed4e265bf5612316cc18233eb6126401fa72d215"
+        ],
+        [
+          "gratitude",
+          "266c25931674fcda50fdc9e5e13f66c3b539e7cf04648ac7e0b4bb31d34c9900"
+        ],
+        [
+          "gratitude",
+          "2fd45852e985908f4e2f7e29db314b0e4a175ef5f9f45805e79d3bea2aaf9b47"
+        ],
+        [
+          "gratitude",
+          "33b226bcfbdab0de9fe5f993e1235a1b736c8ed4390c16bbae18d85568b23c6b"
+        ],
+        [
+          "gratitude",
+          "3e50577f2869097d44e820ae7c86706fdbbedd5090157f862f6bb45c634440de"
+        ],
+        [
+          "gratitude",
+          "455f4f6fe0542fdf871d4385597ababf6c27500d823b140ca9465f3b08859bd6"
+        ],
+        [
+          "gratitude",
+          "53bd1c4daada9265fd0435fbc49fe29a8ab786091772a9d0faf9ab3aa0cea24e"
+        ],
+        [
+          "gratitude",
+          "559a022e0eb14800e035cfe7c52e32d8d1c5fd568798e0f09c91fa62da8d988f"
+        ],
+        [
+          "gratitude",
+          "5c48c332665c8df152bed3869c0263394666cb291aa4c7878a863f52f7abfda9"
+        ],
+        [
+          "gratitude",
+          "618a5579cb26a9470141d9f1fe96fb48d8d9b24b59895ce2f0448a7fdc619c12"
+        ],
+        [
+          "gratitude",
+          "696efeda6c16d447130011e7aa91bae9a2828dcd349d22abbfa0e89a89ad050b"
+        ],
+        [
+          "gratitude",
+          "7a8be20edd8b76e6cea1f044595367037510b8f3e0f2f356a5c68c92b6af8000"
+        ],
+        [
+          "gratitude",
+          "83d30fe787fdd458bafa9a4b28e32897751b1b02c8ca0b75dfefb43ce27c6cb7"
+        ],
+        [
+          "gratitude",
+          "91b0060bc5853a67c03973fa9667704fcf9cbae5206c429ff5674f1b4d7542d5"
+        ],
+        [
+          "gratitude",
+          "9e41a2c077848dae1efdee67a9fd3f06380142177a5128d101b93e8cd2f6ec0d"
+        ],
+        [
+          "gratitude",
+          "a2945f6a2d859f2a24c5cbd73316d0098beee0ce1996f993f3449896b6f05d84"
+        ],
+        [
+          "gratitude",
+          "ac158cb7de037aac5b87c7fa55533203ec673c2258973ed3be17211dd07a1c55"
+        ],
+        [
+          "gratitude",
+          "c6ec2363ba994c3fbf387782b661fc622ae18269c1bab263446118e24b965281"
+        ],
+        [
+          "gratitude",
+          "d1bab62e93c4cc96949aebbd6ce42378fa4e974857447e3fc9823963af77bfe4"
+        ],
+        [
+          "gratitude",
+          "da0f4f6c6635ca83acf29b231b146f166673001bc485b00cb3eaaf39acee1453"
+        ],
+        [
+          "gratitude",
+          "e85616cc06621e854547aa50d148152c564c9196195c7ab1fdab72ce3ccd3d8e"
+        ],
+        [
+          "gratitude",
+          "edae9391a2577919ff14adae69aa0f7a33404effac542dbbfe7d943a5de91ea7"
+        ]
+      ],
+      "consumer": "thanks_for_nothing.inference:optimism",
+      "meaning": "News A for poor mode. Trial priors enter from the assessment design.",
+      "uses": 26,
+      "evidence_artifact": "data/study.json",
+      "evidence_sha256": "f56b7c4eec0fcd43f752905ba1b83680fe0d192514318ad6982f6665b69d3591"
+    },
+    {
+      "model_id": "optimism_well_bb201b521bc166b4",
+      "family": "optimism_well",
+      "source_path": "specifications/instances/optimism_well_bb201b521bc166b4.gnn.md",
+      "source_sha256": "8a42c680601e0b6fce1d86dc66d441a6319ad285b8d769d8415777475cbd1173",
+      "origins": [
+        [
+          "gratitude",
+          "0180a0e11c1c6a4728ac3050f2e84a62a33666f95bca46e973f21a49195133af"
+        ],
+        [
+          "gratitude",
+          "06e72a6f85a3780fe01a91be18e61b4209b46699d7ef0bee2fcd34cc5c1b8445"
+        ],
+        [
+          "gratitude",
+          "09cf741a9f9e74b5d89ccbfeb89abe53f37211d5efc1ae8ee297b3f462592181"
+        ],
+        [
+          "gratitude",
+          "249ebf7dff9830431c57cde90d1aef40d0e84707a1e18e58fd4e6774332431e3"
+        ],
+        [
+          "gratitude",
+          "263ee6e1ea81b26b4596d7f5ed4e265bf5612316cc18233eb6126401fa72d215"
+        ],
+        [
+          "gratitude",
+          "266c25931674fcda50fdc9e5e13f66c3b539e7cf04648ac7e0b4bb31d34c9900"
+        ],
+        [
+          "gratitude",
+          "2fd45852e985908f4e2f7e29db314b0e4a175ef5f9f45805e79d3bea2aaf9b47"
+        ],
+        [
+          "gratitude",
+          "33b226bcfbdab0de9fe5f993e1235a1b736c8ed4390c16bbae18d85568b23c6b"
+        ],
+        [
+          "gratitude",
+          "3e50577f2869097d44e820ae7c86706fdbbedd5090157f862f6bb45c634440de"
+        ],
+        [
+          "gratitude",
+          "455f4f6fe0542fdf871d4385597ababf6c27500d823b140ca9465f3b08859bd6"
+        ],
+        [
+          "gratitude",
+          "53bd1c4daada9265fd0435fbc49fe29a8ab786091772a9d0faf9ab3aa0cea24e"
+        ],
+        [
+          "gratitude",
+          "559a022e0eb14800e035cfe7c52e32d8d1c5fd568798e0f09c91fa62da8d988f"
+        ],
+        [
+          "gratitude",
+          "5c48c332665c8df152bed3869c0263394666cb291aa4c7878a863f52f7abfda9"
+        ],
+        [
+          "gratitude",
+          "618a5579cb26a9470141d9f1fe96fb48d8d9b24b59895ce2f0448a7fdc619c12"
+        ],
+        [
+          "gratitude",
+          "696efeda6c16d447130011e7aa91bae9a2828dcd349d22abbfa0e89a89ad050b"
+        ],
+        [
+          "gratitude",
+          "7a8be20edd8b76e6cea1f044595367037510b8f3e0f2f356a5c68c92b6af8000"
+        ],
+        [
+          "gratitude",
+          "83d30fe787fdd458bafa9a4b28e32897751b1b02c8ca0b75dfefb43ce27c6cb7"
+        ],
+        [
+          "gratitude",
+          "91b0060bc5853a67c03973fa9667704fcf9cbae5206c429ff5674f1b4d7542d5"
+        ],
+        [
+          "gratitude",
+          "9e41a2c077848dae1efdee67a9fd3f06380142177a5128d101b93e8cd2f6ec0d"
+        ],
+        [
+          "gratitude",
+          "a2945f6a2d859f2a24c5cbd73316d0098beee0ce1996f993f3449896b6f05d84"
+        ],
+        [
+          "gratitude",
+          "ac158cb7de037aac5b87c7fa55533203ec673c2258973ed3be17211dd07a1c55"
+        ],
+        [
+          "gratitude",
+          "c6ec2363ba994c3fbf387782b661fc622ae18269c1bab263446118e24b965281"
+        ],
+        [
+          "gratitude",
+          "d1bab62e93c4cc96949aebbd6ce42378fa4e974857447e3fc9823963af77bfe4"
+        ],
+        [
+          "gratitude",
+          "da0f4f6c6635ca83acf29b231b146f166673001bc485b00cb3eaaf39acee1453"
+        ],
+        [
+          "gratitude",
+          "e85616cc06621e854547aa50d148152c564c9196195c7ab1fdab72ce3ccd3d8e"
+        ],
+        [
+          "gratitude",
+          "edae9391a2577919ff14adae69aa0f7a33404effac542dbbfe7d943a5de91ea7"
+        ]
+      ],
+      "consumer": "thanks_for_nothing.inference:optimism",
+      "meaning": "News A for well mode. Trial priors enter from the assessment design.",
+      "uses": 26,
+      "evidence_artifact": "data/study.json",
+      "evidence_sha256": "f56b7c4eec0fcd43f752905ba1b83680fe0d192514318ad6982f6665b69d3591"
+    },
+    {
+      "model_id": "practice_process_0cd69c4ef119605b",
+      "family": "practice_process",
+      "source_path": "specifications/instances/practice_process_0cd69c4ef119605b.gnn.md",
+      "source_sha256": "19540095c996568cfee83787b41ab8f07ad0368fc1b760ea63d4c77cfbe2abde",
+      "origins": [
+        [
+          "emptiness_practice",
+          "e2732857240f1d79bec2f88e484149f6116687c1115dd9da467b7e26a6644ea2"
+        ]
+      ],
+      "consumer": "thanks_for_nothing.emptiness_practice:_rows",
+      "meaning": "Exogenous stationary Bernoulli schedule; known stage, absorbing last stage.",
+      "uses": 1,
+      "evidence_artifact": "data/emptiness_practice.json",
+      "evidence_sha256": "b183e103b8ff83dbee55bcaf31494b266ff80d31398a9291a202297cc2408da0"
+    },
+    {
+      "model_id": "practice_process_41508c8466d32151",
+      "family": "practice_process",
+      "source_path": "specifications/instances/practice_process_41508c8466d32151.gnn.md",
+      "source_sha256": "ce8992217a29933df3efeb07ac6fd72662fae2b329f1bf28c09a33a1b16e3458",
+      "origins": [
+        [
+          "emptiness_practice",
+          "e2732857240f1d79bec2f88e484149f6116687c1115dd9da467b7e26a6644ea2"
+        ]
+      ],
+      "consumer": "thanks_for_nothing.emptiness_practice:_rows",
+      "meaning": "Exogenous reversal Bernoulli schedule; known stage, absorbing last stage.",
+      "uses": 1,
+      "evidence_artifact": "data/emptiness_practice.json",
+      "evidence_sha256": "b183e103b8ff83dbee55bcaf31494b266ff80d31398a9291a202297cc2408da0"
+    },
+    {
+      "model_id": "practice_restricted_e529d768e246b008",
+      "family": "practice_restricted",
+      "source_path": "specifications/instances/practice_restricted_e529d768e246b008.gnn.md",
+      "source_sha256": "2bb7e88b48c27990c43a959a3983364a6c7e1d8a50264f6558742e5537d99698",
+      "origins": [
+        [
+          "emptiness_practice",
+          "e2732857240f1d79bec2f88e484149f6116687c1115dd9da467b7e26a6644ea2"
+        ]
+      ],
+      "consumer": "thanks_for_nothing.practice_inference:compare_priors",
+      "meaning": "Finite deployment A with restricted D admitted by Realizing Emptiness.",
+      "uses": 6,
+      "evidence_artifact": "data/emptiness_practice.json",
+      "evidence_sha256": "b183e103b8ff83dbee55bcaf31494b266ff80d31398a9291a202297cc2408da0"
+    },
+    {
+      "model_id": "recall_world_189b239810b732bf",
+      "family": "recall_world",
+      "source_path": "specifications/instances/recall_world_189b239810b732bf.gnn.md",
+      "source_sha256": "506e087947355c9e4907d2bd0939a458fdab23c1106f610be086a795aa94ff25",
+      "origins": [
+        [
+          "gratitude",
+          "0180a0e11c1c6a4728ac3050f2e84a62a33666f95bca46e973f21a49195133af"
+        ],
+        [
+          "gratitude",
+          "06e72a6f85a3780fe01a91be18e61b4209b46699d7ef0bee2fcd34cc5c1b8445"
+        ],
+        [
+          "gratitude",
+          "09cf741a9f9e74b5d89ccbfeb89abe53f37211d5efc1ae8ee297b3f462592181"
+        ],
+        [
+          "gratitude",
+          "249ebf7dff9830431c57cde90d1aef40d0e84707a1e18e58fd4e6774332431e3"
+        ],
+        [
+          "gratitude",
+          "263ee6e1ea81b26b4596d7f5ed4e265bf5612316cc18233eb6126401fa72d215"
+        ],
+        [
+          "gratitude",
+          "266c25931674fcda50fdc9e5e13f66c3b539e7cf04648ac7e0b4bb31d34c9900"
+        ],
+        [
+          "gratitude",
+          "2fd45852e985908f4e2f7e29db314b0e4a175ef5f9f45805e79d3bea2aaf9b47"
+        ],
+        [
+          "gratitude",
+          "33b226bcfbdab0de9fe5f993e1235a1b736c8ed4390c16bbae18d85568b23c6b"
+        ],
+        [
+          "gratitude",
+          "3e50577f2869097d44e820ae7c86706fdbbedd5090157f862f6bb45c634440de"
+        ],
+        [
+          "gratitude",
+          "455f4f6fe0542fdf871d4385597ababf6c27500d823b140ca9465f3b08859bd6"
+        ],
+        [
+          "gratitude",
+          "53bd1c4daada9265fd0435fbc49fe29a8ab786091772a9d0faf9ab3aa0cea24e"
+        ],
+        [
+          "gratitude",
+          "559a022e0eb14800e035cfe7c52e32d8d1c5fd568798e0f09c91fa62da8d988f"
+        ],
+        [
+          "gratitude",
+          "5c48c332665c8df152bed3869c0263394666cb291aa4c7878a863f52f7abfda9"
+        ],
+        [
+          "gratitude",
+          "618a5579cb26a9470141d9f1fe96fb48d8d9b24b59895ce2f0448a7fdc619c12"
+        ],
+        [
+          "gratitude",
+          "696efeda6c16d447130011e7aa91bae9a2828dcd349d22abbfa0e89a89ad050b"
+        ],
+        [
+          "gratitude",
+          "7a8be20edd8b76e6cea1f044595367037510b8f3e0f2f356a5c68c92b6af8000"
+        ],
+        [
+          "gratitude",
+          "83d30fe787fdd458bafa9a4b28e32897751b1b02c8ca0b75dfefb43ce27c6cb7"
+        ],
+        [
+          "gratitude",
+          "91b0060bc5853a67c03973fa9667704fcf9cbae5206c429ff5674f1b4d7542d5"
+        ],
+        [
+          "gratitude",
+          "9e41a2c077848dae1efdee67a9fd3f06380142177a5128d101b93e8cd2f6ec0d"
+        ],
+        [
+          "gratitude",
+          "a2945f6a2d859f2a24c5cbd73316d0098beee0ce1996f993f3449896b6f05d84"
+        ],
+        [
+          "gratitude",
+          "ac158cb7de037aac5b87c7fa55533203ec673c2258973ed3be17211dd07a1c55"
+        ],
+        [
+          "gratitude",
+          "c6ec2363ba994c3fbf387782b661fc622ae18269c1bab263446118e24b965281"
+        ],
+        [
+          "gratitude",
+          "d1bab62e93c4cc96949aebbd6ce42378fa4e974857447e3fc9823963af77bfe4"
+        ],
+        [
+          "gratitude",
+          "da0f4f6c6635ca83acf29b231b146f166673001bc485b00cb3eaaf39acee1453"
+        ],
+        [
+          "gratitude",
+          "e85616cc06621e854547aa50d148152c564c9196195c7ab1fdab72ce3ccd3d8e"
+        ],
+        [
+          "gratitude",
+          "edae9391a2577919ff14adae69aa0f7a33404effac542dbbfe7d943a5de91ea7"
+        ]
+      ],
+      "consumer": "thanks_for_nothing.experiments:sample_world",
+      "meaning": "IID exogenous states: every B column equals D. Paired conditions share A.",
+      "uses": 26,
+      "evidence_artifact": "data/study.json",
+      "evidence_sha256": "f56b7c4eec0fcd43f752905ba1b83680fe0d192514318ad6982f6665b69d3591"
+    },
+    {
+      "model_id": "recall_world_37dd7b195ef8e401",
+      "family": "recall_world",
+      "source_path": "specifications/instances/recall_world_37dd7b195ef8e401.gnn.md",
+      "source_sha256": "b7374593d31547acbf8c7eda893dcf0cfda59370769f402d5b3f0ad4e9ccf326",
+      "origins": [
+        [
+          "gratitude",
+          "0180a0e11c1c6a4728ac3050f2e84a62a33666f95bca46e973f21a49195133af"
+        ],
+        [
+          "gratitude",
+          "06e72a6f85a3780fe01a91be18e61b4209b46699d7ef0bee2fcd34cc5c1b8445"
+        ],
+        [
+          "gratitude",
+          "09cf741a9f9e74b5d89ccbfeb89abe53f37211d5efc1ae8ee297b3f462592181"
+        ],
+        [
+          "gratitude",
+          "249ebf7dff9830431c57cde90d1aef40d0e84707a1e18e58fd4e6774332431e3"
+        ],
+        [
+          "gratitude",
+          "263ee6e1ea81b26b4596d7f5ed4e265bf5612316cc18233eb6126401fa72d215"
+        ],
+        [
+          "gratitude",
+          "266c25931674fcda50fdc9e5e13f66c3b539e7cf04648ac7e0b4bb31d34c9900"
+        ],
+        [
+          "gratitude",
+          "2fd45852e985908f4e2f7e29db314b0e4a175ef5f9f45805e79d3bea2aaf9b47"
+        ],
+        [
+          "gratitude",
+          "33b226bcfbdab0de9fe5f993e1235a1b736c8ed4390c16bbae18d85568b23c6b"
+        ],
+        [
+          "gratitude",
+          "3e50577f2869097d44e820ae7c86706fdbbedd5090157f862f6bb45c634440de"
+        ],
+        [
+          "gratitude",
+          "455f4f6fe0542fdf871d4385597ababf6c27500d823b140ca9465f3b08859bd6"
+        ],
+        [
+          "gratitude",
+          "53bd1c4daada9265fd0435fbc49fe29a8ab786091772a9d0faf9ab3aa0cea24e"
+        ],
+        [
+          "gratitude",
+          "559a022e0eb14800e035cfe7c52e32d8d1c5fd568798e0f09c91fa62da8d988f"
+        ],
+        [
+          "gratitude",
+          "5c48c332665c8df152bed3869c0263394666cb291aa4c7878a863f52f7abfda9"
+        ],
+        [
+          "gratitude",
+          "618a5579cb26a9470141d9f1fe96fb48d8d9b24b59895ce2f0448a7fdc619c12"
+        ],
+        [
+          "gratitude",
+          "696efeda6c16d447130011e7aa91bae9a2828dcd349d22abbfa0e89a89ad050b"
+        ],
+        [
+          "gratitude",
+          "7a8be20edd8b76e6cea1f044595367037510b8f3e0f2f356a5c68c92b6af8000"
+        ],
+        [
+          "gratitude",
+          "83d30fe787fdd458bafa9a4b28e32897751b1b02c8ca0b75dfefb43ce27c6cb7"
+        ],
+        [
+          "gratitude",
+          "91b0060bc5853a67c03973fa9667704fcf9cbae5206c429ff5674f1b4d7542d5"
+        ],
+        [
+          "gratitude",
+          "9e41a2c077848dae1efdee67a9fd3f06380142177a5128d101b93e8cd2f6ec0d"
+        ],
+        [
+          "gratitude",
+          "a2945f6a2d859f2a24c5cbd73316d0098beee0ce1996f993f3449896b6f05d84"
+        ],
+        [
+          "gratitude",
+          "ac158cb7de037aac5b87c7fa55533203ec673c2258973ed3be17211dd07a1c55"
+        ],
+        [
+          "gratitude",
+          "c6ec2363ba994c3fbf387782b661fc622ae18269c1bab263446118e24b965281"
+        ],
+        [
+          "gratitude",
+          "d1bab62e93c4cc96949aebbd6ce42378fa4e974857447e3fc9823963af77bfe4"
+        ],
+        [
+          "gratitude",
+          "da0f4f6c6635ca83acf29b231b146f166673001bc485b00cb3eaaf39acee1453"
+        ],
+        [
+          "gratitude",
+          "e85616cc06621e854547aa50d148152c564c9196195c7ab1fdab72ce3ccd3d8e"
+        ],
+        [
+          "gratitude",
+          "edae9391a2577919ff14adae69aa0f7a33404effac542dbbfe7d943a5de91ea7"
+        ]
+      ],
+      "consumer": "thanks_for_nothing.experiments:sample_world",
+      "meaning": "IID exogenous states: every B column equals D. Paired conditions share A.",
+      "uses": 26,
+      "evidence_artifact": "data/study.json",
+      "evidence_sha256": "f56b7c4eec0fcd43f752905ba1b83680fe0d192514318ad6982f6665b69d3591"
+    },
+    {
+      "model_id": "recall_world_578c1c4dcfb36f10",
+      "family": "recall_world",
+      "source_path": "specifications/instances/recall_world_578c1c4dcfb36f10.gnn.md",
+      "source_sha256": "0cb1027d57945f7a88384d899405a5e325ab900ff0b3ffa16c0775f5819b73fd",
+      "origins": [
+        [
+          "gratitude",
+          "0180a0e11c1c6a4728ac3050f2e84a62a33666f95bca46e973f21a49195133af"
+        ],
+        [
+          "gratitude",
+          "06e72a6f85a3780fe01a91be18e61b4209b46699d7ef0bee2fcd34cc5c1b8445"
+        ],
+        [
+          "gratitude",
+          "09cf741a9f9e74b5d89ccbfeb89abe53f37211d5efc1ae8ee297b3f462592181"
+        ],
+        [
+          "gratitude",
+          "249ebf7dff9830431c57cde90d1aef40d0e84707a1e18e58fd4e6774332431e3"
+        ],
+        [
+          "gratitude",
+          "263ee6e1ea81b26b4596d7f5ed4e265bf5612316cc18233eb6126401fa72d215"
+        ],
+        [
+          "gratitude",
+          "266c25931674fcda50fdc9e5e13f66c3b539e7cf04648ac7e0b4bb31d34c9900"
+        ],
+        [
+          "gratitude",
+          "2fd45852e985908f4e2f7e29db314b0e4a175ef5f9f45805e79d3bea2aaf9b47"
+        ],
+        [
+          "gratitude",
+          "33b226bcfbdab0de9fe5f993e1235a1b736c8ed4390c16bbae18d85568b23c6b"
+        ],
+        [
+          "gratitude",
+          "3e50577f2869097d44e820ae7c86706fdbbedd5090157f862f6bb45c634440de"
+        ],
+        [
+          "gratitude",
+          "455f4f6fe0542fdf871d4385597ababf6c27500d823b140ca9465f3b08859bd6"
+        ],
+        [
+          "gratitude",
+          "53bd1c4daada9265fd0435fbc49fe29a8ab786091772a9d0faf9ab3aa0cea24e"
+        ],
+        [
+          "gratitude",
+          "559a022e0eb14800e035cfe7c52e32d8d1c5fd568798e0f09c91fa62da8d988f"
+        ],
+        [
+          "gratitude",
+          "5c48c332665c8df152bed3869c0263394666cb291aa4c7878a863f52f7abfda9"
+        ],
+        [
+          "gratitude",
+          "618a5579cb26a9470141d9f1fe96fb48d8d9b24b59895ce2f0448a7fdc619c12"
+        ],
+        [
+          "gratitude",
+          "696efeda6c16d447130011e7aa91bae9a2828dcd349d22abbfa0e89a89ad050b"
+        ],
+        [
+          "gratitude",
+          "7a8be20edd8b76e6cea1f044595367037510b8f3e0f2f356a5c68c92b6af8000"
+        ],
+        [
+          "gratitude",
+          "83d30fe787fdd458bafa9a4b28e32897751b1b02c8ca0b75dfefb43ce27c6cb7"
+        ],
+        [
+          "gratitude",
+          "91b0060bc5853a67c03973fa9667704fcf9cbae5206c429ff5674f1b4d7542d5"
+        ],
+        [
+          "gratitude",
+          "9e41a2c077848dae1efdee67a9fd3f06380142177a5128d101b93e8cd2f6ec0d"
+        ],
+        [
+          "gratitude",
+          "a2945f6a2d859f2a24c5cbd73316d0098beee0ce1996f993f3449896b6f05d84"
+        ],
+        [
+          "gratitude",
+          "ac158cb7de037aac5b87c7fa55533203ec673c2258973ed3be17211dd07a1c55"
+        ],
+        [
+          "gratitude",
+          "c6ec2363ba994c3fbf387782b661fc622ae18269c1bab263446118e24b965281"
+        ],
+        [
+          "gratitude",
+          "d1bab62e93c4cc96949aebbd6ce42378fa4e974857447e3fc9823963af77bfe4"
+        ],
+        [
+          "gratitude",
+          "da0f4f6c6635ca83acf29b231b146f166673001bc485b00cb3eaaf39acee1453"
+        ],
+        [
+          "gratitude",
+          "e85616cc06621e854547aa50d148152c564c9196195c7ab1fdab72ce3ccd3d8e"
+        ],
+        [
+          "gratitude",
+          "edae9391a2577919ff14adae69aa0f7a33404effac542dbbfe7d943a5de91ea7"
+        ]
+      ],
+      "consumer": "thanks_for_nothing.experiments:sample_world",
+      "meaning": "IID exogenous states: every B column equals D. Paired conditions share A.",
+      "uses": 26,
+      "evidence_artifact": "data/study.json",
+      "evidence_sha256": "f56b7c4eec0fcd43f752905ba1b83680fe0d192514318ad6982f6665b69d3591"
+    },
+    {
+      "model_id": "recall_world_89075b452438b95a",
+      "family": "recall_world",
+      "source_path": "specifications/instances/recall_world_89075b452438b95a.gnn.md",
+      "source_sha256": "3c239d331de69895b189c452ebcbd306963f75fae718bff009ac8f4afabbda16",
+      "origins": [
+        [
+          "gratitude",
+          "0180a0e11c1c6a4728ac3050f2e84a62a33666f95bca46e973f21a49195133af"
+        ],
+        [
+          "gratitude",
+          "06e72a6f85a3780fe01a91be18e61b4209b46699d7ef0bee2fcd34cc5c1b8445"
+        ],
+        [
+          "gratitude",
+          "09cf741a9f9e74b5d89ccbfeb89abe53f37211d5efc1ae8ee297b3f462592181"
+        ],
+        [
+          "gratitude",
+          "249ebf7dff9830431c57cde90d1aef40d0e84707a1e18e58fd4e6774332431e3"
+        ],
+        [
+          "gratitude",
+          "263ee6e1ea81b26b4596d7f5ed4e265bf5612316cc18233eb6126401fa72d215"
+        ],
+        [
+          "gratitude",
+          "266c25931674fcda50fdc9e5e13f66c3b539e7cf04648ac7e0b4bb31d34c9900"
+        ],
+        [
+          "gratitude",
+          "2fd45852e985908f4e2f7e29db314b0e4a175ef5f9f45805e79d3bea2aaf9b47"
+        ],
+        [
+          "gratitude",
+          "33b226bcfbdab0de9fe5f993e1235a1b736c8ed4390c16bbae18d85568b23c6b"
+        ],
+        [
+          "gratitude",
+          "3e50577f2869097d44e820ae7c86706fdbbedd5090157f862f6bb45c634440de"
+        ],
+        [
+          "gratitude",
+          "455f4f6fe0542fdf871d4385597ababf6c27500d823b140ca9465f3b08859bd6"
+        ],
+        [
+          "gratitude",
+          "53bd1c4daada9265fd0435fbc49fe29a8ab786091772a9d0faf9ab3aa0cea24e"
+        ],
+        [
+          "gratitude",
+          "559a022e0eb14800e035cfe7c52e32d8d1c5fd568798e0f09c91fa62da8d988f"
+        ],
+        [
+          "gratitude",
+          "5c48c332665c8df152bed3869c0263394666cb291aa4c7878a863f52f7abfda9"
+        ],
+        [
+          "gratitude",
+          "618a5579cb26a9470141d9f1fe96fb48d8d9b24b59895ce2f0448a7fdc619c12"
+        ],
+        [
+          "gratitude",
+          "696efeda6c16d447130011e7aa91bae9a2828dcd349d22abbfa0e89a89ad050b"
+        ],
+        [
+          "gratitude",
+          "7a8be20edd8b76e6cea1f044595367037510b8f3e0f2f356a5c68c92b6af8000"
+        ],
+        [
+          "gratitude",
+          "83d30fe787fdd458bafa9a4b28e32897751b1b02c8ca0b75dfefb43ce27c6cb7"
+        ],
+        [
+          "gratitude",
+          "91b0060bc5853a67c03973fa9667704fcf9cbae5206c429ff5674f1b4d7542d5"
+        ],
+        [
+          "gratitude",
+          "9e41a2c077848dae1efdee67a9fd3f06380142177a5128d101b93e8cd2f6ec0d"
+        ],
+        [
+          "gratitude",
+          "a2945f6a2d859f2a24c5cbd73316d0098beee0ce1996f993f3449896b6f05d84"
+        ],
+        [
+          "gratitude",
+          "ac158cb7de037aac5b87c7fa55533203ec673c2258973ed3be17211dd07a1c55"
+        ],
+        [
+          "gratitude",
+          "c6ec2363ba994c3fbf387782b661fc622ae18269c1bab263446118e24b965281"
+        ],
+        [
+          "gratitude",
+          "d1bab62e93c4cc96949aebbd6ce42378fa4e974857447e3fc9823963af77bfe4"
+        ],
+        [
+          "gratitude",
+          "da0f4f6c6635ca83acf29b231b146f166673001bc485b00cb3eaaf39acee1453"
+        ],
+        [
+          "gratitude",
+          "e85616cc06621e854547aa50d148152c564c9196195c7ab1fdab72ce3ccd3d8e"
+        ],
+        [
+          "gratitude",
+          "edae9391a2577919ff14adae69aa0f7a33404effac542dbbfe7d943a5de91ea7"
+        ]
+      ],
+      "consumer": "thanks_for_nothing.experiments:sample_world",
+      "meaning": "IID exogenous states: every B column equals D. Paired conditions share A.",
+      "uses": 26,
+      "evidence_artifact": "data/study.json",
+      "evidence_sha256": "f56b7c4eec0fcd43f752905ba1b83680fe0d192514318ad6982f6665b69d3591"
+    },
+    {
+      "model_id": "recall_world_b5096fee2b252025",
+      "family": "recall_world",
+      "source_path": "specifications/instances/recall_world_b5096fee2b252025.gnn.md",
+      "source_sha256": "272ea9dc80f0d31149423c36ddb6c2858b51bb57f39cee68d9f087e1545473c2",
+      "origins": [
+        [
+          "gratitude",
+          "0180a0e11c1c6a4728ac3050f2e84a62a33666f95bca46e973f21a49195133af"
+        ],
+        [
+          "gratitude",
+          "06e72a6f85a3780fe01a91be18e61b4209b46699d7ef0bee2fcd34cc5c1b8445"
+        ],
+        [
+          "gratitude",
+          "09cf741a9f9e74b5d89ccbfeb89abe53f37211d5efc1ae8ee297b3f462592181"
+        ],
+        [
+          "gratitude",
+          "249ebf7dff9830431c57cde90d1aef40d0e84707a1e18e58fd4e6774332431e3"
+        ],
+        [
+          "gratitude",
+          "263ee6e1ea81b26b4596d7f5ed4e265bf5612316cc18233eb6126401fa72d215"
+        ],
+        [
+          "gratitude",
+          "266c25931674fcda50fdc9e5e13f66c3b539e7cf04648ac7e0b4bb31d34c9900"
+        ],
+        [
+          "gratitude",
+          "2fd45852e985908f4e2f7e29db314b0e4a175ef5f9f45805e79d3bea2aaf9b47"
+        ],
+        [
+          "gratitude",
+          "33b226bcfbdab0de9fe5f993e1235a1b736c8ed4390c16bbae18d85568b23c6b"
+        ],
+        [
+          "gratitude",
+          "3e50577f2869097d44e820ae7c86706fdbbedd5090157f862f6bb45c634440de"
+        ],
+        [
+          "gratitude",
+          "455f4f6fe0542fdf871d4385597ababf6c27500d823b140ca9465f3b08859bd6"
+        ],
+        [
+          "gratitude",
+          "53bd1c4daada9265fd0435fbc49fe29a8ab786091772a9d0faf9ab3aa0cea24e"
+        ],
+        [
+          "gratitude",
+          "559a022e0eb14800e035cfe7c52e32d8d1c5fd568798e0f09c91fa62da8d988f"
+        ],
+        [
+          "gratitude",
+          "5c48c332665c8df152bed3869c0263394666cb291aa4c7878a863f52f7abfda9"
+        ],
+        [
+          "gratitude",
+          "618a5579cb26a9470141d9f1fe96fb48d8d9b24b59895ce2f0448a7fdc619c12"
+        ],
+        [
+          "gratitude",
+          "696efeda6c16d447130011e7aa91bae9a2828dcd349d22abbfa0e89a89ad050b"
+        ],
+        [
+          "gratitude",
+          "7a8be20edd8b76e6cea1f044595367037510b8f3e0f2f356a5c68c92b6af8000"
+        ],
+        [
+          "gratitude",
+          "83d30fe787fdd458bafa9a4b28e32897751b1b02c8ca0b75dfefb43ce27c6cb7"
+        ],
+        [
+          "gratitude",
+          "91b0060bc5853a67c03973fa9667704fcf9cbae5206c429ff5674f1b4d7542d5"
+        ],
+        [
+          "gratitude",
+          "9e41a2c077848dae1efdee67a9fd3f06380142177a5128d101b93e8cd2f6ec0d"
+        ],
+        [
+          "gratitude",
+          "a2945f6a2d859f2a24c5cbd73316d0098beee0ce1996f993f3449896b6f05d84"
+        ],
+        [
+          "gratitude",
+          "ac158cb7de037aac5b87c7fa55533203ec673c2258973ed3be17211dd07a1c55"
+        ],
+        [
+          "gratitude",
+          "c6ec2363ba994c3fbf387782b661fc622ae18269c1bab263446118e24b965281"
+        ],
+        [
+          "gratitude",
+          "d1bab62e93c4cc96949aebbd6ce42378fa4e974857447e3fc9823963af77bfe4"
+        ],
+        [
+          "gratitude",
+          "da0f4f6c6635ca83acf29b231b146f166673001bc485b00cb3eaaf39acee1453"
+        ],
+        [
+          "gratitude",
+          "e85616cc06621e854547aa50d148152c564c9196195c7ab1fdab72ce3ccd3d8e"
+        ],
+        [
+          "gratitude",
+          "edae9391a2577919ff14adae69aa0f7a33404effac542dbbfe7d943a5de91ea7"
+        ]
+      ],
+      "consumer": "thanks_for_nothing.experiments:sample_world",
+      "meaning": "IID exogenous states: every B column equals D. Paired conditions share A.",
+      "uses": 26,
+      "evidence_artifact": "data/study.json",
+      "evidence_sha256": "f56b7c4eec0fcd43f752905ba1b83680fe0d192514318ad6982f6665b69d3591"
+    },
+    {
+      "model_id": "scene_open_03467d822b963689",
+      "family": "scene_open",
+      "source_path": "specifications/instances/scene_open_03467d822b963689.gnn.md",
+      "source_sha256": "e500543afb316f97379e806106e78f10cb7a76337334f2b9adc9a2be08505b77",
+      "origins": [
+        [
+          "emptiness_practice",
+          "e2732857240f1d79bec2f88e484149f6116687c1115dd9da467b7e26a6644ea2"
+        ],
+        [
+          "gaze",
+          "2a370a81850d838c4ab2449218548e0f5f8bbb1940add20a022aa0e01eec6735"
+        ]
+      ],
+      "consumer": "thanks_for_nothing.gaze_active:run_gaze_episode",
+      "meaning": "P(o|q,z), q-major/z-minor. Actions set q and preserve the candidate z.",
+      "uses": 2,
+      "evidence_artifact": "data/gaze.json",
+      "evidence_sha256": "8e0a9816909cb68c17c2e9426374ee62be60645d0f41968770d52a0b747bda9d"
+    },
+    {
+      "model_id": "scene_restricted_e7523f815e9acc93",
+      "family": "scene_restricted",
+      "source_path": "specifications/instances/scene_restricted_e7523f815e9acc93.gnn.md",
+      "source_sha256": "189ad8c2e4926dba5df10d42908804392cb44f22b43bb2846db89f04d19cc8f5",
+      "origins": [
+        [
+          "emptiness_practice",
+          "e2732857240f1d79bec2f88e484149f6116687c1115dd9da467b7e26a6644ea2"
+        ],
+        [
+          "gaze",
+          "2a370a81850d838c4ab2449218548e0f5f8bbb1940add20a022aa0e01eec6735"
+        ]
+      ],
+      "consumer": "thanks_for_nothing.gaze_active:run_gaze_episode",
+      "meaning": "Same scene A,B with genuinely restricted candidate support in D.",
+      "uses": 2,
+      "evidence_artifact": "data/gaze.json",
+      "evidence_sha256": "8e0a9816909cb68c17c2e9426374ee62be60645d0f41968770d52a0b747bda9d"
+    },
+    {
+      "model_id": "transfer_embedding_5f814c4cb6ade764",
+      "family": "transfer_embedding",
+      "source_path": "specifications/instances/transfer_embedding_5f814c4cb6ade764.gnn.md",
+      "source_sha256": "b48e180adb83069d9058d9b0d9a5366327096cfb784962f95659656902ee4ea4",
+      "origins": [
+        [
+          "gaze",
+          "2a370a81850d838c4ab2449218548e0f5f8bbb1940add20a022aa0e01eec6735"
+        ],
+        [
+          "attention_positive",
+          "1d47aaeea25350be79ff83cd96ba12d68b437b78fce03d95acd62ffde994b059"
+        ]
+      ],
+      "consumer": "thanks_for_nothing.gaze_transfer:build_transfer",
+      "meaning": "P(learned-state basis|location). This is a transfer embedding, not a world posterior.",
+      "uses": 1,
+      "evidence_artifact": "data/gaze.json",
+      "evidence_sha256": "8e0a9816909cb68c17c2e9426374ee62be60645d0f41968770d52a0b747bda9d"
+    }
+  ]
+}
