@@ -17,7 +17,7 @@ supply executed counts and budgets.
 The original adapter retains the initial neutral state and alternating agent
 runs under a shared RNG. The [source dossier](yarbus-research.md) distinguishes
 actual code, cached images and transcribed paper bars. Reconstructed occupancy
-appears in [the typed gaze record](../output/data/gaze.json); no manually edited
+appears in [the typed gaze record](../output/data/gaze.json.gz); no manually edited
 likelihood is relabeled as learned after-practice change.
 
 The source's expected-value-minus-entropy expression is checked against an
