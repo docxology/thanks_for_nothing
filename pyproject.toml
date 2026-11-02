@@ -7,7 +7,7 @@ name = "thanks-for-nothing"
 version = "0.11.0"
 description = "Source-grounded computational experiments on gratitude, absence and non-reification."
 readme = "README.md"
-requires-python = ">=3.11,<3.15"
+requires-python = ">=3.11"
 license = "MIT"
 authors = [{name = "Daniel Ari Friedman", email = "daniel@activeinference.institute"}]
 dependencies = [
