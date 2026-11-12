@@ -138,6 +138,6 @@ These are freshly executed observations. The VFE fixtures compare priors over a 
 [scope-gnn]: https://github.com/docxology/realizing_emptiness/blob/bd91fa1c230551180ed741d1951840e3628da35d/src/modeling/specifications/finite_compassion_scope.gnn.md#L22-L23
 [registry]: https://github.com/docxology/realizing_emptiness/blob/bd91fa1c230551180ed741d1951840e3628da35d/src/modeling/registry.py#L103-L180
 [gnn-guide]: https://github.com/docxology/realizing_emptiness/blob/bd91fa1c230551180ed741d1951840e3628da35d/docs/gnn-modeling.md#L10-L55
-[tfn-nothingness]: https://github.com/docxology/thanks_for_nothing/blob/f641df0a1b912cb4179d1ed2814fbc61212f1fc9/src/thanks_for_nothing/nothingness.py#L72-L105
-[tfn-loader]: https://github.com/docxology/thanks_for_nothing/blob/f641df0a1b912cb4179d1ed2814fbc61212f1fc9/src/thanks_for_nothing/specifications.py#L39-L60
-[tfn-contract]: https://github.com/docxology/thanks_for_nothing/blob/f641df0a1b912cb4179d1ed2814fbc61212f1fc9/docs/model-contract.md
+[tfn-nothingness]: https://github.com/docxology/thanks_for_nothing-private/blob/f641df0a1b912cb4179d1ed2814fbc61212f1fc9/src/thanks_for_nothing/nothingness.py#L72-L105
+[tfn-loader]: https://github.com/docxology/thanks_for_nothing-private/blob/f641df0a1b912cb4179d1ed2814fbc61212f1fc9/src/thanks_for_nothing/specifications.py#L39-L60
+[tfn-contract]: https://github.com/docxology/thanks_for_nothing-private/blob/f641df0a1b912cb4179d1ed2814fbc61212f1fc9/docs/model-contract.md
