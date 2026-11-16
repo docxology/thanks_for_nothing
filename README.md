@@ -5,6 +5,8 @@ revisability and the practice of realizing emptiness. It reconstructs the suppli
 gratitude and attention notebooks, implements corrected paired experiments, and
 tests an explicitly new appreciation–inquiry proposal.
 
+![Concept map: observed absence, missing observation, counterfactual value and non-reification kept distinct](output/figures/concept_map.png)
+
 Original code is [MIT](LICENSE); the paper and original figures are
 [CC BY 4.0](LICENSE-PAPER.md). Third-party rights remain separate.
 The manuscript and single-commit code snapshot are archived together at

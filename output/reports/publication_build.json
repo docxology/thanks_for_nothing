@@ -6,6 +6,10 @@
     "package_version": "0.11.0",
     "files": [
       {
+        "path": "data/AGENTS.md",
+        "sha256": "a01218f0f891585df28d526429f7c5b14705504e37fd329992169cc13835aef4"
+      },
+      {
         "path": "data/artwork/provenance.json",
         "sha256": "0983a545b2336efb1de443a3542e4dc01108960c47a625af1934b9379e3d17bd"
       },
@@ -107,7 +111,7 @@
       },
       {
         "path": "docs/emptiness-integration-research.md",
-        "sha256": "09b667c1bc01538cfb042d7ea06664854aeb11503b9eca4f040d4fb29fe0a050"
+        "sha256": "3c841b40f988da91dd2c11c5d45f48c215a966821c6f488afbdf60ba011f5b14"
       },
       {
         "path": "docs/emptiness-practice.md",
@@ -127,7 +131,7 @@
       },
       {
         "path": "docs/gaze-experiments.md",
-        "sha256": "369d82c3605a6817f5d520f41dd7659d176054578a0e34e049d48622d1729fc7"
+        "sha256": "ec638f9a1b7f6189b9adea415478990422d8150059f41c1b6ee39229a0c04bc0"
       },
       {
         "path": "docs/joint-uncertainty.md",
@@ -290,6 +294,10 @@
         "sha256": "20130d3ddaca7df21b32cf34000429f59c110d95e19a47d1070dfb35145fb261"
       },
       {
+        "path": "notebooks/AGENTS.md",
+        "sha256": "c05d20d3149401481b1d780dcabc3d1210bfdec324a354280269278f3126371b"
+      },
+      {
         "path": "notebooks/belief_updating.ipynb",
         "sha256": "2bbf5e4ceb7beecc819793a03f0ff7a07ba7e273dde0d8c55c836bee32ff8958"
       },
@@ -307,7 +315,11 @@
       },
       {
         "path": "pyproject.toml",
-        "sha256": "e712295413f71483aaae47a9d38b85ef2b42e7b38259acebc8e3b0b65add3bdd"
+        "sha256": "34681d78d1e2acd24df73ea3b4d43e396ba98f45de11631e05d93b8496a676fe"
+      },
+      {
+        "path": "scripts/AGENTS.md",
+        "sha256": "c86ff860ed47c70a387ee246341e11786d71a1650462d37ddf74f4acd56a32c8"
       },
       {
         "path": "scripts/acquire_external_inputs.py",
@@ -328,6 +340,10 @@
       {
         "path": "scripts/validate_project.py",
         "sha256": "ee70a0b832f0ac7faf5cb7d869a435742e93a505486c201bc169ee6ac322f2c5"
+      },
+      {
+        "path": "src/AGENTS.md",
+        "sha256": "eadeeebbdfda3cf0d91adc9c442faeecdfcd49b50b02d9c473c1e28d1d55a20b"
       },
       {
         "path": "src/thanks_for_nothing/__init__.py",
@@ -935,12 +951,12 @@
       },
       {
         "path": "uv.lock",
-        "sha256": "49413cd3d5e2fd07e3470e950f5b8f22d3a4f1cf682ad26fac36b67a3f29d84b"
+        "sha256": "c32926d5de80d30eacd61da3d5be7657d5ab330144750bd827e04c06c5d0e964"
       }
     ],
-    "tree_sha256": "f71abc47a28ce38ed9047c0260af76b778b4c1c83ef011a833a5f796f1c81825"
+    "tree_sha256": "8d1dbcf8a2651d696a4d2717666b480be1ac6987b1b3c8b741afa687bbac98b5"
   },
-  "numerical_source_receipt_sha256": "1ff8f364651145b2b0fbd426dac8a8bc904bcdc04b8d43e0c7fe1dd4dbb48ba9",
+  "numerical_source_receipt_sha256": "f630ab8cae0a96e5dbb677547f835b3e55521a3c5701316b5070a892debb0d63",
   "scope": "Publication products generated from the supplied admitted numerical bundle",
   "rendered": true,
   "notebook_execution": "executed_in_this_build",
@@ -1109,7 +1125,7 @@
     "notebook/gratitude_absence.executed.ipynb": "dddd104a0246c30d2052f1ec839540a69711f359e68b37448f7b50513cdea4ba",
     "notebook/gratitude_absence.execution.log": "7baa2aa1b497603be5439b082052897c6eaa00af97b2a223a563968c5ed50c3f",
     "notebook/gratitude_absence.html": "86240b1c4f9bd9b9c625969fd87b97025368462388c057b8052f0dcc3c0aa9a6",
-    "reports/documentation_audit.json": "3ec9458ed38658114410bf1fea8aeac43149cd3e9fb942d3c5e710ca4fbb3561",
+    "reports/documentation_audit.json": "3468bd7a3914dbcb2a23b12de8d00ab5412c0862dc2b8872c3fd6fa5d78889cf",
     "reports/figure_source_map.json": "85507e948b64f9ab6618e8b77564f8af3fbdade919d2a199add630cb9ee0ef30",
     "reports/formalisms.json": "5d86a1ee5fba5b923f6b7c71dc2e763cfb29c6a58065a77df8d010190d459cb9",
     "reports/gnn_model_card.json": "0dd9306d8d38a153cdb9c039e0a6a5dd0e123234232d22d4d04b0cdd8f152f64",
