@@ -123,8 +123,8 @@
     },
     {
       "path": "data/source_tree.json",
-      "sha256": "1ff8f364651145b2b0fbd426dac8a8bc904bcdc04b8d43e0c7fe1dd4dbb48ba9",
-      "bytes": 35256
+      "sha256": "a65798bfd2e4d0be70dec867f234077d71a1f724a4af36db9efe877ef4a23f56",
+      "bytes": 35775
     },
     {
       "path": "data/statistical_calibration.json",
@@ -963,7 +963,7 @@
     },
     {
       "path": "reports/documentation_audit.json",
-      "sha256": "3ec9458ed38658114410bf1fea8aeac43149cd3e9fb942d3c5e710ca4fbb3561",
+      "sha256": "3468bd7a3914dbcb2a23b12de8d00ab5412c0862dc2b8872c3fd6fa5d78889cf",
       "bytes": 6825
     },
     {
@@ -1013,8 +1013,8 @@
     },
     {
       "path": "reports/publication_build.json",
-      "sha256": "607ef37efc3e54e67250d332a7998b0363f811f9589e56b87b8969ac5089ea11",
-      "bytes": 67615
+      "sha256": "47996e1c6975c217532641a0fad2d55252c95aa9b6622d27e82403d1595c3906",
+      "bytes": 68166
     },
     {
       "path": "reports/render.log",
