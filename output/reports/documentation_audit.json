@@ -23,7 +23,7 @@
     },
     {
       "path": "docs/emptiness-integration-research.md",
-      "sha256": "09b667c1bc01538cfb042d7ea06664854aeb11503b9eca4f040d4fb29fe0a050"
+      "sha256": "3c841b40f988da91dd2c11c5d45f48c215a966821c6f488afbdf60ba011f5b14"
     },
     {
       "path": "docs/emptiness-practice.md",
@@ -175,7 +175,7 @@
     },
     {
       "path": "README.md",
-      "sha256": "fc7579e5db8c9c7d98151f5947ddc4718b5871b2459f5764932abea385354a56"
+      "sha256": "94401ff6f09ae9148dcff24af6ffe6623abf8bd06c9a324a98cdba7d66aa3424"
     },
     {
       "path": "AGENTS.md",
@@ -190,7 +190,7 @@
       "sha256": "b5baa38dee0ea3980d55da70afc8a120d4bca66da7f8b350f308225cb9359e02"
     }
   ],
-  "local_links": 474,
+  "local_links": 475,
   "issues": [],
   "excluded_products": [],
   "all_pass": true
