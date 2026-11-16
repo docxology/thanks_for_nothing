@@ -128,7 +128,7 @@
     },
     {
       "path": "docs/gaze-experiments.md",
-      "sha256": "ec638f9a1b7f6189b9adea415478990422d8150059f41c1b6ee39229a0c04bc0"
+      "sha256": "369d82c3605a6817f5d520f41dd7659d176054578a0e34e049d48622d1729fc7"
     },
     {
       "path": "docs/joint-uncertainty.md",
@@ -951,5 +951,5 @@
       "sha256": "c32926d5de80d30eacd61da3d5be7657d5ab330144750bd827e04c06c5d0e964"
     }
   ],
-  "tree_sha256": "8d1dbcf8a2651d696a4d2717666b480be1ac6987b1b3c8b741afa687bbac98b5"
+  "tree_sha256": "c7f506c6aa313f83384e220f3abaa02c7db809b08121bcc2ae7013ddf95eb1ac"
 }
