@@ -239,7 +239,7 @@
       },
       {
         "path": "docs/reproducibility.md",
-        "sha256": "d39c319e9f848c50e4663bbcb009b932c932a882d76998858f3f12a650686128"
+        "sha256": "c83a6f9b915ec2188652225cdd583fed45953c5cf3825ccf6c57385ca94f939d"
       },
       {
         "path": "docs/research/claim-support-20261020.md",
@@ -986,7 +986,7 @@
         "sha256": "c32926d5de80d30eacd61da3d5be7657d5ab330144750bd827e04c06c5d0e964"
       }
     ],
-    "tree_sha256": "1dbc900656225869eccb6d8221d898a311688f2258824b574d6b700f193be5b2"
+    "tree_sha256": "369e43a1fd6526f149a5c0dce67bb88e5c64547eea1abb7354250421facd9b94"
   },
   "numerical_source_receipt_sha256": "1ff8f364651145b2b0fbd426dac8a8bc904bcdc04b8d43e0c7fe1dd4dbb48ba9",
   "scope": "Publication products generated from the supplied admitted numerical bundle",
@@ -1144,7 +1144,7 @@
     "gnn/transfer_embedding_5f814c4cb6ade764/transfer_embedding_5f814c4cb6ade764_network_graph.png": "5dc2aa59d3419f452832c621d6c0ae27b7ab4f37c169ec7756629266e83b2251",
     "gnn/transfer_embedding_5f814c4cb6ade764/transfer_embedding_5f814c4cb6ade764_network_stats.json": "68af1f5a7fa6306c530cd4e675e8c96b2725f177e7415e446248f642c063d8db",
     "manuscript.html": "eeb2a7c8d2b079e29a8f8c6cdcfca5692529540fc91b1f2fc54981b28157a726",
-    "manuscript.pdf": "c2577d596e7a7802b2adbbd33855ac7cf11c8bf1a22ebd191207b5bbc902d4e7",
+    "manuscript.pdf": "bc698dc027c9bc7d67802d9676be67ba763cc54cedc78ed573e23feee072645a",
     "notebook/belief_updating.executed.ipynb": "97595e23d93d7477d07214fd5fba7c53511504812b3fa3c0c2e943196ed1ae37",
     "notebook/belief_updating.execution.log": "9386d2430721f8df73afb672b0c5ce1a74c8a6cca54dec8b99a9e52b73865d06",
     "notebook/belief_updating.html": "e9549ca28765fafea322422719bb2b26c6a7811b3a86fd30e60391125f059757",
@@ -1157,7 +1157,7 @@
     "notebook/gratitude_absence.executed.ipynb": "dddd104a0246c30d2052f1ec839540a69711f359e68b37448f7b50513cdea4ba",
     "notebook/gratitude_absence.execution.log": "7baa2aa1b497603be5439b082052897c6eaa00af97b2a223a563968c5ed50c3f",
     "notebook/gratitude_absence.html": "86240b1c4f9bd9b9c625969fd87b97025368462388c057b8052f0dcc3c0aa9a6",
-    "reports/documentation_audit.json": "dc4a88f90fce8a1247ea17068c4b101a28c3a6a400a96d8af27da484c10be74c",
+    "reports/documentation_audit.json": "3571c9506cba82b4bb183ab2f74624550145435de7985f706454b2f870e857aa",
     "reports/figure_source_map.json": "fdbd4d8c3017072231b70740658e293f2a373e619c2a5efd8052c3946cdaa88e",
     "reports/formalisms.json": "5d86a1ee5fba5b923f6b7c71dc2e763cfb29c6a58065a77df8d010190d459cb9",
     "reports/gnn_model_card.json": "fdfef8823effd07433a330671483cb47628c905c0af1bf9ad7b31085a2516f54",
