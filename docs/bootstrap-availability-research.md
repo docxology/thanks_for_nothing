@@ -39,7 +39,7 @@ Conditional on an original Bernoulli count, a resample is constant only if all
 draws are successes or all are failures. Independence across bootstrap draws
 gives the probability that no resample is constant. Averaging this quantity over
 the original binomial count yields the
-[exact availability formula](manuscript/supplement.md#eq:bootstrap-availability).
+[exact availability formula](manuscript/supplement.md#exact-availability-for-the-discrete-stressor-sec-bootstrap-availability-unnumbered).
 This is a project derivation under an explicit software policy, not a theorem
 attributed to the cited articles. Exhaustive binary-sample and resample-sequence
 enumeration checks a small case independently of the closed formula.
