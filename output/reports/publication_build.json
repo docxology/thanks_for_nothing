@@ -783,7 +783,7 @@
       },
       {
         "path": "src/thanks_for_nothing/publication.py",
-        "sha256": "55d001cc50bece9198494a8ae45a675929a12f40f8d56e92df46b3e1be32e901"
+        "sha256": "089594792cd4dd303d7c6c45a5db7c65c9832b7acae24521ea1bb29fca0aeb4d"
       },
       {
         "path": "src/thanks_for_nothing/publication_checks.py",
@@ -986,7 +986,7 @@
         "sha256": "c32926d5de80d30eacd61da3d5be7657d5ab330144750bd827e04c06c5d0e964"
       }
     ],
-    "tree_sha256": "369e43a1fd6526f149a5c0dce67bb88e5c64547eea1abb7354250421facd9b94"
+    "tree_sha256": "b765405ec46da1c115c468e206a4c2e388e7be95f7e42006876fbee428b0cde5"
   },
   "numerical_source_receipt_sha256": "1ff8f364651145b2b0fbd426dac8a8bc904bcdc04b8d43e0c7fe1dd4dbb48ba9",
   "scope": "Publication products generated from the supplied admitted numerical bundle",
@@ -1144,7 +1144,7 @@
     "gnn/transfer_embedding_5f814c4cb6ade764/transfer_embedding_5f814c4cb6ade764_network_graph.png": "5dc2aa59d3419f452832c621d6c0ae27b7ab4f37c169ec7756629266e83b2251",
     "gnn/transfer_embedding_5f814c4cb6ade764/transfer_embedding_5f814c4cb6ade764_network_stats.json": "68af1f5a7fa6306c530cd4e675e8c96b2725f177e7415e446248f642c063d8db",
     "manuscript.html": "eeb2a7c8d2b079e29a8f8c6cdcfca5692529540fc91b1f2fc54981b28157a726",
-    "manuscript.pdf": "bc698dc027c9bc7d67802d9676be67ba763cc54cedc78ed573e23feee072645a",
+    "manuscript.pdf": "1aefa0f074e2fe014f03f2585aff1135340f822a8c5a9993c40db169a0328ec5",
     "notebook/belief_updating.executed.ipynb": "97595e23d93d7477d07214fd5fba7c53511504812b3fa3c0c2e943196ed1ae37",
     "notebook/belief_updating.execution.log": "9386d2430721f8df73afb672b0c5ce1a74c8a6cca54dec8b99a9e52b73865d06",
     "notebook/belief_updating.html": "e9549ca28765fafea322422719bb2b26c6a7811b3a86fd30e60391125f059757",
