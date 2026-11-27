@@ -3,8 +3,8 @@
   "artifacts": [
     {
       "path": "AGENTS.md",
-      "sha256": "88bcaa87827793e4b7e137c36a0faa81c81018703fc61316b4a27cfb8950e28e",
-      "bytes": 925
+      "sha256": "553321ef97619a04c55dd3aac24ebace8952ec1364d091d655757f7fc054fbb1",
+      "bytes": 1128
     },
     {
       "path": "assets/provenance.json",
