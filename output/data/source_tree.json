@@ -3,10 +3,6 @@
   "package_version": "0.11.0",
   "files": [
     {
-      "path": "data/AGENTS.md",
-      "sha256": "a01218f0f891585df28d526429f7c5b14705504e37fd329992169cc13835aef4"
-    },
-    {
       "path": "data/artwork/provenance.json",
       "sha256": "0983a545b2336efb1de443a3542e4dc01108960c47a625af1934b9379e3d17bd"
     },
@@ -108,7 +104,7 @@
     },
     {
       "path": "docs/emptiness-integration-research.md",
-      "sha256": "3c841b40f988da91dd2c11c5d45f48c215a966821c6f488afbdf60ba011f5b14"
+      "sha256": "09b667c1bc01538cfb042d7ea06664854aeb11503b9eca4f040d4fb29fe0a050"
     },
     {
       "path": "docs/emptiness-practice.md",
@@ -291,10 +287,6 @@
       "sha256": "20130d3ddaca7df21b32cf34000429f59c110d95e19a47d1070dfb35145fb261"
     },
     {
-      "path": "notebooks/AGENTS.md",
-      "sha256": "c05d20d3149401481b1d780dcabc3d1210bfdec324a354280269278f3126371b"
-    },
-    {
       "path": "notebooks/belief_updating.ipynb",
       "sha256": "2bbf5e4ceb7beecc819793a03f0ff7a07ba7e273dde0d8c55c836bee32ff8958"
     },
@@ -312,11 +304,7 @@
     },
     {
       "path": "pyproject.toml",
-      "sha256": "34681d78d1e2acd24df73ea3b4d43e396ba98f45de11631e05d93b8496a676fe"
-    },
-    {
-      "path": "scripts/AGENTS.md",
-      "sha256": "c86ff860ed47c70a387ee246341e11786d71a1650462d37ddf74f4acd56a32c8"
+      "sha256": "e712295413f71483aaae47a9d38b85ef2b42e7b38259acebc8e3b0b65add3bdd"
     },
     {
       "path": "scripts/acquire_external_inputs.py",
@@ -337,10 +325,6 @@
     {
       "path": "scripts/validate_project.py",
       "sha256": "ee70a0b832f0ac7faf5cb7d869a435742e93a505486c201bc169ee6ac322f2c5"
-    },
-    {
-      "path": "src/AGENTS.md",
-      "sha256": "eadeeebbdfda3cf0d91adc9c442faeecdfcd49b50b02d9c473c1e28d1d55a20b"
     },
     {
       "path": "src/thanks_for_nothing/__init__.py",
@@ -948,8 +932,8 @@
     },
     {
       "path": "uv.lock",
-      "sha256": "c32926d5de80d30eacd61da3d5be7657d5ab330144750bd827e04c06c5d0e964"
+      "sha256": "49413cd3d5e2fd07e3470e950f5b8f22d3a4f1cf682ad26fac36b67a3f29d84b"
     }
   ],
-  "tree_sha256": "c7f506c6aa313f83384e220f3abaa02c7db809b08121bcc2ae7013ddf95eb1ac"
+  "tree_sha256": "f71abc47a28ce38ed9047c0260af76b778b4c1c83ef011a833a5f796f1c81825"
 }

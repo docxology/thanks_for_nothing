@@ -13,7 +13,7 @@ the evidence of the complementary conditional prior. The open family wins
 exactly when that complement has greater evidence.
 
 The actual priors, retained mass and rational likelihood-selection inequality
-are injected in [the technical derivation](manuscript/supplement.md#sec-exact-method).
+are injected in [the technical derivation](manuscript/supplement.md#exact-evidence-decisions-and-conditional-operating-characteristics-sec-exact-method-unnumbered).
 They must follow the admitted support rather than a copied numerical inequality.
 Both posteriors are fitted separately. `BMRComparison` supplies component algebra,
 not a posterior-reuse shortcut across zero support.
@@ -63,5 +63,5 @@ decisions from process probability mass.
 
 This characterizes an authored finite menu. It is neither human parameter
 recovery nor evidence of realization. The
-[identification discussion](manuscript/supplement.md#sec-empirical) preserves
+[identification discussion](manuscript/supplement.md#s7-human-research-manipulations-measurements-and-recovery-checks-sec-empirical-unnumbered) preserves
 value/cost confounding and the need for competing-model recovery.

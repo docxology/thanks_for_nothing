@@ -74,5 +74,5 @@ non-identification and reproduce numerical cancellation controls.
 The term metacognitive gaze is an operational metaphor for asking about a supplied
 encoding. This model does not learn a metacognitive architecture or representation
 language, and does not measure sensitivity, efficiency or contemplative realization.
-The [empirical-design supplement](manuscript/supplement.md#sec-empirical) specifies
+The [empirical-design supplement](manuscript/supplement.md#s7-human-research-manipulations-measurements-and-recovery-checks-sec-empirical-unnumbered) specifies
 the separate human measurements and identification requirements.

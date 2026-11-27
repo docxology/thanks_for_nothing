@@ -9,6 +9,8 @@ from urllib.parse import unquote, urlsplit
 from thanks_for_nothing.custody import InputFile
 from thanks_for_nothing.provenance import file_digest
 
+_HEADING = re.compile(r"(?m)^#{1,6}\s+(.+)$")
+
 
 @dataclass(frozen=True, slots=True)
 class DocumentationIssue:
@@ -53,20 +55,24 @@ def _prose(path: Path) -> str:
     return re.sub(r"(?ms)^```[^\n]*\n.*?^```[^\n]*$", "", path.read_text())
 
 
+def _heading_fragment(heading: str) -> str:
+    return re.sub(r"[^\w\s-]", "", heading).strip().lower().replace(" ", "-")
+
+
 def _fragments(path: Path) -> frozenset[str]:
     paths = (path,)
     if path.name in {"manuscript.md", "supplement.md"} and path.parent.name == "manuscript":
         paths = tuple(path.parent / name for name in ("manuscript.md", "supplement.md"))
-    text = "\n".join(_prose(p) for p in paths if p.is_file())
+    prose = {p: _prose(p) for p in paths if p.is_file()}
+    text = "\n".join(prose.values())
     explicit = set(re.findall(r"\{#([^\s}]+)", text)) | set(re.findall(r"\\label\{([^}]+)\}", text))
     headings = {
-        re.sub(r"[^\w\s-]", "", re.sub(r"\s*\{[^}]*\}\s*$", "", match[1]))
-        .strip()
-        .lower()
-        .replace(" ", "-")
-        for match in re.finditer(r"(?m)^#{1,6}\s+(.+)$", text)
+        _heading_fragment(re.sub(r"\s*\{[^}]*\}\s*$", "", match[1]))
+        for match in _HEADING.finditer(text)
     }
-    return frozenset(explicit | headings)
+    # GitHub keeps Pandoc attributes in each source page's visible heading text.
+    source_headings = {_heading_fragment(match[1]) for match in _HEADING.finditer(prose.get(path, ""))}
+    return frozenset(explicit | headings | source_headings)
 
 
 def _inspect_link(context: DocumentationContext, source: Path, raw: str) -> _LocalLink | None:

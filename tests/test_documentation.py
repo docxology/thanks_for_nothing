@@ -45,6 +45,24 @@ def test_composed_manuscript_fragments_resolve_across_components(tmp_path):
     assert documentation_audit(tmp_path).all_pass
 
 
+def test_attributed_manuscript_heading_resolves_in_github_source_view(tmp_path):
+    manuscript = tmp_path / "docs/manuscript"
+    manuscript.mkdir(parents=True)
+    (manuscript / "manuscript.md").write_text(
+        "## Positive recall changes optimism without a general predictive benefit {#sec-main-recall}\n"
+        "[Composed reader](#sec-main-recall)\n"
+    )
+    (manuscript / "supplement.md").write_text("# Supplement\n")
+    index = manuscript.parent / "README.md"
+    fragment = "positive-recall-changes-optimism-without-a-general-predictive-benefit-sec-main-recall"
+    index.write_text(f"[Source heading](manuscript/manuscript.md#{fragment})\n")
+    assert documentation_audit(tmp_path).all_pass
+
+    index.write_text(f"[Wrong source page](manuscript/supplement.md#{fragment})\n")
+    report = documentation_audit(tmp_path)
+    assert [issue.reason for issue in report.issues] == ["Markdown fragment does not exist"]
+
+
 def test_partial_run_records_omitted_rendered_products_but_checks_other_outputs(tmp_path):
     docs = tmp_path / "docs"
     docs.mkdir()

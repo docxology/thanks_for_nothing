@@ -63,7 +63,7 @@ current figure and equation counts are [generated](../output/reports/research_su
 
 ## Shared meanings and visible keys
 
-The [activity/access figure](manuscript/supplement.md#fig-practice-policies)
+The [activity/access figure](manuscript/supplement.md#valuing-choosing-and-enacting-inquiry-sec-practice-results-unnumbered)
 pairs a solid gray activity bar with a hatched teal access bar, preserving the
 distinction in grayscale. Numeric labels expose exact zeros that otherwise have
 no visible bar. Labels round finite means to two significant digits; small
@@ -71,7 +71,7 @@ positive rates retain significant digits instead of being printed as zero.
 These are descriptive rates over repeated windows, not independent-window
 confidence estimates or measures of human intervention delivery.
 
-The [exact-decision figure](manuscript/supplement.md#fig-exact-decision) repeats
+The [exact-decision figure](manuscript/supplement.md#exact-conditional-decisions-and-rare-selections-sec-exact-results-unnumbered) repeats
 the same finite count masses on linear and logarithmic axes. The linear view
 preserves the relative mass around each process mode; the log view makes rare
 selection tails visible without replacing a nonzero probability with zero.
