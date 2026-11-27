@@ -51,7 +51,7 @@ are not discarded and another method is not substituted.
 
 For the centered Bernoulli control, `bootstrap_availability` integrates over the
 original binomial count and computes the exact probability that every resample
-has positive variance. The [derivation](manuscript/supplement.md#sec-bootstrap-availability)
+has positive variance. The [derivation](manuscript/supplement.md#exact-availability-for-the-discrete-stressor-sec-bootstrap-availability-unnumbered)
 states the strict policy and its decreasing availability as the draw budget grows.
 The saved calibration record retains the complete count-wise decomposition;
 the figure and results text derive their annotations from that record.
@@ -69,7 +69,7 @@ has its separate computational justification.
 All procedures remain on the same samples. Nominal confidence states a target,
 not a universal finite-sample coverage guarantee. The mathematical derivations
 and complete interval records are preserved in
-[the supplement](manuscript/supplement.md#sec-experiments).
+[the supplement](manuscript/supplement.md#s3-experimental-design-estimands-and-uncertainty-procedures-sec-experiments-unnumbered).
 
 ## Tests and numerical tail precision
 
@@ -127,7 +127,7 @@ defines shared maxima, exact statuses, quantile brackets and translation control
 
 ## Known-answer statistical calibration
 
-The [sampling diagnostic](manuscript/supplement.md#fig-sampling-precision) shows
+The [sampling diagnostic](manuscript/supplement.md#precision-across-independent-sample-sizes-sec-sampling-results-unnumbered) shows
 signed whole-unit contrasts and estimated Monte Carlo standard errors across
 declared nested prefixes. Repeated windows are averaged within a replicate;
 fixed strata retain equal weights. Prefixes share earlier units and do not

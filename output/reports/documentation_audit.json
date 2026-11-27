@@ -2,8 +2,20 @@
   "schema": "thanks_for_nothing.documentation.v1",
   "inputs": [
     {
+      "path": "docs/CONTEXT.md",
+      "sha256": "4ecfa35345c00e2671ed3b7aeffe6c2a4f7aa9972691cc4d32a0b57213a4889f"
+    },
+    {
+      "path": "docs/DESIGN.md",
+      "sha256": "647a3a44befecc1dc5d54e32961d1a802e71f760db21880a1e05fcaf88911b93"
+    },
+    {
       "path": "docs/README.md",
-      "sha256": "d4b2b5efa8f33ceb13412e886e6f64da8437d7e64b64d3ca8ebd8b29d422b477"
+      "sha256": "56ac9538968328174a068fa6b0c3ffe5cb7d7ecb1254586a60c921865b3d3f56"
+    },
+    {
+      "path": "docs/TODO.md",
+      "sha256": "1b17ad5e376b686fafa66c35f8f7645ab47037b799b9276660e74340840f326f"
     },
     {
       "path": "docs/architecture.md",
@@ -11,11 +23,11 @@
     },
     {
       "path": "docs/bootstrap-availability-research.md",
-      "sha256": "d2ba5420cf36a8ef3e8e2fe1c9af88056bee44116eab2820eb0d4207af3d934e"
+      "sha256": "0f17e108f14c882c03645ea0db9f02b6b486be74bde62b7b7a838e750e897fd8"
     },
     {
       "path": "docs/boundary-gaze-design.md",
-      "sha256": "d1c958c68da4259d2adb54a2be5040e647ff7b281da12c96b647c7a19b61e0e1"
+      "sha256": "fe2169a8b48c51b64669e23dd6a017fb6c318a73cf7f05440b906811b77aad72"
     },
     {
       "path": "docs/boundary-gaze-research.md",
@@ -27,7 +39,7 @@
     },
     {
       "path": "docs/emptiness-practice.md",
-      "sha256": "09d418ff1659dd3d0e9ba713d77688976f6c742ee1b57be5e20c8fe46e7d432f"
+      "sha256": "c18da8a9b4f6557bea399362404549b78dbaac12cd453c7b59e7cb5cd4055cd4"
     },
     {
       "path": "docs/evidence-ceilings.md",
@@ -35,7 +47,7 @@
     },
     {
       "path": "docs/exact-decisions.md",
-      "sha256": "02905de89a2b5e27b2f7a482ffb90c72e7fd38a5ce43989735431a2c1e1463c6"
+      "sha256": "a24f9eba8744de66ecc443935f745d310cdf7e1133c7e218deed3cfe60dbe76b"
     },
     {
       "path": "docs/external-inputs.md",
@@ -43,7 +55,7 @@
     },
     {
       "path": "docs/gaze-experiments.md",
-      "sha256": "369d82c3605a6817f5d520f41dd7659d176054578a0e34e049d48622d1729fc7"
+      "sha256": "0ef56dd995fd62b3778e0f6ede90130a44b76ab04e31a9ad52aeaf6e6c80c9c7"
     },
     {
       "path": "docs/joint-uncertainty.md",
@@ -54,8 +66,16 @@
       "sha256": "2575a0fa52f73ba52af7bf3a54b0a29476f55513105f2a1bd0e150863e6f0c35"
     },
     {
+      "path": "docs/manuscript/README.md",
+      "sha256": "05c61e24b6877e00b13b2e3ae0dee9fcf9f783f18a5d8641bcd0f1dec28b64a4"
+    },
+    {
       "path": "docs/manuscript/manuscript.md",
       "sha256": "cb203d4ee12fb522bae21d79694e743e094a5dbb8e1e7e532c215b67b4a7fac6"
+    },
+    {
+      "path": "docs/manuscript/preamble.md",
+      "sha256": "bfee2d8394eacd3b6597f74f4263cd2e80580ded8f06d65a39acb7ecef90c3ee"
     },
     {
       "path": "docs/manuscript/supplement.md",
@@ -67,7 +87,7 @@
     },
     {
       "path": "docs/manuscript-reading-guide.md",
-      "sha256": "d206f3accf7b7cb6b779b52486a0055913abdce8d2b1c7e68184962783e6a4b5"
+      "sha256": "57c7433dabc2525c9cf6c075538e81ea6449675a26381633115644fc91321775"
     },
     {
       "path": "docs/manuscript-values.md",
@@ -75,7 +95,7 @@
     },
     {
       "path": "docs/model-contract.md",
-      "sha256": "8c9d268405e4305ad8cce274a5cf7f7e45f6293aaa92a900a2787fbb6878ac9d"
+      "sha256": "f85ef709ac965da79b0514e953f05dc746963231962132a9cfb4a30d2ddac85f"
     },
     {
       "path": "docs/notebook-audit.md",
@@ -95,11 +115,11 @@
     },
     {
       "path": "docs/reproducibility.md",
-      "sha256": "c2503c77ef89b6ef6ae71ee804da5bd898996a477ef57dab7d4ffd862f02b7c9"
+      "sha256": "d39c319e9f848c50e4663bbcb009b932c932a882d76998858f3f12a650686128"
     },
     {
       "path": "docs/research/claim-support-20261020.md",
-      "sha256": "f796507071f5c18ceb5fc572c67220d231a95fb58221c79e21c882ba784a584c"
+      "sha256": "463c30f256452e4c31e789e7de55f2f77a33ca8188becbdb408de129b3f146c5"
     },
     {
       "path": "docs/research/relational-and-first-person-20261020.md",
@@ -147,7 +167,7 @@
     },
     {
       "path": "docs/selection-scoring-research.md",
-      "sha256": "8c0b055642382c2ad329005fc2c6e7e49cce9169f3116404e2deb268b454385f"
+      "sha256": "590c5cb661223f13729a67a6e8e2a6bf96ecc56967ab576eda69bd1916854ac9"
     },
     {
       "path": "docs/simulation-design-research.md",
@@ -159,15 +179,15 @@
     },
     {
       "path": "docs/statistics.md",
-      "sha256": "6232efbc4698d6482f30a8919772303da0a5e7007013f8f3b03089236f44a92b"
+      "sha256": "195762d7cd404f82451d0123a7555d8c377b54891d6052abe4c4771f5f1ff76d"
     },
     {
       "path": "docs/visualizations.md",
-      "sha256": "e8e28d7f0b08b86895c062e76cd3a1bfd288556b8ca7120c7af64f934dee6b25"
+      "sha256": "6f8556489d201a91f567a0ff5f6fb97ffced00260d120ca6a167772408e4db74"
     },
     {
       "path": "docs/wisdom-traditions.md",
-      "sha256": "66522249521b8b623c33e3a2ba2b65ad99824b0c730401e102d89739249b31a7"
+      "sha256": "5181496757d0b1558e756380174e8a1b1c77f529191328a3695db1a097341913"
     },
     {
       "path": "docs/yarbus-research.md",
@@ -175,22 +195,14 @@
     },
     {
       "path": "README.md",
-      "sha256": "94401ff6f09ae9148dcff24af6ffe6623abf8bd06c9a324a98cdba7d66aa3424"
+      "sha256": "32141274430078f2e4e7e2a57d83184112cd5de70b9298be6f9d58499f986970"
     },
     {
       "path": "AGENTS.md",
       "sha256": "827fb4ec833fba3d14aaf1e62e84a7cdd17f3f1d2cbbb574966088af65e898ba"
-    },
-    {
-      "path": "CONTEXT.md",
-      "sha256": "4ecfa35345c00e2671ed3b7aeffe6c2a4f7aa9972691cc4d32a0b57213a4889f"
-    },
-    {
-      "path": "DESIGN.md",
-      "sha256": "b5baa38dee0ea3980d55da70afc8a120d4bca66da7f8b350f308225cb9359e02"
     }
   ],
-  "local_links": 475,
+  "local_links": 485,
   "issues": [],
   "excluded_products": [],
   "all_pass": true

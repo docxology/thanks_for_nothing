@@ -16,7 +16,7 @@ Targeted primary-source check completed on 2026-10-19 for the visualization and 
 
 ### Explain the two predictive questions
 
-**Placement:** [Exact evidence methods](manuscript/supplement.md#sec-exact-method), after the nested-evidence identity, with a short connection from [main practice Results](manuscript/manuscript.md#sec-main-practice).
+**Placement:** [Exact evidence methods](manuscript/supplement.md#exact-evidence-decisions-and-conditional-operating-characteristics-sec-exact-method-unnumbered), after the nested-evidence identity, with a short connection from [main practice Results](manuscript/manuscript.md#effective-access-permits-revision-and-appropriate-retention-sec-main-practice).
 
 **Proposed prose:** Evidence compares prior-averaged predictions for the calibration batch. Although marginal evidence has a sequential predictive interpretation, our assessment instead scores the fitted forecast on new observations. The two criteria therefore answer related but different questions: which declared family better anticipated the batch, and how the selected forecast predicts the next outcome [@gneiting2007].
 
@@ -24,7 +24,7 @@ Targeted primary-source check completed on 2026-10-19 for the visualization and 
 
 ### Explain what propriety promises
 
-**Placement:** [Score definitions](manuscript/supplement.md#sec-scores).
+**Placement:** [Score definitions](manuscript/supplement.md#independent-predictive-evaluation-and-the-optimism-readout-sec-scores-unnumbered).
 
 **Proposed prose:** Strict propriety makes truthful probabilities optimal in expectation; it does not guarantee that each finite forecast comparison favors the better distribution. Lower entropy measures concentration and cannot by itself establish accurate prediction [@gneiting2007].
 

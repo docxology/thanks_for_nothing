@@ -2,7 +2,7 @@
 
 Reviewed 2026-10-19. This dossier distinguishes inspected source material from
 the project's new mathematical control. Current numerical values belong to the
-[generated operating checks](manuscript/supplement.md#supp-diagnostics).
+[generated operating checks](manuscript/supplement.md#statistical-operating-checks-and-model-sensitivity-supp-diagnostics-unnumbered).
 
 ## Empirical resampling
 

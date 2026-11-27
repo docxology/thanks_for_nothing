@@ -1,7 +1,7 @@
 {
   "configuration_sha256": "af3207228181aad7242ecc6aaf6bfbd2bd171fc09c715750668776d0d1430360",
-  "variables_sha256": "3f389c0c432b411930103dc6923f1c0cc7accf3b5def759c2a424cf888c401f7",
-  "graphs_sha256": "e1dd2c689b74e834cb1279552d2927b93ac61881fe0b85f402f3dfdbe149abfc",
+  "variables_sha256": "7f279898fcbd1ad0d89a56b7308209e79f95626f35a10dec7c1698f8670bef8b",
+  "graphs_sha256": "7c0a68dbbf4d5e6b5d27dc23b9702840031c650fe8107ce5640fc12103db8f94",
   "pages": [
     {
       "key": "meanings",
@@ -11,7 +11,7 @@
       "png": "frontmatter/graphical-abstract-meanings.png",
       "svg": "frontmatter/graphical-abstract-meanings.svg",
       "pdf_sha256": "6db8fce5172922230a0e7fef73064a6ff4813cc22bcb6cdc8f8263a61107df7f",
-      "png_sha256": "9d282a6ff6b616710b4bced0463ca4dcc1dae7b7cd277eb3023b1821db3a05a5",
+      "png_sha256": "1cc3206d0c4f78dd329cad439745894d698d73ff85ef472e69a9dffc135b5809",
       "svg_sha256": "3ddbaea3994ba3c21b5494bd0ff6820c8f30dc4db6550918074c86a8f7ee13e2",
       "links": [
         [
@@ -40,7 +40,7 @@
       "png": "frontmatter/graphical-abstract-experiments.png",
       "svg": "frontmatter/graphical-abstract-experiments.svg",
       "pdf_sha256": "595c7be371508b3976c3667dbbc174ffada18d02354fb4951579d79b04ea8047",
-      "png_sha256": "b38082a174f16775cad3b55e84b3f05f67b70edbc7cc7f6a2e88df8d6db6f11f",
+      "png_sha256": "e3701ff35ce1930d635cbb1925fe920b2bcd65c9116b23d9db43a97f0f3b4a77",
       "svg_sha256": "312c55a2b09a5b35ac02d8ca59d71483140d58c69b76fb51ecbebb528d086eb6",
       "links": [
         [

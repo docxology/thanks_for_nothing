@@ -67,5 +67,5 @@ for each display.
 
 [The wisdom-traditions guide](wisdom-traditions.md) distinguishes this enabling
 analogy from scripture, liberation claims and interpersonal gratitude.
-[The prospective empirical program](manuscript/supplement.md#sec-empirical)
+[The prospective empirical program](manuscript/supplement.md#s7-human-research-manipulations-measurements-and-recovery-checks-sec-empirical-unnumbered)
 specifies motivation, access, instrumental-information and expectancy rivals.

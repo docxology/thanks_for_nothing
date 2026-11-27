@@ -57,7 +57,7 @@ directions independently determine the directed/undirected counts; repairing
 a catalog hash does not admit a blank image, another model's image or forged
 orientation statistics.
 
-The manuscript's [graphical-model section](manuscript/supplement.md#sec-gnn-graphs)
+The manuscript's [graphical-model section](manuscript/supplement.md#parsed-graphical-structure-and-execution-roles-sec-gnn-graphs-unnumbered)
 shows all distinct parsed topologies and an automatically populated tensor and
 consumer inventory. Native attention executes through GNN/pymdp; finite learners,
 comparators and inquiry tasks consume admitted arrays through their named local

@@ -88,4 +88,4 @@ practice instructions, suitable comparison activities, monitoring measures and
 independent outcomes. A historical analogy cannot identify an opportunity-value
 parameter or establish that gratitude causes insight. See
 [evidence ceilings](evidence-ceilings.md), [the practice guide](emptiness-practice.md)
-and [the manuscript discussion](manuscript/manuscript.md#sec-discussion).
+and [the manuscript discussion](manuscript/manuscript.md#discussion-sec-discussion).
