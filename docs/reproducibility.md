@@ -5,6 +5,23 @@ owns installation, pipeline, tests, validation and distribution build.
 [Current facts](../output/reports/research_summary.md) provide executed quantities;
 this guide specifies how to interpret the evidence.
 
+## Offline verification from a public checkout
+
+Use the frozen development environment and bounded synthetic tests. The
+[manuscript reader build](manuscript/README.md) renders the retained
+composition with its original source bindings and scientific figures. It
+does not run a research generation pipeline or use omitted notebooks.
+
+```sh
+uv sync --frozen --extra dev
+uv run --no-sync pytest tests/test_documentation.py tests/test_inference.py \
+  tests/test_intervals.py tests/test_gaze_math.py tests/test_retained_records.py
+```
+
+This focused check covers finite inference, uncertainty, file custody and
+guide discoverability. The canonical reconstruction and full publication
+qualification below require the omitted source inputs and their own authorization.
+
 ## Portable setup and renderers
 
 Use Python supported by [pyproject.toml](../pyproject.toml), uv and the frozen

@@ -111,7 +111,7 @@ def documentation_audit(
     context = DocumentationContext(root, (output or root / "output").resolve(), include_rendered)
     paths = tuple(sorted((root / "docs").rglob("*.md"))) + tuple(
         root / name
-        for name in ("README.md", "AGENTS.md", "CONTEXT.md", "DESIGN.md")
+        for name in ("README.md", "AGENTS.md")
         if (root / name).is_file()
     )
     links = tuple(

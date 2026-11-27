@@ -19,6 +19,10 @@ review, begin with the scholarship synthesis and evidence ceilings.
 
 | Reader's question | Guide |
 | --- | --- |
+| Where are the paper's canonical source and the pinned offline reader build? | [Manuscript source and render guide](manuscript/README.md) |
+| What are the original research questions and interpretation boundaries? | [Research contract](CONTEXT.md) |
+| Which visual rules apply to figures and tables? | [Design contract](DESIGN.md) |
+| What maintenance is planned? | [Backlog](TODO.md) |
 | Where do I find the main explanation and the exact supplemental evidence for each question? | [Manuscript reading guide](manuscript-reading-guide.md) |
 | How is the project organized and which layer owns each responsibility? | [Architecture](architecture.md) |
 | Where do modeling choices and inference authority live? | [Model contract](model-contract.md) |
@@ -66,7 +70,7 @@ review, begin with the scholarship synthesis and evidence ceilings.
 The [main manuscript](manuscript/manuscript.md) develops the argument;
 the [technical supplement](manuscript/supplement.md) retains complete formal
 methods, results, interval tables and prospective empirical design.
-[DESIGN.md](../DESIGN.md) is the visual authority.
+[Design contract](DESIGN.md) is the visual authority.
 
 The companions cover [concepts and practice](../notebooks/gratitude_absence.ipynb),
 [belief updating](../notebooks/belief_updating.ipynb),

@@ -1,8 +1,8 @@
 # Visual design contract
 
 The executable design authority is
-[`visual_style.py`](src/thanks_for_nothing/visual_style.py), with semantic tokens
-and the required figure inventory in [`visual_tokens.py`](src/thanks_for_nothing/visual_tokens.py).
+[`visual_style.py`](../src/thanks_for_nothing/visual_style.py), with semantic tokens
+and the required figure inventory in [`visual_tokens.py`](../src/thanks_for_nothing/visual_tokens.py).
 Its semantic roles are shared across the entire figure suite; do not choose
 new colors independently in individual plotting functions.
 
