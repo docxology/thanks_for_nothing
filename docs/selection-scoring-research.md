@@ -32,7 +32,7 @@ Targeted primary-source check completed on 2026-10-19 for the visualization and 
 
 ## Figure interpretation from the declared equations
 
-The following recommendations come from inspection of this project's [exact-selection equation](manuscript/supplement.md#eq:exact-selection) and [risk equation](manuscript/supplement.md#eq:exact-risk), rather than a new empirical finding or a claim attributed to the papers:
+The following recommendations come from inspection of this project's [exact-selection and risk equations](manuscript/supplement.md#exact-evidence-decisions-and-conditional-operating-characteristics-sec-exact-method-unnumbered), rather than a new empirical finding or a claim attributed to the papers:
 
 - Label the count axis with its event definition and batch size. A decision boundary is a property of the rule; the probability mass over counts depends on the generating process.
 - Preserve small positive masses visibly. A logarithmic probability axis or explicitly labeled tail panel can reveal values compressed against zero on a linear axis. A logarithmic display must identify its scale and handle exact zeros explicitly.
