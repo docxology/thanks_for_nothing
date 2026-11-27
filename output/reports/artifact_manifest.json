@@ -898,7 +898,7 @@
     },
     {
       "path": "manuscript.pdf",
-      "sha256": "c2577d596e7a7802b2adbbd33855ac7cf11c8bf1a22ebd191207b5bbc902d4e7",
+      "sha256": "bc698dc027c9bc7d67802d9676be67ba763cc54cedc78ed573e23feee072645a",
       "bytes": 19287675
     },
     {
@@ -963,12 +963,12 @@
     },
     {
       "path": "reports/cover.tex",
-      "sha256": "d167701b6473e7c3076cbb32156c2e972b8edb196cfb5685e626f52bad2d8175",
-      "bytes": 3488
+      "sha256": "91393d56347fdea88afb1258242f11fbdffc9035b124328479ff64a87d5c83c9",
+      "bytes": 3512
     },
     {
       "path": "reports/documentation_audit.json",
-      "sha256": "dc4a88f90fce8a1247ea17068c4b101a28c3a6a400a96d8af27da484c10be74c",
+      "sha256": "3571c9506cba82b4bb183ab2f74624550145435de7985f706454b2f870e857aa",
       "bytes": 7241
     },
     {
@@ -1018,7 +1018,7 @@
     },
     {
       "path": "reports/publication_build.json",
-      "sha256": "106b1f99deaa05740ac2450ece990e424e669be65c137260a40fe7a37ae035fa",
+      "sha256": "98270e4594bb19a57256f8616b67c7ae04d0547c66862a8c493650791ddf3508",
       "bytes": 69337
     },
     {

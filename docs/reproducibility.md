@@ -118,9 +118,24 @@ image loading, cross-document links and page-edge clearance. Hash-bound browser
 evidence describes the observed content and viewport, not native-device testing.
 
 Original source notebooks remain unchanged; executed companions are separate
-products. More simulated observations do not become human participants. Exact
-replay applies to deterministic scientific records, not every platform-dependent
-PDF metadata byte or native runtime-memory diagnostic.
+products. More simulated observations do not become human participants.
+
+## Compare a numerical replay with a release
+
+Start from the release tag and its `uv.lock`. Verify the archived files against
+the release manifest and preserve them before running the pipeline. A frozen
+lock can select different wheels across Python versions and platforms.
+
+For a new producer run, retain the full Python version and build, operating
+system and architecture, lock SHA-256, selected numerical package versions and
+wheel digests, and the numerical backend, math libraries and thread settings.
+Record which settings were observed during the run and which were unavailable.
+
+Compare scientific record checksums first. If they differ, report the changed
+fields and the size of their numerical differences, and check the manuscript's
+reported values against the archived results. Keep the original release
+checksums with the archive. Record PDF metadata and resource diagnostics with
+the run that produced them.
 
 ## Requalify an editorial revision
 
