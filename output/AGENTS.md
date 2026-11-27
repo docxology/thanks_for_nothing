@@ -1,8 +1,11 @@
 # output/ — generated artifacts
 
-Everything here is produced by `scripts/run_pipeline.py` (assets, data, figures, reports,
-specifications, `notebook/`, `manuscript.html`, `manuscript.pdf`). It is the system of
-record only for what a run produced, never for what a claim means.
+The [full pipeline](../scripts/run_pipeline.py) generates research records, figures,
+reports, specifications, executed notebooks and the manuscript readers.
+The [record restore script](../scripts/restore_records.py) restores admitted
+archive records. The [retained publication rebuild](../docs/manuscript-production.md#qualification-and-delivery)
+regenerates reader-facing products from those records. These files record what
+each route produced.
 
 ## Rules
 
