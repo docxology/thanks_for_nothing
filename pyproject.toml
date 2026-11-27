@@ -43,7 +43,7 @@ packages = ["src/thanks_for_nothing"]
 "LICENSE-PAPER.md" = "thanks_for_nothing/resources/LICENSE-PAPER.md"
 
 [tool.hatch.build.targets.sdist]
-include = ["src", "tests", "scripts", "docs", "data", "typings", "configs", "notebooks", "README.md", "AGENTS.md", "CONTEXT.md", "LICENSE", "LICENSE-PAPER.md", "THIRD_PARTY.md", "pyproject.toml", "uv.lock", "CITATION.cff", "DESIGN.md", "CHANGELOG.md", ".github"]
+include = ["src", "tests", "scripts", "docs", "data", "typings", "configs", "notebooks", "README.md", "AGENTS.md", "LICENSE", "LICENSE-PAPER.md", "THIRD_PARTY.md", "pyproject.toml", "uv.lock", "CITATION.cff", "CHANGELOG.md", ".github"]
 exclude = ["data/sources/*original.ipynb", "data/sources/notebook_cell_manifest.json", "data/scholarship/receipts"]
 
 [tool.pytest.ini_options]

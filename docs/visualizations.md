@@ -81,7 +81,7 @@ selection probability by summing masses over the open-family counts, rather
 than treating a plotted count mass as the probability of selecting that family.
 The [exact-decision guide](exact-decisions.md) gives the corresponding estimands.
 
-[DESIGN.md](../DESIGN.md) and the shared style/tokens define colors, type, physical
+[Design contract](DESIGN.md) and the shared style/tokens define colors, type, physical
 placement and export. Every scientific figure has an explicit key. Reuse labels,
 markers and line styles so color is not the only distinguishing channel.
 Palette-role aliases are scoped to the named experiment; a shared color does not

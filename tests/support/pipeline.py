@@ -32,8 +32,6 @@ def pipeline_case(tmp_path_factory):
         "uv.lock",
         "README.md",
         "AGENTS.md",
-        "CONTEXT.md",
-        "DESIGN.md",
         "CITATION.cff",
         "LICENSE",
         "LICENSE-PAPER.md",

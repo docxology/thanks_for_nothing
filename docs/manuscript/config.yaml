@@ -1,0 +1,25 @@
+# Reader configuration for the pinned Template build.
+paper:
+  title: "Thanks for Nothing"
+  subtitle: "Gratitude, Model Revisability, and the Practice of Realizing Emptiness"
+  version: "0.11.0"
+  date: "2026-10-22"
+  cover:
+    image: "figures/reader-cover.png"
+    alt: "Conceptual illustration of an attentive figure opening translucent frames in a connected landscape."
+authors:
+  - name: "Daniel Ari Friedman"
+    orcid: "0000-0001-6232-9096"
+publication:
+  doi: "10.5281/zenodo.23402517"
+  repository_url: "https://github.com/docxology/thanks_for_nothing"
+metadata:
+  language: "en-US"
+  geometry: "margin=12mm"
+render:
+  formats:
+    pdf: true
+    html: true
+    slides: false
+    docx: false
+    epub: false

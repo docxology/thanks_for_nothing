@@ -50,35 +50,11 @@ figures share semantic colors, visible keys and source-bound PNG/SVG export.
 
 ## Build and qualify
 
-For a clean public checkout, first follow [external input setup](docs/external-inputs.md).
-
-```bash
-uv sync --frozen --extra dev
-uv run python scripts/acquire_external_inputs.py
-uv run python scripts/restore_records.py
-uv run pytest tests/ --cov=thanks_for_nothing --cov-fail-under=90
-```
-
-For complete regeneration, run `uv run python scripts/run_pipeline.py` with
-the [publication renderers](docs/reproducibility.md#portable-setup-and-renderers)
-installed. The source archive and wheel omit separately acquired originals.
-
-From the GitHub source checkout, before preparing a new archive, run
-`uv run python publication/prepare_metadata.py`
-after the pipeline to refresh Zenodo metadata from the generated two-paragraph
-paper abstract. This command writes local metadata files and performs no upload.
-
-Use the [canonical commands](AGENTS.md) after the
-[external-runtime setup](docs/reproducibility.md). The complete pipeline admits
-GNN declarations, consumes actual pinned GNN and Realizing Emptiness interfaces,
-writes numerical records, draws figures, composes and renders the paper, executes
-the companions and validates the completed inventory.
-
-All changing manuscript and caption quantities are producer-bound. Publication
-identity and page geometry come from metadata. Current counts and budgets are
-generated rather than copied into this guide. A clean source tree, successful
-render or green test alone does not replace final surface inspection or the
-required independent exact-commit release review.
+Use the [canonical manuscript guide](docs/manuscript/README.md) to render the
+sealed paper, supplement, and figures with the pinned Template without new
+simulations or source acquisition. The separate [reproduction guide](docs/reproducibility.md)
+describes the locked runtime, finite offline checks, and prerequisites for an
+authorized full source reconstruction.
 
 ## Inputs and outputs
 
