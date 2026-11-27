@@ -145,14 +145,21 @@ def _tex(value: str) -> str:
     return "".join(replacements.get(character, character) for character in value)
 
 
+def _cover_asset_path(path: Path, root: Path) -> str:
+    """Keep project assets relative to the working directory used by Pandoc."""
+    resolved = path.resolve()
+    return (resolved.relative_to(root) if resolved.is_relative_to(root) else resolved).as_posix()
+
+
 def write_cover_header(
     root: Path,
     output: Path,
     abstract_images: tuple[tuple[Path, tuple[tuple[str, str], ...]], ...] = (),
 ) -> Path:
     """Replace the standard title block with a dedicated, metadata-bound cover page."""
+    root = root.resolve()
     meta = load_publication(root)
-    image = (root / meta.cover_image).resolve().as_posix()
+    image = _cover_asset_path(root / meta.cover_image, root)
     doi = _tex(meta.doi_display)
     if meta.doi_url is not None:
         doi = rf"\href{{{_tex(meta.doi_url)}}}{{{doi}}}"
@@ -208,7 +215,8 @@ def write_cover_header(
                 "".join(
                     (
                         r"\thispagestyle{empty}\noindent\includegraphics[width=\textwidth,",
-                        rf"height=0.96\textheight,keepaspectratio]{{\detokenize{{{path.resolve().as_posix()}}}}}",
+                        r"height=0.96\textheight,keepaspectratio]",
+                        rf"{{\detokenize{{{_cover_asset_path(path, root)}}}}}",
                         r"\par{\footnotesize Evidence: ",
                         r"\quad".join(
                             (
